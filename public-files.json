@@ -34,8 +34,8 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 4262,
-      "sha256": "347cf5fb67e8c2f40e6a8ea62bf9ceeac66ebf0d47454a855446059794acf227"
+      "bytes": 4570,
+      "sha256": "6b2efb0200a91e261d844dc54877b2fb0bd9b0fad6f8ca1741a425b39cfd3a36"
     },
     {
       "path": "PUBLIC_SOURCE.md",
@@ -1499,8 +1499,8 @@
     },
     {
       "path": "plugins/radar-telemetry.test.ts",
-      "bytes": 10038,
-      "sha256": "3e1a84c472a6150f4b31913fcda6a610d62ace4211af77dfebe84cce05e8cd1b"
+      "bytes": 10090,
+      "sha256": "fc17891b025e7afa162feb41a2a58f71d6b6da956f50c60d32395c928cdf4bfb"
     },
     {
       "path": "plugins/radar-telemetry.ts",
