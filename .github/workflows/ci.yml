@@ -59,22 +59,12 @@ jobs:
           npm test -- --exclude lib/api/exams-audio.test.ts
           npm test -- lib/api/exams-audio.test.ts -t 'reports an unavailable recording|serves an empty response for a zero-byte asset'
           node scripts/test-radar-bootstrap.mjs
-      - name: Build and capture the generated route tree for review
-        run: |
-          npm run build
-          mkdir "$RUNNER_TEMP/englearn-route-generation"
-          cp src/routeTree.gen.ts "$RUNNER_TEMP/englearn-route-generation/routeTree.gen.ts"
-          git diff -- src/routeTree.gen.ts > "$RUNNER_TEMP/englearn-route-generation/routeTree.patch"
-          git rev-parse HEAD > "$RUNNER_TEMP/englearn-route-generation/SOURCE_COMMIT"
-          (cd "$RUNNER_TEMP/englearn-route-generation" && sha256sum routeTree.gen.ts routeTree.patch SOURCE_COMMIT > SHA256SUMS)
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
-        with:
-          name: englearn-route-generation
-          path: ${{ runner.temp }}/englearn-route-generation/
-          if-no-files-found: error
-          retention-days: 14
       - name: Package exact reviewed source
         run: python3 scripts/package-public-source.py
+      - name: Build reviewed sources and show generated route changes
+        run: |
+          npm run build
+          git diff -- src/routeTree.gen.ts
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: englearn-source
