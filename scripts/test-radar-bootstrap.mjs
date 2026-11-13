@@ -29,7 +29,8 @@ const configMatch = source.match(/const RADAR_SDK = .*?(?=\nfunction DocumentLoc
 assert(configMatch, "root Radar configuration is missing");
 const scriptsMatch = source.match(/scripts:\s*\[(.*?)\n\s*\],/s);
 assert(scriptsMatch, "root scripts array is missing");
-const scriptsExpression = `[${scriptsMatch[1]}\n]`;
+// Literal type assertions do not change the emitted script values.
+const scriptsExpression = `[${scriptsMatch[1].replaceAll(" as const", "")}\n]`;
 
 function renderScripts(env) {
   return vm.runInNewContext(`${configMatch[0]}\n(${scriptsExpression})`, {

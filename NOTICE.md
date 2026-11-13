@@ -39,6 +39,10 @@ in vendor/w-xradar from W-World-Labs/w-radar commit
 579174832c5de9a1b606f82084171b3965deae56. Its original repository LICENSE and
 per-file source URLs/hashes accompany the snapshot. It has no runtime package
 dependencies; telemetry remains the real shared SDK implementation.
+Version 0.2.1 namespaces trace-session IDs by tracking code and uses an example-only
+default endpoint. The existing telemetry cases retain their exact duration,
+trace-parent, privacy, DTO and retry assertions; their session-ID golden and
+explicit synthetic endpoint follow that reviewed public SDK contract.
 Inter font files obtained from @fontsource-variable/inter retain their upstream
 OFL; a future built distribution must carry the exact resolved package notices.
 No installed dependency tree, compiled bundle or font binary is in this source

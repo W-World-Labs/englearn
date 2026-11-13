@@ -51,7 +51,7 @@ describe("Radar backend telemetry", () => {
     expect(sent[0].url).toBe("https://radar.example/collect");
     expect(sent[0].body).toMatchObject({
       code: "tracking-code",
-      session_id: `trace_${"c".repeat(32)}`,
+      session_id: `trace_b6321e4444bf1d1a_${"c".repeat(32)}`,
       visitor_id: "service:lingolearn",
     });
     expect(sent[0].body.events).toHaveLength(1);
@@ -175,6 +175,7 @@ describe("Radar backend telemetry", () => {
     let attempts = 0;
     const telemetry = createRadarTelemetry({
       code: "tracking-code",
+      endpoint: "https://radar.example/",
       schedule: () => {},
       makeId: (bytes) => (bytes === 16 ? "a" : "b").repeat(bytes * 2),
       fetchImpl: async (url, init) => {
@@ -189,7 +190,7 @@ describe("Radar backend telemetry", () => {
     await telemetry.flush();
 
     const capturePayload = sent[0].body as RadarCaptureErrorRequest;
-    expect(sent[0].url).toBe("https://radar.myfastools.com/errors/capture");
+    expect(sent[0].url).toBe("https://radar.example/errors/capture");
     expect(capturePayload.code).toBe("tracking-code");
     expect(capturePayload.message).toContain("GET /api/health");
     expect(capturePayload.visitor_id).toBe("lingolearn-server");

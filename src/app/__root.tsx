@@ -122,8 +122,8 @@ export const Route = createRootRoute({
       ...(RADAR_ENABLED ? [{
         src: RADAR_BOOTSTRAP,
         async: true,
-        crossOrigin: "anonymous",
-        referrerPolicy: "no-referrer",
+        crossOrigin: "anonymous" as const,
+        referrerPolicy: "no-referrer" as const,
         "data-client-kind": "paas-platform",
         "data-workspace-id": RADAR_WORKSPACE,
         "data-project-id": RADAR_PROJECT,
