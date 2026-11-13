@@ -1804,8 +1804,8 @@
     },
     {
       "path": "scripts/test-radar-bootstrap.mjs",
-      "bytes": 3645,
-      "sha256": "ae36356db811f92aa28a1c62344cb39fbfce85035299fc7362911938893f3f79"
+      "bytes": 3741,
+      "sha256": "8b3b7dbd25e36f6ac8c3b6430585cf841e9aeec3de90e09a69b0b25b05469b8d"
     },
     {
       "path": "scripts/test-recall-cloud.mjs",
@@ -1844,8 +1844,8 @@
     },
     {
       "path": "src/app/__root.tsx",
-      "bytes": 5016,
-      "sha256": "908eb7e4ff07ddffa903b1e9ad3e18be7cc33ed27650c3e9d0996e3276507c94"
+      "bytes": 5034,
+      "sha256": "f8db5b9067bfb03158bd8cd601165cdf651a4d025eb774d7062b214273090133"
     },
     {
       "path": "src/app/api/auth/callback.ts",
