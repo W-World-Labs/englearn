@@ -1,0 +1,3177 @@
+[
+  {
+    "id": "hsk-1-01-v1",
+    "family": "hsk",
+    "label": "HSK 1",
+    "level": "1",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills · short practice",
+    "description": {
+      "zh": "认识日常词语，理解简单问答与时间。",
+      "en": "Everyday words, simple exchanges and time."
+    },
+    "sections": [
+      {
+        "id": "listening",
+        "minutes": 5
+      },
+      {
+        "id": "reading",
+        "minutes": 8
+      }
+    ],
+    "questions": [
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "现在几点？ Xiànzài jǐ diǎn?",
+        "options": ["八点 bā diǎn", "九点 jiǔ diǎn", "十点 shí diǎn"],
+        "answer": "B",
+        "explanation": {
+          "zh": "录音直接说“九点”。",
+          "en": "The recording says nine o’clock."
+        },
+        "script": "现在是上午九点。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "妈妈在哪儿工作？ Māma zài nǎr gōngzuò?",
+        "options": ["学校 xuéxiào", "医院 yīyuàn", "商店 shāngdiàn"],
+        "answer": "A",
+        "explanation": {
+          "zh": "“在学校工作”说明地点。",
+          "en": "She works at a school."
+        },
+        "script": "我妈妈是老师。她在学校工作。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "有几个苹果？ Yǒu jǐ ge píngguǒ?",
+        "options": ["一个 yí ge", "两个 liǎng ge", "三个 sān ge"],
+        "answer": "C",
+        "explanation": {
+          "zh": "注意数量“三个”。",
+          "en": "There are three apples."
+        },
+        "script": "桌子上有三个苹果。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "他想喝什么？ Tā xiǎng hē shénme?",
+        "options": ["茶 chá", "水 shuǐ", "咖啡 kāfēi"],
+        "answer": "B",
+        "explanation": {
+          "zh": "说话人想喝水。",
+          "en": "The speaker wants water."
+        },
+        "script": "今天很热，我想喝水。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "爸爸去哪儿了？ Bàba qù nǎr le?",
+        "options": ["北京 Běijīng", "上海 Shànghǎi", "学校 xuéxiào"],
+        "answer": "A",
+        "explanation": {
+          "zh": "目的地是北京。",
+          "en": "His father went to Beijing."
+        },
+        "script": "爸爸今天不在家，他去北京了。"
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "这是什么？ Zhè shì shénme?",
+        "options": ["书 shū", "苹果 píngguǒ", "椅子 yǐzi"],
+        "answer": "B",
+        "explanation": {
+          "zh": "图中是苹果。",
+          "en": "The picture shows an apple."
+        },
+        "picture": "🍎",
+        "pictureLabel": "Apple illustration"
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选词填空。 Xuǎn cí tiánkòng.",
+        "options": ["叫 jiào", "吃 chī", "看 kàn"],
+        "answer": "A",
+        "explanation": {
+          "zh": "“叫”用来介绍名字。",
+          "en": "叫 introduces a name."
+        },
+        "passage": "我（　）王明。 Wǒ ( ) Wáng Míng."
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的回答。 Xuǎnzé héshì de huídá.",
+        "options": [
+          "我很好。 Wǒ hěn hǎo.",
+          "他是医生。 Tā shì yīshēng.",
+          "不客气。 Bú kèqi."
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "回答“谢谢”时说“不客气”。",
+          "en": "不客气 is the response to thanks."
+        },
+        "passage": "谢谢你！ Xièxie nǐ!"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "小李今天去学校吗？ Xiǎo Lǐ jīntiān qù xuéxiào ma?",
+        "options": ["去。 Qù.", "不去。 Bú qù.", "不知道。 Bù zhīdào."],
+        "answer": "B",
+        "explanation": {
+          "zh": "“不去”表示否定。",
+          "en": "不去 means not going."
+        },
+        "passage": "小李今天不去学校。 Xiǎo Lǐ jīntiān bú qù xuéxiào."
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选词填空。 Xuǎn cí tiánkòng.",
+        "options": ["本 běn", "杯 bēi", "岁 suì"],
+        "answer": "A",
+        "explanation": {
+          "zh": "书的量词是“本”。",
+          "en": "本 is the measure word for books."
+        },
+        "passage": "我有一（　）书。 Wǒ yǒu yì ( ) shū."
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "她喜欢什么？ Tā xǐhuan shénme?",
+        "options": ["米饭 mǐfàn", "苹果 píngguǒ", "茶 chá"],
+        "answer": "C",
+        "explanation": {
+          "zh": "句子说她喜欢喝茶。",
+          "en": "She likes drinking tea."
+        },
+        "passage": "她喜欢喝茶，不喜欢喝咖啡。 Tā xǐhuan hē chá, bù xǐhuan hē kāfēi."
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "书在哪儿？ Shū zài nǎr?",
+        "options": [
+          "桌子上 zhuōzi shàng",
+          "桌子下 zhuōzi xià",
+          "椅子上 yǐzi shàng"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "“桌子上”表示位置。",
+          "en": "The book is on the table."
+        },
+        "passage": "书在桌子上。 Shū zài zhuōzi shàng."
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "在 + 地点",
+        "example": "我在学校。",
+        "meaning": {
+          "zh": "“在”介绍所在位置。",
+          "en": "在 introduces a location."
+        }
+      },
+      {
+        "pattern": "几 + 量词",
+        "example": "你有几本书？",
+        "meaning": {
+          "zh": "询问数量时保留量词。",
+          "en": "Keep the measure word when asking how many."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsk-2-01-v1",
+    "family": "hsk",
+    "label": "HSK 2",
+    "level": "2",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills · short practice",
+    "description": {
+      "zh": "比较、购物与日常安排，练习句子之间的联系。",
+      "en": "Comparisons, shopping and everyday plans."
+    },
+    "sections": [
+      {
+        "id": "listening",
+        "minutes": 6
+      },
+      {
+        "id": "reading",
+        "minutes": 10
+      }
+    ],
+    "questions": [
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "他几点吃早饭？",
+        "options": ["六点", "六点半", "七点"],
+        "answer": "C",
+        "explanation": {
+          "zh": "起床和吃早饭的时间不同，后者是七点。",
+          "en": "Breakfast is at seven, after getting up at six thirty."
+        },
+        "script": "我每天六点半起床，七点吃早饭。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "商店在哪儿？",
+        "options": ["医院右边", "医院左边", "学校里面"],
+        "answer": "A",
+        "explanation": {
+          "zh": "听清“右边”。",
+          "en": "The shop is to the right of the hospital."
+        },
+        "script": "商店在医院的右边，学校在医院的左边。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "他为什么买那件衣服？",
+        "options": ["颜色好看", "价格便宜", "天气很冷"],
+        "answer": "B",
+        "explanation": {
+          "zh": "选择的理由是价格更便宜。",
+          "en": "The other item is cheaper."
+        },
+        "script": "这件衣服太贵了。那件便宜一点，我买那件。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "他们打算什么时候看电影？",
+        "options": ["今天上午", "今天下午", "明天"],
+        "answer": "C",
+        "explanation": {
+          "zh": "说话人提议明天去。",
+          "en": "The speaker suggests going tomorrow."
+        },
+        "script": "今天下午我要上课，不能去看电影。我们明天去吧。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "那个杯子多少钱？",
+        "options": ["十块", "二十块", "三十块"],
+        "answer": "B",
+        "explanation": {
+          "zh": "“那个”对应二十块钱。",
+          "en": "The cup referred to as 那个 costs twenty yuan."
+        },
+        "script": "这个杯子十块钱，那个杯子二十块钱。"
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["比", "从", "给"],
+        "answer": "A",
+        "explanation": {
+          "zh": "比较两个人的身高用“比”。",
+          "en": "比 marks a comparison."
+        },
+        "passage": "哥哥（　）我高。 Gēge ( ) wǒ gāo."
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "他正在做什么？",
+        "options": ["睡觉", "做饭", "买东西"],
+        "answer": "B",
+        "explanation": {
+          "zh": "“正在做饭”表示此刻进行的动作。",
+          "en": "He is cooking now."
+        },
+        "passage": "他正在做饭，没有时间接电话。 Tā zhèngzài zuò fàn, méiyǒu shíjiān jiē diànhuà."
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "哪句话是对的？",
+        "options": ["这里离车站很近。", "这里没有车站。", "走路要一个小时。"],
+        "answer": "A",
+        "explanation": {
+          "zh": "走五分钟说明距离近。",
+          "en": "A five-minute walk is a short distance."
+        },
+        "passage": "从这里走五分钟就到车站了。 Cóng zhèlǐ zǒu wǔ fēnzhōng jiù dào chēzhàn le."
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["但是", "所以", "或者"],
+        "answer": "B",
+        "explanation": {
+          "zh": "前半句给原因，后半句是结果。",
+          "en": "所以 introduces the result."
+        },
+        "passage": "因为下雨，（　）我们没去游泳。 Yīnwèi xià yǔ, ( ) wǒmen méi qù yóuyǒng."
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的回答。",
+        "options": ["星期六。", "三个人。", "很好吃。"],
+        "answer": "A",
+        "explanation": {
+          "zh": "“哪天”问日期或星期。",
+          "en": "哪天 asks which day."
+        },
+        "passage": "你哪天回来？ Nǐ nǎ tiān huílái?"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "小王吃午饭了吗？",
+        "options": ["已经吃了。", "还没吃。", "每天都不吃。"],
+        "answer": "B",
+        "explanation": {
+          "zh": "“还没”说明目前尚未发生。",
+          "en": "还没 means not yet."
+        },
+        "passage": "现在十二点，小王还没吃午饭。 Xiànzài shí’èr diǎn, Xiǎo Wáng hái méi chī wǔfàn."
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["在", "着", "过"],
+        "answer": "C",
+        "explanation": {
+          "zh": "“过”表示过去的经历。",
+          "en": "过 marks a past experience."
+        },
+        "passage": "我去（　）两次中国。 Wǒ qù ( ) liǎng cì Zhōngguó."
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "因为……所以……",
+        "example": "因为下雨，所以我没出去。",
+        "meaning": {
+          "zh": "连接原因和结果。",
+          "en": "Connect a cause and its result."
+        }
+      },
+      {
+        "pattern": "比",
+        "example": "今天比昨天冷。",
+        "meaning": {
+          "zh": "比较项放在“比”后。",
+          "en": "Put the comparison target after 比."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsk-3-01-v1",
+    "family": "hsk",
+    "label": "HSK 3",
+    "level": "3",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills · short practice",
+    "description": {
+      "zh": "理解通知和短文，练习语序与汉字填写。",
+      "en": "Short notices, connected text, word order and characters."
+    },
+    "sections": [
+      {
+        "id": "listening",
+        "minutes": 6
+      },
+      {
+        "id": "reading",
+        "minutes": 12
+      },
+      {
+        "id": "writing",
+        "minutes": 8
+      }
+    ],
+    "questions": [
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "他们最后什么时候见面？",
+        "options": ["星期三上午", "星期三下午", "星期五下午"],
+        "answer": "C",
+        "explanation": {
+          "zh": "“改到”后面的时间是最终安排。",
+          "en": "The meeting has been moved to Friday afternoon."
+        },
+        "script": "本来我们约好星期三见面，但是经理临时要出差，所以改到星期五下午两点。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "他现在怎么上班？",
+        "options": ["走路", "坐公交车", "开车"],
+        "answer": "A",
+        "explanation": {
+          "zh": "“现在”后的信息对应走路。",
+          "en": "He now walks because the office moved closer."
+        },
+        "script": "我以前每天坐公交车上班。现在公司搬到我家附近了，我开始走路上班。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "说话人希望对方做什么？",
+        "options": ["买一本书", "按时还书", "下周再借"],
+        "answer": "B",
+        "explanation": {
+          "zh": "重点是归还截止时间。",
+          "en": "The speaker asks for the book back before next Monday."
+        },
+        "script": "这本书我已经看完了，你可以借走。不过下星期一以前请还给我。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "他们现在要什么？",
+        "options": ["冰水", "咖啡", "热茶"],
+        "answer": "C",
+        "explanation": {
+          "zh": "新的要求取代了先前点的冰水。",
+          "en": "They replace the iced water with hot tea."
+        },
+        "script": "服务员，请给我们两杯热茶。刚才点的冰水不要了。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "他正在找什么？",
+        "options": ["手机", "钥匙", "眼镜"],
+        "answer": "B",
+        "explanation": {
+          "zh": "说话人一开始明确说钥匙找不到。",
+          "en": "The speaker is looking for keys."
+        },
+        "script": "我找不到钥匙了，昨天明明放在桌子上。你帮我看看沙发下面有没有。"
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["终于", "一直", "突然"],
+        "answer": "A",
+        "explanation": {
+          "zh": "准备很久后取得结果，用“终于”。",
+          "en": "终于 marks the result after a long effort."
+        },
+        "passage": "准备了半年，他（　）通过了考试。"
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "哪句话符合通知？",
+        "options": ["星期一可以借书。", "周末九点开门。", "每天都开放。"],
+        "answer": "B",
+        "explanation": {
+          "zh": "周末开放时间是九点。",
+          "en": "The weekend opening time is nine."
+        },
+        "passage": "图书馆开放时间：周二至周五 8:00—18:00；周末 9:00—17:00；周一休息。"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["除了", "为了", "关于"],
+        "answer": "B",
+        "explanation": {
+          "zh": "学习语言是目的，用“为了”。",
+          "en": "为了 introduces the purpose."
+        },
+        "passage": "（　）提高汉语水平，她每天听中文广播。"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "他为什么迟到？",
+        "options": ["起床晚了。", "汽车坏了。", "忘了时间。"],
+        "answer": "B",
+        "explanation": {
+          "zh": "虽然按时出门，但车坏了造成迟到。",
+          "en": "He left on time, but the vehicle broke down."
+        },
+        "passage": "今天我很早就出门了，可是半路上汽车坏了，结果上课迟到了。"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的句子补全对话。",
+        "options": ["我也是。", "没关系。", "不一定。"],
+        "answer": "A",
+        "explanation": {
+          "zh": "“我也是”表示情况相同。",
+          "en": "我也是 means the same is true for the second speaker."
+        },
+        "passage": "甲：我喜欢一边做饭一边听音乐。\n乙：（　）我觉得这样很轻松。"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "她的意思是什么？",
+        "options": ["同意一起去。", "今天不能去。", "不喜欢运动。"],
+        "answer": "B",
+        "explanation": {
+          "zh": "她想去，但今天有工作，不能前往。",
+          "en": "She would like to go, but has work today."
+        },
+        "passage": "我很想和你去打球，但是今天还有很多工作没做完。下次叫我吧。"
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["越来越", "一共", "刚才"],
+        "answer": "A",
+        "explanation": {
+          "zh": "随时间变化而加强，用“越来越”。",
+          "en": "越来越 expresses a gradual increase."
+        },
+        "passage": "春天来了，天气（　）暖和。"
+      },
+      {
+        "id": "w1",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "排列词语，写成句子：\n每天 / 我 / 汉语 / 学习",
+        "explanation": {
+          "zh": "时间词放在主语后、动词前。",
+          "en": "The time phrase goes before the verb."
+        },
+        "answer": "我每天学习汉语",
+        "accepted": ["每天我学习汉语"]
+      },
+      {
+        "id": "w2",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "排列词语，写成句子：\n书 / 把 / 请 / 给我 / 那本",
+        "explanation": {
+          "zh": "“把”的宾语是“那本书”。",
+          "en": "那本书 is the object of 把."
+        },
+        "answer": "请把那本书给我"
+      },
+      {
+        "id": "w3",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "排列词语，写成句子：\n比 / 今天 / 冷 / 昨天",
+        "explanation": {
+          "zh": "“今天”是被描述的对象，“昨天”是比较标准。",
+          "en": "Today is compared with yesterday."
+        },
+        "answer": "今天比昨天冷",
+        "accepted": ["昨天比今天冷"]
+      },
+      {
+        "id": "w4",
+        "section": "writing",
+        "kind": "gap",
+        "prompt": "根据拼音填写一个汉字：\n我希望有机会去中国旅（yóu）。",
+        "explanation": {
+          "zh": "“旅游”的“游”是三点水旁。",
+          "en": "旅游 means travel; the missing character is 游."
+        },
+        "answer": "游"
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "把 + 宾语 + 动词",
+        "example": "请把书放在桌上。",
+        "meaning": {
+          "zh": "强调对具体对象的处理。",
+          "en": "Describe what is done to a specific object."
+        }
+      },
+      {
+        "pattern": "越来越 + 形容词",
+        "example": "汉语越来越有意思。",
+        "meaning": {
+          "zh": "表示程度逐渐变化。",
+          "en": "Express a gradual change in degree."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsk-4-01-v1",
+    "family": "hsk",
+    "label": "HSK 4",
+    "level": "4",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills · short practice",
+    "description": {
+      "zh": "抓住观点和转折，练习句子组织与短句表达。",
+      "en": "Viewpoints, contrasts, sentence order and short responses."
+    },
+    "sections": [
+      {
+        "id": "listening",
+        "minutes": 7
+      },
+      {
+        "id": "reading",
+        "minutes": 12
+      },
+      {
+        "id": "writing",
+        "minutes": 10
+      }
+    ],
+    "questions": [
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "说话人对餐厅的态度是什么？",
+        "options": ["总体满意", "非常失望", "认为太贵", "觉得太吵"],
+        "answer": "A",
+        "explanation": {
+          "zh": "距离是缺点，但整体评价和再次光顾意愿积极。",
+          "en": "Despite the distance, the speaker wants to return."
+        },
+        "script": "这家餐厅虽然离公司远一点，但价格合理，服务也好。下次聚会我还是想来这里。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "包裹为什么晚到？",
+        "options": ["地址不清楚", "收件人不在", "天气不好", "商品缺货"],
+        "answer": "C",
+        "explanation": {
+          "zh": "大雨影响运输。",
+          "en": "Heavy rain has disrupted transport."
+        },
+        "script": "您的包裹原定今天送到，但因为大雨，运输受到影响，预计明天上午送达。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "说话人建议什么？",
+        "options": ["立即购买", "选择更合适的型号", "停止写作", "修理旧电脑"],
+        "answer": "B",
+        "explanation": {
+          "zh": "建议根据实际用途考虑低价型号。",
+          "en": "The suggestion is to match the model to actual needs."
+        },
+        "script": "别急着买这台电脑。你主要用来写文章，不一定需要这么高的配置，可以看看价格更低的型号。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "她周末要做什么？",
+        "options": ["在家休息", "去医院看病", "参加展览", "去旅游"],
+        "answer": "C",
+        "explanation": {
+          "zh": "“可是”后的安排取代了原计划。",
+          "en": "The actual plan is to attend the exhibition for a colleague."
+        },
+        "script": "这个周末我原本想休息，可是同事生病了，我得替她参加展览。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "学生应该怎么交作业？",
+        "options": ["发邮件", "打印后交", "传到课程网站", "下周口头报告"],
+        "answer": "C",
+        "explanation": {
+          "zh": "明确要求上传课程网站。",
+          "en": "Students must upload the assignment to the course website."
+        },
+        "script": "同学们，这次作业不用发邮件。请周五之前上传到课程网站，文件名写上自己的姓名。"
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["否则", "尽管", "因此", "无论"],
+        "answer": "B",
+        "explanation": {
+          "zh": "“尽管……还是……”表示让步。",
+          "en": "尽管 introduces a concession."
+        },
+        "passage": "（　）准备的时间不长，他还是完成了任务。"
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "排列句子，选择正确顺序。",
+        "options": ["乙—甲—丙", "甲—丙—乙", "丙—乙—甲", "甲—乙—丙"],
+        "answer": "A",
+        "explanation": {
+          "zh": "先发现问题，再协商，最后解决。",
+          "en": "The sequence is finding the problem, discussing it, then solving it."
+        },
+        "passage": "甲：于是她和店员商量换一个。\n乙：回家后，她发现新买的杯子有裂缝。\n丙：店员了解情况后，马上同意了。"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "作者认为怎样才能提高效率？",
+        "options": [
+          "每天延长工作时间",
+          "不断更换任务",
+          "先安排好任务顺序",
+          "同时做所有事情"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "短文强调计划和任务顺序，而非忙碌。",
+          "en": "The text stresses planning the order of tasks."
+        },
+        "passage": "有些人整天忙碌，却很少完成重要的工作。问题不一定在于时间不够，而在于没有计划。先确定最重要的事情，再集中精力去做，往往能收到更好的效果。"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["适合", "符合", "合格", "集合"],
+        "answer": "A",
+        "explanation": {
+          "zh": "“适合某人”指对某人合宜。",
+          "en": "适合 means suitable for a person."
+        },
+        "passage": "这份工作需要经常出差，不太（　）想多陪家人的他。"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "哪句话符合通知？",
+        "options": [
+          "所有人都必须参加。",
+          "需要提前报名。",
+          "活动在室外举行。",
+          "参加者要自己带椅子。"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "通知要求在周三前报名，且座位报满即止，因此必须提前报名。",
+          "en": "Registration is required before Wednesday and may close once seats are filled, so advance registration is necessary."
+        },
+        "passage": "社区将于周六上午在活动室举办讲座。感兴趣的居民请于周三前报名，座位有限，报满为止。"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["既然", "即使", "由于", "随着"],
+        "answer": "B",
+        "explanation": {
+          "zh": "假设下雨也不改变计划，用“即使”。",
+          "en": "即使 means even if."
+        },
+        "passage": "（　）明天下雨，我们也会按计划出发。"
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "这段话主要说明什么？",
+        "options": [
+          "应当拒绝所有建议",
+          "判断建议要结合自身情况",
+          "经验完全没有用",
+          "成功只依靠运气"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "作者强调借鉴时考虑条件差异。",
+          "en": "Advice should be assessed against one’s own circumstances."
+        },
+        "passage": "别人的成功经验值得学习，但不能直接照搬。每个人的条件不同，只有根据自己的实际情况作出调整，建议才可能真正发挥作用。"
+      },
+      {
+        "id": "w1",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "排列词语，写成句子：\n解决 / 这个问题 / 我们 / 已经 / 了",
+        "explanation": {
+          "zh": "“已经”放在动词前，“了”可在句末。",
+          "en": "已经 comes before the verb."
+        },
+        "answer": "我们已经解决这个问题了",
+        "accepted": ["我们已经解决了这个问题", "这个问题我们已经解决了"]
+      },
+      {
+        "id": "w2",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "排列词语，写成句子：\n感兴趣 / 中国历史 / 对 / 她 / 很",
+        "explanation": {
+          "zh": "使用“对……感兴趣”。",
+          "en": "Use the pattern 对……感兴趣."
+        },
+        "answer": "她对中国历史很感兴趣"
+      },
+      {
+        "id": "w3",
+        "section": "writing",
+        "kind": "writing",
+        "prompt": "短句表达练习：你把雨伞借给了没带伞的同事。请使用“帮助”写一句完整的话。",
+        "explanation": {
+          "zh": "检查句子是否包含“帮助”，人物关系和语序是否清楚。本题保留答卷，需人工评阅。",
+          "en": "Include 帮助 and make the roles clear. This response requires human review."
+        },
+        "minChars": 10,
+        "maxChars": 40
+      },
+      {
+        "id": "w4",
+        "section": "writing",
+        "kind": "writing",
+        "prompt": "短句表达练习：你每天跑步，身体比以前好了。请使用“坚持”写一句完整的话。",
+        "explanation": {
+          "zh": "可用“因为坚持……，所以……”组织句子。不要把字数达标当作得分。",
+          "en": "You may use 因为坚持……所以……. Meeting the length target is not a score."
+        },
+        "minChars": 10,
+        "maxChars": 40
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "尽管……还是……",
+        "example": "尽管很累，她还是完成了任务。",
+        "meaning": {
+          "zh": "表示让步与坚持的结果。",
+          "en": "A concession followed by an unchanged result."
+        }
+      },
+      {
+        "pattern": "即使……也……",
+        "example": "即使下雨，我们也去。",
+        "meaning": {
+          "zh": "表示假设条件下结果不变。",
+          "en": "The result holds even under a hypothetical condition."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsk-5-01-v1",
+    "family": "hsk",
+    "label": "HSK 5",
+    "level": "5",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills · short practice",
+    "description": {
+      "zh": "理解较长论述，练习逻辑衔接和限定词写作。",
+      "en": "Longer arguments, logical links and constrained writing."
+    },
+    "sections": [
+      {
+        "id": "listening",
+        "minutes": 8
+      },
+      {
+        "id": "reading",
+        "minutes": 15
+      },
+      {
+        "id": "writing",
+        "minutes": 15
+      }
+    ],
+    "questions": [
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "公司采取了什么安排？",
+        "options": [
+          "完全取消办公室",
+          "每周两天集中办公",
+          "要求每天到公司",
+          "减少员工的工作时间"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "方案结合集中办公与自主选择地点。",
+          "en": "The company combines two office days with flexible locations."
+        },
+        "script": "这次调查发现，员工选择远程办公主要不是为了少工作，而是为了减少通勤时间。不过，不少受访者也担心，长期缺少面对面交流会影响团队合作。因此，公司决定每周安排两天集中办公，其余时间由员工自行选择地点。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "工坊的主要目的是什么？",
+        "options": [
+          "培养专业木匠",
+          "提高新家具销量",
+          "鼓励修复旧物",
+          "禁止购买家具"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "强调丢弃前考虑修复。",
+          "en": "The aim is to encourage repair before disposal."
+        },
+        "script": "过去大家把旧家具扔掉，既浪费资源，又增加垃圾。社区开设修理工坊后，居民可以学习简单的维修技巧。我们并不是要求所有人都成为木匠，而是希望大家在丢弃物品之前，多考虑一次修复的可能。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "负责人最关注什么？",
+        "options": [
+          "降低门票价格",
+          "参观体验的质量",
+          "增加展品数量",
+          "缩短开放时间"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "人数之外，还要评估欣赏时间和服务。",
+          "en": "The director wants to assess the quality of the visit, beyond attendance."
+        },
+        "script": "博物馆延长开放时间后，晚间参观者明显增加。但负责人表示，不能只看人数，还应该了解观众是否有足够的时间欣赏展品，以及讲解服务是否跟得上。下一步他们计划收集更具体的反馈。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "软件改动带来了什么结果？",
+        "options": [
+          "完成任务更快",
+          "用户必须学习更多命令",
+          "专业工具全部消失",
+          "用户数量一定翻倍"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "录音明确说完成任务速度提高，未提供用户数量。",
+          "en": "The stated result is faster task completion, not a change in user numbers."
+        },
+        "script": "这款软件最初面向专业设计师，功能丰富但操作复杂。测试后，我们删去了普通用户很少使用的工具，并重新安排了菜单。虽然功能看起来少了，用户完成任务的速度却提高了。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "果园采用设备的理由是什么？",
+        "options": [
+          "设备完全免费",
+          "不用再种水果",
+          "长期能够节省成本",
+          "三个月就能收回投入"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "前期投入高，但长期节水、节省人工。",
+          "en": "The equipment has an upfront cost but reduces longer-term costs."
+        },
+        "script": "今年果园安装了新的灌溉设备。设备价格不低，不过可以根据土壤湿度自动调节用水。算上节约的水费和人工费，我们预计三年左右能够收回投入。"
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["一味", "偶然", "依次", "陆续"],
+        "answer": "A",
+        "explanation": {
+          "zh": "“一味”强调不加区分地只顾某一方面。",
+          "en": "一味 suggests blindly focusing on one aspect."
+        },
+        "passage": "教育评价如果（　）追求分数，就可能忽视学生解决实际问题的能力。"
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "文中“留白”最接近什么含义？",
+        "options": [
+          "拒绝制定任何计划",
+          "给意外和思考留下空间",
+          "忘记重要安排",
+          "把任务交给别人"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "留白是安排之外有弹性，并非没有计划。",
+          "en": "It means leaving room for the unexpected and reflection."
+        },
+        "passage": "有人把每天的日程排得满满当当，以为这样才算充分利用时间。然而，计划中的“留白”同样重要。它让人有机会处理突发情况，也能在忙碌之余重新审视目标。"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "这段话强调什么？",
+        "options": [
+          "阅读只能靠数量衡量",
+          "理解比单纯追求速度更重要",
+          "慢读一定比快读好",
+          "不应当阅读新书"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "重点在于理解，而非绝对否定快读。",
+          "en": "The focus is understanding, without claiming slow reading is always better."
+        },
+        "passage": "快速阅读可以帮助人们筛选信息，但一本需要反复推敲的书，未必适合一口气读完。阅读的价值不只在于读过多少页，还在于能否把书中的观点与自己的经验联系起来。"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词。",
+        "options": ["承担", "承认", "承受", "承办"],
+        "answer": "A",
+        "explanation": {
+          "zh": "“承担责任”是固定搭配。",
+          "en": "承担责任 means to take responsibility."
+        },
+        "passage": "企业在追求利润的同时，也应（　）相应的社会责任。"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "根据短文，可以得出什么结论？",
+        "options": [
+          "扩大道路总能解决拥堵",
+          "交通需求也会随条件变化",
+          "道路越少越方便",
+          "人们完全不考虑出行时间"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "出行选择会因道路变宽而变化。",
+          "en": "Travel demand may change when conditions improve."
+        },
+        "passage": "某城市拓宽道路后，最初交通确实顺畅了。然而几个月后，更多人因为开车方便而选择驾车出行，拥堵又出现了。这说明，交通改善不能只考虑眼前的车辆数量。"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "补入最合适的句子。",
+        "options": [
+          "因此可以完全不用培训",
+          "但这并不意味着经验毫无价值",
+          "所以年轻人都不适合管理",
+          "也就是说制度无需调整"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "转折句平衡技术变化与经验价值。",
+          "en": "The contrast balances technical change with the continuing value of experience."
+        },
+        "passage": "新技术让许多工作方式发生了改变，（　）。理解行业规律、判断复杂情境，仍然需要长期积累。"
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "作者对共享工具的看法是什么？",
+        "options": [
+          "共享比个人拥有更适合所有情况",
+          "共享有价值，但需要维护规则",
+          "只要免费就不必维护",
+          "共享只能用于交通工具"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "肯定资源利用价值，同时指出制度条件。",
+          "en": "The author supports sharing while stressing maintenance rules."
+        },
+        "passage": "社区共享工具可以降低居民购买工具的成本，也能减少闲置。不过，共享并不意味着无人负责。借用、归还和维修的规则越清晰，工具才能越长久地服务更多的人。"
+      },
+      {
+        "id": "w1",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "排列词语，写成句子：\n引起了 / 这项研究 / 广泛的 / 社会 / 关注",
+        "explanation": {
+          "zh": "“这项研究”是主语，“引起了”是谓语。",
+          "en": "The research is the subject and 引起了 is the predicate."
+        },
+        "answer": "这项研究引起了社会广泛的关注",
+        "accepted": ["这项研究引起了广泛的社会关注"]
+      },
+      {
+        "id": "w2",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "排列词语，写成句子：\n适应 / 他 / 逐渐 / 新的 / 工作环境 / 了",
+        "explanation": {
+          "zh": "“逐渐”修饰“适应”。",
+          "en": "逐渐 modifies the process of adapting."
+        },
+        "answer": "他逐渐适应了新的工作环境",
+        "accepted": ["他逐渐适应新的工作环境了"]
+      },
+      {
+        "id": "w3",
+        "section": "writing",
+        "kind": "writing",
+        "prompt": "请把下面五个词语都用上，写一篇约 80 字的短文：\n尝试、原来、耐心、收获、坚持",
+        "explanation": {
+          "zh": "检查五个词是否全部使用，事件是否完整，前后关系是否自然。写作不自动打分。",
+          "en": "Use all five words in a coherent short passage. Writing is not automatically scored."
+        },
+        "minChars": 80,
+        "maxChars": 100
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "不只……还……",
+        "example": "阅读不只增加知识，还改变思考方式。",
+        "meaning": {
+          "zh": "递进关系。",
+          "en": "Add a further, stronger point."
+        }
+      },
+      {
+        "pattern": "承担 / 承受",
+        "example": "承担责任；承受压力。",
+        "meaning": {
+          "zh": "注意动词与宾语的搭配。",
+          "en": "Distinguish taking responsibility from bearing pressure."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsk-6-01-v1",
+    "family": "hsk",
+    "label": "HSK 6",
+    "level": "6",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills · short practice",
+    "description": {
+      "zh": "分析论证与隐含态度，练习阅读后缩写。",
+      "en": "Arguments, implied attitudes and a read-then-summarise task."
+    },
+    "sections": [
+      {
+        "id": "listening",
+        "minutes": 8
+      },
+      {
+        "id": "reading",
+        "minutes": 16
+      },
+      {
+        "id": "writing",
+        "minutes": 12
+      }
+    ],
+    "questions": [
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "说话人主要主张什么？",
+        "options": [
+          "优先考虑建筑的高度",
+          "以居民的真实生活为更新依据",
+          "取消所有城市改造",
+          "完全复制其他城市的设计"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "论证的核心是尊重居民使用空间的方式。",
+          "en": "Urban renewal should be grounded in residents’ use of space."
+        },
+        "script": "有人认为，城市更新就是把旧建筑拆掉，换成更现代的楼房。其实，街道原有的尺度、邻里交往的场所，同样构成城市的记忆。我们主张先调查居民怎样使用空间，再决定哪些设施需要改变。这样做也许慢一些，却能避免改造后看上去漂亮、住起来陌生的局面。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "说话人提醒科学传播者注意什么？",
+        "options": [
+          "不应使用任何比喻",
+          "必须增加专业术语",
+          "应说明比喻的适用边界",
+          "只要生动就足够准确"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "既认可比喻价值，也要求说明局限。",
+          "en": "Analogies are useful, but their limits must be made clear."
+        },
+        "script": "科学传播中的比喻像一座桥，能帮助公众接近抽象概念。但桥并不等于目的地。如果读者把比喻里的每一个细节都当成科学事实，误解反而可能加深。因此，好的解释还应说明比喻在哪些地方不再适用。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "说话人反对的是什么？",
+        "options": [
+          "评估政策效果",
+          "采用不合适的时间尺度评估",
+          "公开政策信息",
+          "重视生态恢复"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "反对不匹配的评估方式，不是评估本身。",
+          "en": "The objection concerns an unsuitable evaluation timescale, not evaluation itself."
+        },
+        "script": "一项政策刚实施就有人要求立刻给出成效，这种心情可以理解。但若涉及生态恢复，变化往往不能按月计算。问题不在于要不要评估，而在于评估指标和时间尺度是否与政策目标相匹配。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "录音认为数字化的作用是什么？",
+        "options": [
+          "使专业判断不再必要",
+          "让研究结论自动产生",
+          "增加材料的可及性",
+          "消除古籍中的所有疑问"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "数字化方便获取材料，但不能代替研究。",
+          "en": "Digitisation improves access without replacing scholarly judgement."
+        },
+        "script": "数字档案使古籍更容易被检索，但影像清晰并不意味着研究门槛消失。纸张、装订以及批注形成的先后关系，仍需要专业判断。数字化扩大了材料的可及性，却没有替代研究者提出问题的能力。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "团队改变评估方式是为了什么？",
+        "options": [
+          "减少活动参与者",
+          "关注实际学习效果",
+          "提高报名费用",
+          "只统计老学员"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "新标准关注参与者能否独立完成任务。",
+          "en": "The new measure focuses on what participants can actually do."
+        },
+        "script": "我们曾用活动报名人数衡量项目成功与否，后来发现，有人连续报名，却很少真正参与。于是，团队改为跟踪参与者能否在活动结束后独立完成相关任务。人数仍有参考价值，但不再是唯一标准。"
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择有语病的一句。",
+        "options": [
+          "他不仅完成了任务，而且提出了改进建议。",
+          "这项政策的实施，有助于改善公共服务。",
+          "通过这次讨论，使我们发现了问题。",
+          "研究人员对结果作了进一步分析。"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "“通过……使……”连用导致主语缺失。",
+          "en": "The construction 通过……使…… leaves the sentence without a subject."
+        }
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择合适的词组。",
+        "options": ["并非 / 而是", "既然 / 就", "除非 / 才", "尽管 / 因此"],
+        "answer": "A",
+        "explanation": {
+          "zh": "否定一种解释并提出另一种，用“并非……而是……”。",
+          "en": "并非……而是…… rejects one explanation in favour of another."
+        },
+        "passage": "传统得以延续，（　）因为它从不改变，（　）因为人们不断赋予它新的意义。"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "作者对“统一标准”的态度是什么？",
+        "options": [
+          "认为任何情况下都不应有标准",
+          "支持基本标准，同时保留适应空间",
+          "认为标准越细越好",
+          "只重视效率而不考虑差异"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "作者区分底线要求与一刀切。",
+          "en": "The author supports basic standards with room for adaptation."
+        },
+        "passage": "公共服务需要统一的基本标准，以保障不同地区居民的基本权益。但标准若细化到每一处操作，反而可能限制地方回应实际需求的能力。真正需要统一的是服务底线，而非所有实施路径。"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "“沉没成本”在文中的作用是什么？",
+        "options": [
+          "说明继续投入一定能成功",
+          "提醒人们不要让过去投入绑架新决策",
+          "证明退出总是最佳选择",
+          "鼓励忽视所有历史信息"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "决策应比较未来收益与代价，而非执着于过去投入。",
+          "en": "The decision should compare future benefits and costs."
+        },
+        "passage": "项目已经投入了大量资金，继续还是停止？过去的投入无法收回，属于沉没成本。如果只因“不甘心”而继续，可能造成更大损失。此时需要判断的，是未来追加投入是否仍有合理回报。"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "哪个选项最适合补入空白？",
+        "options": [
+          "却未必获得了充分理解",
+          "因此必然达成一致",
+          "从此无需核实来源",
+          "也就证明信息全部真实"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "快速接收与深入理解形成对照。",
+          "en": "Fast exposure to information does not guarantee understanding."
+        },
+        "passage": "信息在社交平台上不断被压缩成简短结论。人们似乎知道得更多了，（　）。缺少语境的结论，往往难以支撑审慎的判断。"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "选择有语病的一句。",
+        "options": [
+          "无论遇到什么困难，他都没有放弃。",
+          "能否长期坚持，是取得进步的原因。",
+          "方案经过修改后，得到了大家的认可。",
+          "这本书对问题的讨论十分深入。"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "“能否”有两面，“取得进步”只有一面，前后不照应。",
+          "en": "能否 presents two possibilities, while the predicate addresses only success."
+        }
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "这段话主要说明什么？",
+        "options": [
+          "创新等同于完全抛弃传统",
+          "跨领域交流需要共同的理解基础",
+          "专业词汇越多交流越有效",
+          "不同领域无法合作"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "差异提供机会，但交流需要翻译概念和建立共识。",
+          "en": "Different fields need shared understanding to collaborate."
+        },
+        "passage": "不同领域的合作常被视为创新的来源，但把专家聚在一起并不会自动产生新想法。各领域使用的概念可能相似，含义却不同。只有愿意解释自己的前提、理解他人的问题，差异才可能转化为创造力。"
+      },
+      {
+        "id": "w1",
+        "section": "writing",
+        "kind": "writing",
+        "prompt": "缩写专项（短篇练习）：先阅读材料 90 秒，随后材料自动隐藏。请用自己的话写一篇 150—200 字的缩写，不添加个人评论。",
+        "explanation": {
+          "zh": "保留人物、问题、行动和结果，压缩例子，保持事件顺序。此为缩短的记忆与缩写练习，非正式 HSK 6 的完整篇幅或时长。",
+          "en": "Keep the people, problem, actions and outcome in order. Condense details without adding an opinion. This is a shortened memory-and-summary drill, not a full HSK 6 writing task."
+        },
+        "passage": "一座小城的老图书馆曾经十分热闹。后来，越来越多的人通过手机阅读，来馆人数逐渐减少。管理员周女士没有急着购买新设备，而是连续几个星期记录读者来馆的时间，并和附近居民交谈。她发现，上班族下班时图书馆已经关门，老年人希望有人教他们使用电子阅读器，孩子们则缺少安静的课后活动空间。\n\n周女士根据这些意见提出了三项调整：每周二、周四延长开放到晚上九点；请志愿者开设电子阅读入门课；把一间闲置办公室改成儿童阅读室。起初，同事们担心工作量增加，周女士便先试行一个月，并重新安排值班。\n\n试行期间，一位退休教师主动来讲故事，两名大学生帮助老人学习检索资料。读者人数逐渐回升，但周女士更关注大家是否愿意再次来馆。她在出口放置了意见卡，每周和同事一起讨论反馈。有人提出儿童阅读室太吵，馆里便增加了隔音帘，并调整活动时间。\n\n半年后，图书馆恢复了往日的活力。面对其他机构的询问，周女士说，改变并非来自某件昂贵的设备，而是从认真倾听居民的需求开始。她也提醒大家，每个社区的情况不同，不能简单照搬这些措施。",
+        "minChars": 150,
+        "maxChars": 200,
+        "readSeconds": 90
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "并非……而是……",
+        "example": "问题并非没有资源，而是分配不合理。",
+        "meaning": {
+          "zh": "纠正解释或判断。",
+          "en": "Replace one explanation with another."
+        }
+      },
+      {
+        "pattern": "能否 / 是否",
+        "example": "能否进步取决于是否坚持。",
+        "meaning": {
+          "zh": "注意两面与两面的对应。",
+          "en": "Match two-sided conditions and outcomes consistently."
+        }
+      }
+    ]
+  }
+,{
+    "description": {
+      "en": "Market trips, asking the way and family life with positions and simple negation.",
+      "zh": "\u4e70\u83dc\u3001\u95ee\u8def\u548c\u5bb6\u5ead\u751f\u6d3b\uff0c\u7ec3\u4e60\u65b9\u4f4d\u8bcd\u4e0e\u7b80\u5355\u5426\u5b9a\u3002"
+    },
+    "family": "hsk",
+    "format": "HSK 2.0 skills \u00b7 short practice",
+    "id": "hsk-1-02-v1",
+    "label": "HSK 1 \u00b7 02",
+    "language": "zh-CN",
+    "level": "1",
+    "questions": [
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "The sentence lists vegetables and eggs, so she also bought eggs.",
+          "zh": "\u53e5\u5b50\u8bf4\u4e86\u201c\u83dc\u548c\u9e21\u86cb\u201d\uff0c\u6240\u4ee5\u963f\u59e8\u8fd8\u4e70\u4e86\u9e21\u86cb\u3002"
+        },
+        "id": "r1",
+        "kind": "choice",
+        "options": [
+          "\u725b\u5976 ni\u00fan\u01cei",
+          "\u9e21\u86cb j\u012bd\u00e0n",
+          "\u9762\u5305 mi\u00e0nb\u0101o",
+          "\u82f9\u679c p\u00ednggu\u01d2"
+        ],
+        "passage": "\u963f\u59e8\u4e70\u4e86\u83dc\u548c\u9e21\u86cb\u3002 \u0100y\u00ed m\u01cei le c\u00e0i h\u00e9 j\u012bd\u00e0n.",
+        "prompt": "\u963f\u59e8\u4e70\u4e86\u83dc\u548c\u4ec0\u4e48\uff1f \u0100y\u00ed m\u01cei le c\u00e0i h\u00e9 sh\u00e9nme?",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "The sentence places the restroom next to the classroom building.",
+          "zh": "\u201c\u5728\u6559\u5ba4\u65c1\u8fb9\u201d\u8bf4\u660e\u6d17\u624b\u95f4\u7684\u4f4d\u7f6e\u3002"
+        },
+        "id": "r2",
+        "kind": "choice",
+        "options": [
+          "\u64cd\u573a\u4e0a\u9762 c\u0101och\u01ceng sh\u00e0ngmi\u00e0n",
+          "\u5b66\u6821\u5916\u9762 xu\u00e9xi\u00e0o w\u00e0imi\u00e0n",
+          "\u8001\u5e08\u5bb6\u91cc l\u01ceosh\u012b ji\u0101 l\u01d0",
+          "\u6559\u5ba4\u65c1\u8fb9 ji\u00e0osh\u00ec p\u00e1ngbi\u0101n"
+        ],
+        "passage": "\u6d17\u624b\u95f4\u5728\u6559\u5ba4\u65c1\u8fb9\u3002 X\u01d0sh\u01d2uji\u0101n z\u00e0i ji\u00e0osh\u00ec p\u00e1ngbi\u0101n.",
+        "prompt": "\u6d17\u624b\u95f4\u5728\u54ea\u513f\uff1f X\u01d0sh\u01d2uji\u0101n z\u00e0i n\u01cer?",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "The passage states that the younger sister is five years old.",
+          "zh": "\u201c\u4e94\u5c81\u201d\u8bf4\u660e\u59b9\u59b9\u4eca\u5e74\u7684\u5e74\u9f84\u3002"
+        },
+        "id": "r3",
+        "kind": "choice",
+        "options": [
+          "\u4e94\u5c81 w\u01d4 su\u00ec",
+          "\u56db\u5c81 s\u00ec su\u00ec",
+          "\u516d\u5c81 li\u00f9 su\u00ec",
+          "\u4e03\u5c81 q\u012b su\u00ec"
+        ],
+        "passage": "\u59b9\u59b9\u4eca\u5e74\u4e94\u5c81\u3002 M\u00e8imei j\u012bnni\u00e1n w\u01d4 su\u00ec.",
+        "prompt": "\u59b9\u59b9\u4eca\u5e74\u51e0\u5c81\uff1f M\u00e8imei j\u012bnni\u00e1n j\u01d0 su\u00ec?",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "On a cold day he put on new clothes, not a book or an apple.",
+          "zh": "\u51b7\u5929\u7a7f\u7684\u662f\u201c\u65b0\u8863\u670d\u201d\uff0c\u4e0d\u662f\u4e66\u6216\u82f9\u679c\u3002"
+        },
+        "id": "r4",
+        "kind": "choice",
+        "options": [
+          "\u65b0\u4e66 x\u012bn sh\u016b",
+          "\u6f02\u4eae\u8863\u670d pi\u00e0oliang y\u012bfu",
+          "\u65b0\u8863\u670d x\u012bn y\u012bfu",
+          "\u5927\u82f9\u679c d\u00e0 p\u00ednggu\u01d2"
+        ],
+        "passage": "\u4eca\u5929\u5f88\u51b7\uff0c\u4ed6\u7a7f\u4e86\u65b0\u8863\u670d\u3002 J\u012bnti\u0101n h\u011bn l\u011bng, t\u0101 chu\u0101n le x\u012bn y\u012bfu.",
+        "prompt": "\u4eca\u5929\u5f88\u51b7\uff0c\u4ed6\u7a7f\u4e86\u4ec0\u4e48\uff1f J\u012bnti\u0101n h\u011bn l\u011bng, t\u0101 chu\u0101n le sh\u00e9nme?",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "The parcel is waiting at the shop, as the sentence clearly states.",
+          "zh": "\u201c\u5728\u5546\u5e97\u201d\u8bf4\u660e\u5feb\u9012\u7684\u4f4d\u7f6e\u3002"
+        },
+        "id": "r5",
+        "kind": "choice",
+        "options": [
+          "\u5b66\u6821 xu\u00e9xi\u00e0o",
+          "\u533b\u9662 y\u012byu\u00e0n",
+          "\u5bb6\u91cc ji\u0101 l\u01d0",
+          "\u5546\u5e97 sh\u0101ngdi\u00e0n"
+        ],
+        "passage": "\u4f60\u7684\u5feb\u9012\u5728\u5546\u5e97\u3002 N\u01d0 de ku\u00e0id\u00ec z\u00e0i sh\u0101ngdi\u00e0n.",
+        "prompt": "\u4f60\u7684\u5feb\u9012\u5728\u54ea\u513f\uff1f N\u01d0 de ku\u00e0id\u00ec z\u00e0i n\u01cer?",
+        "section": "reading"
+      },
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "He likes little dogs and does not like little cats at all.",
+          "zh": "\u53e5\u5b50\u8bf4\u559c\u6b22\u5c0f\u72d7\uff0c\u4e0d\u559c\u6b22\u5c0f\u732b\u3002"
+        },
+        "id": "r6",
+        "kind": "choice",
+        "options": [
+          "\u82f9\u679c p\u00ednggu\u01d2",
+          "\u5c0f\u72d7 xi\u01ceog\u01d2u",
+          "\u5c0f\u732b xi\u01ceom\u0101o",
+          "\u7c73\u996d m\u01d0f\u00e0n"
+        ],
+        "passage": "\u5f1f\u5f1f\u559c\u6b22\u5c0f\u72d7\uff0c\u4e0d\u559c\u6b22\u5c0f\u732b\u3002 D\u00ecdi x\u01d0huan xi\u01ceog\u01d2u, b\u00f9 x\u01d0huan xi\u01ceom\u0101o.",
+        "prompt": "\u5f1f\u5f1f\u559c\u6b22\u4ec0\u4e48\uff1f D\u00ecdi x\u01d0huan sh\u00e9nme?",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "The measure word for a single glass of water is \u676f here.",
+          "zh": "\u6c34\u7684\u91cf\u8bcd\u662f\u201c\u676f\u201d\uff0c\u4e00\u676f\u6c34\u3002"
+        },
+        "id": "r7",
+        "kind": "choice",
+        "options": [
+          "\u4e2a ge",
+          "\u672c b\u011bn",
+          "\u676f b\u0113i",
+          "\u5c81 su\u00ec"
+        ],
+        "passage": "\u6211\u559d\u4e86\u4e00\uff08\u3000\uff09\u6c34\u3002 W\u01d2 h\u0113 le y\u00ec ( ) shu\u01d0.",
+        "prompt": "\u9009\u8bcd\u586b\u7a7a\u3002 Xu\u01cen c\u00ed ti\u00e1nk\u00f2ng.",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "The sentence identifies her as the speaker's good friend Xiaohong.",
+          "zh": "\u201c\u662f\u6211\u7684\u670b\u53cb\u201d\u8bf4\u660e\u5979\u662f\u8c01\u3002"
+        },
+        "id": "r8",
+        "kind": "choice",
+        "options": [
+          "\u6211\u7684\u670b\u53cb w\u01d2 de p\u00e9ngyou",
+          "\u6211\u7684\u8001\u5e08 w\u01d2 de l\u01ceosh\u012b",
+          "\u6211\u7684\u5988\u5988 w\u01d2 de m\u0101ma",
+          "\u6211\u7684\u533b\u751f w\u01d2 de y\u012bsh\u0113ng"
+        ],
+        "passage": "\u5979\u53eb\u5c0f\u7ea2\uff0c\u662f\u6211\u7684\u670b\u53cb\u3002 T\u0101 ji\u00e0o Xi\u01ceoh\u00f3ng, sh\u00ec w\u01d2 de p\u00e9ngyou.",
+        "prompt": "\u5979\u662f\u8c01\uff1f T\u0101 sh\u00ec sh\u00e9i?",
+        "section": "reading"
+      },
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "He is not going to the shop; he watches TV at home instead.",
+          "zh": "\u201c\u4e0d\u53bb\u201d\u8868\u793a\u5426\u5b9a\uff0c\u4ed6\u5728\u5bb6\u770b\u7535\u89c6\u3002"
+        },
+        "id": "r9",
+        "kind": "choice",
+        "options": [
+          "\u53bb\u5b66\u6821 q\u00f9 xu\u00e9xi\u00e0o",
+          "\u4e0d\u53bb\uff0c\u5728\u5bb6 b\u00fa q\u00f9, z\u00e0i ji\u0101",
+          "\u53bb\u5546\u5e97 q\u00f9 sh\u0101ngdi\u00e0n",
+          "\u53bb\u533b\u9662 q\u00f9 y\u012byu\u00e0n"
+        ],
+        "passage": "\u4ed6\u4eca\u5929\u4e0d\u53bb\u5546\u5e97\uff0c\u5728\u5bb6\u770b\u7535\u89c6\u3002 T\u0101 j\u012bnti\u0101n b\u00fa q\u00f9 sh\u0101ngdi\u00e0n, z\u00e0i ji\u0101 k\u00e0n di\u00e0nsh\u00ec.",
+        "prompt": "\u4ed6\u4eca\u5929\u53bb\u5546\u5e97\u5417\uff1f T\u0101 j\u012bnti\u0101n q\u00f9 sh\u0101ngdi\u00e0n ma?",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "The fruit is under the table, not on a chair or tabletop.",
+          "zh": "\u201c\u684c\u5b50\u4e0b\u9762\u201d\u8bf4\u660e\u6c34\u679c\u7684\u4f4d\u7f6e\u3002"
+        },
+        "id": "r10",
+        "kind": "choice",
+        "options": [
+          "\u684c\u5b50\u4e0a\u9762 zhu\u014dzi sh\u00e0ngmi\u00e0n",
+          "\u6905\u5b50\u4e0a\u9762 y\u01d0zi sh\u00e0ngmi\u00e0n",
+          "\u6905\u5b50\u4e0b\u9762 y\u01d0zi xi\u00e0mian",
+          "\u684c\u5b50\u4e0b\u9762 zhu\u014dzi xi\u00e0mian"
+        ],
+        "passage": "\u6c34\u679c\u5728\u684c\u5b50\u4e0b\u9762\u3002 Shu\u01d0gu\u01d2 z\u00e0i zhu\u014dzi xi\u00e0mian.",
+        "prompt": "\u6c34\u679c\u5728\u54ea\u513f\uff1f Shu\u01d0gu\u01d2 z\u00e0i n\u01cer?",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "Only \u4f4f fits the pattern of living in the city of Beijing.",
+          "zh": "\u201c\u4f4f\u5728\u5317\u4eac\u201d\u8868\u793a\u5c45\u4f4f\uff0c\u53ea\u6709\u201c\u4f4f\u201d\u5408\u9002\u3002"
+        },
+        "id": "r11",
+        "kind": "choice",
+        "options": [
+          "\u4f4f zh\u00f9",
+          "\u5403 ch\u012b",
+          "\u559d h\u0113",
+          "\u4e70 m\u01cei"
+        ],
+        "passage": "\u6211\uff08\u3000\uff09\u5728\u5317\u4eac\u3002 W\u01d2 ( ) z\u00e0i B\u011bij\u012bng.",
+        "prompt": "\u9009\u8bcd\u586b\u7a7a\u3002 Xu\u01cen c\u00ed ti\u00e1nk\u00f2ng.",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "A greeting in the afternoon is answered with the same greeting.",
+          "zh": "\u95ee\u5019\u201c\u4e0b\u5348\u597d\u201d\u7528\u540c\u6837\u7684\u95ee\u5019\u56de\u7b54\u3002"
+        },
+        "id": "r12",
+        "kind": "choice",
+        "options": [
+          "\u8c22\u8c22 xi\u00e8xie",
+          "\u518d\u89c1 z\u00e0iji\u00e0n",
+          "\u4e0b\u5348\u597d xi\u00e0w\u01d4 h\u01ceo",
+          "\u5bf9\u4e0d\u8d77 du\u00ecbuq\u01d0"
+        ],
+        "passage": "\u4e0b\u5348\u597d\uff01 Xi\u00e0w\u01d4 h\u01ceo!",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u56de\u7b54\u3002 Xu\u01cenz\u00e9 h\u00e9sh\u00ec de hu\u00edd\u00e1.",
+        "section": "reading"
+      }
+    ],
+    "sections": [
+      {
+        "id": "reading",
+        "minutes": 8
+      }
+    ],
+    "tips": [
+      {
+        "example": "\u4ed6\u4eca\u5929\u4e0d\u53bb\u5546\u5e97\u3002",
+        "meaning": {
+          "en": "Put \u4e0d before the verb to make a negative statement.",
+          "zh": "\u201c\u4e0d\u201d\u653e\u5728\u52a8\u8bcd\u524d\u8868\u793a\u5426\u5b9a\u3002"
+        },
+        "pattern": "\u4e0d + \u52a8\u8bcd"
+      },
+      {
+        "example": "\u6c34\u679c\u5728\u684c\u5b50\u4e0b\u9762\u3002",
+        "meaning": {
+          "en": "Position words pin down exactly where something is located.",
+          "zh": "\u65b9\u4f4d\u8bcd\u8bf4\u660e\u4e1c\u897f\u7684\u5177\u4f53\u4f4d\u7f6e\u3002"
+        },
+        "pattern": "\u4e0a\u9762 / \u4e0b\u9762"
+      }
+    ]
+  },
+  {
+    "description": {
+      "en": "Parcels, campus life and family gatherings with ongoing actions and choices.",
+      "zh": "\u5feb\u9012\u3001\u6821\u56ed\u548c\u5bb6\u5ead\u805a\u4f1a\uff0c\u7ec3\u4e60\u8fdb\u884c\u3001\u7ecf\u5386\u4e0e\u9009\u62e9\u3002"
+    },
+    "family": "hsk",
+    "format": "HSK 2.0 skills \u00b7 short practice",
+    "id": "hsk-2-02-v1",
+    "label": "HSK 2 \u00b7 02",
+    "language": "zh-CN",
+    "level": "2",
+    "questions": [
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "The courier arrives at ten in the morning, not in the afternoon.",
+          "zh": "\u201c\u4e0a\u5348\u5341\u70b9\u6765\u201d\u8bf4\u660e\u5230\u8fbe\u65f6\u95f4\u3002"
+        },
+        "id": "r1",
+        "kind": "choice",
+        "options": [
+          "\u4e0a\u5348\u4e5d\u70b9",
+          "\u4e0a\u5348\u5341\u70b9",
+          "\u4e0b\u5348\u5341\u70b9",
+          "\u660e\u5929\u4e0a\u5348"
+        ],
+        "passage": "\u5feb\u9012\u5458\u4e0a\u5348\u5341\u70b9\u6765\uff0c\u4f60\u5728\u5bb6\u7b49\u4ed6\u5427\u3002",
+        "prompt": "\u5feb\u9012\u5458\u4ec0\u4e48\u65f6\u5019\u6765\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "The library is straight ahead after leaving the classroom building.",
+          "zh": "\u201c\u5c31\u5728\u524d\u9762\u201d\u8bf4\u660e\u56fe\u4e66\u9986\u7684\u4f4d\u7f6e\u3002"
+        },
+        "id": "r2",
+        "kind": "choice",
+        "options": [
+          "\u6559\u5ba4\u540e\u9762",
+          "\u64cd\u573a\u4e2d\u95f4",
+          "\u6559\u5ba4\u524d\u9762",
+          "\u5546\u5e97\u91cc\u9762"
+        ],
+        "passage": "\u4ece\u6559\u5ba4\u51fa\u6765\uff0c\u4e00\u76f4\u8d70\uff0c\u56fe\u4e66\u9986\u5c31\u5728\u524d\u9762\u3002",
+        "prompt": "\u56fe\u4e66\u9986\u5728\u54ea\u513f\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "The younger brother runs faster in this direct age comparison.",
+          "zh": "\u201c\u6bd4\u6211\u5feb\u201d\u8bf4\u660e\u5f1f\u5f1f\u8dd1\u5f97\u66f4\u5feb\u3002"
+        },
+        "id": "r3",
+        "kind": "choice",
+        "options": [
+          "\u6211",
+          "\u5f1f\u5f1f",
+          "\u4e00\u6837\u5feb",
+          "\u7238\u7238"
+        ],
+        "passage": "\u6211\u5f1f\u5f1f\u6bd4\u6211\u8dd1\u5f97\u5feb\u3002",
+        "prompt": "\u8c01\u8dd1\u5f97\u5feb\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "They are cleaning the classroom right now and have no free time.",
+          "zh": "\u201c\u6b63\u5728\u6253\u626b\u201d\u8bf4\u660e\u6b64\u523b\u8d70\u4e0d\u5f00\u3002"
+        },
+        "id": "r4",
+        "kind": "choice",
+        "options": [
+          "\u6b63\u5728\u6253\u626b\u6559\u5ba4",
+          "\u6b63\u5728\u5403\u996d",
+          "\u6b63\u5728\u7761\u89c9",
+          "\u6b63\u5728\u4e70\u4e1c\u897f"
+        ],
+        "passage": "\u4ed6\u4eec\u6b63\u5728\u6253\u626b\u6559\u5ba4\uff0c\u6ca1\u6709\u65f6\u95f4\u51fa\u53bb\u3002",
+        "prompt": "\u4ed6\u4eec\u4e3a\u4ec0\u4e48\u4e0d\u80fd\u51fa\u53bb\u8e22\u8db3\u7403\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "The watermelon costs three yuan per jin, which is quite cheap.",
+          "zh": "\u201c\u4e09\u5757\u94b1\u4e00\u65a4\u201d\u8bf4\u660e\u897f\u74dc\u7684\u4ef7\u683c\u3002"
+        },
+        "id": "r5",
+        "kind": "choice",
+        "options": [
+          "\u4e24\u5757",
+          "\u4e09\u5757",
+          "\u56db\u5757",
+          "\u4e94\u5757"
+        ],
+        "passage": "\u897f\u74dc\u4e09\u5757\u94b1\u4e00\u65a4\uff0c\u5f88\u4fbf\u5b9c\u3002",
+        "prompt": "\u897f\u74dc\u591a\u5c11\u94b1\u4e00\u65a4\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "The door is open right now, so the visitor may come inside.",
+          "zh": "\u201c\u5f00\u7740\u201d\u8bf4\u660e\u95e8\u7684\u72b6\u6001\uff0c\u53ef\u4ee5\u8fdb\u6765\u3002"
+        },
+        "id": "r6",
+        "kind": "choice",
+        "options": [
+          "\u5173\u7740",
+          "\u574f\u4e86",
+          "\u6ca1\u6709\u95e8",
+          "\u5f00\u7740"
+        ],
+        "passage": "\u95e8\u5f00\u7740\uff0c\u8fdb\u6765\u5427\u3002",
+        "prompt": "\u95e8\u600e\u4e48\u4e86\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "The grandmother is happy because all the children have returned.",
+          "zh": "\u5b69\u5b50\u4eec\u56de\u6765\u662f\u5976\u5976\u9ad8\u5174\u7684\u539f\u56e0\u3002"
+        },
+        "id": "r7",
+        "kind": "choice",
+        "options": [
+          "\u5976\u5976\u8fc7\u751f\u65e5",
+          "\u4e70\u4e86\u65b0\u8863\u670d",
+          "\u5929\u6c14\u5f88\u597d",
+          "\u5b69\u5b50\u4eec\u90fd\u56de\u6765\u4e86"
+        ],
+        "passage": "\u56e0\u4e3a\u5b69\u5b50\u4eec\u90fd\u56de\u6765\u4e86\uff0c\u6240\u4ee5\u5976\u5976\u5f88\u9ad8\u5174\u3002",
+        "prompt": "\u5976\u5976\u4e3a\u4ec0\u4e48\u9ad8\u5174\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "Their plan for next year is a sightseeing trip to Beijing.",
+          "zh": "\u201c\u53bb\u5317\u4eac\u65c5\u6e38\u201d\u8bf4\u660e\u660e\u5e74\u7684\u8ba1\u5212\u3002"
+        },
+        "id": "r8",
+        "kind": "choice",
+        "options": [
+          "\u5317\u4eac",
+          "\u4e0a\u6d77",
+          "\u897f\u5b89",
+          "\u5e7f\u5dde"
+        ],
+        "passage": "\u660e\u5e74\u6211\u4eec\u51c6\u5907\u53bb\u5317\u4eac\u65c5\u6e38\u3002",
+        "prompt": "\u4ed6\u4eec\u660e\u5e74\u51c6\u5907\u53bb\u54ea\u513f\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "Basketball is his favourite sport, played every single day.",
+          "zh": "\u201c\u6700\u559c\u6b22\u201d\u8bf4\u660e\u7bee\u7403\u6392\u5728\u7b2c\u4e00\u4f4d\u3002"
+        },
+        "id": "r9",
+        "kind": "choice",
+        "options": [
+          "\u8e22\u8db3\u7403",
+          "\u6e38\u6cf3",
+          "\u6253\u7bee\u7403",
+          "\u8dd1\u6b65"
+        ],
+        "passage": "\u4ed6\u6700\u559c\u6b22\u6253\u7bee\u7403\uff0c\u6bcf\u5929\u90fd\u6253\u3002",
+        "prompt": "\u4ed6\u6700\u559c\u6b22\u4ec0\u4e48\u8fd0\u52a8\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "He once tried Beijing roast duck during last year's visit there.",
+          "zh": "\u201c\u5403\u8fc7\u201d\u8bf4\u660e\u8fd9\u662f\u8fc7\u53bb\u7684\u7ecf\u5386\u3002"
+        },
+        "id": "r10",
+        "kind": "choice",
+        "options": [
+          "\u7c73\u996d",
+          "\u9762\u6761",
+          "\u9e21\u86cb",
+          "\u5317\u4eac\u70e4\u9e2d"
+        ],
+        "passage": "\u4ed6\u53bb\u5e74\u53bb\u5317\u4eac\uff0c\u5403\u8fc7\u5317\u4eac\u70e4\u9e2d\u3002",
+        "prompt": "\u4ed6\u53bb\u5e74\u5728\u5317\u4eac\u5403\u4ec0\u4e48\u4e86\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "The measure word for clothing items is \u4ef6 in this sentence.",
+          "zh": "\u8863\u670d\u7684\u91cf\u8bcd\u662f\u201c\u4ef6\u201d\uff0c\u4e00\u4ef6\u8863\u670d\u3002"
+        },
+        "id": "r11",
+        "kind": "choice",
+        "options": [
+          "\u676f",
+          "\u672c",
+          "\u4ef6",
+          "\u4e2a"
+        ],
+        "passage": "\u5988\u5988\u7ed9\u6211\u4e70\u4e86\u4e00\uff08\u3000\uff09\u8863\u670d\u3002 M\u0101ma g\u011bi w\u01d2 m\u01cei le y\u00ec ( ) y\u012bfu.",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "The sentence offers two alternatives: go by car or stay home.",
+          "zh": "\u201c\u6216\u8005\u2026\u2026\u6216\u8005\u2026\u2026\u201d\u7ed9\u51fa\u4e24\u79cd\u9009\u62e9\u3002"
+        },
+        "id": "r12",
+        "kind": "choice",
+        "options": [
+          "\u5750\u8f66\u53bb\u6216\u4e0d\u53bb",
+          "\u660e\u5929\u4e00\u5b9a\u53bb",
+          "\u540e\u5929\u518d\u51b3\u5b9a",
+          "\u8d70\u8def\u53bb"
+        ],
+        "passage": "\u660e\u5929\u4e0b\u96e8\uff0c\u6211\u4eec\u6216\u8005\u5750\u8f66\u53bb\uff0c\u6216\u8005\u4e0d\u53bb\u4e86\u3002",
+        "prompt": "\u660e\u5929\u4e0b\u96e8\uff0c\u4ed6\u4eec\u600e\u4e48\u529e\uff1f",
+        "section": "reading"
+      }
+    ],
+    "sections": [
+      {
+        "id": "reading",
+        "minutes": 10
+      }
+    ],
+    "tips": [
+      {
+        "example": "\u4ed6\u4eec\u6b63\u5728\u6253\u626b\u6559\u5ba4\u5462\u3002",
+        "meaning": {
+          "en": "Show that an action is in progress right now.",
+          "zh": "\u8868\u793a\u52a8\u4f5c\u6b64\u523b\u6b63\u5728\u8fdb\u884c\u3002"
+        },
+        "pattern": "\u6b63\u5728\u2026\u2026\u5462"
+      },
+      {
+        "example": "\u4ed6\u6700\u559c\u6b22\u6253\u7bee\u7403\u3002",
+        "meaning": {
+          "en": "Use \u6700 to mark the top of a range or preference.",
+          "zh": "\u201c\u6700\u201d\u8868\u793a\u8303\u56f4\u5185\u7a0b\u5ea6\u7b2c\u4e00\u3002"
+        },
+        "pattern": "\u6700 + \u52a8\u8bcd / \u5f62\u5bb9\u8bcd"
+      }
+    ]
+  },
+  {
+    "description": {
+      "en": "Notices and short passages with \u628a/\u88ab patterns, concessions and sentence writing.",
+      "zh": "\u8bfb\u61c2\u901a\u77e5\u548c\u77ed\u6587\uff0c\u7ec3\u4e60\u201c\u628a/\u88ab\u201d\u3001\u8f6c\u6298\u4e0e\u77ed\u53e5\u8868\u8fbe\u3002"
+    },
+    "family": "hsk",
+    "format": "HSK 2.0 skills \u00b7 short practice",
+    "id": "hsk-3-02-v1",
+    "label": "HSK 3 \u00b7 02",
+    "language": "zh-CN",
+    "level": "3",
+    "questions": [
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "The notice asks him to collect the parcel before five today.",
+          "zh": "\u901a\u77e5\u8981\u6c42\u4eca\u5929\u4e94\u70b9\u4ee5\u524d\u53bb\u53d6\u3002"
+        },
+        "id": "r1",
+        "kind": "choice",
+        "options": [
+          "\u4eca\u5929\u4e94\u70b9\u524d\u53bb\u95e8\u536b\u53d6\u5feb\u9012",
+          "\u660e\u5929\u518d\u53bb\u95e8\u536b\u770b\u770b",
+          "\u8ba9\u5feb\u9012\u5458\u4e0b\u5468\u518d\u9001",
+          "\u5feb\u9012\u4e0d\u7528\u53d6\u4e86"
+        ],
+        "passage": "\u4f60\u7684\u5feb\u9012\u5230\u4e86\uff0c\u8bf7\u4eca\u5929\u4e0b\u5348\u4e94\u70b9\u4ee5\u524d\u5230\u95e8\u536b\u53d6\uff0c\u8c22\u8c22\u3002",
+        "prompt": "\u4ed6\u4eca\u5929\u5e94\u8be5\u505a\u4ec0\u4e48\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "Coming early is for making dumplings together for grandma's birthday.",
+          "zh": "\u65e9\u70b9\u6765\u662f\u4e3a\u4e86\u201c\u4e00\u8d77\u5305\u997a\u5b50\u201d\u3002"
+        },
+        "id": "r2",
+        "kind": "choice",
+        "options": [
+          "\u53bb\u996d\u5e97\u5403\u996d",
+          "\u4e00\u8d77\u5305\u997a\u5b50",
+          "\u5e2e\u5976\u5976\u642c\u5bb6",
+          "\u5728\u5bb6\u770b\u7535\u89c6"
+        ],
+        "passage": "\u661f\u671f\u516d\u662f\u5976\u5976\u4e03\u5341\u5c81\u751f\u65e5\uff0c\u7238\u7238\u8bf4\u5927\u5bb6\u65e9\u70b9\u6765\uff0c\u4e00\u8d77\u5305\u997a\u5b50\u3002",
+        "prompt": "\u7238\u7238\u4e3a\u4ec0\u4e48\u8ba9\u5927\u5bb6\u65e9\u70b9\u6765\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "Take the subway two stops and leave through the north exit.",
+          "zh": "\u8def\u7ebf\u662f\u5750\u4e24\u7ad9\u5730\u94c1\uff0c\u4ece\u5317\u95e8\u51fa\u6765\u3002"
+        },
+        "id": "r3",
+        "kind": "choice",
+        "options": [
+          "\u5750\u516c\u5171\u6c7d\u8f66\u53bb\u5357\u95e8",
+          "\u8d70\u8def\u5341\u5206\u949f\u5c31\u5230",
+          "\u5750\u4e24\u7ad9\u5730\u94c1\u4ece\u5317\u95e8\u51fa\u6765",
+          "\u6253\u8f66\u53bb\u4e1c\u95e8"
+        ],
+        "passage": "\u5750\u4e24\u7ad9\u5730\u94c1\uff0c\u4ece\u5317\u95e8\u51fa\u6765\uff0c\u535a\u7269\u9986\u5c31\u5728\u65c1\u8fb9\u3002",
+        "prompt": "\u53bb\u535a\u7269\u9986\u600e\u4e48\u8d70\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "Heavy rain and falling temperatures define tomorrow's bad weather.",
+          "zh": "\u201c\u5927\u96e8\u201d\u548c\u201c\u4e0b\u964d\u201d\u8bf4\u660e\u660e\u5929\u5929\u6c14\u4e0d\u597d\u3002"
+        },
+        "id": "r4",
+        "kind": "choice",
+        "options": [
+          "\u6674\u5929\uff0c\u5929\u6c14\u5f88\u70ed",
+          "\u4f1a\u4e0b\u96ea\uff0c\u6c14\u6e29\u5f88\u4f4e",
+          "\u591a\u4e91\uff0c\u6bd4\u8f83\u8212\u670d",
+          "\u6709\u5927\u96e8\uff0c\u6c14\u6e29\u4e0b\u964d"
+        ],
+        "passage": "\u660e\u5929\u6709\u5927\u96e8\uff0c\u6c14\u6e29\u4f1a\u4e0b\u964d\uff0c\u5927\u5bb6\u51fa\u95e8\u8bb0\u5f97\u5e26\u4f1e\u3002",
+        "prompt": "\u660e\u5929\u7684\u5929\u6c14\u600e\u4e48\u6837\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "The pattern shows everyone except Xiao Wang joined the sports event.",
+          "zh": "\u201c\u9664\u4e86\u2026\u2026\u90fd\u2026\u2026\u201d\u8868\u793a\u9664\u4e00\u4eba\u5916\u5168\u90e8\u53c2\u52a0\u3002"
+        },
+        "id": "r5",
+        "kind": "choice",
+        "options": [
+          "\u9664\u4e86",
+          "\u4f46\u662f",
+          "\u6240\u4ee5",
+          "\u5982\u679c"
+        ],
+        "passage": "\uff08\u3000\uff09\u5c0f\u738b\u6ca1\u6765\uff0c\u5927\u5bb6\u90fd\u53c2\u52a0\u4e86\u8fd0\u52a8\u4f1a\u3002",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "section": "reading"
+      },
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "The \u628a construction stresses what was done to clean the room.",
+          "zh": "\u201c\u628a\u623f\u95f4\u6253\u626b\u5e72\u51c0\u201d\u5f3a\u8c03\u5bf9\u623f\u95f4\u7684\u5904\u7406\u3002"
+        },
+        "id": "r6",
+        "kind": "choice",
+        "options": [
+          "\u88ab",
+          "\u628a",
+          "\u7ed9",
+          "\u8ba9"
+        ],
+        "passage": "\u4ed6\u5df2\u7ecf\uff08\u3000\uff09\u623f\u95f4\u6253\u626b\u5e72\u51c0\u4e86\u3002",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "The umbrella is the object taken away, so \u88ab fits here best.",
+          "zh": "\u96e8\u4f1e\u662f\u88ab\u62ff\u8d70\u7684\u5bf9\u8c61\uff0c\u7528\u201c\u88ab\u201d\u3002"
+        },
+        "id": "r7",
+        "kind": "choice",
+        "options": [
+          "\u628a",
+          "\u7ed9",
+          "\u88ab",
+          "\u53eb"
+        ],
+        "passage": "\u6211\u7684\u96e8\u4f1e\uff08\u3000\uff09\u5f1f\u5f1f\u62ff\u8d70\u4e86\u3002",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "After a year he has grown accustomed to life here already.",
+          "zh": "\u4e00\u5e74\u540e\u9002\u5e94\u4e86\u751f\u6d3b\uff0c\u7528\u201c\u4e60\u60ef\u201d\u3002"
+        },
+        "id": "r8",
+        "kind": "choice",
+        "options": [
+          "\u51b3\u5b9a",
+          "\u62c5\u5fc3",
+          "\u5fd8\u8bb0",
+          "\u4e60\u60ef"
+        ],
+        "passage": "\u4ed6\u6765\u4e2d\u56fd\u4e00\u5e74\u4e86\uff0c\u5df2\u7ecf\uff08\u3000\uff09\u8fd9\u91cc\u7684\u751f\u6d3b\u3002",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "Closeness to school and a low price drive his rental decision.",
+          "zh": "\u8fd1\u548c\u4fbf\u5b9c\u662f\u4ed6\u51b3\u5b9a\u79df\u7684\u539f\u56e0\u3002"
+        },
+        "id": "r9",
+        "kind": "choice",
+        "options": [
+          "\u79bb\u5b66\u6821\u8fd1\uff0c\u4ef7\u683c\u4e5f\u4fbf\u5b9c",
+          "\u623f\u95f4\u5f88\u5927\u5f88\u8212\u670d",
+          "\u6709\u5f88\u591a\u65e7\u5bb6\u5177",
+          "\u79bb\u8f66\u7ad9\u975e\u5e38\u8fdc"
+        ],
+        "passage": "\u8fd9\u4e2a\u623f\u95f4\u867d\u7136\u5c0f\uff0c\u4f46\u662f\u79bb\u5b66\u6821\u5f88\u8fd1\uff0c\u4ef7\u683c\u4e5f\u4fbf\u5b9c\uff0c\u6211\u51b3\u5b9a\u79df\u4e0b\u6765\u3002",
+        "prompt": "\u4ed6\u4e3a\u4ec0\u4e48\u51b3\u5b9a\u79df\u8fd9\u4e2a\u623f\u95f4\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "Her warm helpfulness shows a kind and caring neighbourhood character.",
+          "zh": "\u70ed\u60c5\u5e2e\u5fd9\u8bf4\u660e\u5979\u70ed\u5fc3\u52a9\u4eba\u3002"
+        },
+        "id": "r10",
+        "kind": "choice",
+        "options": [
+          "\u53ea\u5173\u5fc3\u81ea\u5df1\u7684\u4e8b",
+          "\u70ed\u5fc3\uff0c\u7231\u5e2e\u52a9\u522b\u4eba",
+          "\u4e0d\u7231\u8bf4\u8bdd\uff0c\u559c\u6b22\u5b89\u9759",
+          "\u5f88\u5c11\u51fa\u95e8"
+        ],
+        "passage": "\u738b\u963f\u59e8\u5bf9\u4eba\u5f88\u70ed\u60c5\uff0c\u8c01\u5bb6\u6709\u4e8b\uff0c\u5979\u90fd\u53bb\u5e2e\u5fd9\u3002",
+        "prompt": "\u738b\u963f\u59e8\u662f\u4e2a\u4ec0\u4e48\u6837\u7684\u4eba\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "C",
+        "explanation": {
+          "en": "The third option matches the new time, place and ID requirement.",
+          "zh": "\u65f6\u95f4\u3001\u5730\u70b9\u548c\u5e26\u8bc1\u8981\u6c42\u90fd\u5728\u7b2c\u4e09\u53e5\u3002"
+        },
+        "id": "r11",
+        "kind": "choice",
+        "options": [
+          "\u661f\u671f\u4e09\u665a\u4e0a\u4e03\u70b9\uff0c\u5728\u4e00\u697c",
+          "\u53bb\u542c\u8bb2\u5ea7\u4e0d\u7528\u5e26\u4e1c\u897f",
+          "\u661f\u671f\u56db\u665a\u4e0a\u4e03\u70b9\u5728\u4e09\u697c\uff0c\u8981\u5e26\u5b66\u751f\u8bc1",
+          "\u661f\u671f\u56db\u4e0a\u5348\u5728\u64cd\u573a\u4e3e\u884c"
+        ],
+        "passage": "\u8bb2\u5ea7\u6539\u5230\u661f\u671f\u56db\u665a\u4e0a\u4e03\u70b9\uff0c\u5728\u4e09\u697c\u4f1a\u8bae\u5ba4\uff0c\u8bf7\u5e26\u5b66\u751f\u8bc1\u3002",
+        "prompt": "\u54ea\u53e5\u8bdd\u662f\u5bf9\u7684\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "D",
+        "explanation": {
+          "en": "Despite feeling ill, he still insists on taking today's exam.",
+          "zh": "\u867d\u7136\u96be\u53d7\uff0c\u4f46\u4ed6\u4ecd\u7136\u8981\u53c2\u52a0\u8003\u8bd5\u3002"
+        },
+        "id": "r12",
+        "kind": "choice",
+        "options": [
+          "\u4e0d\u60f3\u53c2\u52a0\u8003\u8bd5\u4e86",
+          "\u8003\u8bd5\u4e00\u70b9\u4e5f\u4e0d\u91cd\u8981",
+          "\u5934\u75bc\uff0c\u6240\u4ee5\u5728\u5bb6\u4f11\u606f",
+          "\u4e0d\u8212\u670d\uff0c\u4f46\u575a\u6301\u53c2\u52a0\u8003\u8bd5"
+        ],
+        "passage": "\u6211\u611f\u5192\u4e86\uff0c\u5934\u5f88\u75bc\uff0c\u4f46\u662f\u4eca\u5929\u7684\u8003\u8bd5\u5f88\u91cd\u8981\uff0c\u6211\u8fd8\u662f\u575a\u6301\u53bb\u53c2\u52a0\u3002",
+        "prompt": "\u4ed6\u662f\u4ec0\u4e48\u610f\u601d\uff1f",
+        "section": "reading"
+      },
+      {
+        "answer": "A",
+        "explanation": {
+          "en": "The concession pattern shows the event goes on despite the rain.",
+          "zh": "\u201c\u867d\u7136\u2026\u2026\u8fd8\u662f\u2026\u2026\u201d\u8868\u793a\u8ba9\u6b65\u540e\u7ee7\u7eed\u3002"
+        },
+        "id": "r13",
+        "kind": "choice",
+        "options": [
+          "\u8fd8\u662f",
+          "\u5df2\u7ecf",
+          "\u6b63\u5728",
+          "\u5feb\u8981"
+        ],
+        "passage": "\u867d\u7136\u4e0b\u7740\u96e8\uff0c\u8fd0\u52a8\u4f1a\uff08\u3000\uff09\u7ee7\u7eed\u8fdb\u884c\u3002",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "section": "reading"
+      },
+      {
+        "answer": "B",
+        "explanation": {
+          "en": "The main point is that morning produce is better and draws crowds.",
+          "zh": "\u65e9\u4e0a\u83dc\u597d\u4eba\u591a\u662f\u8fd9\u6bb5\u8bdd\u7684\u91cd\u70b9\u3002"
+        },
+        "id": "r14",
+        "kind": "choice",
+        "options": [
+          "\u665a\u4e0a\u7684\u83dc\u66f4\u591a\u66f4\u597d",
+          "\u65e9\u4e0a\u7684\u83dc\u597d\uff0c\u4e70\u7684\u4eba\u591a",
+          "\u83dc\u5e02\u573a\u7684\u4e1c\u897f\u90fd\u5f88\u8d35",
+          "\u5927\u5bb6\u90fd\u4e0d\u53bb\u83dc\u5e02\u573a\u4e86"
+        ],
+        "passage": "\u83dc\u5e02\u573a\u65e9\u4e0a\u7684\u83dc\u53c8\u591a\u53c8\u597d\uff0c\u6240\u4ee5\u4eba\u5f88\u591a\u3002\u665a\u4e0a\u7684\u83dc\u5c11\u4e86\uff0c\u4e70\u7684\u4eba\u4e5f\u5c11\u4e86\u3002",
+        "prompt": "\u8fd9\u6bb5\u8bdd\u4e3b\u8981\u8bf4\u4ec0\u4e48\uff1f",
+        "section": "reading"
+      },
+      {
+        "explanation": {
+          "en": "Include \u65b9\u4fbf in a clear and complete sentence with natural order. This response requires human review and is not auto-scored.",
+          "zh": "\u68c0\u67e5\u53e5\u5b50\u662f\u5426\u5305\u542b\u201c\u65b9\u4fbf\u201d\uff0c\u610f\u601d\u662f\u5426\u6e05\u695a\uff0c\u8bed\u5e8f\u662f\u5426\u81ea\u7136\u3002\u672c\u9898\u4fdd\u7559\u7b54\u5377\uff0c\u9700\u4eba\u5de5\u8bc4\u9605\u3002"
+        },
+        "id": "w1",
+        "kind": "writing",
+        "maxChars": 40,
+        "minChars": 10,
+        "prompt": "\u77ed\u53e5\u8868\u8fbe\u7ec3\u4e60\uff1a\u5730\u94c1\u7ad9\u5728\u4f60\u5bb6\u65c1\u8fb9\uff0c\u5750\u5730\u94c1\u4e0a\u5b66\u5f88\u65b9\u4fbf\u3002\u8bf7\u4f7f\u7528\u201c\u65b9\u4fbf\u201d\u5199\u4e00\u53e5\u5b8c\u6574\u7684\u8bdd\u3002",
+        "section": "writing"
+      },
+      {
+        "explanation": {
+          "en": "Include \u70ed\u95f9 in a clear and complete sentence with natural order. This response requires human review and is not auto-scored.",
+          "zh": "\u68c0\u67e5\u53e5\u5b50\u662f\u5426\u5305\u542b\u201c\u70ed\u95f9\u201d\uff0c\u610f\u601d\u662f\u5426\u6e05\u695a\uff0c\u8bed\u5e8f\u662f\u5426\u81ea\u7136\u3002\u672c\u9898\u4fdd\u7559\u7b54\u5377\uff0c\u9700\u4eba\u5de5\u8bc4\u9605\u3002"
+        },
+        "id": "w2",
+        "kind": "writing",
+        "maxChars": 40,
+        "minChars": 10,
+        "prompt": "\u77ed\u53e5\u8868\u8fbe\u7ec3\u4e60\uff1a\u661f\u671f\u516d\u5bb6\u91cc\u6765\u4e86\u5f88\u591a\u4eba\uff0c\u5927\u5bb6\u4e00\u8d77\u5305\u997a\u5b50\uff0c\u5bb6\u91cc\u5f88\u70ed\u95f9\u3002\u8bf7\u4f7f\u7528\u201c\u70ed\u95f9\u201d\u5199\u4e00\u53e5\u5b8c\u6574\u7684\u8bdd\u3002",
+        "section": "writing"
+      }
+    ],
+    "sections": [
+      {
+        "id": "reading",
+        "minutes": 12
+      },
+      {
+        "id": "writing",
+        "minutes": 8
+      }
+    ],
+    "tips": [
+      {
+        "example": "\u6211\u7684\u96e8\u4f1e\u88ab\u5f1f\u5f1f\u62ff\u8d70\u4e86\u3002",
+        "meaning": {
+          "en": "Show that the subject receives the action in a passive way.",
+          "zh": "\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005\u3002"
+        },
+        "pattern": "\u88ab + \u52a8\u8bcd"
+      },
+      {
+        "example": "\u9664\u4e86\u5c0f\u738b\uff0c\u5927\u5bb6\u90fd\u6765\u4e86\u3002",
+        "meaning": {
+          "en": "Point out one exception while including everyone else involved.",
+          "zh": "\u6307\u51fa\u552f\u4e00\u7684\u4f8b\u5916\uff0c\u5176\u4f59\u90fd\u5305\u62ec\u3002"
+        },
+        "pattern": "\u9664\u4e86\u2026\u2026\u90fd\u2026\u2026"
+      }
+    ]
+  },
+  {
+    "id": "hsk-4-02-v1",
+    "family": "hsk",
+    "label": "HSK 4 \u00b7 02",
+    "level": "4",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills \u00b7 short practice",
+    "description": {
+      "zh": "\u8bfb\u61c2\u90ae\u4ef6\u4e0e\u516c\u544a\uff0c\u7ec3\u8fde\u8bcd\u8fa8\u6790\u3001\u6bb5\u843d\u6392\u5e8f\u548c\u77ed\u53e5\u5199\u4f5c\u3002",
+      "en": "Workplace notes and community notices: connectives, ordering and short writing."
+    },
+    "sections": [
+      {
+        "id": "reading",
+        "minutes": 12
+      },
+      {
+        "id": "writing",
+        "minutes": 10
+      }
+    ],
+    "questions": [
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u53ea\u8981",
+          "\u5c3d\u7ba1",
+          "\u5373\u4f7f",
+          "\u7531\u4e8e"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u63d0\u524d\u8054\u7cfb\u662f\u907f\u514d\u767d\u8dd1\u7684\u6761\u4ef6\uff0c\u7528\u201c\u53ea\u8981\u201d\u3002",
+          "en": "Calling ahead is the condition, so \u53ea\u8981 fits best."
+        },
+        "passage": "\uff08\u3000\uff09\u4f60\u63d0\u524d\u8054\u7cfb\u5ba2\u6237\uff0c\u5c31\u80fd\u907f\u514d\u91cd\u590d\u8dd1\u4e00\u8d9f\u3002"
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u6392\u5217\u53e5\u5b50\uff0c\u9009\u62e9\u6b63\u786e\u987a\u5e8f\u3002",
+        "options": [
+          "\u4e59\u2014\u7532\u2014\u4e19",
+          "\u7532\u2014\u4e19\u2014\u4e59",
+          "\u4e19\u2014\u4e59\u2014\u7532",
+          "\u7532\u2014\u4e59\u2014\u4e19"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u5148\u62a5\u540d\uff0c\u518d\u51c6\u5907\uff0c\u6700\u540e\u6574\u7406\u6210\u653b\u7565\u3002",
+          "en": "The order is signing up, preparing, then writing up the trip."
+        },
+        "passage": "\u7532\uff1a\u4e0a\u5468\u4ed6\u62a5\u540d\u4e86\u5468\u672b\u7684\u767b\u5c71\u6d3b\u52a8\u3002\n\u4e59\uff1a\u51fa\u53d1\u524d\uff0c\u4ed6\u8ba4\u771f\u68c0\u67e5\u4e86\u80cc\u5305\u91cc\u7684\u6c34\u548c\u96e8\u8863\u3002\n\u4e19\uff1a\u56de\u6765\u540e\uff0c\u4ed6\u628a\u7167\u7247\u6574\u7406\u6210\u4e86\u4e00\u7bc7\u65c5\u884c\u653b\u7565\u3002"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u5c0f\u6797\u767d\u5929\u6ca1\u7cbe\u795e\u7684\u4e3b\u8981\u539f\u56e0\u662f\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u623f\u95f4\u592a\u5435",
+          "\u7761\u524d\u73a9\u624b\u673a\uff0c\u7761\u89c9\u592a\u665a",
+          "\u5de5\u4f5c\u592a\u591a",
+          "\u7f3a\u5c11\u8fd0\u52a8"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u77ed\u6587\u6700\u540e\u70b9\u660e\u539f\u56e0\u662f\u7761\u524d\u4e60\u60ef\uff0c\u800c\u975e\u5de5\u4f5c\u91cf\u3002",
+          "en": "The text blames the bedtime phone habit, not the workload."
+        },
+        "passage": "\u5c0f\u6797\u6700\u8fd1\u603b\u89c9\u5f97\u767d\u5929\u6ca1\u7cbe\u795e\u3002\u4ed6\u4ee5\u4e3a\u662f\u5de5\u4f5c\u592a\u591a\uff0c\u540e\u6765\u624d\u53d1\u73b0\uff0c\u81ea\u5df1\u6bcf\u5929\u7761\u524d\u90fd\u8981\u73a9\u4e00\u4e2a\u591a\u5c0f\u65f6\u624b\u673a\uff0c\u5e38\u5e38\u534a\u591c\u624d\u7761\u3002"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u63d0\u9ad8",
+          "\u589e\u52a0",
+          "\u6539\u5584",
+          "\u8fdb\u6b65"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u201c\u63d0\u9ad8\u6548\u7387\u201d\u662f\u56fa\u5b9a\u642d\u914d\u3002",
+          "en": "\u63d0\u9ad8\u6548\u7387 is the standard collocation for efficiency."
+        },
+        "passage": "\u516c\u53f8\u91c7\u53d6\u65b0\u529e\u6cd5\u540e\uff0c\u5458\u5de5\u7684\u5de5\u4f5c\u6548\u7387\u660e\u663e\uff08\u3000\uff09\u4e86\u3002"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u54ea\u53e5\u8bdd\u7b26\u5408\u901a\u77e5\uff1f",
+        "options": [
+          "\u5468\u4e94\u4e0a\u5348\u505c\u6c34\uff0c\u9700\u8981\u63d0\u524d\u5b58\u6c34",
+          "\u5c0f\u533a\u5168\u5929\u90fd\u6ca1\u6709\u6c34",
+          "\u5c45\u6c11\u4e0d\u7528\u505a\u4efb\u4f55\u51c6\u5907",
+          "\u5468\u4e94\u665a\u4e0a\u8981\u505c\u7535"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u901a\u77e5\u53ea\u8bf4\u5468\u4e94\u4e0a\u5348\u505c\u6c34\u7ef4\u4fee\uff0c\u5e76\u63d0\u9192\u63d0\u524d\u5b58\u6c34\u3002",
+          "en": "The notice covers Friday morning only and asks residents to store water."
+        },
+        "passage": "\u7269\u4e1a\u901a\u77e5\uff1a\u672c\u5468\u4e94\u4e0a\u5348\u4e5d\u70b9\u5230\u5341\u4e8c\u70b9\uff0c\u5c0f\u533a\u505c\u6c34\u7ef4\u4fee\uff0c\u8bf7\u5927\u5bb6\u63d0\u524d\u5b58\u6c34\u3002\u7ef4\u4fee\u7ed3\u675f\u540e\uff0c\u4f9b\u6c34\u6062\u590d\u6b63\u5e38\u3002"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u7531\u4e8e",
+          "\u968f\u7740",
+          "\u65e2\u7136",
+          "\u5373\u4f7f"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u8868\u793a\u4f34\u968f\u79d1\u6280\u53d1\u5c55\u51fa\u73b0\u7684\u65b0\u60c5\u51b5\uff0c\u7528\u201c\u968f\u7740\u201d\u3002",
+          "en": "\u968f\u7740 marks a change that comes along with another development."
+        },
+        "passage": "\uff08\u3000\uff09\u79d1\u6280\u7684\u53d1\u5c55\uff0c\u8d8a\u6765\u8d8a\u591a\u7684\u4eba\u9009\u62e9\u5728\u7ebf\u5b66\u4e60\u3002"
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u8fd9\u6bb5\u8bdd\u4e3b\u8981\u8bf4\u660e\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u6280\u672f\u8d8a\u590d\u6742\u8d8a\u597d",
+          "\u8001\u4eba\u4e0d\u5fc5\u63a5\u89e6\u65b0\u6280\u672f",
+          "\u65b0\u6280\u672f\u5e94\u5f53\u53d6\u4ee3\u4e00\u5207\u65e7\u65b9\u5f0f",
+          "\u63a8\u5e7f\u4fbf\u5229\u4e5f\u8981\u7167\u987e\u4e0d\u540c\u4eba\u7fa4"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u4f5c\u8005\u80af\u5b9a\u65b9\u4fbf\uff0c\u4e5f\u63d0\u9192\u7ed9\u4e0d\u540c\u4eba\u7fa4\u591a\u4e00\u70b9\u8010\u5fc3\u3002",
+          "en": "The author welcomes convenience while asking for patience toward different groups."
+        },
+        "passage": "\u73b0\u5728\u51fa\u95e8\u4e70\u4e1c\u897f\uff0c\u5f88\u591a\u4eba\u53ea\u5e26\u4e00\u90e8\u624b\u673a\uff0c\u786e\u5b9e\u5f88\u65b9\u4fbf\u3002\u4e0d\u8fc7\uff0c\u5bf9\u4e00\u4e9b\u8001\u5e74\u4eba\u6765\u8bf4\uff0c\u626b\u7801\u4ed8\u6b3e\u5e76\u4e0d\u7b80\u5355\u3002\u6280\u672f\u5e26\u6765\u65b9\u4fbf\u7684\u65f6\u5019\uff0c\u4e5f\u5e94\u8be5\u7ed9\u4e0d\u540c\u7684\u4eba\u7559\u4e00\u70b9\u8010\u5fc3\u3002"
+      },
+      {
+        "id": "r8",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u70ed\u5fc3",
+          "\u8010\u5fc3",
+          "\u7ec6\u5fc3",
+          "\u5173\u5fc3"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u68c0\u67e5\u62a5\u544a\u4e0d\u653e\u8fc7\u5c0f\u9519\u8bef\uff0c\u7528\u201c\u7ec6\u5fc3\u201d\u3002",
+          "en": "Catching small errors in a report calls for \u7ec6\u5fc3."
+        },
+        "passage": "\u4ed6\u5bf9\u5de5\u4f5c\u5f88\u8d1f\u8d23\uff0c\u68c0\u67e5\u62a5\u544a\u65f6\u7279\u522b\uff08\u3000\uff09\uff0c\u8fde\u4e00\u4e2a\u5c0f\u9519\u8bef\u4e5f\u4e0d\u653e\u8fc7\u3002"
+      },
+      {
+        "id": "r9",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4f1a\u8bae\u4ec0\u4e48\u65f6\u5019\u5f00\uff1f",
+        "options": [
+          "\u5468\u4e09\u4e0a\u5348\u5341\u70b9",
+          "\u5468\u4e94\u4e0b\u5348\u4e09\u70b9",
+          "\u5468\u56db\u4e0b\u5348\u4e09\u70b9",
+          "\u4e0b\u5468\u4e00\u4e0a\u5348"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u90ae\u4ef6\u660e\u786e\u628a\u4f1a\u8bae\u6539\u5230\u5468\u56db\u4e0b\u5348\u4e09\u70b9\u3002",
+          "en": "The email moves the meeting to Thursday at three in the afternoon."
+        },
+        "passage": "\u738b\u7ecf\u7406\uff1a\u672c\u5468\u7684\u4f1a\u8bae\u6539\u5230\u5468\u56db\u4e0b\u5348\u4e09\u70b9\u5f00\uff0c\u8bf7\u5927\u5bb6\u63d0\u524d\u51c6\u5907\u597d\u6750\u6599\u3002\u5982\u679c\u4e0d\u80fd\u53c2\u52a0\uff0c\u8bf7\u63d0\u524d\u5411\u6211\u8bf7\u5047\u3002"
+      },
+      {
+        "id": "r10",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u5931\u53bb",
+          "\u5fd8\u8bb0",
+          "\u79bb\u5f00",
+          "\u9519\u8fc7"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u6ca1\u8d76\u4e0a\u8f66\uff0c\u7528\u201c\u9519\u8fc7\u201d\u3002",
+          "en": "Missing a bus or train is \u9519\u8fc7."
+        },
+        "passage": "\u4ed6\u65e9\u4e0a\u8d77\u5e8a\u665a\u4e86\uff0c\uff08\u3000\uff09\u4e86\u7b2c\u4e00\u73ed\u516c\u4ea4\u8f66\uff0c\u53ea\u597d\u6253\u8f66\u53bb\u516c\u53f8\u3002"
+      },
+      {
+        "id": "r11",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u5ba2\u4eba\u4e3a\u4ec0\u4e48\u559c\u6b22\u8fd9\u5bb6\u6c11\u5bbf\uff1f",
+        "options": [
+          "\u4ef7\u683c\u6700\u4f4e",
+          "\u4f4d\u7f6e\u65b9\u4fbf\u3001\u670d\u52a1\u5468\u5230",
+          "\u623f\u95f4\u6700\u5927",
+          "\u8001\u677f\u4e0d\u63d0\u4f9b\u5e2e\u52a9"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u79bb\u6d77\u8fb9\u8fd1\u3001\u623f\u95f4\u5e72\u51c0\uff0c\u8fd8\u51c6\u5907\u65c5\u6e38\u5730\u56fe\uff0c\u6240\u4ee5\u89c9\u5f97\u503c\u5f97\u3002",
+          "en": "Guests value the location near the sea and the thoughtful map."
+        },
+        "passage": "\u8fd9\u5bb6\u6c11\u5bbf\u79bb\u6d77\u8fb9\u53ea\u6709\u4e94\u5206\u949f\uff0c\u623f\u95f4\u5e72\u51c0\uff0c\u8001\u677f\u8fd8\u4e3a\u5927\u5bb6\u51c6\u5907\u4e86\u65c5\u6e38\u5730\u56fe\u3002\u867d\u7136\u4ef7\u683c\u6bd4\u9152\u5e97\u8d35\u4e00\u70b9\uff0c\u4f46\u5f88\u591a\u5ba2\u4eba\u90fd\u8bf4\u4f4f\u5f97\u5f88\u503c\u5f97\u3002"
+      },
+      {
+        "id": "r12",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u96be\u9053",
+          "\u5230\u5e95",
+          "\u53cd\u800c",
+          "\u51e0\u4e4e"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u611f\u5192\u540e\u7cbe\u795e\u66f4\u597d\uff0c\u4e0e\u9884\u671f\u76f8\u53cd\uff0c\u7528\u201c\u53cd\u800c\u201d\u3002",
+          "en": "\u53cd\u800c marks a result opposite to what was expected."
+        },
+        "passage": "\u4ed6\u6628\u5929\u8fd8\u6709\u70b9\u611f\u5192\uff0c\u4eca\u5929\uff08\u3000\uff09\u6bd4\u5e73\u65f6\u66f4\u6709\u7cbe\u795e\u4e86\u3002"
+      },
+      {
+        "id": "w1",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "\u6392\u5217\u8bcd\u8bed\uff0c\u5199\u6210\u53e5\u5b50\uff1a\n\u53c2\u52a0 / \u4ed6 / \u8bfb\u4e66\u4f1a / \u6309\u65f6 / \u4e86",
+        "explanation": {
+          "zh": "\u201c\u6309\u65f6\u201d\u653e\u5728\u52a8\u8bcd\u201c\u53c2\u52a0\u201d\u524d\u9762\u3002",
+          "en": "The adverb \u6309\u65f6 comes before the verb \u53c2\u52a0."
+        },
+        "answer": "\u4ed6\u6309\u65f6\u53c2\u52a0\u8bfb\u4e66\u4f1a\u4e86",
+        "accepted": [
+          "\u4ed6\u6309\u65f6\u53c2\u52a0\u4e86\u8bfb\u4e66\u4f1a"
+        ]
+      },
+      {
+        "id": "w2",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "\u6392\u5217\u8bcd\u8bed\uff0c\u5199\u6210\u53e5\u5b50\uff1a\n\u738b\u7ecf\u7406 / \u5df2\u7ecf / \u628a / \u90ae\u4ef6 / \u53d1\u7ed9 / \u5927\u5bb6 / \u4e86",
+        "explanation": {
+          "zh": "\u4f7f\u7528\u201c\u628a\u201d\u5b57\u53e5\uff0c\u5bbe\u8bed\u201c\u90ae\u4ef6\u201d\u63d0\u524d\u3002",
+          "en": "Use the \u628a construction with \u90ae\u4ef6 before the verb."
+        },
+        "answer": "\u738b\u7ecf\u7406\u5df2\u7ecf\u628a\u90ae\u4ef6\u53d1\u7ed9\u5927\u5bb6\u4e86"
+      },
+      {
+        "id": "w3",
+        "section": "writing",
+        "kind": "writing",
+        "prompt": "\u77ed\u53e5\u8868\u8fbe\u7ec3\u4e60\uff1a\u5730\u94c1\u7ad9\u65c1\u8fb9\u65b0\u5f00\u4e86\u4e00\u5bb6\u8d85\u5e02\uff0c\u4e70\u4e1c\u897f\u5f88\u65b9\u4fbf\u3002\u8bf7\u4f7f\u7528\u201c\u65b9\u4fbf\u201d\u5199\u4e00\u53e5\u5b8c\u6574\u7684\u8bdd\u3002",
+        "explanation": {
+          "zh": "\u68c0\u67e5\u53e5\u5b50\u662f\u5426\u5305\u542b\u201c\u65b9\u4fbf\u201d\uff0c\u5730\u70b9\u548c\u4e8b\u60c5\u662f\u5426\u6e05\u695a\u3002\u672c\u9898\u4fdd\u7559\u7b54\u5377\uff0c\u9700\u4eba\u5de5\u8bc4\u9605\u3002",
+          "en": "Include \u65b9\u4fbf and keep the place and event clear. This response requires human review."
+        },
+        "minChars": 10,
+        "maxChars": 40
+      },
+      {
+        "id": "w4",
+        "section": "writing",
+        "kind": "writing",
+        "prompt": "\u77ed\u53e5\u8868\u8fbe\u7ec3\u4e60\uff1a\u4ed6\u7761\u524d\u603b\u770b\u624b\u673a\uff0c\u7b2c\u4e8c\u5929\u6ca1\u6709\u7cbe\u795e\u3002\u8bf7\u4f7f\u7528\u201c\u5f71\u54cd\u201d\u5199\u4e00\u53e5\u5b8c\u6574\u7684\u8bdd\u3002",
+        "explanation": {
+          "zh": "\u53ef\u7528\u201c\u5f71\u54cd\u7761\u7720/\u7cbe\u795e\u201d\u7ec4\u7ec7\u53e5\u5b50\u3002\u4e0d\u8981\u628a\u5b57\u6570\u8fbe\u6807\u5f53\u4f5c\u5f97\u5206\u3002",
+          "en": "You may write about affecting sleep or energy. Meeting the length target is not a score."
+        },
+        "minChars": 10,
+        "maxChars": 40
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "\u53ea\u8981\u2026\u2026\u5c31\u2026\u2026",
+        "example": "\u53ea\u8981\u63d0\u524d\u8054\u7cfb\uff0c\u5c31\u80fd\u907f\u514d\u767d\u8dd1\u4e00\u8d9f\u3002",
+        "meaning": {
+          "zh": "\u8868\u793a\u6761\u4ef6\u548c\u7ed3\u679c\u3002",
+          "en": "Link a condition with its result."
+        }
+      },
+      {
+        "pattern": "\u53cd\u800c",
+        "example": "\u4ed6\u6628\u5929\u8fd8\u611f\u5192\uff0c\u4eca\u5929\u53cd\u800c\u66f4\u6709\u7cbe\u795e\u4e86\u3002",
+        "meaning": {
+          "zh": "\u8868\u793a\u7ed3\u679c\u4e0e\u9884\u671f\u76f8\u53cd\u3002",
+          "en": "Mark a result opposite to what was expected."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsk-5-02-v1",
+    "family": "hsk",
+    "label": "HSK 5 \u00b7 02",
+    "level": "5",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills \u00b7 short practice",
+    "description": {
+      "zh": "\u5206\u6790\u8bf4\u660e\u4e0e\u8bc4\u8bba\uff0c\u7ec3\u903b\u8f91\u8865\u53e5\u3001\u8bcd\u8bed\u8fa8\u6790\u548c\u9650\u5b9a\u8bcd\u6210\u6bb5\u3002",
+      "en": "Explanations and commentary: logical links, word choice and constrained writing."
+    },
+    "sections": [
+      {
+        "id": "reading",
+        "minutes": 15
+      },
+      {
+        "id": "writing",
+        "minutes": 15
+      }
+    ],
+    "questions": [
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u96be\u514d",
+          "\u96be\u5f97",
+          "\u5e78\u4e8f",
+          "\u5076\u7136"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u6267\u884c\u4e2d\u9047\u5230\u610f\u5916\u96be\u4ee5\u907f\u514d\uff0c\u7528\u201c\u96be\u514d\u201d\u3002",
+          "en": "Unexpected issues are hard to avoid, so \u96be\u514d fits."
+        },
+        "passage": "\u8ba1\u5212\u518d\u8be6\u7ec6\uff0c\u6267\u884c\u4e2d\u4e5f\uff08\u3000\uff09\u4f1a\u9047\u5230\u610f\u5916\uff0c\u5173\u952e\u662f\u53ca\u65f6\u8c03\u6574\u3002"
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u6587\u4e2d\u201c\u8327\u623f\u201d\u6700\u63a5\u8fd1\u4ec0\u4e48\u542b\u4e49\uff1f",
+        "options": [
+          "\u623f\u95f4\u4e0d\u901a\u98ce",
+          "\u5fd8\u8bb0\u91cd\u8981\u5b89\u6392",
+          "\u53ea\u63a5\u89e6\u7b26\u5408\u81ea\u5df1\u770b\u6cd5\u7684\u4fe1\u606f",
+          "\u628a\u4efb\u52a1\u4ea4\u7ed9\u522b\u4eba"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u53ea\u770b\u559c\u6b22\u7684\u5185\u5bb9\uff0c\u5c31\u4f1a\u542c\u4e0d\u5230\u4e0d\u540c\u7684\u58f0\u97f3\u3002",
+          "en": "It means hearing only views that match one\u2019s own."
+        },
+        "passage": "\u6709\u4eba\u6bcf\u5929\u53ea\u770b\u81ea\u5df1\u559c\u6b22\u7684\u5185\u5bb9\uff0c\u65f6\u95f4\u4e45\u4e86\uff0c\u770b\u5230\u7684\u60f3\u6cd5\u90fd\u548c\u81ea\u5df1\u4e00\u6837\uff0c\u597d\u50cf\u4f4f\u8fdb\u4e86\u4e00\u95f4\u770b\u4e0d\u89c1\u7684\u201c\u8327\u623f\u201d\uff0c\u542c\u4e0d\u5230\u5916\u9762\u7684\u58f0\u97f3\u3002"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u8fd9\u6bb5\u8bdd\u5f3a\u8c03\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u7167\u7247\u8d8a\u7cbe\u7f8e\u653b\u7565\u8d8a\u597d",
+          "\u771f\u5b9e\u5177\u4f53\u7684\u8bb0\u5f55\u6bd4\u7cbe\u7f8e\u5ba3\u4f20\u66f4\u6709\u7528",
+          "\u4e0d\u5e94\u8be5\u5199\u65c5\u884c\u653b\u7565",
+          "\u53ea\u53bb\u70ed\u95e8\u666f\u70b9\u5c31\u591f\u4e86"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u91cd\u70b9\u662f\u771f\u5b9e\u7ec6\u8282\u7684\u5e2e\u52a9\uff0c\u800c\u975e\u5426\u5b9a\u5199\u653b\u7565\u3002",
+          "en": "The point is that honest detail helps more than polished photos."
+        },
+        "passage": "\u7f51\u4e0a\u6709\u8bb8\u591a\u65c5\u884c\u653b\u7565\uff0c\u7167\u7247\u90fd\u5f88\u7f8e\uff0c\u4f46\u6709\u4e9b\u662f\u7cbe\u5fc3\u4fee\u9970\u8fc7\u7684\u3002\u771f\u6b63\u6709\u7528\u7684\u653b\u7565\uff0c\u5f80\u5f80\u5199\u6e05\u4e86\u4ea4\u901a\u3001\u82b1\u8d39\u548c\u5bb9\u6613\u8e29\u7684\u5751\u3002\u6bd4\u8d77\u597d\u770b\u7684\u7167\u7247\uff0c\u771f\u5b9e\u5177\u4f53\u7684\u8bb0\u5f55\u66f4\u80fd\u5e2e\u5230\u540e\u6765\u7684\u4eba\u3002"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u589e\u52a0",
+          "\u7f13\u89e3",
+          "\u907f\u514d",
+          "\u9690\u85cf"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u201c\u7f13\u89e3\u75b2\u52b3\u201d\u662f\u56fa\u5b9a\u642d\u914d\u3002",
+          "en": "\u7f13\u89e3\u75b2\u52b3 means to ease tiredness."
+        },
+        "passage": "\u957f\u65f6\u95f4\u5f00\u4f1a\u540e\uff0c\u7ad9\u8d77\u6765\u8d70\u52a8\u51e0\u5206\u949f\uff0c\u80fd\u6709\u6548\uff08\u3000\uff09\u75b2\u52b3\u3002"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u6839\u636e\u77ed\u6587\uff0c\u53ef\u4ee5\u5f97\u51fa\u4ec0\u4e48\u7ed3\u8bba\uff1f",
+        "options": [
+          "\u89c4\u5219\u8d8a\u591a\u6548\u679c\u8d8a\u597d",
+          "\u5c45\u6c11\u5b8c\u5168\u4e0d\u613f\u610f\u914d\u5408",
+          "\u5206\u7c7b\u5de5\u4f5c\u6beb\u65e0\u610f\u4e49",
+          "\u4e60\u60ef\u9700\u8981\u65f6\u95f4\uff0c\u65b9\u4fbf\u7684\u8bbe\u65bd\u52a0\u660e\u786e\u7684\u6307\u5bfc\u80fd\u6539\u53d8\u884c\u4e3a"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u4ece\u62b1\u6028\u5230\u914d\u5408\uff0c\u8bf4\u660e\u8bbe\u65bd\u548c\u6307\u5bfc\u8d77\u5230\u4e86\u4f5c\u7528\u3002",
+          "en": "The shift from complaints to cooperation shows facilities and guidance work."
+        },
+        "passage": "\u5c0f\u533a\u5b9e\u884c\u5783\u573e\u5206\u7c7b\u540e\uff0c\u5f00\u59cb\u6709\u4eba\u62b1\u6028\u9ebb\u70e6\u3002\u7269\u4e1a\u5728\u6bcf\u680b\u697c\u4e0b\u653e\u4e86\u5206\u7c7b\u5783\u573e\u6876\uff0c\u8fd8\u8bf7\u5fd7\u613f\u8005\u73b0\u573a\u6307\u5bfc\u3002\u534a\u5e74\u540e\uff0c\u53ef\u56de\u6536\u7269\u7684\u6570\u91cf\u660e\u663e\u589e\u52a0\uff0c\u968f\u624b\u4e71\u6254\u7684\u4eba\u4e5f\u5c11\u4e86\u3002"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u8865\u5165\u6700\u5408\u9002\u7684\u53e5\u5b50\u3002",
+        "options": [
+          "\u6240\u4ee5\u4eba\u5de5\u6838\u5bf9\u5df2\u7ecf\u5b8c\u5168\u6d88\u5931",
+          "\u56e0\u6b64\u7cfb\u7edf\u6545\u969c\u6c38\u8fdc\u4e0d\u4f1a\u53d1\u751f",
+          "\u4e5f\u5c31\u662f\u8bf4\u6570\u636e\u4e0d\u518d\u9700\u8981\u66f4\u65b0",
+          "\u4f46\u5927\u5bb6\u7684\u5de5\u4f5c\u8d1f\u62c5\u5e76\u672a\u771f\u6b63\u51cf\u8f7b"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u8f6c\u6298\u53e5\u6307\u51fa\u771f\u6b63\u8017\u65f6\u7684\u90e8\u5206\u6ca1\u6709\u53d8\u5316\u3002",
+          "en": "The contrast shows the time-consuming part has not changed."
+        },
+        "passage": "\u65b0\u7cfb\u7edf\u4e0a\u7ebf\u540e\uff0c\u586b\u8868\u7684\u65f6\u95f4\u7f29\u77ed\u4e86\u4e00\u534a\uff0c\uff08\u3000\uff09\u3002\u771f\u6b63\u8017\u65f6\u7684\u53cd\u590d\u6838\u5bf9\u5e76\u6ca1\u6709\u51cf\u5c11\uff0c\u6708\u5e95\u52a0\u73ed\u4f9d\u7136\u5e38\u89c1\u3002"
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4f5c\u8005\u5bf9\u5c0f\u4f17\u76ee\u7684\u5730\u7684\u770b\u6cd5\u662f\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u503c\u5f97\u4e00\u53bb\uff0c\u4f46\u8981\u63d0\u524d\u51c6\u5907\u3001\u5c0a\u91cd\u5f53\u5730",
+          "\u5c0f\u4f17\u76ee\u7684\u5730\u6beb\u65e0\u4ef7\u503c",
+          "\u53bb\u7684\u4eba\u8d8a\u5c11\u8d8a\u597d",
+          "\u4e0d\u9700\u8981\u505a\u4efb\u4f55\u51c6\u5907"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u80af\u5b9a\u7279\u8272\uff0c\u540c\u65f6\u63d0\u51fa\u4ea4\u901a\u3001\u4f4f\u5bbf\u548c\u73af\u4fdd\u65b9\u9762\u7684\u63d0\u9192\u3002",
+          "en": "The author likes quieter places but urges preparation and respect."
+        },
+        "passage": "\u6bd4\u8d77\u4eba\u591a\u7684\u70ed\u95e8\u666f\u70b9\uff0c\u4e00\u4e9b\u5c0f\u4f17\u76ee\u7684\u5730\u5b89\u9759\u53c8\u6709\u7279\u8272\u3002\u4e0d\u8fc7\uff0c\u90a3\u91cc\u7684\u4ea4\u901a\u548c\u4f4f\u5bbf\u53ef\u80fd\u4e0d\u592a\u65b9\u4fbf\uff0c\u4e5f\u9700\u8981\u6e38\u5ba2\u66f4\u52a0\u6ce8\u610f\u4fdd\u62a4\u73af\u5883\u3002\u63d0\u524d\u67e5\u597d\u8def\u7ebf\u3001\u5c0a\u91cd\u5f53\u5730\u4e60\u60ef\uff0c\u624d\u80fd\u73a9\u5f97\u5b89\u5fc3\u3002"
+      },
+      {
+        "id": "r8",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u7ec4\u3002",
+        "options": [
+          "\u4e0d\u4f46 / \u800c\u4e14",
+          "\u5982\u679c / \u5c31",
+          "\u4e0e\u5176 / \u4e0d\u5982",
+          "\u867d\u7136 / \u4f46\u662f"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u820d\u5f03\u62b1\u6028\u3001\u9009\u62e9\u884c\u52a8\uff0c\u7528\u201c\u4e0e\u5176\u2026\u2026\u4e0d\u5982\u2026\u2026\u201d\u3002",
+          "en": "\u4e0e\u5176\u2026\u2026\u4e0d\u5982\u2026\u2026 rejects complaining in favour of action."
+        },
+        "passage": "\uff08\u3000\uff09\u62b1\u6028\u5de5\u4f5c\u592a\u591a\uff0c\uff08\u3000\uff09\u5148\u5217\u51fa\u6e05\u5355\uff0c\u4e00\u4ef6\u4e00\u4ef6\u5b8c\u6210\u3002"
+      },
+      {
+        "id": "r9",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u6839\u636e\u90ae\u4ef6\uff0c\u771f\u6b63\u7684\u6311\u6218\u662f\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u8bbe\u8ba1\u7a3f\u63d0\u524d\u5b8c\u6210",
+          "\u53d1\u5e03\u65f6\u95f4\u63a8\u8fdf",
+          "\u6d4b\u8bd5\u65f6\u95f4\u66f4\u7d27\u5f20",
+          "\u5f00\u53d1\u4efb\u52a1\u5df2\u7ecf\u53d6\u6d88"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u5f00\u53d1\u63a8\u8fdf\u4f46\u53d1\u5e03\u4e0d\u53d8\uff0c\u6324\u538b\u7684\u662f\u6d4b\u8bd5\u65f6\u95f4\u3002",
+          "en": "With the release date fixed, the delay squeezes testing time."
+        },
+        "passage": "\u5404\u7ec4\u6ce8\u610f\uff1a\u8bbe\u8ba1\u7a3f\u8981\u5468\u4e94\u624d\u80fd\u5b9a\u7a3f\uff0c\u5f00\u53d1\u76f8\u5e94\u63a8\u8fdf\u4e24\u5929\uff0c\u4f46\u53d1\u5e03\u65f6\u95f4\u4e0d\u53d8\u3002\u8bf7\u6d4b\u8bd5\u7ec4\u63d0\u524d\u505a\u597d\u51c6\u5907\uff0c\u538b\u7f29\u540e\u7684\u6d4b\u8bd5\u65f6\u95f4\u4f1a\u66f4\u7d27\u5f20\u3002"
+      },
+      {
+        "id": "r10",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u3002",
+        "options": [
+          "\u5931\u53bb",
+          "\u9519\u8fc7",
+          "\u5fd8\u8bb0",
+          "\u8f9c\u8d1f"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u201c\u8f9c\u8d1f\u671f\u671b\u201d\u662f\u56fa\u5b9a\u642d\u914d\u3002",
+          "en": "\u8f9c\u8d1f\u671f\u671b means to let down someone\u2019s expectations."
+        },
+        "passage": "\u4ed6\u4e0d\u60f3\uff08\u3000\uff09\u7236\u6bcd\u7684\u671f\u671b\uff0c\u51b3\u5b9a\u518d\u8003\u4e00\u6b21\u3002"
+      },
+      {
+        "id": "r11",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u6587\u4e2d\u201c\u5145\u7535\u201d\u662f\u4ec0\u4e48\u610f\u601d\uff1f",
+        "options": [
+          "\u624b\u673a\u7535\u91cf\u4e0d\u8db3",
+          "\u5229\u7528\u4e1a\u4f59\u65f6\u95f4\u5b66\u4e60\u3001\u63d0\u5347\u81ea\u5df1",
+          "\u653e\u5f03\u539f\u6765\u7684\u5b66\u4e60\u8ba1\u5212",
+          "\u5de5\u4f5c\u592a\u7d2f\u9700\u8981\u8bf7\u5047"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u201c\u5145\u7535\u201d\u6bd4\u55bb\u5229\u7528\u4e1a\u4f59\u65f6\u95f4\u63d0\u5347\u81ea\u5df1\u3002",
+          "en": "\u5145\u7535 here means recharging oneself through learning."
+        },
+        "passage": "\u5de5\u4f5c\u65e5\u5f88\u5fd9\uff0c\u5979\u8fd8\u662f\u6bcf\u5468\u62bd\u51fa\u4e24\u4e2a\u665a\u4e0a\u53c2\u52a0\u8bfb\u4e66\u4f1a\uff0c\u8fd8\u62a5\u4e86\u4e00\u4e2a\u77ed\u89c6\u9891\u5236\u4f5c\u8bfe\u3002\u7528\u5979\u7684\u8bdd\u8bf4\uff0c\u8fd9\u662f\u5728\u7ed9\u81ea\u5df1\u201c\u5145\u7535\u201d\u3002"
+      },
+      {
+        "id": "r12",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4f5c\u8005\u8ba4\u4e3a\u6280\u672f\u6539\u8fdb\u9700\u8981\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u900f\u660e\u89c4\u5219\u548c\u7528\u6237\u9009\u62e9",
+          "\u5c3d\u53ef\u80fd\u591a\u6536\u96c6\u6570\u636e",
+          "\u7528\u6237\u6570\u636e\u6beb\u65e0\u4ef7\u503c",
+          "\u5b8c\u5168\u4e0d\u8c08\u9690\u79c1\u95ee\u9898"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u516c\u5f00\u6536\u96c6\u8303\u56f4\u5e76\u8ba9\u7528\u6237\u51b3\u5b9a\uff0c\u517c\u987e\u6539\u8fdb\u4e0e\u9690\u79c1\u3002",
+          "en": "Open rules plus user choice balance improvement with privacy."
+        },
+        "passage": "\u4e00\u5bb6\u8fd0\u52a8\u8f6f\u4ef6\u6536\u96c6\u7528\u6237\u7684\u8dd1\u6b65\u6570\u636e\uff0c\u7528\u6765\u6539\u8fdb\u8bad\u7ec3\u5efa\u8bae\u3002\u4f46\u4e5f\u6709\u7528\u6237\u62c5\u5fc3\uff0c\u81ea\u5df1\u7684\u4f4d\u7f6e\u548c\u4f5c\u606f\u88ab\u8bb0\u5f55\u5f97\u592a\u591a\u3002\u516c\u53f8\u56de\u5e94\u8bf4\uff0c\u4f1a\u516c\u5f00\u6536\u96c6\u54ea\u4e9b\u4fe1\u606f\uff0c\u5e76\u8ba9\u7528\u6237\u81ea\u5df1\u51b3\u5b9a\u662f\u5426\u5206\u4eab\u3002"
+      },
+      {
+        "id": "w1",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "\u6392\u5217\u8bcd\u8bed\uff0c\u5199\u6210\u53e5\u5b50\uff1a\n\u7ecf\u8fc7 / \u591a\u6b21\u8ba8\u8bba / \u516c\u53f8 / \u7ec8\u4e8e / \u901a\u8fc7\u4e86 / \u65b0\u65b9\u6848",
+        "explanation": {
+          "zh": "\u201c\u7ecf\u8fc7\u2026\u2026\u201d\u4f5c\u80cc\u666f\uff0c\u201c\u516c\u53f8\u201d\u662f\u4e3b\u8bed\u3002",
+          "en": "The \u7ecf\u8fc7 phrase sets the background and \u516c\u53f8 is the subject."
+        },
+        "answer": "\u7ecf\u8fc7\u591a\u6b21\u8ba8\u8bba\uff0c\u516c\u53f8\u7ec8\u4e8e\u901a\u8fc7\u4e86\u65b0\u65b9\u6848",
+        "accepted": [
+          "\u516c\u53f8\u7ecf\u8fc7\u591a\u6b21\u8ba8\u8bba\uff0c\u7ec8\u4e8e\u901a\u8fc7\u4e86\u65b0\u65b9\u6848"
+        ]
+      },
+      {
+        "id": "w2",
+        "section": "writing",
+        "kind": "order",
+        "prompt": "\u6392\u5217\u8bcd\u8bed\uff0c\u5199\u6210\u53e5\u5b50\uff1a\n\u4ed6 / \u5728\u5927\u5bb6\u7684\u5e2e\u52a9\u4e0b / \u514b\u670d\u4e86 / \u91cd\u91cd / \u56f0\u96be",
+        "explanation": {
+          "zh": "\u201c\u5728\u2026\u2026\u4e0b\u201d\u653e\u5728\u4e3b\u8bed\u540e\u3001\u52a8\u8bcd\u524d\u3002",
+          "en": "The \u5728\u2026\u2026\u4e0b phrase goes between the subject and the verb."
+        },
+        "answer": "\u4ed6\u5728\u5927\u5bb6\u7684\u5e2e\u52a9\u4e0b\u514b\u670d\u4e86\u91cd\u91cd\u56f0\u96be",
+        "accepted": [
+          "\u5728\u5927\u5bb6\u7684\u5e2e\u52a9\u4e0b\uff0c\u4ed6\u514b\u670d\u4e86\u91cd\u91cd\u56f0\u96be"
+        ]
+      },
+      {
+        "id": "w3",
+        "section": "writing",
+        "kind": "writing",
+        "prompt": "\u8bf7\u628a\u4e0b\u9762\u4e94\u4e2a\u8bcd\u8bed\u90fd\u7528\u4e0a\uff0c\u5199\u4e00\u7bc7\u7ea6 80 \u5b57\u7684\u77ed\u6587\uff1a\n\u9884\u7ea6\u3001\u723d\u7ea6\u3001\u4f53\u8c05\u3001\u534f\u8c03\u3001\u6539\u8fdb",
+        "explanation": {
+          "zh": "\u68c0\u67e5\u4e94\u4e2a\u8bcd\u662f\u5426\u5168\u90e8\u4f7f\u7528\uff0c\u4e8b\u4ef6\u662f\u5426\u5b8c\u6574\uff0c\u524d\u540e\u5173\u7cfb\u662f\u5426\u81ea\u7136\u3002\u5199\u4f5c\u4e0d\u81ea\u52a8\u6253\u5206\u3002",
+          "en": "Use all five words in a coherent short passage. Writing is not automatically scored."
+        },
+        "minChars": 80,
+        "maxChars": 100
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "\u4e0e\u5176\u2026\u2026\u4e0d\u5982\u2026\u2026",
+        "example": "\u4e0e\u5176\u62b1\u6028\uff0c\u4e0d\u5982\u5148\u5217\u51fa\u6e05\u5355\u3002",
+        "meaning": {
+          "zh": "\u820d\u5f03\u4e00\u79cd\u9009\u62e9\uff0c\u63d0\u51fa\u66f4\u597d\u7684\u9009\u62e9\u3002",
+          "en": "Reject one option in favour of a better one."
+        }
+      },
+      {
+        "pattern": "\u96be\u514d",
+        "example": "\u8ba1\u5212\u518d\u8be6\u7ec6\uff0c\u6267\u884c\u4e2d\u4e5f\u96be\u514d\u9047\u5230\u610f\u5916\u3002",
+        "meaning": {
+          "zh": "\u8868\u793a\u67d0\u79cd\u60c5\u51b5\u96be\u4ee5\u907f\u514d\u3002",
+          "en": "Say that something is hard to avoid."
+        }
+      }
+    ]
+  },
+  {
+    "id": "hsk-6-02-v1",
+    "family": "hsk",
+    "label": "HSK 6 \u00b7 02",
+    "level": "6",
+    "language": "zh-CN",
+    "format": "HSK 2.0 skills \u00b7 short practice",
+    "description": {
+      "zh": "\u8fa8\u6790\u8bed\u75c5\u4e0e\u8bba\u8bc1\uff0c\u7ec3\u9690\u542b\u6001\u5ea6\u5224\u65ad\u548c\u8bfb\u540e\u7f29\u5199\u3002",
+      "en": "Sentence errors, arguments and implied attitudes, plus a read-then-summarise task."
+    },
+    "sections": [
+      {
+        "id": "reading",
+        "minutes": 16
+      },
+      {
+        "id": "writing",
+        "minutes": 12
+      }
+    ],
+    "questions": [
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4e0b\u9762\u54ea\u4e00\u53e5\u6709\u8bed\u75c5\uff1f",
+        "options": [
+          "\u65b0\u653f\u7b56\u7684\u51fa\u53f0\uff0c\u53d7\u5230\u5c45\u6c11\u7684\u666e\u904d\u6b22\u8fce\u3002",
+          "\u4ed6\u7f3a\u5e2d\u4f1a\u8bae\u7684\u539f\u56e0\u662f\u56e0\u4e3a\u8eab\u4f53\u4e0d\u9002\u3002",
+          "\u7814\u7a76\u4eba\u5458\u5bf9\u6570\u636e\u8fdb\u884c\u4e86\u53cd\u590d\u6838\u5bf9\u3002",
+          "\u8fd9\u672c\u4e66\u7684\u89c2\u70b9\u65b0\u9896\uff0c\u8bba\u8bc1\u4e5f\u5f88\u5145\u5206\u3002"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u201c\u539f\u56e0\u201d\u4e0e\u201c\u662f\u56e0\u4e3a\u201d\u6742\u7cc5\uff0c\u5e94\u5220\u53bb\u5176\u4e00\u3002",
+          "en": "\u539f\u56e0 and \u662f\u56e0\u4e3a are mixed; one of them must go."
+        }
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u7ec4\u3002",
+        "options": [
+          "\u4e0d\u4f46 / \u800c\u4e14",
+          "\u5982\u679c / \u5c31",
+          "\u4e0e\u5176\u8bf4 / \u4e0d\u5982\u8bf4",
+          "\u867d\u7136 / \u4f46\u662f"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u5426\u5b9a\u5730\u6bb5\u89e3\u91ca\u3001\u63d0\u51fa\u670d\u52a1\u89e3\u91ca\uff0c\u7528\u201c\u4e0e\u5176\u8bf4\u2026\u2026\u4e0d\u5982\u8bf4\u2026\u2026\u201d\u3002",
+          "en": "\u4e0e\u5176\u8bf4\u2026\u2026\u4e0d\u5982\u8bf4\u2026\u2026 replaces one explanation with another."
+        },
+        "passage": "\u8fd9\u5bb6\u5e97\u7684\u6210\u529f\uff0c\uff08\u3000\uff09\u56e0\u4e3a\u5b83\u5730\u6bb5\u597d\uff0c\uff08\u3000\uff09\u56e0\u4e3a\u5b83\u628a\u6bcf\u4f4d\u5ba2\u4eba\u90fd\u5f53\u4f5c\u90bb\u5c45\u3002"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4f5c\u8005\u5bf9\u514d\u8d39\u516c\u5f00\u8bfe\u7684\u6001\u5ea6\u662f\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u80af\u5b9a\u8d44\u6e90\u4ef7\u503c\uff0c\u4f46\u4e3b\u5f20\u7cbe\u9009\u4e00\u95e8\u6df1\u5165\u5b66\u4e60",
+          "\u8d44\u6e90\u8d8a\u591a\u8d8a\u597d\uff0c\u5e94\u8be5\u8d2a\u591a",
+          "\u516c\u5f00\u8bfe\u6beb\u65e0\u4ef7\u503c",
+          "\u53ea\u770b\u514d\u8d39\u8bfe\u7a0b\u5c31\u591f\u4e86"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u4f5c\u8005\u80af\u5b9a\u8d44\u6e90\uff0c\u4f46\u53cd\u5bf9\u8d2a\u591a\uff0c\u4e3b\u5f20\u5b66\u5b8c\u4e00\u95e8\u518d\u5b66\u4e0b\u4e00\u95e8\u3002",
+          "en": "The author welcomes the resources but urges finishing one course well."
+        },
+        "passage": "\u514d\u8d39\u516c\u5f00\u8bfe\u8d8a\u6765\u8d8a\u591a\uff0c\u8fd9\u662f\u597d\u4e8b\u3002\u4f46\u6709\u4eba\u540c\u65f6\u62a5\u4e86\u5341\u51e0\u95e8\u8bfe\uff0c\u6bcf\u95e8\u53ea\u770b\u5f00\u5934\uff0c\u6700\u540e\u4ec0\u4e48\u4e5f\u6ca1\u8bb0\u4f4f\u3002\u4e0e\u5176\u8d2a\u591a\uff0c\u4e0d\u5982\u5148\u9009\u4e00\u95e8\u771f\u6b63\u9700\u8981\u7684\u8bfe\uff0c\u8ba4\u771f\u5b66\u5b8c\uff0c\u518d\u8fdb\u5165\u4e0b\u4e00\u95e8\u3002"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u201c\u5e78\u5b58\u8005\u504f\u5dee\u201d\u5728\u6587\u4e2d\u7684\u4f5c\u7528\u662f\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u6210\u529f\u7ecf\u9a8c\u53ef\u4ee5\u76f4\u63a5\u590d\u5236",
+          "\u5931\u8d25\u6848\u4f8b\u6beb\u65e0\u610f\u4e49",
+          "\u5f00\u5e97\u4e00\u5b9a\u80fd\u6210\u529f",
+          "\u63d0\u9192\u6ce8\u610f\u6837\u672c\u504f\u5dee\uff0c\u4e0d\u8981\u53ea\u770b\u6210\u529f\u6848\u4f8b"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u53ea\u770b\u6210\u529f\u6848\u4f8b\u4f1a\u5f97\u51fa\u9519\u8bef\u7ed3\u8bba\uff0c\u8981\u6ce8\u610f\u6837\u672c\u504f\u5dee\u3002",
+          "en": "Looking only at survivors hides the failures and misleads decisions."
+        },
+        "passage": "\u4eba\u4eec\u5e38\u542c\u5230\u67d0\u5bb6\u5c0f\u5e97\u6210\u529f\u7684\u6545\u4e8b\uff0c\u4fbf\u4ee5\u4e3a\u7167\u7740\u505a\u5c31\u80fd\u6210\u529f\uff0c\u5374\u770b\u4e0d\u5230\u66f4\u591a\u9ed8\u9ed8\u5173\u95e8\u7684\u5c0f\u5e97\u3002\u201c\u5e78\u5b58\u8005\u504f\u5dee\u201d\u63d0\u9192\u6211\u4eec\uff1a\u53ea\u770b\u6210\u529f\u6848\u4f8b\uff0c\u5bb9\u6613\u5f97\u51fa\u9519\u8bef\u7684\u7ed3\u8bba\u3002"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u54ea\u4e2a\u9009\u9879\u6700\u9002\u5408\u8865\u5165\u7a7a\u767d\uff1f",
+        "options": [
+          "\u7b14\u8bb0\u8d8a\u591a\u6210\u7ee9\u8d8a\u597d",
+          "\u4e0d\u5e94\u8be5\u505a\u4efb\u4f55\u7b14\u8bb0",
+          "\u8003\u8bd5\u53ea\u8003\u7b14\u8bb0\u5185\u5bb9",
+          "\u8bb0\u5f55\u4e0d\u7b49\u4e8e\u638c\u63e1\uff0c\u9700\u8981\u56de\u987e\u6574\u7406"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u7f3a\u5c11\u56de\u987e\u7684\u8bb0\u5f55\u53ea\u662f\u5fc3\u7406\u5b89\u6170\uff0c\u5e94\u70b9\u660e\u8bb0\u5f55\u4e0e\u638c\u63e1\u7684\u533a\u522b\u3002",
+          "en": "Notes without review give comfort, not mastery."
+        },
+        "passage": "\u6709\u4eba\u505a\u4e86\u6ee1\u6ee1\u7684\u7b14\u8bb0\uff0c\u8003\u8bd5\u65f6\u5374\u4ec0\u4e48\u90fd\u60f3\u4e0d\u8d77\u6765\uff0c\uff08\u3000\uff09\u3002\u7f3a\u5c11\u56de\u987e\u7684\u8bb0\u5f55\uff0c\u53ea\u662f\u5fc3\u7406\u5b89\u6170\u3002"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4e0b\u9762\u54ea\u4e00\u53e5\u6709\u8bed\u75c5\uff1f",
+        "options": [
+          "\u65e0\u8bba\u9047\u5230\u591a\u5927\u56f0\u96be\uff0c\u4ed6\u90fd\u4ece\u4e0d\u8f7b\u8a00\u653e\u5f03\u3002",
+          "\u7ecf\u8fc7\u5927\u5bb6\u7684\u52aa\u529b\uff0c\u6d3b\u52a8\u53d6\u5f97\u4e86\u5706\u6ee1\u6210\u529f\u3002",
+          "\u5404\u79cd\u8bfb\u4e66\u6d3b\u52a8\uff0c\u6df1\u53d7\u5230\u4e86\u5c45\u6c11\u7684\u559c\u7231\u3002",
+          "\u8fd9\u9879\u63aa\u65bd\u7684\u5b9e\u65bd\uff0c\u65b9\u4fbf\u4e86\u9644\u8fd1\u5c45\u6c11\u7684\u751f\u6d3b\u3002"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u201c\u6df1\u53d7\u201d\u4e0e\u201c\u5230\u4e86\u201d\u6742\u7cc5\uff0c\u5e94\u4e3a\u201c\u6df1\u53d7\u559c\u7231\u201d\u6216\u201c\u53d7\u5230\u4e86\u559c\u7231\u201d\u3002",
+          "en": "\u6df1\u53d7 and \u53d7\u5230\u4e86 are mixed into one ungrammatical form."
+        }
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u8fd9\u6bb5\u8bdd\u4e3b\u8981\u8bf4\u660e\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u6709\u6548\u670d\u52a1\u9700\u8981\u6280\u672f\u4e0e\u4eba\u7684\u8010\u5fc3\u7ed3\u5408",
+          "\u6280\u672f\u8d8a\u5148\u8fdb\u670d\u52a1\u81ea\u7136\u8d8a\u597d",
+          "\u5e94\u8be5\u53d6\u6d88\u6240\u6709\u7ebf\u4e0a\u670d\u52a1",
+          "\u8001\u4eba\u4e0d\u9700\u8981\u4efb\u4f55\u670d\u52a1"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u7ebf\u4e0a\u7ebf\u4e0b\u4e00\u8d77\u89e3\u51b3\u95ee\u9898\uff0c\u8bf4\u660e\u6280\u672f\u8981\u914d\u4e0a\u4eba\u7684\u8010\u5fc3\u3002",
+          "en": "Online tools plus patient human help reduced the complaints."
+        },
+        "passage": "\u793e\u533a\u63a8\u51fa\u4e86\u7ebf\u4e0a\u62a5\u4fee\uff0c\u5e74\u8f7b\u4eba\u89c9\u5f97\u5f88\u65b9\u4fbf\uff0c\u4f46\u4e0d\u5c11\u8001\u4eba\u4e0d\u4f1a\u7528\uff0c\u8fd8\u5f97\u8dd1\u53bb\u7269\u4e1a\u95ee\u3002\u540e\u6765\uff0c\u7269\u4e1a\u5b89\u6392\u5fd7\u613f\u8005\u5728\u670d\u52a1\u7ad9\u5e2e\u5fd9\uff0c\u7ebf\u4e0a\u7ebf\u4e0b\u4e00\u8d77\u89e3\u51b3\u95ee\u9898\uff0c\u6295\u8bc9\u53cd\u800c\u5c11\u4e86\u3002\u771f\u6b63\u6709\u6548\u7684\u670d\u52a1\uff0c\u662f\u6280\u672f\u52a0\u4e0a\u4eba\u4e0e\u4eba\u4e4b\u95f4\u7684\u8010\u5fc3\u3002"
+      },
+      {
+        "id": "r8",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u9009\u62e9\u5408\u9002\u7684\u8bcd\u7ec4\u3002",
+        "options": [
+          "\u867d\u7136 / \u4f46\u662f",
+          "\u56fa\u7136 / \u4f46",
+          "\u5982\u679c / \u5c31",
+          "\u4e0d\u4f46 / \u800c\u4e14"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u5148\u627f\u8ba4\u6548\u7387\u63d0\u9ad8\uff0c\u518d\u6307\u51fa\u65b0\u95ee\u9898\uff0c\u7528\u201c\u56fa\u7136\u2026\u2026\u4f46\u2026\u2026\u201d\u3002",
+          "en": "\u56fa\u7136\u2026\u2026\u4f46\u2026\u2026 concedes one point before raising another."
+        },
+        "passage": "\u65b0\u529e\u6cd5\uff08\u3000\uff09\u63d0\u9ad8\u4e86\u6548\u7387\uff0c\uff08\u3000\uff09\u4e5f\u5e26\u6765\u4e86\u65b0\u7684\u95ee\u9898\u3002"
+      },
+      {
+        "id": "r9",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4f5c\u8005\u8ba4\u4e3a\u63d0\u9ad8\u4f1a\u8bae\u6548\u7387\u7684\u5173\u952e\u662f\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u660e\u786e\u7684\u8bae\u7a0b\u548c\u6709\u6548\u7684\u4e3b\u6301",
+          "\u4f1a\u8bae\u5f62\u5f0f\u51b3\u5b9a\u4e00\u5207",
+          "\u7ebf\u4e0a\u4f1a\u8bae\u6beb\u65e0\u4ef7\u503c",
+          "\u4f1a\u8bae\u65f6\u95f4\u8d8a\u957f\u8d8a\u597d"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "\u5173\u952e\u4e0d\u5728\u5f62\u5f0f\uff0c\u800c\u5728\u8bae\u7a0b\u4e0e\u4e3b\u6301\u3002",
+          "en": "The agenda and the chair matter more than online or offline form."
+        },
+        "passage": "\u6709\u4eba\u8bf4\u7ebf\u4e0a\u4f1a\u8bae\u7701\u65f6\u95f4\uff0c\u6709\u4eba\u8bf4\u9762\u5bf9\u9762\u624d\u8c08\u5f97\u900f\u3002\u5176\u5b9e\uff0c\u5173\u952e\u5f80\u5f80\u4e0d\u5728\u5f62\u5f0f\uff0c\u800c\u5728\u6709\u6ca1\u6709\u660e\u786e\u7684\u8bae\u7a0b\u3001\u6709\u6ca1\u6709\u4eba\u771f\u6b63\u4e3b\u6301\u3002\u8bae\u7a0b\u6e05\u695a\u3001\u4e3b\u6301\u5f97\u529b\uff0c\u4e24\u79cd\u4f1a\u8bae\u90fd\u53ef\u4ee5\u5f88\u9ad8\u6548\uff1b\u53cd\u4e4b\uff0c\u5750\u5728\u4e00\u8d77\u4e5f\u53ea\u662f\u6d6a\u8d39\u65f6\u95f4\u3002"
+      },
+      {
+        "id": "r10",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u6587\u4e2d\u201c\u6c34\u5206\u201d\u662f\u4ec0\u4e48\u610f\u601d\uff1f",
+        "options": [
+          "\u771f\u5b9e\u53ef\u9760\u7684\u90e8\u5206",
+          "\u996e\u6599\u4e2d\u7684\u6c34",
+          "\u6587\u7ae0\u7684\u5b57\u6570",
+          "\u865a\u5047\u5938\u5927\u7684\u6210\u5206"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "\u201c\u6c34\u5206\u201d\u6bd4\u55bb\u6570\u5b57\u4e2d\u865a\u5047\u5938\u5927\u7684\u6210\u5206\u3002",
+          "en": "\u6c34\u5206 here means inflated, unreliable content in the figures."
+        },
+        "passage": "\u8fd9\u7bc7\u65c5\u884c\u653b\u7565\u5199\u5f97\u5f88\u5b9e\u5728\uff0c\u8def\u7ebf\u3001\u82b1\u8d39\u90fd\u5217\u5f97\u6e05\u695a\uff0c\u4e0d\u50cf\u6709\u4e9b\u653b\u7565\u6570\u5b57\u6f02\u4eae\u5374\u201c\u6c34\u5206\u201d\u5f88\u5927\u3002"
+      },
+      {
+        "id": "r11",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4f5c\u8005\u53cd\u9a73\u7684\u662f\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u7535\u5b50\u4e66\u6beb\u65e0\u4ef7\u503c",
+          "\u7eb8\u8d28\u4e66\u8d28\u91cf\u4e00\u5b9a\u66f4\u597d",
+          "\u4ee5\u9500\u91cf\u53d8\u5316\u65ad\u8a00\u67d0\u79cd\u8f7d\u4f53\u5fc5\u7136\u6d88\u4ea1\u7684\u7b80\u5355\u63a8\u8bba",
+          "\u8bfb\u8005\u5df2\u7ecf\u4e0d\u559c\u6b22\u9605\u8bfb"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "\u4f5c\u8005\u7528\u501f\u9605\u91cf\u548c\u9605\u8bfb\u4e60\u60ef\u8bf4\u660e\uff0c\u9500\u91cf\u53d8\u5316\u4e0d\u80fd\u76f4\u63a5\u65ad\u8a00\u7ed3\u5c40\u3002",
+          "en": "Sales shifts alone cannot prove that a medium must disappear."
+        },
+        "passage": "\u7535\u5b50\u4e66\u9500\u91cf\u4e0a\u5347\uff0c\u5c31\u6709\u4eba\u8bf4\u7eb8\u8d28\u4e66\u5fc5\u5c06\u6d88\u4ea1\u3002\u53ef\u56fe\u4e66\u9986\u7684\u501f\u9605\u91cf\u4f9d\u7136\u7a33\u5b9a\uff0c\u8bb8\u591a\u4eba\u8fd8\u662f\u559c\u6b22\u7eb8\u4e66\u7684\u624b\u611f\u3002\u7528\u9500\u91cf\u53d8\u5316\u76f4\u63a5\u65ad\u8a00\u67d0\u79cd\u8f7d\u4f53\u7684\u7ed3\u5c40\uff0c\u662f\u4e00\u79cd\u8fc7\u4e8e\u7b80\u5355\u7684\u63a8\u8bba\u3002"
+      },
+      {
+        "id": "r12",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "\u4f5c\u8005\u7684\u9690\u542b\u6001\u5ea6\u662f\u4ec0\u4e48\uff1f",
+        "options": [
+          "\u5e74\u8f7b\u5c31\u662f\u8d44\u672c\uff0c\u53ef\u4ee5\u900f\u652f\u5065\u5eb7",
+          "\u53cd\u5bf9\u4ee5\u5065\u5eb7\u6362\u53d6\u77ed\u671f\u6210\u7ee9",
+          "\u7761\u7720\u5b8c\u5168\u4e0d\u91cd\u8981",
+          "\u5de5\u4f5c\u8d8a\u5fd9\u8eab\u4f53\u8d8a\u597d"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "\u4ee3\u4ef7\u6ede\u540e\u4f46\u771f\u5b9e\uff0c\u6240\u4ee5\u4e0d\u8be5\u7528\u957f\u671f\u5065\u5eb7\u53bb\u6362\u77ed\u671f\u6210\u7ee9\u3002",
+          "en": "The delayed but real costs argue against trading health for quick results."
+        },
+        "passage": "\u6709\u4eba\u4e3a\u4e86\u8d76\u9879\u76ee\u957f\u671f\u71ac\u591c\uff0c\u81ea\u79f0\u5e74\u8f7b\u5c31\u662f\u8d44\u672c\u3002\u53ef\u7814\u7a76\u663e\u793a\uff0c\u900f\u652f\u7684\u4ee3\u4ef7\u53ea\u662f\u6765\u5f97\u665a\u4e00\u4e9b\uff1a\u8bb0\u5fc6\u529b\u4e0b\u964d\u3001\u4f53\u68c0\u6307\u6807\u5f02\u5e38\uff0c\u63a5\u8fde\u627e\u4e0a\u95e8\u6765\u3002\u77ed\u671f\u7684\u6210\u7ee9\uff0c\u4e0d\u8be5\u7528\u957f\u671f\u7684\u5065\u5eb7\u53bb\u6362\u3002"
+      },
+      {
+        "id": "w1",
+        "section": "writing",
+        "kind": "writing",
+        "prompt": "\u7f29\u5199\u4e13\u9879\uff08\u77ed\u7bc7\u7ec3\u4e60\uff09\uff1a\u5148\u9605\u8bfb\u6750\u6599 90 \u79d2\uff0c\u968f\u540e\u6750\u6599\u81ea\u52a8\u9690\u85cf\u3002\u8bf7\u7528\u81ea\u5df1\u7684\u8bdd\u5199\u4e00\u7bc7 150\u2014200 \u5b57\u7684\u7f29\u5199\uff0c\u4e0d\u6dfb\u52a0\u4e2a\u4eba\u8bc4\u8bba\u3002",
+        "explanation": {
+          "zh": "\u4fdd\u7559\u4eba\u7269\u3001\u95ee\u9898\u3001\u884c\u52a8\u548c\u7ed3\u679c\uff0c\u538b\u7f29\u7ec6\u8282\uff0c\u4fdd\u6301\u4e8b\u4ef6\u987a\u5e8f\u3002\u6b64\u4e3a\u7f29\u77ed\u7684\u8bb0\u5fc6\u4e0e\u7f29\u5199\u7ec3\u4e60\uff0c\u975e\u6b63\u5f0f HSK 6 \u7684\u5b8c\u6574\u7bc7\u5e45\u6216\u65f6\u957f\u3002",
+          "en": "Keep the people, problem, actions and outcome in order. Condense details without adding an opinion. This is a shortened memory-and-summary drill, not a full HSK 6 writing task."
+        },
+        "passage": "\u5feb\u9012\u5458\u8d75\u5e08\u5085\u8d1f\u8d23\u7684\u5c0f\u533a\u91cc\uff0c\u4f4f\u7740\u4e0d\u5c11\u72ec\u5c45\u8001\u4eba\u3002\u7f51\u8d2d\u5f88\u65b9\u4fbf\uff0c\u4f46\u5927\u4ef6\u7269\u54c1\u8001\u4eba\u642c\u4e0d\u52a8\uff0c\u9047\u5230\u4e0b\u96e8\u5929\u66f4\u9ebb\u70e6\u3002\u8d75\u5e08\u5085\u5f00\u59cb\u987a\u8def\u628a\u5305\u88f9\u9001\u4e0a\u95e8\uff0c\u8fd8\u5728\u672c\u5b50\u4e0a\u8bb0\u4e0b\u6bcf\u5bb6\u7684\u4e60\u60ef\uff1a\u8c01\u5bb6\u767d\u5929\u6ca1\u4eba\uff0c\u8c01\u5bb6\u9700\u8981\u5e2e\u5fd9\u62c6\u7bb1\u3002\n\n\u6ca1\u8fc7\u591a\u4e45\uff0c\u627e\u4ed6\u5e2e\u5fd9\u7684\u8001\u4eba\u8d8a\u6765\u8d8a\u591a\uff0c\u4e00\u4e2a\u4eba\u5b9e\u5728\u5fd9\u4e0d\u8fc7\u6765\u3002\u8d75\u5e08\u5085\u4fbf\u5efa\u4e86\u4e00\u4e2a\u5fae\u4fe1\u7fa4\uff0c\u8bf7\u8001\u4eba\u7684\u5b50\u5973\u4e5f\u52a0\u5165\uff0c\u53d6\u4ef6\u60c5\u51b5\u968f\u65f6\u80fd\u67e5\u5230\u3002\u5468\u672b\uff0c\u4ed6\u548c\u4e24\u540d\u540c\u4e8b\u5728\u5c0f\u533a\u95e8\u53e3\u96c6\u4e2d\u4ee3\u53d1\uff0c\u8bf7\u5fd7\u613f\u8005\u5e2e\u5fd9\u767b\u8bb0\u3002\n\n\u4e5f\u6709\u4eba\u62c5\u5fc3\u4e22\u4ef6\u3002\u8d75\u5e08\u5085\u5c31\u8bbe\u4e86\u4e00\u672c\u9886\u53d6\u767b\u8bb0\u7c3f\uff0c\u7b7e\u5b57\u786e\u8ba4\uff0c\u4e00\u76ee\u4e86\u7136\u3002\u4e09\u4e2a\u6708\u4e0b\u6765\uff0c\u7ecf\u624b\u7684\u51e0\u767e\u4ef6\u5305\u88f9\u6ca1\u6709\u4e00\u4ef6\u4e22\u5931\uff0c\u5b50\u5973\u4eec\u4e5f\u653e\u5fc3\u4e86\u3002\n\n\u7ad9\u70b9\u628a\u8d75\u5e08\u5085\u7684\u505a\u6cd5\u7f16\u6210\u5c0f\u518c\u5b50\uff0c\u4f9b\u5176\u4ed6\u7f51\u70b9\u53c2\u8003\u3002\u8d75\u5e08\u5085\u8bf4\uff0c\u81ea\u5df1\u6700\u5927\u7684\u6536\u83b7\uff0c\u662f\u53eb\u5f97\u51fa\u6574\u680b\u697c\u90bb\u5c45\u7684\u540d\u5b57\uff0c\u4e5f\u8bb0\u4f4f\u4e86\u6bcf\u5bb6\u7684\u4e60\u60ef\u3002",
+        "minChars": 150,
+        "maxChars": 200,
+        "readSeconds": 90
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "\u4e0e\u5176\u8bf4\u2026\u2026\u4e0d\u5982\u8bf4\u2026\u2026",
+        "example": "\u5e97\u94fa\u7684\u6210\u529f\uff0c\u4e0e\u5176\u8bf4\u9760\u5730\u6bb5\uff0c\u4e0d\u5982\u8bf4\u9760\u7528\u5fc3\u3002",
+        "meaning": {
+          "zh": "\u7ea0\u6b63\u89e3\u91ca\u6216\u5224\u65ad\u3002",
+          "en": "Replace one explanation with another."
+        }
+      },
+      {
+        "pattern": "\u56fa\u7136\u2026\u2026\u4f46\u2026\u2026",
+        "example": "\u65b0\u529e\u6cd5\u56fa\u7136\u63d0\u9ad8\u4e86\u6548\u7387\uff0c\u4f46\u4e5f\u5e26\u6765\u4e86\u65b0\u95ee\u9898\u3002",
+        "meaning": {
+          "zh": "\u5148\u627f\u8ba4\u4e00\u70b9\uff0c\u518d\u6307\u51fa\u53e6\u4e00\u9762\u3002",
+          "en": "Concede one point before raising another side."
+        }
+      }
+    ]
+  }
+]

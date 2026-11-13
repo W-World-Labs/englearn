@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "source": "https://github.com/W-World-Labs/w-radar",
+  "commit": "579174832c5de9a1b606f82084171b3965deae56",
+  "scope": "Unmodified xradar JavaScript package source and exact repository MIT license; no application/service source",
+  "files": [
+    {
+      "path": "package.json",
+      "source_url": "https://raw.githubusercontent.com/W-World-Labs/w-radar/579174832c5de9a1b606f82084171b3965deae56/sdk/js/xradar/package.json",
+      "sha256": "086c0c4af2a59034cc9a14640ffa5d19e4edb6f93bc161e1ac00e9f47cc1e3b9"
+    },
+    {
+      "path": "src/index.js",
+      "source_url": "https://raw.githubusercontent.com/W-World-Labs/w-radar/579174832c5de9a1b606f82084171b3965deae56/sdk/js/xradar/src/index.js",
+      "sha256": "37e197be01eb05a19ac0fcc769a70f79fed2bbdd90738ea8ca327ce37d4e9d8a"
+    },
+    {
+      "path": "src/index.d.ts",
+      "source_url": "https://raw.githubusercontent.com/W-World-Labs/w-radar/579174832c5de9a1b606f82084171b3965deae56/sdk/js/xradar/src/index.d.ts",
+      "sha256": "7ab1baf75bf2b0036e15f450b886f1b1f0d0693ac433ffd1a010c951314b65eb"
+    },
+    {
+      "path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/W-World-Labs/w-radar/579174832c5de9a1b606f82084171b3965deae56/LICENSE",
+      "sha256": "d1526c3ba050a1a223cc7047bb7c6bccbaf5c2032e9ccc9848115fbfa60b5d7f"
+    }
+  ]
+}

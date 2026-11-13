@@ -1,0 +1,882 @@
+[
+  {
+    "id": "es-gra-001",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "Yo ___ estudiante.",
+    "options": [
+      "soy",
+      "estoy",
+      "tengo",
+      "hago"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-002",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "Ayer ___ a mi amigo.",
+    "options": [
+      "vi",
+      "veo",
+      "veré",
+      "veía"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-003",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "Este libro es ___ interesante que ese.",
+    "options": [
+      "más",
+      "muy",
+      "mucho",
+      "tan"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-004",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "Si llueve, nos quedamos ___ casa.",
+    "options": [
+      "en",
+      "a",
+      "de",
+      "por"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-005",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "Ella está ___ la televisión.",
+    "options": [
+      "viendo",
+      "ve",
+      "vio",
+      "verá"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-006",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "Llevo tres años ___ español.",
+    "options": [
+      "estudiando",
+      "estudiar",
+      "estudié",
+      "estudio"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-007",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "Por favor, ___ la ventana.",
+    "options": [
+      "cierra",
+      "cerrar",
+      "cerró",
+      "cerrando"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-008",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "No solo habla español, ___ habla inglés.",
+    "options": [
+      "sino que también",
+      "pero",
+      "porque",
+      "aunque"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-009",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "La reunión es ___ las tres.",
+    "options": [
+      "a",
+      "en",
+      "de",
+      "por"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-010",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "El fin de semana voy a ___ la biblioteca.",
+    "options": [
+      "ir a",
+      "fui a",
+      "iba a",
+      "iré a"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-011",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "Me ___ el español.",
+    "options": [
+      "gusta",
+      "gusto",
+      "gustan",
+      "gusté"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-012",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿___ años tienes?",
+    "options": [
+      "Cuántos",
+      "Cuánto",
+      "Cuántas",
+      "Cuánta"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-013",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "Ella ___ en Madrid desde 2020.",
+    "options": [
+      "vive",
+      "vivió",
+      "vivo",
+      "viviendo"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-014",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "Quiero que ___ conmigo.",
+    "options": [
+      "vengas",
+      "vienes",
+      "vendrás",
+      "venir"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-015",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "___ mañana hay examen.",
+    "options": [
+      "Pasado",
+      "Por",
+      "Para",
+      "Desde"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-016",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "No tengo ___ dinero.",
+    "options": [
+      "mucho",
+      "mucha",
+      "muchos",
+      "muy"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-017",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "El libro ___ por el autor en 1990.",
+    "options": [
+      "fue escrito",
+      "es escrito",
+      "escribió",
+      "escribe"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-018",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "___ de llegar, llamé a mi madre.",
+    "options": [
+      "Después",
+      "Antes",
+      "Desde",
+      "Aunque"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-019",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "Si ___ tiempo, iría al cine.",
+    "options": [
+      "tuviera",
+      "tengo",
+      "tendré",
+      "tenía"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-020",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "Hablo ___ español que inglés.",
+    "options": [
+      "mejor",
+      "más",
+      "mejor de",
+      "peor"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-021",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "No creo que Marta ___ la respuesta; nunca ha estudiado este tema.",
+    "options": [
+      "sepa",
+      "sabe",
+      "saber",
+      "sabrá"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-022",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "Cuando ___ a casa esta noche, te llamaré.",
+    "options": [
+      "llegaba",
+      "llegue",
+      "llegué",
+      "llegando"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-gra-023",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "Busco un piso que ___ balcón; todavía no he encontrado ninguno.",
+    "options": [
+      "tiene",
+      "tuvo",
+      "tenga",
+      "tener"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-gra-024",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Si me lo hubieras dicho ayer, te ___ ayudado.",
+    "options": [
+      "había",
+      "haya",
+      "habré",
+      "habría"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-gra-025",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "De niño, ___ al parque todos los domingos.",
+    "options": [
+      "iba",
+      "fui",
+      "iré",
+      "vaya"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-026",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "Estudio español ___ trabajar en México el año que viene.",
+    "options": [
+      "por",
+      "para",
+      "desde",
+      "hacia"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-gra-027",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "No puedo salir: ___ de empezar a llover.",
+    "options": [
+      "termino",
+      "acabé",
+      "acabo",
+      "acababa"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-gra-028",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "A Luis ___ perdieron las llaves en el tren.",
+    "options": [
+      "lo",
+      "le se",
+      "se lo",
+      "se le"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-gra-029",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Te lo explico despacio para que lo ___ bien.",
+    "options": [
+      "entiendas",
+      "entiendes",
+      "entenderás",
+      "entendiste"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-030",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "No saldremos a menos que ___ de llover.",
+    "options": [
+      "deja",
+      "deje",
+      "dejará",
+      "dejaba"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-gra-031",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "Por muy difícil que ___ el problema, hay que resolverlo.",
+    "options": [
+      "es",
+      "será",
+      "sea",
+      "siendo"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-gra-032",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Cuando era niño, ___ al río a pescar.",
+    "options": [
+      "suelo ir",
+      "solía irme",
+      "soliera ir",
+      "solía ir"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-gra-033",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Cuando llegué a casa, ellos ya ___ la cena.",
+    "options": [
+      "habían terminado",
+      "terminan",
+      "terminarán",
+      "hubieran terminado"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-034",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "___ me preocupa es la falta de tiempo.",
+    "options": [
+      "El que",
+      "Lo que",
+      "Que",
+      "Lo cual"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-gra-035",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "El autor ___ libro ganó el premio vendrá mañana.",
+    "options": [
+      "que",
+      "donde",
+      "cuyo",
+      "quien"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-gra-036",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Ni ___ me llamó para disculparse.",
+    "options": [
+      "apenas",
+      "tan",
+      "aun",
+      "siquiera"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-gra-037",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Había mucha niebla, ___ el vuelo se retrasó.",
+    "options": [
+      "de modo que",
+      "para que",
+      "aunque",
+      "a pesar de"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-038",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "Me trata ___ su propio hijo.",
+    "options": [
+      "como era",
+      "como si fuera",
+      "siendo",
+      "aunque fuera"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-gra-039",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "___ llegar a casa, me llamó.",
+    "options": [
+      "Para",
+      "Por",
+      "Al",
+      "De"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-gra-040",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Necesito la respuesta ___.",
+    "options": [
+      "lo antes",
+      "tan antes",
+      "antes cuanto",
+      "cuanto antes"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-gra-041",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Su éxito tiene mucho que ___ con su esfuerzo.",
+    "options": [
+      "ver",
+      "haber",
+      "dar",
+      "estar"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-gra-042",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "El tren tardó dos horas ___ llegar.",
+    "options": [
+      "de",
+      "en",
+      "para",
+      "a"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-gra-043",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "No solo llegó tarde, ___ no avisó.",
+    "options": [
+      "pero",
+      "aunque",
+      "sino que",
+      "porque"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-gra-044",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "No abrirán ___ las nueve.",
+    "options": [
+      "desde",
+      "con",
+      "hacia",
+      "hasta"
+    ],
+    "answerIndex": 3
+  }
+]

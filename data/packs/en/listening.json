@@ -1,0 +1,462 @@
+[
+  {
+    "id": "lis-001",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.37,
+      "b": -2.08,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "What time does the train leave?",
+    "audioScript": "The train to Manchester leaves at half past nine from platform four.",
+    "options": [
+      "9:15",
+      "9:30",
+      "9:45",
+      "10:30"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-002",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.04,
+      "b": -1.96,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "What does the speaker order?",
+    "audioScript": "Hi, I'd like a small coffee and a chocolate muffin, please.",
+    "options": [
+      "A large coffee and a muffin",
+      "A small coffee and a muffin",
+      "A small tea and a cake",
+      "A small coffee only"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-003",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.41,
+      "b": -1.84,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "What is the speaker's sister's job?",
+    "audioScript": "My sister is a nurse and she works at the hospital downtown.",
+    "options": [
+      "Doctor",
+      "Teacher",
+      "Nurse",
+      "Driver"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "lis-004",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.08,
+      "b": -1.33,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "When is the meeting now?",
+    "audioScript": "I'm sorry, but the meeting has been moved from Tuesday to Thursday afternoon.",
+    "options": [
+      "Tuesday morning",
+      "Tuesday afternoon",
+      "Thursday afternoon",
+      "Wednesday afternoon"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "lis-005",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.45,
+      "b": -1.21,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "Why should the listener bring an umbrella?",
+    "audioScript": "Don't forget to bring an umbrella; the forecast says it will rain all weekend.",
+    "options": [
+      "It will be sunny",
+      "It will rain all weekend",
+      "It will snow",
+      "It will be windy"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-006",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.12,
+      "b": -1.09,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "How much is a ticket on Saturday?",
+    "audioScript": "The museum is free on Sundays, but on other days tickets cost ten pounds.",
+    "options": [
+      "Free",
+      "Five pounds",
+      "Ten pounds",
+      "Twenty pounds"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "lis-007",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.49,
+      "b": -1.38,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "What does the speaker want?",
+    "audioScript": "Could you turn down the music? I'm trying to study for my exam.",
+    "options": [
+      "Louder music",
+      "To borrow a book",
+      "The music turned down",
+      "To study together"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "lis-008",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.16,
+      "b": -0.46,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "What is the speaker's opinion of the restaurant?",
+    "audioScript": "Although the restaurant got great reviews, we found the service painfully slow and the prices far too high.",
+    "options": [
+      "Entirely positive",
+      "Mixed but mostly negative",
+      "Only about the food",
+      "Completely neutral"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-009",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.53,
+      "b": -0.34,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "What are passengers being told?",
+    "audioScript": "Passengers are reminded that the last bus departs at eleven, so please make your way to the stop in good time.",
+    "options": [
+      "The first bus is at eleven",
+      "To arrive early for the last bus at eleven",
+      "The bus is cancelled",
+      "To buy tickets online"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-010",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.2,
+      "b": -0.22,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "Why did the speaker take the train?",
+    "audioScript": "I was going to drive, but with the road works on the motorway I decided to take the train instead.",
+    "options": [
+      "The car broke down",
+      "There were road works on the motorway",
+      "The train was cheaper",
+      "A friend suggested it"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-011",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.57,
+      "b": -0.51,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "How does the speaker most likely feel?",
+    "audioScript": "She said she'd call me back within the hour, but it's already been three and I've heard nothing.",
+    "options": [
+      "Relieved",
+      "Frustrated",
+      "Excited",
+      "Indifferent"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-012",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.24,
+      "b": -0.39,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "What can vegans use instead of eggs?",
+    "audioScript": "The recipe calls for two eggs, but if you're baking for vegans, you can use mashed banana instead.",
+    "options": [
+      "Milk",
+      "Mashed banana",
+      "Butter",
+      "Flour"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-013",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.61,
+      "b": 0.63,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "What does the speaker imply about the proposal?",
+    "audioScript": "Frankly, while the proposal has its merits, I'm not entirely convinced the budget will stretch to cover it.",
+    "options": [
+      "It is perfect",
+      "It is too cheap",
+      "There may not be enough money for it",
+      "It has already been approved"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "lis-014",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.28,
+      "b": 0.34,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "What happens to people who arrive late?",
+    "audioScript": "The lecture starts at nine sharp, and latecomers won't be admitted until the first break at half past ten.",
+    "options": [
+      "They are turned away permanently",
+      "They wait until the break at 10:30",
+      "They sit at the back",
+      "They pay a fine"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-015",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.65,
+      "b": 0.46,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "What does the speaker suggest about the company?",
+    "audioScript": "Had the company invested in training earlier, it might well have avoided the staff shortages it now faces.",
+    "options": [
+      "It trained staff well",
+      "Earlier training could have prevented the shortages",
+      "It has too many staff",
+      "It will close soon"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-016",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.32,
+      "b": 0.58,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "What is the speaker's view of the film?",
+    "audioScript": "I wouldn't say the film was bad exactly, but it certainly didn't live up to all the hype.",
+    "options": [
+      "It was terrible",
+      "It was overrated",
+      "It was the best ever",
+      "It had no flaws"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-017",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.69,
+      "b": 1.6,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "What does the speaker imply about the consensus?",
+    "audioScript": "To be perfectly candid, the committee's so-called consensus was, in reality, the product of a vocal minority shouting down all dissent.",
+    "options": [
+      "It was genuine and unanimous",
+      "It was forced by a vocal minority",
+      "It was reached democratically",
+      "It did not exist at all"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-018",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.36,
+      "b": 1.31,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "What do the analysts believe?",
+    "audioScript": "Notwithstanding the glowing quarterly figures, analysts warn that the firm's underlying fundamentals remain decidedly shaky.",
+    "options": [
+      "The firm is very stable",
+      "Despite good figures, the firm is weak underneath",
+      "The figures are fake",
+      "The firm should expand"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-019",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.03,
+      "b": 1.43,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "What is the speaker's attitude?",
+    "audioScript": "I'd be the last person to dismiss tradition, yet clinging to outdated methods purely for sentiment's sake strikes me as folly.",
+    "options": [
+      "Tradition should always be kept",
+      "Keeping outdated methods only for sentiment is unwise",
+      "All tradition is foolish",
+      "Change should be avoided"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-020",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4,
+      "b": 1.55,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "How was her resignation widely interpreted?",
+    "audioScript": "Her resignation, ostensibly on health grounds, was widely interpreted as a tacit admission of the project's failure.",
+    "options": [
+      "As purely a health matter",
+      "As an indirect admission the project had failed",
+      "As a promotion",
+      "As unrelated to work"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-021",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.07,
+      "b": 2.16,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "What irony does the speaker describe?",
+    "audioScript": "One can scarcely overstate the irony: the very regulations devised to curb speculation ended up incentivising precisely the reckless behaviour they sought to prevent.",
+    "options": [
+      "Regulations worked perfectly",
+      "Regulations meant to stop reckless behaviour encouraged it",
+      "There were no regulations",
+      "Speculation was eliminated"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-022",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.44,
+      "b": 2.28,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "What is the speaker doing?",
+    "audioScript": "Far be it from me to gainsay an expert, but the data, parsed dispassionately, lend scant support to so sweeping a conclusion.",
+    "options": [
+      "Fully agreeing with the expert",
+      "Politely questioning the expert's sweeping conclusion",
+      "Refusing to look at data",
+      "Praising the conclusion"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "lis-023",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.11,
+      "b": 2.4,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "What does the speaker say about the minister's reply?",
+    "audioScript": "The minister's reply, a masterclass in circumlocution, managed to fill ten minutes without once addressing the question posed.",
+    "options": [
+      "It was brief and direct",
+      "It avoided the question with evasive talk",
+      "It answered fully",
+      "It was too short"
+    ],
+    "answerIndex": 1
+  }
+]

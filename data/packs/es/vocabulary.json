@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "es-voc-001",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "agua",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-002",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "casa",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-003",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "escuela",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-004",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "amigo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-005",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "trabajo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-006",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "tiempo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-007",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "problema",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-008",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "cultura",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-009",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "economía",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-010",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "medio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-011",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "estudio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-012",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "sociedad",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-013",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "historia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-014",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "ciencia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-015",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "tecnología",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-016",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "educación",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-017",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "salud",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-018",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "feliz",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-019",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "importante",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-020",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "posible",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-021",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "método",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-022",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "experiencia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-023",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "significado",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-024",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "opinión",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-025",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "naturaleza",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-026",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "promesa",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-027",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "pasatiempo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-028",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "futuro",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-029",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "gobierno",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-030",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "mercado",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-031",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "agüa",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-032",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "caza",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-033",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "esciela",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-034",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "amijo",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-035",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "trabajho",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-036",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "méthodo",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-037",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "esperiencia",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-038",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "significodo",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-039",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "opiniun",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-040",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "naturalesa",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-041",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "enfermo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-042",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "aventura",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-043",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "débil",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-044",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "instante",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-045",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "básico",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-046",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "matemáticas",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-047",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "campamento",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-048",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "cuenca",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-049",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "ascenso",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-050",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "seminario",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-051",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "columnas",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-052",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "escritora",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-053",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "exploración",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-054",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "derivados",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-055",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "enamorada",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-056",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "divertida",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-057",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "funda",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-058",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "conversión",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-059",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "disolución",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-060",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "complicidad",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-061",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "algodón",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-062",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "exilio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-063",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "pistola",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-064",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "conectar",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-065",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "explorar",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-066",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "leal",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-067",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "dragón",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-068",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "rechazar",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-069",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "honestidad",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-070",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "verificar",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-071",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "dévil",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-072",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "instannte",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-073",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "matemátiquas",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-074",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "campamanto",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-075",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "cuensa",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-076",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "seminerio",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-077",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "colummnas",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-078",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "exploracíon",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-079",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "derivadus",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-080",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "complecidad",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-081",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "mediación",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-082",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "consenso",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-083",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "disputa",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-084",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "umbral",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-085",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "escrutinio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-086",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "prudente",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-087",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "riguroso",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-088",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "obsoleto",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-089",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "férreo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-090",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "ambiguo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-091",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "verosímil",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-092",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "paradoja",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-093",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "empatía",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-094",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "hostilidad",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-095",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "inminente",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-096",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "precario",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-097",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "rescate",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-098",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "veto",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-099",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "trama",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-100",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "sigilo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-101",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "destreza",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-102",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "avalancha",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-103",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "regate",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-104",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "escasez",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-105",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "cosecha",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-106",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "albañil",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-107",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "bisagra",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-108",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "cimientos",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-109",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "enigma",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-110",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "faceta",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-111",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "mediasión",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-112",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "consenzo",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-113",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "umbrel",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-114",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "escrutonio",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-115",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "rigurozo",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-116",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "absaleto",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-117",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "ambibuo",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-118",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "berosímil",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-119",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "paradoxa",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-120",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "sigillo",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-121",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "agravio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-122",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "dictamen",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-123",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "enmienda",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-124",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "litigio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-125",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "merma",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-126",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "peritaje",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-127",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "quiebra",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-128",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "recurso",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-129",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "salvedad",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-130",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "trance",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-131",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "usura",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-132",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "confidencia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-133",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "desenlace",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-134",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "empeño",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-135",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "fragancia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-136",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "gestoría",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-137",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "hallazgo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-138",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "impedimento",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-139",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "juerga",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-140",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "legado",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-141",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "navaja",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-142",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "oleada",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-143",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "plagio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-144",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "quiste",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-145",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "rebaja",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-146",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "saqueo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-147",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "tanteo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-148",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "utopía",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-149",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "vereda",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-150",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "yunque",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-151",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "agravío",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-152",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "dictame",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-153",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "enmiendia",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-154",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "litigío",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-155",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "mérma",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-156",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "peritaj",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-157",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "quíebra",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-158",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "recuerso",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-159",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "salbedad",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-160",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "usurra",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-161",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "constitución",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-162",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "juicio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-163",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "testimonio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-164",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "conspiración",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-165",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "rebelión",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-166",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "alianza",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-167",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "territorio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-168",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "soberanía",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-169",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "diplomacia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-170",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "firma",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-171",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "deliberación",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-172",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "votación",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-173",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "referéndum",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-174",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "sanción",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-175",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "intervención",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-176",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "expolio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-177",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "monopolio",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-178",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "cuarentena",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-179",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "estallido",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-180",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "latente",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-181",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "indicios",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-182",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "herencia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-183",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "ejecución",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-184",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "sentencia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-185",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "demandante",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-186",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "demandado",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-187",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "apelación",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-188",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "secuestro",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-189",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "cónclave",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-190",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "amnistía",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-191",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "juissio",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-192",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "testimoño",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-193",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "conspirazión",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-194",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "revelión",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-195",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "aliança",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-196",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "territorío",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-197",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "soberanio",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-198",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "diplomazia",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-199",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "deliberazión",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-200",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "monopolío",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-201",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "detención",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-202",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "extradición",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-203",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "corrupción",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-204",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "malversación",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-205",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "soborno",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-206",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "denuncia",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-207",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "imputación",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-208",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "indagación",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-209",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "fiscalía",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-210",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "veredicto",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-211",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "absolución",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-212",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "condena",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-213",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "indulto",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-214",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "reclusión",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-215",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "testigo",
+    "isPseudoword": false
+  },
+  {
+    "id": "es-voc-216",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "detenzión",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-217",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "extradicion",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-218",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "malversazión",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-219",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "sobornno",
+    "isPseudoword": true
+  },
+  {
+    "id": "es-voc-220",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Conoces esta palabra?",
+    "word": "denuncía",
+    "isPseudoword": true
+  }
+]

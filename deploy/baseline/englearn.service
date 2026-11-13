@@ -1,0 +1,24 @@
+[Unit]
+Description=LingoLearn IELTS and language learning
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=englearn
+Group=englearn
+WorkingDirectory=/opt/englearn/current
+EnvironmentFile=/etc/englearn/runtime.env
+ExecStart=/opt/englearn/runtime/node/bin/node server/index.mjs
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/englearn
+
+[Install]
+WantedBy=multi-user.target

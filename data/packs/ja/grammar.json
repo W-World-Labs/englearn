@@ -1,0 +1,882 @@
+[
+  {
+    "id": "ja-gra-001",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "私は学生___。",
+    "options": [
+      "です",
+      "ます",
+      "いる",
+      "ある"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-002",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "昨日友達に___。",
+    "options": [
+      "会いました",
+      "会います",
+      "会う",
+      "会って"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-003",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この本はあの本より___。",
+    "options": [
+      "面白い",
+      "面白く",
+      "面白かった",
+      "面白さ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-004",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "雨が降ったら、家に___。",
+    "options": [
+      "います",
+      "行きます",
+      "来ます",
+      "帰ります"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-005",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "今テレビを___。",
+    "options": [
+      "見ています",
+      "見ます",
+      "見ました",
+      "見る"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-006",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "日本語を三年___勉強しました。",
+    "options": [
+      "間",
+      "に",
+      "で",
+      "を"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-007",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "窓を___ください。",
+    "options": [
+      "閉めて",
+      "閉め",
+      "閉める",
+      "閉めた"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-008",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "彼は日本語___英語も話します。",
+    "options": [
+      "だけでなく",
+      "しか",
+      "まで",
+      "ほど"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-009",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "明日会議は午後三時___。",
+    "options": [
+      "です",
+      "に",
+      "で",
+      "を"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-010",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "週末は図書館に___予定です。",
+    "options": [
+      "行く",
+      "行った",
+      "行って",
+      "行き"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-011",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "毎日七時___起きます。",
+    "options": [
+      "に",
+      "を",
+      "で",
+      "が"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-012",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "図書館で本を___。",
+    "options": [
+      "読みます",
+      "読みますで",
+      "読むて",
+      "読み"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-013",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "日本へ来てから、もう二年___。",
+    "options": [
+      "なります",
+      "あります",
+      "ですます",
+      "します"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-014",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この薬を飲んだら、___なりました。",
+    "options": [
+      "元気に",
+      "元気で",
+      "元気の",
+      "元気を"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-015",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "子供は公園___遊んでいます。",
+    "options": [
+      "で",
+      "に",
+      "を",
+      "へ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-016",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "私は車を___ことができます。",
+    "options": [
+      "運転する",
+      "運転して",
+      "運転だ",
+      "運転"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-017",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "疲れたので、少し___ましょう。",
+    "options": [
+      "休み",
+      "休んで",
+      "休む",
+      "休みます"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-018",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "部屋に誰も___。",
+    "options": [
+      "いません",
+      "ありません",
+      "でした",
+      "ます"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-019",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "明日は早く___なければなりません。",
+    "options": [
+      "起き",
+      "起きて",
+      "起きる",
+      "起きた"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-020",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "彼女は歌が___。",
+    "options": [
+      "上手です",
+      "上手に",
+      "上手で",
+      "上手だと"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-021",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "忘れない___、大事な予定を手帳に書いています。",
+    "options": [
+      "ように",
+      "ためで",
+      "そうで",
+      "ことに"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-022",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "「明日は雪が降ります」と予報士が言っていました。伝聞の表現にすると「明日は雪が___そうです」。",
+    "options": [
+      "降って",
+      "降る",
+      "降り",
+      "降ったら"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "ja-gra-023",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "医者に、しばらく運動を___ように言われました。",
+    "options": [
+      "控えて",
+      "控えた",
+      "控える",
+      "控えます"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "ja-gra-024",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "明日は休みなので、早く起きる必要は___。",
+    "options": [
+      "いません",
+      "できません",
+      "なりません",
+      "ありません"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "ja-gra-025",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "うっかり大切なファイルを消して___。",
+    "options": [
+      "しまいました",
+      "おきました",
+      "みました",
+      "ありました"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-026",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "音楽を___、同時に宿題も進めています。",
+    "options": [
+      "聞いて",
+      "聞きながら",
+      "聞いたら",
+      "聞くと"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "ja-gra-027",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "明日の発表に備えて、昨夜は早く寝て___。",
+    "options": [
+      "みました",
+      "しまいました",
+      "おきました",
+      "ありました"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "ja-gra-028",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "彼は薬を飲んだ___、まだ熱があります。",
+    "options": [
+      "から",
+      "ので",
+      "たら",
+      "のに"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "ja-gra-029",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "有名な店だからといって、いつもおいしい___.",
+    "options": [
+      "とは限らない",
+      "わけにはいかない",
+      "ことになっている",
+      "べきではない"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-030",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "締め切りが迫っているので、残業してでも仕上げ___.",
+    "options": [
+      "がちだ",
+      "ざるを得ない",
+      "かねない",
+      "っぱなしだ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "ja-gra-031",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この繊細な味は、この店___のものだ。",
+    "options": [
+      "だけあって",
+      "ともあれ",
+      "ならでは",
+      "なりに"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "ja-gra-032",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "説明書を読んだ___、実際に操作するのは難しい。",
+    "options": [
+      "ところが",
+      "うえに",
+      "ばかりに",
+      "ものの"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "ja-gra-033",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この一年、どれほど苦労した___.",
+    "options": [
+      "ことか",
+      "ものか",
+      "ばかりか",
+      "どころか"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-034",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "その話を聞いて、笑わ___.",
+    "options": [
+      "ないでもない",
+      "ずにはいられない",
+      "ざるを得ない",
+      "ないではおく"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "ja-gra-035",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "問題を解決する___、委員会が設置された。",
+    "options": [
+      "べき",
+      "もの",
+      "べく",
+      "こと"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "ja-gra-036",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "彼は泣か___、目を真っ赤にしていた。",
+    "options": [
+      "ざるを得なく",
+      "ないものか",
+      "るまいに",
+      "んばかりに"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "ja-gra-037",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "このまま雨が降り続けば、洪水になる___.",
+    "options": [
+      "おそれがある",
+      "わけがない",
+      "はずがない",
+      "ものがある"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-038",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "そのご要望にはお応え___.",
+    "options": [
+      "がちです",
+      "かねます",
+      "っぽいです",
+      "ざるを得ません"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "ja-gra-039",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "席に座った___、電話が鳴った。",
+    "options": [
+      "最中",
+      "うち",
+      "途端",
+      "一方"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "ja-gra-040",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "忙しくて、結局旅行には行か___.",
+    "options": [
+      "ないでもなかった",
+      "ずにはいられなかった",
+      "ざるを得なかった",
+      "ずじまいだった"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "ja-gra-041",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "試験の前だから、遊んでいる___.",
+    "options": [
+      "わけにはいかない",
+      "はずがない",
+      "べきだ",
+      "ことだ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "ja-gra-042",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この歌を聞く___、故郷を思い出す。",
+    "options": [
+      "とともに",
+      "につけ",
+      "に対して",
+      "に関して"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "ja-gra-043",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "暑い日は冷たいビール___.",
+    "options": [
+      "にすぎない",
+      "に違いない",
+      "に限る",
+      "におよばない"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "ja-gra-044",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "驚いた___、彼はもう帰国していた。",
+    "options": [
+      "ものに",
+      "わけに",
+      "ところに",
+      "ことに"
+    ],
+    "answerIndex": 3
+  }
+]

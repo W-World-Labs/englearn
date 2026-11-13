@@ -1,0 +1,794 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "LingoLearn assessment sessions",
+    "version": "1.5.0",
+    "description": "v0.10 rejects creation for languages without an authored bank (422), instead of silently labeling English questions with the requested language. Existing records retain their bank. GET additionally exposes the original learningLanguage for correct continuation. The app defaults to a short two-module selection; server default modules remain all six for existing API clients."
+  },
+  "servers": [
+    {
+      "url": "https://llearn.myfastools.com"
+    }
+  ],
+  "security": [
+    {},
+    {
+      "sessionCookie": []
+    }
+  ],
+  "paths": {
+    "/api/session": {
+      "post": {
+        "operationId": "createAssessmentSession",
+        "summary": "Create an adaptive assessment",
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "learningLanguage": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "English when omitted or null. Otherwise a trimmed, case-insensitive two-letter code with optional two-letter region. Normalized language must be en, zh, ko, ja or es. Malformed values yield 400; well-formed unavailable languages yield 422.",
+                    "examples": [
+                      "en",
+                      "zh-CN",
+                      "ja"
+                    ]
+                  },
+                  "modules": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Module"
+                    },
+                    "description": "Deduplicated in canonical skill order. Missing/empty/no valid modules selects all six."
+                  },
+                  "claimHash": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$",
+                    "description": "Optional SHA-256 hex of a device-held claim secret. Stored on the session so the creating browser can later bind it to a W-ID account via POST /api/session/claim. The secret itself is never sent or stored."
+                  }
+                },
+                "additionalProperties": true
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Created; save the sessionId to resume",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "sessionId",
+                    "currentModule",
+                    "item"
+                  ],
+                  "properties": {
+                    "sessionId": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "currentModule": {
+                      "$ref": "#/components/schemas/Module"
+                    },
+                    "item": {
+                      "anyOf": [
+                        {
+                          "$ref": "#/components/schemas/ClientItem"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Malformed language; no session is written",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error",
+                    "code"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "const": "invalid_learning_language"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "No authored bank; no session is written",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error",
+                    "code",
+                    "supportedLanguages"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "const": "unsupported_learning_language"
+                    },
+                    "supportedLanguages": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "examples": [
+                        [
+                          "en",
+                          "zh",
+                          "ko",
+                          "ja",
+                          "es"
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "The authenticated account does not match the expected account or does not own the requested record."
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ]
+      },
+      "get": {
+        "operationId": "resumeAssessmentSession",
+        "summary": "Load a saved assessment",
+        "parameters": [
+          {
+            "name": "sessionId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "ID returned by session creation. Account-owned sessions require the original W-ID subject; guest sessions use possession of this opaque ID."
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Session state; finished sessions have a null item",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "sessionId",
+                    "finished",
+                    "modules",
+                    "currentModule",
+                    "moduleCounts",
+                    "item",
+                    "learningLanguage"
+                  ],
+                  "properties": {
+                    "sessionId": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "currentModule": {
+                      "$ref": "#/components/schemas/Module"
+                    },
+                    "item": {
+                      "anyOf": [
+                        {
+                          "$ref": "#/components/schemas/ClientItem"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "finished": {
+                      "type": "boolean"
+                    },
+                    "learningLanguage": {
+                      "type": "string",
+                      "description": "Original stored target language, or en for older records without it. Legacy unsupported-language records retain their original label and English fallback content."
+                    },
+                    "modules": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Module"
+                      }
+                    },
+                    "moduleCounts": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "createdAt": {
+                      "type": "string",
+                      "format": "date-time",
+                      "description": "Returned for unfinished sessions."
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Request failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Request failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Request failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "abandonAssessmentSession",
+        "summary": "Explicitly abandon a saved session",
+        "parameters": [
+          {
+            "name": "sessionId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "ID returned by session creation. Account-owned sessions require the original W-ID subject; guest sessions use possession of this opaque ID."
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Session removed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "ok"
+                  ],
+                  "properties": {
+                    "ok": {
+                      "const": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Request failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Request failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Request failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "error"
+                  ],
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/history": {
+      "get": {
+        "operationId": "listAssessmentHistory",
+        "summary": "List the signed-in account’s assessment results",
+        "description": "Anonymous and invalid-session requests return an empty list. Guest reports remain accessible only through saved session IDs, never a shared history listing. Responses are private, no-store.",
+        "parameters": [
+          {
+            "name": "all",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "1"
+              ]
+            },
+            "description": "Return the full array instead of a page."
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Own results as an array when all=1; otherwise {items,total,page,pageSize,totalPages}. Guests receive no rows."
+          },
+          "403": {
+            "description": "The authenticated account does not match the expected account or does not own the requested record."
+          }
+        }
+      }
+    },
+    "/api/respond": {
+      "post": {
+        "operationId": "respondAssessmentAnswer",
+        "summary": "Commit an answer to the pending assessment question",
+        "description": "Only the currently issued question can be submitted. Duplicate/stale submissions return 409 while the session is active; finished sessions return done=true without mutation. Scores apply only to the exact normalized text that was evaluated.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sessionId",
+                  "response"
+                ],
+                "properties": {
+                  "sessionId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "response": {
+                    "type": "object",
+                    "required": [
+                      "itemId"
+                    ],
+                    "properties": {
+                      "itemId": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "selectedIndex": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "description": "Required for choice questions; must be a valid option index."
+                      },
+                      "selectedYes": {
+                        "type": "boolean",
+                        "description": "Required for vocabulary recognition."
+                      },
+                      "text": {
+                        "type": "string",
+                        "maxLength": 20000,
+                        "description": "Required for open questions; empty text is allowed and scores zero."
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Answer committed; returns item, currentModule, moduleDone, done and lastGrade, or done=true for an already finished session."
+          },
+          "400": {
+            "description": "Invalid request body or answer shape; no mutation or provider call."
+          },
+          "403": {
+            "description": "The session belongs to another account."
+          },
+          "404": {
+            "description": "The session does not exist or was deleted."
+          },
+          "409": {
+            "description": "The question is not pending; reload the session before continuing."
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ]
+      }
+    },
+    "/api/score": {
+      "post": {
+        "operationId": "scoreAssessmentAnswer",
+        "summary": "Score a draft for the pending open assessment question",
+        "description": "Requires session access and a pending open question before calling the provider. Scoring saves a resumable draft, never a committed response. Repeated identical scored drafts reuse their score. Late provider results are discarded if the session advances or is deleted. Existing empty-answer, unavailable-provider and provider-failure feedback responses remain HTTP 200.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sessionId",
+                  "itemId",
+                  "text"
+                ],
+                "properties": {
+                  "sessionId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "itemId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "text": {
+                    "type": "string",
+                    "maxLength": 20000
+                  },
+                  "locale": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Score and feedback, or existing scoring-service feedback when unavailable."
+          },
+          "400": {
+            "description": "Invalid request body or answer shape; no mutation or provider call."
+          },
+          "403": {
+            "description": "The session belongs to another account."
+          },
+          "404": {
+            "description": "The session does not exist or was deleted."
+          },
+          "409": {
+            "description": "The question is not pending; reload the session before continuing."
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ]
+      }
+    },
+    "/api/session/claim": {
+      "post": {
+        "summary": "Claim a guest session for the signed-in account",
+        "description": "Binds a guest-created session (and its finished result) to the authenticated W-ID subject. Requires the claim secret held by the device that created the session; only its SHA-256 hash was stored at creation. Idempotent when the session is already owned by the caller. Guest sessions without a claimHash cannot be claimed.",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sessionId",
+                  "claimSecret"
+                ],
+                "properties": {
+                  "sessionId": {
+                    "type": "string",
+                    "description": "Session ID returned by creation."
+                  },
+                  "claimSecret": {
+                    "type": "string",
+                    "description": "The device-held secret whose SHA-256 hex was supplied as claimHash at session creation."
+                  }
+                },
+                "additionalProperties": true
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "ok; claimed=true when ownership changed, false when already owned by this account",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ok": {
+                      "type": "boolean"
+                    },
+                    "claimed": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Missing sessionId or claimSecret"
+          },
+          "401": {
+            "description": "Not signed in"
+          },
+          "403": {
+            "description": "Claim proof failed or session has no claimHash",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "invalid_claim"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Session not found"
+          },
+          "409": {
+            "description": "Session already owned by another account",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string",
+                      "enum": [
+                        "claimed"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "sessionCookie": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "lingolearn_session",
+        "description": "Application session signed from W-ID identity; each account can access only its own records."
+      }
+    },
+    "schemas": {
+      "Module": {
+        "type": "string",
+        "enum": [
+          "vocabulary",
+          "grammar",
+          "reading",
+          "listening",
+          "speaking",
+          "writing"
+        ]
+      },
+      "ClientItem": {
+        "type": "object",
+        "description": "Public question fields; answerIndex, isPseudoword, rubric and IRT parameters are never returned. The vocabulary truth flag is a server-only answer key. Consumers must tolerate unknown fields.",
+        "required": [
+          "id",
+          "module",
+          "format",
+          "cefr",
+          "prompt"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "format": {
+            "type": "string",
+            "enum": [
+              "yesno",
+              "mcq",
+              "reading-mcq",
+              "listening-mcq",
+              "open"
+            ]
+          },
+          "cefr": {
+            "type": "string",
+            "enum": [
+              "A1",
+              "A2",
+              "B1",
+              "B2",
+              "C1",
+              "C2"
+            ]
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "word": {
+            "type": "string"
+          },
+          "passage": {
+            "type": "string"
+          },
+          "audioScript": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "contentLang": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "parameters": {
+      "ExpectedAccount": {
+        "name": "X-LingoLearn-Account",
+        "in": "header",
+        "required": false,
+        "description": "Expected W-ID subject of the browser UI. When supplied, a cookie identifying a different subject is rejected with 403. An empty value expects an anonymous request. Omit only for legacy clients.",
+        "schema": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Alias of learn.example.invalid. Shared Caddy owns the origin certificate.
+# tls internal matches the edge default: Cloudflare Full accepts it.
+# The app stays on loopback :3010.
+englearn.example.invalid {
+	tls internal
+	encode zstd gzip
+	header {
+		Referrer-Policy "strict-origin-when-cross-origin"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "SAMEORIGIN"
+	}
+	reverse_proxy 127.0.0.1:3010 {
+		header_up X-Forwarded-Proto https
+		header_up X-Forwarded-Host {host}
+	}
+}
+
+http://englearn.example.invalid {
+	redir https://englearn.example.invalid{uri} 308
+}

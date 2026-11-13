@@ -1,0 +1,17 @@
+# Shared Caddy owns certificates and ingress. The app listens only on loopback.
+learn.example.invalid {
+	encode zstd gzip
+	header {
+		Referrer-Policy "strict-origin-when-cross-origin"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "SAMEORIGIN"
+	}
+	reverse_proxy 127.0.0.1:3010 {
+		header_up X-Forwarded-Proto https
+		header_up X-Forwarded-Host {host}
+	}
+}
+
+http://learn.example.invalid {
+	redir https://learn.example.invalid{uri} 308
+}

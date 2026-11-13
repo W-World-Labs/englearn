@@ -1,0 +1,382 @@
+[
+  {
+    "id": "rea-001-q1",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.37,
+      "b": -1.28,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "Where does Maria live?",
+    "passage": "Maria lives in a small town near the sea. Every morning she walks her dog, Pepe, along the beach before breakfast. On weekends, she helps her father in his fruit shop. Maria enjoys her quiet life, but she dreams of one day visiting a big city like London to study art.",
+    "options": [
+      "In a big city",
+      "In a small town near the sea",
+      "In London",
+      "On a farm"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-001-q2",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.04,
+      "b": -1.16,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "What does Maria do every morning?",
+    "passage": "Maria lives in a small town near the sea. Every morning she walks her dog, Pepe, along the beach before breakfast. On weekends, she helps her father in his fruit shop. Maria enjoys her quiet life, but she dreams of one day visiting a big city like London to study art.",
+    "options": [
+      "She works in the shop",
+      "She studies art",
+      "She walks her dog",
+      "She visits London"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "rea-001-q3",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.41,
+      "b": -1.04,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "What is Maria's dream?",
+    "passage": "Maria lives in a small town near the sea. Every morning she walks her dog, Pepe, along the beach before breakfast. On weekends, she helps her father in his fruit shop. Maria enjoys her quiet life, but she dreams of one day visiting a big city like London to study art.",
+    "options": [
+      "To open a fruit shop",
+      "To buy a dog",
+      "To visit London to study art",
+      "To live by the sea"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "rea-002-q1",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.08,
+      "b": -0.53,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "What is the main idea of the passage?",
+    "passage": "The public library has changed a great deal over the past decade. Once a quiet place filled only with books, it now offers free internet access, study rooms, and even classes in coding and language learning. Librarians say these changes have attracted many younger visitors who might otherwise never have entered. However, some older members complain that the library has become too noisy and has lost its traditional calm atmosphere.",
+    "options": [
+      "Libraries are closing down",
+      "The library has modernised its services",
+      "Books are no longer popular",
+      "Librarians dislike young people"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-002-q2",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.45,
+      "b": -0.41,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "According to the text, why have younger visitors come to the library?",
+    "passage": "The public library has changed a great deal over the past decade. Once a quiet place filled only with books, it now offers free internet access, study rooms, and even classes in coding and language learning. Librarians say these changes have attracted many younger visitors who might otherwise never have entered. However, some older members complain that the library has become too noisy and has lost its traditional calm atmosphere.",
+    "options": [
+      "Because books are free",
+      "Because of the new services like coding classes",
+      "Because it is quiet",
+      "Because older members left"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-002-q3",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.12,
+      "b": -0.29,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "What do some older members think?",
+    "passage": "The public library has changed a great deal over the past decade. Once a quiet place filled only with books, it now offers free internet access, study rooms, and even classes in coding and language learning. Librarians say these changes have attracted many younger visitors who might otherwise never have entered. However, some older members complain that the library has become too noisy and has lost its traditional calm atmosphere.",
+    "options": [
+      "The library is too expensive",
+      "The library is too far away",
+      "The library has become too noisy",
+      "The library has too few books"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "rea-002-q4",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.49,
+      "b": -0.58,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "The word 'attracted' in the passage is closest in meaning to:",
+    "passage": "The public library has changed a great deal over the past decade. Once a quiet place filled only with books, it now offers free internet access, study rooms, and even classes in coding and language learning. Librarians say these changes have attracted many younger visitors who might otherwise never have entered. However, some older members complain that the library has become too noisy and has lost its traditional calm atmosphere.",
+    "options": [
+      "frightened",
+      "drawn in",
+      "paid",
+      "taught"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-003-q1",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.16,
+      "b": 0.44,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "What is the primary concern raised by critics of urban beekeeping?",
+    "passage": "Urban beekeeping has surged in popularity in recent years. Enthusiasts argue that rooftop hives help counter the alarming decline of pollinators, whose disappearance threatens global food supplies. Critics, however, caution that flooding cities with managed honeybees may actually harm wild bee species, which must then compete for limited floral resources. The debate underscores a broader tension in conservation: well-intentioned interventions can sometimes produce unintended ecological consequences.",
+    "options": [
+      "It is too expensive for city dwellers",
+      "Managed honeybees may harm wild bee species",
+      "Rooftop hives are dangerous to people",
+      "Honey production has declined"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-003-q2",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.53,
+      "b": 0.56,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "What broader point does the passage make about conservation?",
+    "passage": "Urban beekeeping has surged in popularity in recent years. Enthusiasts argue that rooftop hives help counter the alarming decline of pollinators, whose disappearance threatens global food supplies. Critics, however, caution that flooding cities with managed honeybees may actually harm wild bee species, which must then compete for limited floral resources. The debate underscores a broader tension in conservation: well-intentioned interventions can sometimes produce unintended ecological consequences.",
+    "options": [
+      "All interventions are harmful",
+      "Good intentions can have unintended consequences",
+      "Cities should ban beekeeping",
+      "Pollinators are not really declining"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-003-q3",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.2,
+      "b": 0.68,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "Why do enthusiasts support rooftop hives?",
+    "passage": "Urban beekeeping has surged in popularity in recent years. Enthusiasts argue that rooftop hives help counter the alarming decline of pollinators, whose disappearance threatens global food supplies. Critics, however, caution that flooding cities with managed honeybees may actually harm wild bee species, which must then compete for limited floral resources. The debate underscores a broader tension in conservation: well-intentioned interventions can sometimes produce unintended ecological consequences.",
+    "options": [
+      "To sell more honey",
+      "To help reverse the decline of pollinators",
+      "To compete with wild bees",
+      "To attract tourists"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-003-q4",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.57,
+      "b": 0.39,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "The phrase 'floral resources' most likely refers to:",
+    "passage": "Urban beekeeping has surged in popularity in recent years. Enthusiasts argue that rooftop hives help counter the alarming decline of pollinators, whose disappearance threatens global food supplies. Critics, however, caution that flooding cities with managed honeybees may actually harm wild bee species, which must then compete for limited floral resources. The debate underscores a broader tension in conservation: well-intentioned interventions can sometimes produce unintended ecological consequences.",
+    "options": [
+      "money for flowers",
+      "nectar and pollen from flowers",
+      "gardening tools",
+      "bee hives"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-004-q1",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.24,
+      "b": 1.41,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "What assumption did twentieth-century economists hold?",
+    "passage": "For much of the twentieth century, economists treated human behaviour as fundamentally rational, assuming that individuals weigh costs and benefits with cool precision. The emergence of behavioural economics has profoundly destabilised this assumption. Drawing on psychology, researchers have demonstrated that people are systematically swayed by cognitive biases: they overvalue immediate rewards, fear losses more than they relish equivalent gains, and are unduly influenced by how choices are framed. Far from being anomalies, these tendencies appear to be deeply embedded features of human cognition, with significant implications for public policy.",
+    "options": [
+      "That people behave irrationally",
+      "That people weigh costs and benefits rationally",
+      "That psychology is irrelevant",
+      "That losses feel better than gains"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-004-q2",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.61,
+      "b": 1.53,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "How has behavioural economics affected the traditional view?",
+    "passage": "For much of the twentieth century, economists treated human behaviour as fundamentally rational, assuming that individuals weigh costs and benefits with cool precision. The emergence of behavioural economics has profoundly destabilised this assumption. Drawing on psychology, researchers have demonstrated that people are systematically swayed by cognitive biases: they overvalue immediate rewards, fear losses more than they relish equivalent gains, and are unduly influenced by how choices are framed. Far from being anomalies, these tendencies appear to be deeply embedded features of human cognition, with significant implications for public policy.",
+    "options": [
+      "It confirmed it",
+      "It profoundly destabilised it",
+      "It ignored it",
+      "It made it more precise"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-004-q3",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.28,
+      "b": 1.24,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "According to the passage, people tend to:",
+    "passage": "For much of the twentieth century, economists treated human behaviour as fundamentally rational, assuming that individuals weigh costs and benefits with cool precision. The emergence of behavioural economics has profoundly destabilised this assumption. Drawing on psychology, researchers have demonstrated that people are systematically swayed by cognitive biases: they overvalue immediate rewards, fear losses more than they relish equivalent gains, and are unduly influenced by how choices are framed. Far from being anomalies, these tendencies appear to be deeply embedded features of human cognition, with significant implications for public policy.",
+    "options": [
+      "value future rewards over immediate ones",
+      "fear losses more than they enjoy equivalent gains",
+      "ignore how choices are framed",
+      "make perfectly consistent decisions"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-004-q4",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.65,
+      "b": 1.36,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "The author suggests that cognitive biases are:",
+    "passage": "For much of the twentieth century, economists treated human behaviour as fundamentally rational, assuming that individuals weigh costs and benefits with cool precision. The emergence of behavioural economics has profoundly destabilised this assumption. Drawing on psychology, researchers have demonstrated that people are systematically swayed by cognitive biases: they overvalue immediate rewards, fear losses more than they relish equivalent gains, and are unduly influenced by how choices are framed. Far from being anomalies, these tendencies appear to be deeply embedded features of human cognition, with significant implications for public policy.",
+    "options": [
+      "rare anomalies",
+      "deeply embedded features of cognition",
+      "easily eliminated",
+      "irrelevant to policy"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-005-q1",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.32,
+      "b": 2.38,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "What do proponents of linguistic relativity claim?",
+    "passage": "The notion that language merely labels a pre-existing reality has long been contested. Proponents of linguistic relativity contend that the categories a language encodes can subtly shape the cognitive habits of its speakers, predisposing them to attend to certain distinctions while neglecting others. Detractors retort that such claims, when stated strongly, verge on the unfalsifiable, and that experimental evidence supports only modest, domain-specific effects. The controversy, far from being resolved, has matured into a more nuanced inquiry into the precise mechanisms by which linguistic structure and thought might interpenetrate.",
+    "options": [
+      "Language has no effect on thought",
+      "Language can shape speakers' cognitive habits",
+      "All languages are identical",
+      "Thought precedes language entirely"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "rea-005-q2",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.69,
+      "b": 2.5,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "What objection do detractors raise?",
+    "passage": "The notion that language merely labels a pre-existing reality has long been contested. Proponents of linguistic relativity contend that the categories a language encodes can subtly shape the cognitive habits of its speakers, predisposing them to attend to certain distinctions while neglecting others. Detractors retort that such claims, when stated strongly, verge on the unfalsifiable, and that experimental evidence supports only modest, domain-specific effects. The controversy, far from being resolved, has matured into a more nuanced inquiry into the precise mechanisms by which linguistic structure and thought might interpenetrate.",
+    "options": [
+      "Strong versions of the claim verge on the unfalsifiable",
+      "Language is unimportant",
+      "The experiments are too numerous",
+      "Speakers cannot learn new languages"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "rea-005-q3",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.36,
+      "b": 2.21,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "How does the author characterise the current state of the debate?",
+    "passage": "The notion that language merely labels a pre-existing reality has long been contested. Proponents of linguistic relativity contend that the categories a language encodes can subtly shape the cognitive habits of its speakers, predisposing them to attend to certain distinctions while neglecting others. Detractors retort that such claims, when stated strongly, verge on the unfalsifiable, and that experimental evidence supports only modest, domain-specific effects. The controversy, far from being resolved, has matured into a more nuanced inquiry into the precise mechanisms by which linguistic structure and thought might interpenetrate.",
+    "options": [
+      "Completely resolved in favour of relativity",
+      "Abandoned by researchers",
+      "Matured into a more nuanced inquiry",
+      "Proven entirely false"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "rea-005-q4",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.03,
+      "b": 2.33,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "The word 'interpenetrate' suggests that linguistic structure and thought:",
+    "passage": "The notion that language merely labels a pre-existing reality has long been contested. Proponents of linguistic relativity contend that the categories a language encodes can subtly shape the cognitive habits of its speakers, predisposing them to attend to certain distinctions while neglecting others. Detractors retort that such claims, when stated strongly, verge on the unfalsifiable, and that experimental evidence supports only modest, domain-specific effects. The controversy, far from being resolved, has matured into a more nuanced inquiry into the precise mechanisms by which linguistic structure and thought might interpenetrate.",
+    "options": [
+      "are completely separate",
+      "mutually influence each other",
+      "cannot coexist",
+      "are identical"
+    ],
+    "answerIndex": 1
+  }
+]

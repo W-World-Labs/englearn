@@ -1,0 +1,814 @@
+{
+  "_provenance": {
+    "licence": "CC BY 4.0 (upstream); this adaptation records source, revision and changes per repo open-content policy.",
+    "sources": [
+      {
+        "passages": [
+          "passage-4",
+          "passage-6"
+        ],
+        "repo": "LuchoBazz/ielts-ai-dataset",
+        "revision": "78f7ebf2b430114998aae6806cb92c1a4a475594",
+        "path": "datasets/synthetic-official-mocks/reading/ielts-reading-academic-001.json"
+      },
+      {
+        "passages": [
+          "passage-5"
+        ],
+        "repo": "LuchoBazz/ielts-ai-dataset",
+        "revision": "78f7ebf2b430114998aae6806cb92c1a4a475594",
+        "path": "datasets/practice-drills/reading/ielts-reading-academic-band-9.0-test-001.json",
+        "note": "main HEAD verified 2026-09-14; prose simplified/adapted"
+      }
+    ],
+    "changes": "Converted '(A)' markers to local 'A'+blank-line format; renumbered to questions 1-40 with ids q41-q80 and passages passage-4/5/6; expanded table/summary gaps to per-gap questions; stripped multiple-choice letter prefixes (renderer re-adds 'A.' labels); authored concise English explanations. Substitution: C1 'The Psychology of Urban Design' replaced by C2 'The Economics of Attention in the Digital Anthropocene' because C1-P2 substantially overlaps Practice 01 'The Hidden Life of Urban Trees' (shared motifs: urban planners, green space as infrastructure, tree-lined streets, stress/mental-health/recovery benefits, parks and squares). Table row 1 dual-gap merged into single gap Q5 (LED lighting; 'water' given in stem) to keep 40 items and avoid a duplicate 'water' answer.",
+    "notice": "No official IELTS past-paper content is used or reproduced."
+  },
+  "passages": [
+    {
+      "id": "passage-4",
+      "title": "The Rise of Vertical Farming",
+      "content": "A\n\nAs the global population continues to expand, projecting to reach nearly 10 billion by 2050, traditional agriculture faces unprecedented challenges. Conventional farming requires vast expanses of arable land, significant fresh water resources, and relies heavily on complex supply chains that are increasingly vulnerable to climate change. In response to these pressing limitations, a revolutionary agricultural paradigm has emerged: vertical farming. This highly innovative method involves growing crops in stacked layers within controlled indoor environments, typically located in dense urban areas. By bringing the farm directly into the city, vertical farming drastically reduces transportation emissions and food miles, offering a highly localized solution to a global crisis.\n\nB\n\nThe mechanics of vertical farming rely entirely on advanced indoor agricultural technologies rather than natural sunlight or soil. Most facilities utilize hydroponics, where roots are submerged in a nutrient-rich water solution instead of traditional earth. Another increasingly common method is aeroponics, a system originally developed by NASA, where roots hang directly in the air and receive a continuous, highly calibrated nutrient mist. Because these environments are completely enclosed, vertical farms do not rely on natural solar cycles; instead, they use sophisticated LED lighting systems programmed to emit specific light spectrums optimized for maximum photosynthesis.\n\nC\n\nThe environmental benefits of this controlled-environment agriculture are substantial. Because the systems are closed-loop, vertical farming saves up to 95% water compared to conventional field farming, capturing and recycling moisture transpired by the plants. Furthermore, the sterile indoor environment fundamentally changes pest management. By keeping insects out through strict biosecurity protocols, vertical farming completely eliminates the need for chemical pesticides, resulting in cleaner, safer produce. Additionally, independent of external weather conditions, these facilities can guarantee a consistent, year-round yield, harvesting crops multiple times a year regardless of the season.\n\nD\n\nDespite its remarkable potential, vertical farming is not without significant drawbacks. The capital required to construct a state-of-the-art facility is enormous, with sensors, climate control systems, and specialized infrastructure driving up initial setup costs. However, the major ongoing expense remains energy consumption. Powering thousands of high-intensity LED lights and maintaining precise environmental controls 24 hours a day demands a massive amount of electricity. This high energy requirement currently makes vertical farming economically viable primarily for fast-growing, high-margin crops like leafy greens and herbs, rather than staple calorie crops like wheat or rice.\n\nE\n\nThe future outlook for vertical farming hinges on overcoming these economic and energetic hurdles. Engineers and agronomists are actively working on increasing the efficiency of lighting systems and exploring ways of integrating renewable energy sources, such as solar and wind power, directly into facility designs to offset these costs. If the industry can successfully reduce its energy footprint, vertical farming stands to become a crucial pillar of global food security, resilient to a changing climate and capable of sustainably feeding the megacities of tomorrow.",
+      "type": "academic",
+      "difficulty": "medium",
+      "wordCount": 470,
+      "topic": "Agricultural Technology",
+      "source": "Academic Reading Practice"
+    },
+    {
+      "id": "passage-5",
+      "title": "The Economics of Attention in the Digital Anthropocene",
+      "content": "A\n\nIn the contemporary epoch, frequently colloquially termed the 'Digital Anthropocene', human attention has been systematically transmuted from a cognitive faculty into a highly fungible macroeconomic commodity. The genesis of the \"attention economy\"—a paradigm initially postulated by polymath Herbert A. Simon in 1971—posits that an overabundance of information inexorably engenders a scarcity of attention. Today, this theoretical framework has been operationalised by ubiquitous algorithmic architectures designed to extract, quantify, and monetise human cognitive engagement with unprecedented granular precision.\n\nB\n\nThe fundamental friction in this economy arises from a profound biological bottleneck. While global data generation expands at an exponential velocity, the neurobiological capacity of the human brain to process sensory input remains strictly bounded by evolutionary constraints. We possess roughly 86 billion neurons, capable of processing only a finite bandwidth of stimuli before cognitive overload triggers profound executive dysfunction. Silicon Valley conglomerates actively exploit this asymmetry, deploying sophisticated interface designs that bypass higher-order rational deliberation, appealing directly to the primitive dopaminergic pathways of the basal ganglia.\n\nC\n\nChief among these exploitative mechanisms is the 'variable ratio schedule' of reinforcement, a psychological principle imported directly from B.F. Skinner's mid-20th-century operant conditioning paradigms. Features such as the 'infinite scroll' or the unpredictable delivery of social validation notifications transform digital platforms into veritable psychological slot machines. Because the reward (a compelling piece of news, a humorous image, a social \"like\") is delivered at entirely randomized intervals, the user is locked into a compulsive loop of continuous checking, effectively surrendering their volitional autonomy to the architectural dictates of the application.\n\nD\n\nThe macroeconomic implications of this shift have been delineated by Harvard sociologist Shoshana Zuboff under the nomenclature of \"surveillance capitalism.\" In this paradigm, digital conglomerates do not merely sell targeted advertising; they aggregate vast oceans of behavioral data to construct predictive models of future human action. These \"behavioral futures\" are traded in opaque secondary markets, rendering the human experience itself the raw material for algorithmic capital accumulation. The user is no longer the customer, nor even the product; rather, the user is the uncompensated terra nullius from which cognitive resources are ruthlessly strip-mined.\n\nE\n\nThe psychological externalities of this system are becoming increasingly quantifiable. Sociologists note a rising epidemic of \"continuous partial attention, an unnatural cognitive state wherein an individual maintains a superficial, high-alert scan of multiple digital streams simultaneously, never achieving the deep, unfragmented focus required for complex analytical reasoning or meaningful empathetic connection. Longitudinal studies suggest this chronic attentional fragmentation correlates strongly with elevated cortisol levels, pervasive societal anxiety, and a measurable degradation in democratic discourse, as emotionally incendiary micro-content reliably outcompetes nuanced argumentation in algorithmic visibility.\n\nF\n\nIn response to this cognitive crisis, a nascent movement advocating for \"cognitive ergonomics\" and \"time well spent\" is gaining legislative traction. European regulatory bodies have begun floating the concept of a \"Right to Disconnect, alongside proposals to strictly regulate persuasive design patterns. However, transitioning away from an attention-extractive economy necessitates a fundamental realignment of digital incentive structures—shifting the core metrics of technological success from raw \"time-on-site\" to the qualitative enhancement of human agency and well-being.",
+      "type": "academic",
+      "difficulty": "hard",
+      "wordCount": 512,
+      "topic": "Digital Economy",
+      "source": "Academic Reading Practice"
+    },
+    {
+      "id": "passage-6",
+      "title": "Quantum Computing and the Future of Cryptography",
+      "content": "A\n\nThe digital security infrastructure that currently underpins the modern world—from secure online banking and encrypted messaging to classified government communications—relies almost entirely on classical computing paradigms. Classical computers process information using binary bits, representing data as either a 0 or a 1. However, the rapidly advancing field of quantum computing threatens to entirely upend this established digital order. Quantum computers operate on the mind-bending principles of quantum mechanics, utilizing quantum bits, or \"qubits,\" which possess capabilities that make traditional microprocessors look little more than advanced abacuses.\n\nB\n\nThe extraordinary power of quantum computers stems from two primary quantum phenomena: superposition and entanglement. While a classical bit must be strictly a 0 or a 1, a qubit in a state of superposition can exist as both a 0 and a 1 simultaneously. This allows quantum systems to evaluate an immense number of potential outcomes concurrently, rather than sequentially. Furthermore, through quantum entanglement, qubits become intricately linked; the state of one instantly influences the state of another, regardless of the physical distance separating them. Together, these properties grant quantum computers exponential processing power for specific types of complex calculations.\n\nC\n\nTo understand the existential threat this poses, one must examine how current encryption works. The most widely used cryptographic standard today is the RSA algorithm. RSA security relies completely on the immense mathematical difficulty of factoring incredibly large prime numbers. For a classical supercomputer, calculating the prime factors of a 2048-bit number would theoretically take millions of years. Therefore, classical cryptography assumes that brute-force decryption is practically impossible within a human timeframe. Our data is considered \"secure\" merely because the math takes too long for current machines to solve.\n\nD\n\nEnter Peter Shor. In 1994, the American mathematician developed Shor’s algorithm, a theoretical quantum algorithm designed specifically for integer factorization. Shor proved that a sufficiently powerful quantum computer could execute this algorithm to find the prime factors of large numbers not in millions of years, but in mere hours or minutes. The moment a fully functional, fault-tolerant quantum computer is built, RSA and similar encryption models instantly become obsolete. Every piece of encrypted data—past, present, and future—could be theoretically exposed and decrypted almost instantly.\n\nE\n\nRecognizing this looming \"quantum apocalypse,\" global cybersecurity agencies and cryptographers are aggressively racing to develop \"post-quantum cryptography\" (PQC). The goal is to design entirely new cryptographic algorithms that run on classical computers but rely on mathematical problems so profoundly complex that even a quantum computer cannot easily solve them. The most promising candidates are lattice-based models. These algorithms hide data within multidimensional geometric grids; finding the shortest path between points in a lattice with hundreds of dimensions appears to be a problem that inherently resists even quantum processing speed.\n\nF\n\nThe transition to post-quantum cryptography is an urgent race against time. The phenomenon known as \"Harvest Now, Decrypt Later\" reveals that malicious actors are already actively stealing and stockpiling massive amounts of encrypted data today. They intend to hold onto this data until quantum technology matures enough to decrypt it. Therefore, achieving quantum supremacy—the point where a quantum computer definitively outperforms the best classical supercomputer on a specific task—is not just an academic milestone; it is a global national security imperative driving rapid, unprecedented innovation.",
+      "type": "academic",
+      "difficulty": "hard",
+      "wordCount": 539,
+      "topic": "Quantum Computing",
+      "source": "Academic Reading Practice"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q41",
+      "passageId": "passage-4",
+      "type": "true-false-not-given",
+      "questionNumber": 1,
+      "groupId": "p4-tfng",
+      "groupInstruction": "Questions 1–4: Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if it contradicts the information, or NOT GIVEN if there is no information on this.",
+      "instruction": "Write TRUE, FALSE or NOT GIVEN.",
+      "question": "Vertical farming relies heavily on natural sunlight to grow crops efficiently.",
+      "correctAnswer": "FALSE",
+      "points": 1,
+      "explanation": "Paragraph B states farms 'do not rely on natural solar cycles' and use LED lighting instead.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q42",
+      "passageId": "passage-4",
+      "type": "true-false-not-given",
+      "questionNumber": 2,
+      "groupId": "p4-tfng",
+      "groupInstruction": "Questions 1–4: Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if it contradicts the information, or NOT GIVEN if there is no information on this.",
+      "instruction": "Write TRUE, FALSE or NOT GIVEN.",
+      "question": "Aeroponics generally uses less water than hydroponic systems.",
+      "correctAnswer": "NOT GIVEN",
+      "points": 1,
+      "explanation": "The passage describes hydroponics and aeroponics but never compares their water consumption.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q43",
+      "passageId": "passage-4",
+      "type": "true-false-not-given",
+      "questionNumber": 3,
+      "groupId": "p4-tfng",
+      "groupInstruction": "Questions 1–4: Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if it contradicts the information, or NOT GIVEN if there is no information on this.",
+      "instruction": "Write TRUE, FALSE or NOT GIVEN.",
+      "question": "Vertical farms are capable of producing harvests regardless of the external season.",
+      "correctAnswer": "TRUE",
+      "points": 1,
+      "explanation": "Paragraph C states facilities guarantee 'a consistent, year-round yield ... regardless of the season'.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q44",
+      "passageId": "passage-4",
+      "type": "true-false-not-given",
+      "questionNumber": 4,
+      "groupId": "p4-tfng",
+      "groupInstruction": "Questions 1–4: Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if it contradicts the information, or NOT GIVEN if there is no information on this.",
+      "instruction": "Write TRUE, FALSE or NOT GIVEN.",
+      "question": "The initial setup cost of a vertical farm is cheaper than purchasing traditional farmland.",
+      "correctAnswer": "FALSE",
+      "points": 1,
+      "explanation": "Paragraph D calls the required capital 'enormous', contradicting the claim of cheaper setup.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q45",
+      "passageId": "passage-4",
+      "type": "table-completion",
+      "questionNumber": 5,
+      "groupId": "p4-table",
+      "groupInstruction": "Questions 5–8: Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "instruction": "Write your answer for gap 5 (NO MORE THAN TWO WORDS).",
+      "question": "Gap 5",
+      "correctAnswer": "LED lighting",
+      "points": 1,
+      "explanation": "Paragraph B: farms 'use sophisticated LED lighting systems programmed to emit specific light spectrums'.",
+      "groupContent": "Vertical farming methods and benefits\n\nHydroponics grows plants in a nutrient-rich water solution and uses sophisticated (5) ________. Aeroponics suspends roots in the (6) ________ with a calibrated nutrient mist. Closed-loop systems save up to 95% (7) ________ and exclude insects through biosecurity. Strict biosecurity eliminates the need for chemical (8) ________.",
+      "wordLimit": 2
+    },
+    {
+      "id": "q46",
+      "passageId": "passage-4",
+      "type": "table-completion",
+      "questionNumber": 6,
+      "groupId": "p4-table",
+      "groupInstruction": "Questions 5–8: Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "instruction": "Write your answer for gap 6 (NO MORE THAN TWO WORDS).",
+      "question": "Gap 6",
+      "correctAnswer": "air",
+      "points": 1,
+      "explanation": "Paragraph B: in aeroponics 'roots hang directly in the air'.",
+      "groupContent": "Vertical farming methods and benefits\n\nHydroponics grows plants in a nutrient-rich water solution and uses sophisticated (5) ________. Aeroponics suspends roots in the (6) ________ with a calibrated nutrient mist. Closed-loop systems save up to 95% (7) ________ and exclude insects through biosecurity. Strict biosecurity eliminates the need for chemical (8) ________.",
+      "wordLimit": 2
+    },
+    {
+      "id": "q47",
+      "passageId": "passage-4",
+      "type": "table-completion",
+      "questionNumber": 7,
+      "groupId": "p4-table",
+      "groupInstruction": "Questions 5–8: Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "instruction": "Write your answer for gap 7 (NO MORE THAN TWO WORDS).",
+      "question": "Gap 7",
+      "correctAnswer": "water",
+      "points": 1,
+      "explanation": "Paragraph C: closed-loop systems save 'up to 95% water compared to conventional field farming'.",
+      "groupContent": "Vertical farming methods and benefits\n\nHydroponics grows plants in a nutrient-rich water solution and uses sophisticated (5) ________. Aeroponics suspends roots in the (6) ________ with a calibrated nutrient mist. Closed-loop systems save up to 95% (7) ________ and exclude insects through biosecurity. Strict biosecurity eliminates the need for chemical (8) ________.",
+      "wordLimit": 2
+    },
+    {
+      "id": "q48",
+      "passageId": "passage-4",
+      "type": "table-completion",
+      "questionNumber": 8,
+      "groupId": "p4-table",
+      "groupInstruction": "Questions 5–8: Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "instruction": "Write your answer for gap 8 (NO MORE THAN TWO WORDS).",
+      "question": "Gap 8",
+      "correctAnswer": "pesticides",
+      "points": 1,
+      "explanation": "Paragraph C: strict biosecurity 'completely eliminates the need for chemical pesticides'.",
+      "groupContent": "Vertical farming methods and benefits\n\nHydroponics grows plants in a nutrient-rich water solution and uses sophisticated (5) ________. Aeroponics suspends roots in the (6) ________ with a calibrated nutrient mist. Closed-loop systems save up to 95% (7) ________ and exclude insects through biosecurity. Strict biosecurity eliminates the need for chemical (8) ________.",
+      "wordLimit": 2
+    },
+    {
+      "id": "q49",
+      "passageId": "passage-4",
+      "type": "short-answer",
+      "questionNumber": 9,
+      "groupId": "p4-short",
+      "groupInstruction": "Questions 9–13: Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "instruction": "Answer using NO MORE THAN THREE WORDS.",
+      "question": "What type of locations are vertical farms typically built in?",
+      "correctAnswer": "urban areas",
+      "points": 1,
+      "explanation": "Paragraph A: vertical farms are 'typically located in dense urban areas'.",
+      "acceptableAnswers": [
+        "dense urban areas"
+      ],
+      "wordLimit": 3
+    },
+    {
+      "id": "q50",
+      "passageId": "passage-4",
+      "type": "short-answer",
+      "questionNumber": 10,
+      "groupId": "p4-short",
+      "groupInstruction": "Questions 9–13: Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "instruction": "Answer using NO MORE THAN THREE WORDS.",
+      "question": "What specific agricultural method relies on a highly calibrated nutrient mist?",
+      "correctAnswer": "aeroponics",
+      "points": 1,
+      "explanation": "Paragraph B identifies aeroponics as the system where roots 'receive a continuous, highly calibrated nutrient mist'.",
+      "wordLimit": 3
+    },
+    {
+      "id": "q51",
+      "passageId": "passage-4",
+      "type": "short-answer",
+      "questionNumber": 11,
+      "groupId": "p4-short",
+      "groupInstruction": "Questions 9–13: Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "instruction": "Answer using NO MORE THAN THREE WORDS.",
+      "question": "What is the primary ongoing expense involved in operating a vertical farm?",
+      "correctAnswer": "energy consumption",
+      "points": 1,
+      "explanation": "Paragraph D: 'the major ongoing expense remains energy consumption'.",
+      "wordLimit": 3
+    },
+    {
+      "id": "q52",
+      "passageId": "passage-4",
+      "type": "short-answer",
+      "questionNumber": 12,
+      "groupId": "p4-short",
+      "groupInstruction": "Questions 9–13: Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "instruction": "Answer using NO MORE THAN THREE WORDS.",
+      "question": "What type of produce is currently the most economically viable for indoor farming?",
+      "correctAnswer": "leafy greens",
+      "points": 1,
+      "explanation": "Paragraph D: farming is viable 'primarily for fast-growing, high-margin crops like leafy greens and herbs'.",
+      "acceptableAnswers": [
+        "leafy greens and herbs"
+      ],
+      "wordLimit": 3
+    },
+    {
+      "id": "q53",
+      "passageId": "passage-4",
+      "type": "short-answer",
+      "questionNumber": 13,
+      "groupId": "p4-short",
+      "groupInstruction": "Questions 9–13: Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "instruction": "Answer using NO MORE THAN THREE WORDS.",
+      "question": "What type of power sources are being integrated into designs to offset high electricity costs?",
+      "correctAnswer": "renewable energy sources",
+      "points": 1,
+      "explanation": "Paragraph E: engineers explore 'integrating renewable energy sources, such as solar and wind power'.",
+      "acceptableAnswers": [
+        "renewable energy"
+      ],
+      "wordLimit": 3
+    },
+    {
+      "id": "q54",
+      "passageId": "passage-5",
+      "type": "matching-headings",
+      "questionNumber": 14,
+      "groupId": "p5-headings",
+      "groupInstruction": "Questions 14–19: The passage has six paragraphs, A–F. Choose the correct heading for paragraphs A–F from the list of headings below. Write the correct number, i–viii.",
+      "instruction": "Choose the correct heading for Paragraph A.",
+      "question": "Paragraph A",
+      "correctAnswer": "vii",
+      "points": 1,
+      "explanation": "Paragraph A introduces Simon's 1971 theory that information abundance creates attention scarcity.",
+      "groupContent": "List of Headings\ni    The biological limitations of data processing\nii    Operant conditioning in user interface design\niii    Evaluating the societal and neurobiological toll\niv    Legislative efforts toward cognitive protection\nv    The commodification of behavioral predictions\nvi    A historical oversight in psychological research\nvii    The foundational theory of information abundance\nviii    Algorithms designed for educational enhancement",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ]
+    },
+    {
+      "id": "q55",
+      "passageId": "passage-5",
+      "type": "matching-headings",
+      "questionNumber": 15,
+      "groupId": "p5-headings",
+      "groupInstruction": "Questions 14–19: The passage has six paragraphs, A–F. Choose the correct heading for paragraphs A–F from the list of headings below. Write the correct number, i–viii.",
+      "instruction": "Choose the correct heading for Paragraph B.",
+      "question": "Paragraph B",
+      "correctAnswer": "i",
+      "points": 1,
+      "explanation": "Paragraph B describes the brain's bounded processing capacity against exponential data growth.",
+      "groupContent": "List of Headings\ni    The biological limitations of data processing\nii    Operant conditioning in user interface design\niii    Evaluating the societal and neurobiological toll\niv    Legislative efforts toward cognitive protection\nv    The commodification of behavioral predictions\nvi    A historical oversight in psychological research\nvii    The foundational theory of information abundance\nviii    Algorithms designed for educational enhancement",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ]
+    },
+    {
+      "id": "q56",
+      "passageId": "passage-5",
+      "type": "matching-headings",
+      "questionNumber": 16,
+      "groupId": "p5-headings",
+      "groupInstruction": "Questions 14–19: The passage has six paragraphs, A–F. Choose the correct heading for paragraphs A–F from the list of headings below. Write the correct number, i–viii.",
+      "instruction": "Choose the correct heading for Paragraph C.",
+      "question": "Paragraph C",
+      "correctAnswer": "ii",
+      "points": 1,
+      "explanation": "Paragraph C explains variable-ratio reinforcement schedules in interface design (Skinner).",
+      "groupContent": "List of Headings\ni    The biological limitations of data processing\nii    Operant conditioning in user interface design\niii    Evaluating the societal and neurobiological toll\niv    Legislative efforts toward cognitive protection\nv    The commodification of behavioral predictions\nvi    A historical oversight in psychological research\nvii    The foundational theory of information abundance\nviii    Algorithms designed for educational enhancement",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ]
+    },
+    {
+      "id": "q57",
+      "passageId": "passage-5",
+      "type": "matching-headings",
+      "questionNumber": 17,
+      "groupId": "p5-headings",
+      "groupInstruction": "Questions 14–19: The passage has six paragraphs, A–F. Choose the correct heading for paragraphs A–F from the list of headings below. Write the correct number, i–viii.",
+      "instruction": "Choose the correct heading for Paragraph D.",
+      "question": "Paragraph D",
+      "correctAnswer": "v",
+      "points": 1,
+      "explanation": "Paragraph D presents Zuboff's surveillance capitalism and traded behavioural futures.",
+      "groupContent": "List of Headings\ni    The biological limitations of data processing\nii    Operant conditioning in user interface design\niii    Evaluating the societal and neurobiological toll\niv    Legislative efforts toward cognitive protection\nv    The commodification of behavioral predictions\nvi    A historical oversight in psychological research\nvii    The foundational theory of information abundance\nviii    Algorithms designed for educational enhancement",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ]
+    },
+    {
+      "id": "q58",
+      "passageId": "passage-5",
+      "type": "matching-headings",
+      "questionNumber": 18,
+      "groupId": "p5-headings",
+      "groupInstruction": "Questions 14–19: The passage has six paragraphs, A–F. Choose the correct heading for paragraphs A–F from the list of headings below. Write the correct number, i–viii.",
+      "instruction": "Choose the correct heading for Paragraph E.",
+      "question": "Paragraph E",
+      "correctAnswer": "iii",
+      "points": 1,
+      "explanation": "Paragraph E quantifies continuous partial attention, anxiety and degraded discourse.",
+      "groupContent": "List of Headings\ni    The biological limitations of data processing\nii    Operant conditioning in user interface design\niii    Evaluating the societal and neurobiological toll\niv    Legislative efforts toward cognitive protection\nv    The commodification of behavioral predictions\nvi    A historical oversight in psychological research\nvii    The foundational theory of information abundance\nviii    Algorithms designed for educational enhancement",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ]
+    },
+    {
+      "id": "q59",
+      "passageId": "passage-5",
+      "type": "matching-headings",
+      "questionNumber": 19,
+      "groupId": "p5-headings",
+      "groupInstruction": "Questions 14–19: The passage has six paragraphs, A–F. Choose the correct heading for paragraphs A–F from the list of headings below. Write the correct number, i–viii.",
+      "instruction": "Choose the correct heading for Paragraph F.",
+      "question": "Paragraph F",
+      "correctAnswer": "iv",
+      "points": 1,
+      "explanation": "Paragraph F discusses the Right to Disconnect and regulating persuasive design.",
+      "groupContent": "List of Headings\ni    The biological limitations of data processing\nii    Operant conditioning in user interface design\niii    Evaluating the societal and neurobiological toll\niv    Legislative efforts toward cognitive protection\nv    The commodification of behavioral predictions\nvi    A historical oversight in psychological research\nvii    The foundational theory of information abundance\nviii    Algorithms designed for educational enhancement",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ]
+    },
+    {
+      "id": "q60",
+      "passageId": "passage-5",
+      "type": "matching-information",
+      "questionNumber": 20,
+      "groupId": "p5-info",
+      "groupInstruction": "Questions 20–23: Which paragraph contains the following information? Write the correct letter, A–F.",
+      "instruction": "Write the correct letter, A–F.",
+      "question": "A description of how unstructured, volatile digital streams degrade democratic interactions.",
+      "correctAnswer": "E",
+      "points": 1,
+      "explanation": "Paragraph E links incendiary micro-content outcompeting nuance to degraded democratic discourse.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "q61",
+      "passageId": "passage-5",
+      "type": "matching-information",
+      "questionNumber": 21,
+      "groupId": "p5-info",
+      "groupInstruction": "Questions 20–23: Which paragraph contains the following information? Write the correct letter, A–F.",
+      "instruction": "Write the correct letter, A–F.",
+      "question": "An explanation of why the unpredictability of digital rewards forces compulsive user behavior.",
+      "correctAnswer": "C",
+      "points": 1,
+      "explanation": "Paragraph C states randomised rewards lock users into a compulsive checking loop.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "q62",
+      "passageId": "passage-5",
+      "type": "matching-information",
+      "questionNumber": 22,
+      "groupId": "p5-info",
+      "groupInstruction": "Questions 20–23: Which paragraph contains the following information? Write the correct letter, A–F.",
+      "instruction": "Write the correct letter, A–F.",
+      "question": "The assertion that users are treated merely as territories to be mined for data.",
+      "correctAnswer": "D",
+      "points": 1,
+      "explanation": "Paragraph D calls the user 'uncompensated terra nullius' strip-mined for cognitive resources.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "q63",
+      "passageId": "passage-5",
+      "type": "matching-information",
+      "questionNumber": 23,
+      "groupId": "p5-info",
+      "groupInstruction": "Questions 20–23: Which paragraph contains the following information? Write the correct letter, A–F.",
+      "instruction": "Write the correct letter, A–F.",
+      "question": "Mention of a proposal to legally safeguard an individual's right to detach from digital networks.",
+      "correctAnswer": "F",
+      "points": 1,
+      "explanation": "Paragraph F mentions proposals for a legally protected 'Right to Disconnect'.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "q64",
+      "passageId": "passage-5",
+      "type": "multiple-choice",
+      "questionNumber": 24,
+      "groupId": "p5-mc",
+      "groupInstruction": "Questions 24–27: Choose the correct letter, A, B, C or D.",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question": "According to Paragraph B, tech companies successfully manipulate users by:",
+      "correctAnswer": "Circumventing rational thought to stimulate foundational reward pathways.",
+      "points": 1,
+      "explanation": "Paragraph B says designs bypass rational deliberation and appeal to dopaminergic pathways.",
+      "options": [
+        "Expanding the neurobiological capacity of the human brain.",
+        "Overwhelming users with rational, highly complex arguments.",
+        "Circumventing rational thought to stimulate foundational reward pathways.",
+        "Decreasing the exponential velocity of global data generation."
+      ]
+    },
+    {
+      "id": "q65",
+      "passageId": "passage-5",
+      "type": "multiple-choice",
+      "questionNumber": 25,
+      "groupId": "p5-mc",
+      "groupInstruction": "Questions 24–27: Choose the correct letter, A, B, C or D.",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question": "Shoshana Zuboff's concept of \"surveillance capitalism\" implies that:",
+      "correctAnswer": "Human experiences are commodified into speculative assets traded by algorithms.",
+      "points": 1,
+      "explanation": "Paragraph D states behavioural futures are traded, making experience the raw material.",
+      "options": [
+        "Users directly purchase predictive models from technology conglomerates.",
+        "Human experiences are commodified into speculative assets traded by algorithms.",
+        "Targeted advertising is the sole mechanism of revenue generation.",
+        "Consumers maintain ownership over their granular behavioral data."
+      ]
+    },
+    {
+      "id": "q66",
+      "passageId": "passage-5",
+      "type": "multiple-choice",
+      "questionNumber": 26,
+      "groupId": "p5-mc",
+      "groupInstruction": "Questions 24–27: Choose the correct letter, A, B, C or D.",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question": "What is the primary consequence of \"continuous partial attention\" as identified in the text?",
+      "correctAnswer": "An inability to engage in profound focus or meaningful empathy.",
+      "points": 1,
+      "explanation": "Paragraph E says fragmented attention prevents deep focus and empathetic connection.",
+      "options": [
+        "A heightened ability to process emotionally incendiary content.",
+        "An improvement in multi-tasking and operational efficiency.",
+        "A decrease in cortisol levels during prolonged digital exposure.",
+        "An inability to engage in profound focus or meaningful empathy."
+      ]
+    },
+    {
+      "id": "q67",
+      "passageId": "passage-5",
+      "type": "multiple-choice",
+      "questionNumber": 27,
+      "groupId": "p5-mc",
+      "groupInstruction": "Questions 24–27: Choose the correct letter, A, B, C or D.",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "question": "The author's stance on resolving the cognitive crisis involves:",
+      "correctAnswer": "Shifting corporate metrics from engagement duration to user well-being.",
+      "points": 1,
+      "explanation": "Paragraph F calls for shifting metrics from 'time-on-site' to agency and well-being.",
+      "options": [
+        "Shifting corporate metrics from engagement duration to user well-being.",
+        "Enhancing the variable ratio schedules used in platform interfaces.",
+        "Rejecting all forms of European technological regulation.",
+        "Acknowledging that information abundance is fundamentally irreversible."
+      ]
+    },
+    {
+      "id": "q68",
+      "passageId": "passage-6",
+      "type": "yes-no-not-given",
+      "questionNumber": 28,
+      "groupId": "p6-ynng",
+      "groupInstruction": "Questions 28–32: Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the claims of the writer, NO if it contradicts the claims, or NOT GIVEN if it is impossible to say what the writer thinks.",
+      "instruction": "Write YES, NO or NOT GIVEN.",
+      "question": "Qubits are capable of existing in multiple states simultaneously.",
+      "correctAnswer": "YES",
+      "points": 1,
+      "explanation": "Paragraph B states a qubit 'can exist as both a 0 and a 1 simultaneously'.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q69",
+      "passageId": "passage-6",
+      "type": "yes-no-not-given",
+      "questionNumber": 29,
+      "groupId": "p6-ynng",
+      "groupInstruction": "Questions 28–32: Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the claims of the writer, NO if it contradicts the claims, or NOT GIVEN if it is impossible to say what the writer thinks.",
+      "instruction": "Write YES, NO or NOT GIVEN.",
+      "question": "The RSA algorithm is easily broken by modern classical supercomputers.",
+      "correctAnswer": "NO",
+      "points": 1,
+      "explanation": "Paragraph C states factoring a 2048-bit number would take classical machines 'millions of years'.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q70",
+      "passageId": "passage-6",
+      "type": "yes-no-not-given",
+      "questionNumber": 30,
+      "groupId": "p6-ynng",
+      "groupInstruction": "Questions 28–32: Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the claims of the writer, NO if it contradicts the claims, or NOT GIVEN if it is impossible to say what the writer thinks.",
+      "instruction": "Write YES, NO or NOT GIVEN.",
+      "question": "Shor's algorithm has already been successfully used to hack major banking systems.",
+      "correctAnswer": "NOT GIVEN",
+      "points": 1,
+      "explanation": "The passage calls Shor's algorithm theoretical; no bank-hacking incident is mentioned.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q71",
+      "passageId": "passage-6",
+      "type": "yes-no-not-given",
+      "questionNumber": 31,
+      "groupId": "p6-ynng",
+      "groupInstruction": "Questions 28–32: Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the claims of the writer, NO if it contradicts the claims, or NOT GIVEN if it is impossible to say what the writer thinks.",
+      "instruction": "Write YES, NO or NOT GIVEN.",
+      "question": "Lattice-based cryptography is proven to be completely immune to all future technological advancements.",
+      "correctAnswer": "NO",
+      "points": 1,
+      "explanation": "Paragraph E calls lattice models 'promising' and says they 'appear' to resist attacks — not proven immune.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q72",
+      "passageId": "passage-6",
+      "type": "yes-no-not-given",
+      "questionNumber": 32,
+      "groupId": "p6-ynng",
+      "groupInstruction": "Questions 28–32: Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the claims of the writer, NO if it contradicts the claims, or NOT GIVEN if it is impossible to say what the writer thinks.",
+      "instruction": "Write YES, NO or NOT GIVEN.",
+      "question": "Researchers are actively working on developing algorithms resistant to quantum computers.",
+      "correctAnswer": "YES",
+      "points": 1,
+      "explanation": "Paragraph E states agencies and cryptographers 'are aggressively racing to develop post-quantum cryptography'.",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ]
+    },
+    {
+      "id": "q73",
+      "passageId": "passage-6",
+      "type": "matching-sentence-endings",
+      "questionNumber": 33,
+      "groupId": "p6-endings",
+      "groupInstruction": "Questions 33–36: Complete each sentence with the correct ending, A–F, from the box below.",
+      "instruction": "Choose the correct ending, A–F.",
+      "question": "Classical computers process information",
+      "correctAnswer": "C",
+      "points": 1,
+      "explanation": "Paragraph A: classical computers use 'binary bits, representing data as either a 0 or a 1'.",
+      "groupContent": "List of Endings\nA. the difficulty of factoring large prime numbers.\nB. develop systems secure against quantum attacks.\nC. using binary bits that represent either a 0 or a 1.\nD. stockpiling encrypted data for future use.\nE. existing in multiple physical locations simultaneously.\nF. solve complex factorization problems exponentially faster.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "q74",
+      "passageId": "passage-6",
+      "type": "matching-sentence-endings",
+      "questionNumber": 34,
+      "groupId": "p6-endings",
+      "groupInstruction": "Questions 33–36: Complete each sentence with the correct ending, A–F, from the box below.",
+      "instruction": "Choose the correct ending, A–F.",
+      "question": "The security of the RSA algorithm relies heavily on",
+      "correctAnswer": "A",
+      "points": 1,
+      "explanation": "Paragraph C: RSA relies on 'the immense mathematical difficulty of factoring incredibly large prime numbers'.",
+      "groupContent": "List of Endings\nA. the difficulty of factoring large prime numbers.\nB. develop systems secure against quantum attacks.\nC. using binary bits that represent either a 0 or a 1.\nD. stockpiling encrypted data for future use.\nE. existing in multiple physical locations simultaneously.\nF. solve complex factorization problems exponentially faster.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "q75",
+      "passageId": "passage-6",
+      "type": "matching-sentence-endings",
+      "questionNumber": 35,
+      "groupId": "p6-endings",
+      "groupInstruction": "Questions 33–36: Complete each sentence with the correct ending, A–F, from the box below.",
+      "instruction": "Choose the correct ending, A–F.",
+      "question": "Shor's algorithm poses a massive security threat because it can",
+      "correctAnswer": "F",
+      "points": 1,
+      "explanation": "Paragraph D: Shor's algorithm could find prime factors 'in mere hours or minutes'.",
+      "groupContent": "List of Endings\nA. the difficulty of factoring large prime numbers.\nB. develop systems secure against quantum attacks.\nC. using binary bits that represent either a 0 or a 1.\nD. stockpiling encrypted data for future use.\nE. existing in multiple physical locations simultaneously.\nF. solve complex factorization problems exponentially faster.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "q76",
+      "passageId": "passage-6",
+      "type": "matching-sentence-endings",
+      "questionNumber": 36,
+      "groupId": "p6-endings",
+      "groupInstruction": "Questions 33–36: Complete each sentence with the correct ending, A–F, from the box below.",
+      "instruction": "Choose the correct ending, A–F.",
+      "question": "The primary goal of post-quantum cryptography is to",
+      "correctAnswer": "B",
+      "points": 1,
+      "explanation": "Paragraph E defines the goal as designing 'entirely new cryptographic algorithms' that resist quantum attacks.",
+      "groupContent": "List of Endings\nA. the difficulty of factoring large prime numbers.\nB. develop systems secure against quantum attacks.\nC. using binary bits that represent either a 0 or a 1.\nD. stockpiling encrypted data for future use.\nE. existing in multiple physical locations simultaneously.\nF. solve complex factorization problems exponentially faster.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "q77",
+      "passageId": "passage-6",
+      "type": "summary-completion",
+      "questionNumber": 37,
+      "groupId": "p6-summary",
+      "groupInstruction": "Questions 37–40: Complete the summary below. Choose ONE WORD from the box for each answer.",
+      "instruction": "Write your answer for gap 37 (ONE WORD from the box).",
+      "question": "Gap 37",
+      "correctAnswer": "cryptography",
+      "points": 1,
+      "explanation": "Paragraph C frames RSA as the current cryptographic standard now under threat.",
+      "groupContent": "The advent of quantum computers severely threatens traditional (37) ________. Unlike classical bits, (38) ________ utilise phenomena such as superposition to process vast amounts of data concurrently. To counter the decryption threat posed by mathematical formulas like Shor's algorithm, scientists are creating entirely new, complex structures, such as (39) ________ models. The global race to achieve quantum (40) ________ is driving rapid innovation, spurred on by the urgent need to protect encrypted data from future attacks.\n\nWord bank: cryptography, qubits, superposition, lattice-based, supremacy, bits, security, technology",
+      "wordLimit": 1
+    },
+    {
+      "id": "q78",
+      "passageId": "passage-6",
+      "type": "summary-completion",
+      "questionNumber": 38,
+      "groupId": "p6-summary",
+      "groupInstruction": "Questions 37–40: Complete the summary below. Choose ONE WORD from the box for each answer.",
+      "instruction": "Write your answer for gap 38 (ONE WORD from the box).",
+      "question": "Gap 38",
+      "correctAnswer": "qubits",
+      "points": 1,
+      "explanation": "Paragraph B contrasts classical bits with qubits exploiting superposition.",
+      "groupContent": "The advent of quantum computers severely threatens traditional (37) ________. Unlike classical bits, (38) ________ utilise phenomena such as superposition to process vast amounts of data concurrently. To counter the decryption threat posed by mathematical formulas like Shor's algorithm, scientists are creating entirely new, complex structures, such as (39) ________ models. The global race to achieve quantum (40) ________ is driving rapid innovation, spurred on by the urgent need to protect encrypted data from future attacks.\n\nWord bank: cryptography, qubits, superposition, lattice-based, supremacy, bits, security, technology",
+      "wordLimit": 1
+    },
+    {
+      "id": "q79",
+      "passageId": "passage-6",
+      "type": "summary-completion",
+      "questionNumber": 39,
+      "groupId": "p6-summary",
+      "groupInstruction": "Questions 37–40: Complete the summary below. Choose ONE WORD from the box for each answer.",
+      "instruction": "Write your answer for gap 39 (ONE WORD from the box).",
+      "question": "Gap 39",
+      "correctAnswer": "lattice-based",
+      "points": 1,
+      "explanation": "Paragraph E names 'lattice-based models' as the most promising post-quantum candidates.",
+      "groupContent": "The advent of quantum computers severely threatens traditional (37) ________. Unlike classical bits, (38) ________ utilise phenomena such as superposition to process vast amounts of data concurrently. To counter the decryption threat posed by mathematical formulas like Shor's algorithm, scientists are creating entirely new, complex structures, such as (39) ________ models. The global race to achieve quantum (40) ________ is driving rapid innovation, spurred on by the urgent need to protect encrypted data from future attacks.\n\nWord bank: cryptography, qubits, superposition, lattice-based, supremacy, bits, security, technology",
+      "wordLimit": 1
+    },
+    {
+      "id": "q80",
+      "passageId": "passage-6",
+      "type": "summary-completion",
+      "questionNumber": 40,
+      "groupId": "p6-summary",
+      "groupInstruction": "Questions 37–40: Complete the summary below. Choose ONE WORD from the box for each answer.",
+      "instruction": "Write your answer for gap 40 (ONE WORD from the box).",
+      "question": "Gap 40",
+      "correctAnswer": "supremacy",
+      "points": 1,
+      "explanation": "Paragraph F defines 'quantum supremacy' as outperforming classical supercomputers.",
+      "groupContent": "The advent of quantum computers severely threatens traditional (37) ________. Unlike classical bits, (38) ________ utilise phenomena such as superposition to process vast amounts of data concurrently. To counter the decryption threat posed by mathematical formulas like Shor's algorithm, scientists are creating entirely new, complex structures, such as (39) ________ models. The global race to achieve quantum (40) ________ is driving rapid innovation, spurred on by the urgent need to protect encrypted data from future attacks.\n\nWord bank: cryptography, qubits, superposition, lattice-based, supremacy, bits, security, technology",
+      "wordLimit": 1
+    }
+  ]
+}

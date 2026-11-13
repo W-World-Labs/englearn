@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "ko-voc-001",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "물",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-002",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "집",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-003",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "학교",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-004",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "친구",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-005",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "일",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-006",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "시간",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-007",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "문제",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-008",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "방법",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-009",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "문화",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-010",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "경제",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-011",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "환경",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-012",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "발전",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-013",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "영향",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-014",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "연구",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-015",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "사회",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-016",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "역사",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-017",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "과학",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-018",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "기술",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-019",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "교육",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-020",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "건강",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-021",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "행복",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-022",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "아름다움",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-023",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "중요",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-024",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "가능",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-025",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "이유",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-026",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "비록",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-027",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "통해",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-028",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "따라",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-029",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "관해",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-030",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "대해",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-031",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "물름",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-032",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "집빠",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-033",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "학교이",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-034",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "친구다",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-035",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "일르",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-036",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "시간표",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-037",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "문제함",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-038",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "방법론",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-039",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "문화권",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-040",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "경제학",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-041",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "기기",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-042",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "사원",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-043",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "진리",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-044",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "생애",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-045",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "임기",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-046",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "항공사",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-047",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "간부",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-048",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "수소",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-049",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "보정",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-050",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "추후",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-051",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "갱신",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-052",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "무인",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-053",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "비밀번호",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-054",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "오토바이",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-055",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "의의",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-056",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "응모",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-057",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "개정안",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-058",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "캠핑",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-059",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "후원자",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-060",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "뺨",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-061",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "농부",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-062",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "벚꽃",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-063",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "안개",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-064",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "코끼리",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-065",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "메달",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-066",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "버섯",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-067",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "딸기",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-068",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "약국",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-069",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "사슴",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-070",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "달걀",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-071",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "사원음",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-072",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "생애솟",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-073",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "임기릿",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-074",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "항공샤",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-075",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "간부돈",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-076",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "수소캠",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-077",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "보정킷",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-078",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "추후론",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-079",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "의의뭇",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-080",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "개정앟",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-081",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "중재",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-082",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "양보",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-083",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "타협",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-084",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "격차",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-085",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "절차",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-086",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "허용",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-087",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "금지",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-088",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "성실",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-089",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "근거",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-090",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "명예",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-091",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "위반",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-092",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "유지",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-093",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "제한",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-094",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "촉진",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-095",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "감독",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-096",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "번영",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-097",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "우려",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-098",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "갈등",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-099",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "훼손",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-100",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "반영",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-101",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "모순",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-102",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "축적",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-103",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "완화",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-104",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "잠정",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-105",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "담보",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-106",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "면제",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-107",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "철저",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-108",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "신중",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-109",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "격려",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-110",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "협상",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-111",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "중재곤",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-112",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "양보흠",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-113",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "타협릿",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-114",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "격차늠",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-115",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "절차뭇",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-116",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "허용캄",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-117",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "금지롯",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-118",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "성실팟",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-119",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "근거휸",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-120",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "명예즙",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-121",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "규제",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-122",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "부패",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-123",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "위임",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-124",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "조정",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-125",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "분쟁",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-126",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "타당",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-127",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "소홀",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-128",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "침해",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-129",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "유예",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-130",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "담합",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-131",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "편견",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-132",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "역행",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-133",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "정밀",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-134",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "실추",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-135",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "폐지",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-136",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "규탄",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-137",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "심사",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-138",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "격하",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-139",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "억제",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-140",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "파기",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-141",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "징계",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-142",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "유착",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-143",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "기소",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-144",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "변론",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-145",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "탄핵",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-146",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "준수",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-147",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "위조",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-148",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "선임",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-149",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "쟁점",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-150",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "도출",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-151",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "규제혹",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-152",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "부패숏",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-153",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "위임툇",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-154",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "조정휸",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-155",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "분쟁퓻",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-156",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "타당쐈",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-157",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "소홀뇻",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-158",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "침해퐀",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-159",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "유예뇽",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-160",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "담합퓾",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-161",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "헌법",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-162",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "재판",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-163",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "증언",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-164",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "음모",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-165",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "반란",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-166",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "동맹",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-167",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "영토",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-168",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "주권",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-169",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "외교",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-170",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "서명",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-171",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "심의",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-172",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "표결",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-173",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "거부",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-174",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "제재",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-175",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "개입",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-176",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "약탈",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-177",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "독점",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-178",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "검역",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-179",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "발발",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-180",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "잠복",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-181",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "암시",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-182",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "상속",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-183",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "유산",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-184",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "집행",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-185",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "판결",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-186",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "원고",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-187",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "피고",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-188",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "소송",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-189",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "항소",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-190",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "구속",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-191",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "헌볍",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-192",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "재퍈",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-193",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "증엊",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-194",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "음뫄",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-195",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "반릏",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-196",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "동맹퓲",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-197",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "영톳",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-198",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "주권퉞",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-199",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "외규",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-200",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "서멍",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-201",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "구류",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-202",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "인도",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-203",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "가석방",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-204",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "부정",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-205",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "횡령",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-206",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "뇌물",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-207",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "고발",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-208",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "입건",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-209",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "수사",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-210",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "공소",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-211",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "공판",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-212",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "양형",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-213",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "상고",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-214",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "심리",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-215",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "소집",
+    "isPseudoword": false
+  },
+  {
+    "id": "ko-voc-216",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "구륐",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-217",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "인돝",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-218",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "가석발",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-219",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "부정퓏",
+    "isPseudoword": true
+  },
+  {
+    "id": "ko-voc-220",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ko-KR",
+    "prompt": "이 단어를 알고 있나요?",
+    "word": "횡렋",
+    "isPseudoword": true
+  }
+]

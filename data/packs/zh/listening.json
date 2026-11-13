@@ -1,0 +1,485 @@
+[
+  {
+    "id": "zh-lis-001",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "火车几点出发？",
+    "audioScript": "开往上海的火车九点三十分从第四站台出发。",
+    "options": [
+      "9:15",
+      "9:30",
+      "9:45",
+      "10:30"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-lis-002",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "说话者点了什么？",
+    "audioScript": "你好，我要一杯小杯咖啡和一个巧克力马芬。",
+    "options": [
+      "大杯咖啡",
+      "小杯咖啡和马芬",
+      "茶",
+      "果汁"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-lis-003",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "今天天气怎么样？",
+    "audioScript": "今天下午可能会下雨，记得带伞。",
+    "options": [
+      "晴天",
+      "可能下雨",
+      "下雪",
+      "很热"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-lis-004",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "会议改到什么时候？",
+    "audioScript": "明天的会议改到下午三点，在二楼会议室。",
+    "options": [
+      "上午十点",
+      "下午三点",
+      "晚上七点",
+      "取消"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-lis-005",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "她周末要做什么？",
+    "audioScript": "这个周末我打算去图书馆复习考试。",
+    "options": [
+      "去图书馆",
+      "去购物",
+      "去旅行",
+      "看电影"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-lis-006",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "顾客应该找回多少钱？",
+    "audioScript": "一共三十八块，您给了五十，我找您十二块。",
+    "options": [
+      "8块",
+      "10块",
+      "12块",
+      "15块"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-lis-007",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "快递放在哪里？",
+    "audioScript": "您的快递到了，放在小区门口的3号柜，取件码是8866。",
+    "options": [
+      "小区门口3号柜",
+      "物业办公室",
+      "家门口",
+      "超市前台"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-lis-008",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "小区什么时候停水？",
+    "audioScript": "物业通知：明天上午八点到十二点，小区停水检修，请大家提前储水。",
+    "options": [
+      "今晚八点到十二点",
+      "明天下午两点到六点",
+      "今天上午",
+      "明天上午八点到十二点"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-lis-009",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "顾客需要等多久？",
+    "audioScript": "前面还有两桌，大概需要等十五分钟，您可以先扫码看看菜单。",
+    "options": [
+      "五分钟",
+      "十五分钟",
+      "三十分钟",
+      "不用等"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-lis-010",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "看内科的第一步是什么？",
+    "audioScript": "挂号请到一楼大厅，内科诊室在三楼301，请带好病历本。",
+    "options": [
+      "到一楼大厅挂号",
+      "直接去三楼301",
+      "先去药房拿药",
+      "打电话预约手术"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-lis-011",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "说话人建议怎么去机场？",
+    "audioScript": "现在打车去机场太堵了，你坐地铁二号线，到终点站换机场快线，一共大概四十分钟。",
+    "options": [
+      "打车去",
+      "坐机场大巴",
+      "坐地铁二号线换机场快线",
+      "开车走高速"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-lis-012",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "这家店的招牌菜是什么？",
+    "audioScript": "我们店的招牌是红烧牛肉面，不过今天的特价菜是清蒸鲈鱼，配米饭只要三十八块。",
+    "options": [
+      "红烧牛肉面",
+      "清蒸鲈鱼",
+      "牛肉面套餐",
+      "特价炒饭"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-lis-013",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "公司为什么推迟新产品发布？",
+    "audioScript": "原定下月发布的新产品要推迟到三季度，主要是因为核心零部件的供应链还没恢复，另外测试阶段发现了几个需要修复的漏洞。",
+    "options": [
+      "市场需求不足",
+      "供应链没恢复且测试发现漏洞",
+      "发布会场地没订到",
+      "团队人手不够"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-lis-014",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "健身房对年卡会员的新规定是什么？",
+    "audioScript": "从下月起，年卡会员可以带一位朋友免费体验两次，不过需要提前在小程序上预约，当天临时带人就不行了。",
+    "options": [
+      "随时可以免费带朋友来",
+      "年卡会员每月可免费停卡一次",
+      "朋友体验要收半价",
+      "带朋友需在小程序提前预约，限两次"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-lis-015",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "说话人对这封邮件的态度是什么？",
+    "audioScript": "这封邮件写得含糊其辞，既没有给出明确的截止日期，也没说明预算上限，我看还是先问清楚再动手比较好。",
+    "options": [
+      "非常满意",
+      "应该立即执行",
+      "先问清楚再动手",
+      "投诉发件人"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-lis-016",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "航班为什么延误？",
+    "audioScript": "各位旅客请注意，飞往昆明的MU5703航班因目的地机场雷雨天气延误，预计起飞时间推迟到二十一点四十分，登机口不变。",
+    "options": [
+      "机械故障",
+      "目的地机场雷雨天气",
+      "航空管制",
+      "机组人员不足"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-lis-017",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "这项政策的主要争议点是什么？",
+    "audioScript": "新规要求网约车司机必须持有本地户籍或居住证，支持者认为这能保障服务质量，反对者则指出这会加剧运力短缺，把兼职司机挤出市场。",
+    "options": [
+      "司机须持本地户籍或居住证是否合理",
+      "打车费用太高",
+      "车型标准过严",
+      "平台抽成比例"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-lis-018",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "说话人认为团队失败的根本原因是什么？",
+    "audioScript": "表面上看，项目延期是因为人手不足；但归根结底，是我们一开始就把需求范围定得太宽泛，导致后期不断返工。",
+    "options": [
+      "人手不足",
+      "预算超支",
+      "客户要求太高",
+      "需求范围定得太宽"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-lis-019",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "这项技术目前的主要瓶颈是什么？",
+    "audioScript": "固态电池虽然理论上能量密度能翻倍，但量产的良品率始终上不去，成本下不来，短期内恐怕还只能用在高端车型上。",
+    "options": [
+      "能量密度不够",
+      "充电速度慢",
+      "量产良品率低、成本高",
+      "低温性能差"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-lis-020",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "说话人对远程办公的看法是什么？",
+    "audioScript": "远程办公确实省下了通勤时间，但长期下来，团队里那种随口一说的灵感碰撞明显少了，新人的成长速度也肉眼可见地变慢了。",
+    "options": [
+      "利弊兼有，隐性成本不低",
+      "完全支持推广",
+      "坚决反对",
+      "只适合大公司"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-lis-021",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "说话人如何评价这本传记？",
+    "audioScript": "这本传记号称要还原一个'真实'的传主，可惜作者对传主晚年的关键抉择总是语焉不详，所谓的新史料，细看也多是二手转述。",
+    "options": [
+      "史料翔实客观",
+      "文笔生动感人",
+      "完全推翻了传统评价",
+      "名为还原，关键处却语焉不详"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-lis-022",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "说话人对这项研究结论持什么态度？",
+    "audioScript": "这项研究的相关性发现确实有意思，但样本只有两三百人，而且是横断面数据——要说因果，恐怕还为时过早。",
+    "options": [
+      "完全信服",
+      "样本小且为横断面数据，谈因果为时过早",
+      "样本量足够大",
+      "研究毫无价值"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-lis-023",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "这场谈判僵局的症结在哪里？",
+    "audioScript": "谈判桌上双方都声称愿意让步，可一旦触及核心条款——也就是数据主权归谁所有——谁都不肯先松口，于是就这么耗着。",
+    "options": [
+      "会议时间安排冲突",
+      "翻译沟通不畅",
+      "数据主权归属上无人肯先让步",
+      "第三方调解缺席"
+    ],
+    "answerIndex": 2
+  }
+]

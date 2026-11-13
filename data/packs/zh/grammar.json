@@ -1,0 +1,948 @@
+[
+  {
+    "id": "zh-gra-001",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "我___学生。",
+    "options": [
+      "是",
+      "有",
+      "在",
+      "去"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-002",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "他昨天___北京。",
+    "options": [
+      "去",
+      "去了",
+      "去着",
+      "去过"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-gra-003",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "这本书比那本书___。",
+    "options": [
+      "好",
+      "很好",
+      "更好",
+      "最好"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-gra-004",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "如果明天下雨，我们___在家。",
+    "options": [
+      "就",
+      "才",
+      "都",
+      "还"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-005",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "她正在___电视。",
+    "options": [
+      "看",
+      "看了",
+      "看着",
+      "看过"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-006",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "我___认识你三年了。",
+    "options": [
+      "和",
+      "对",
+      "给",
+      "认识"
+    ],
+    "answerIndex": 3,
+    "retired": true
+  },
+  {
+    "id": "zh-gra-007",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "请把窗户___。",
+    "options": [
+      "关上",
+      "关",
+      "关了",
+      "关着"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-008",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "他不但会说中文，___会说日语。",
+    "options": [
+      "而且",
+      "但是",
+      "因为",
+      "所以"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-009",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "这个问题___讨论。",
+    "options": [
+      "值得",
+      "值得了",
+      "值得着",
+      "值得过"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-010",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "我打算明年___留学。",
+    "options": [
+      "去",
+      "去了",
+      "去过",
+      "去着"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-011",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "___天气很好，我们去了公园。",
+    "options": [
+      "因为",
+      "虽然",
+      "如果",
+      "除非"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-012",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "他___没来过中国。",
+    "options": [
+      "从来",
+      "已经",
+      "正在",
+      "曾经"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-013",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "请___我一杯水。",
+    "options": [
+      "给",
+      "对",
+      "向",
+      "跟"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-014",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "这部电影我___过两次。",
+    "options": [
+      "看",
+      "看了",
+      "看过",
+      "看着"
+    ],
+    "answerIndex": 2,
+    "retired": true
+  },
+  {
+    "id": "zh-gra-015",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "他跑得___。",
+    "options": [
+      "很快",
+      "更快",
+      "最快",
+      "快"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-016",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "___努力，___成功。",
+    "options": [
+      "只有…才",
+      "因为…所以",
+      "虽然…但是",
+      "不但…而且"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-017",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "我把书___桌子上了。",
+    "options": [
+      "放在",
+      "放在",
+      "放在",
+      "放在"
+    ],
+    "answerIndex": 0,
+    "retired": true
+  },
+  {
+    "id": "zh-gra-018",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "他___来晚了。",
+    "options": [
+      "又",
+      "再",
+      "还",
+      "才"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-019",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "这个问题___复杂。",
+    "options": [
+      "很",
+      "更",
+      "最",
+      "太"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-gra-020",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "我___他打过电话。",
+    "options": [
+      "给",
+      "对",
+      "向",
+      "跟"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-021",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "这道题连老师___没做出来，更别说我了。",
+    "options": [
+      "都",
+      "才",
+      "再",
+      "把"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-022",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "___你已经决定了，我就尊重你的选择。",
+    "options": [
+      "尽管",
+      "既然",
+      "除非",
+      "无论"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-gra-023",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "他把钥匙忘在家里了，___进不了门。",
+    "options": [
+      "然而",
+      "否则",
+      "因此",
+      "尽管"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-gra-024",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "___有多忙，她每天都练习写字。",
+    "options": [
+      "由于",
+      "既然",
+      "只有",
+      "无论"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-gra-025",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "我___他三年了。",
+    "options": [
+      "认识",
+      "知道",
+      "见面",
+      "说"
+    ],
+    "answerIndex": 0,
+    "replaces": "zh-gra-006"
+  },
+  {
+    "id": "zh-gra-026",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "我从来没___这部电影。",
+    "options": [
+      "看了",
+      "看过",
+      "看着",
+      "看"
+    ],
+    "answerIndex": 1,
+    "replaces": "zh-gra-014"
+  },
+  {
+    "id": "zh-gra-027",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "他把名字___在纸上了。",
+    "options": [
+      "写了",
+      "写着",
+      "写",
+      "写过"
+    ],
+    "answerIndex": 2,
+    "replaces": "zh-gra-017"
+  },
+  {
+    "id": "zh-gra-028",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "作业还没写___，所以他还不能出去玩。",
+    "options": [
+      "完",
+      "住",
+      "着",
+      "开"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-029",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "___今天下雨，比赛还是照常进行。",
+    "options": [
+      "因为",
+      "虽然",
+      "如果",
+      "既然"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-gra-030",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "她___赶上第一班车，六点就出了门。",
+    "options": [
+      "关于",
+      "通过",
+      "为了",
+      "根据"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-gra-031",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "他喜欢___走路___听播客。",
+    "options": [
+      "只有…才",
+      "因为…所以",
+      "虽然…但是",
+      "一边…一边"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-gra-032",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "他___拒绝这个职位，是因为要照顾家人。",
+    "options": [
+      "之所以",
+      "既然",
+      "虽然",
+      "不但"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-033",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "___参加过培训的员工，都可以申请这次外派。",
+    "options": [
+      "只有",
+      "凡是",
+      "即使",
+      "不仅"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-gra-034",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "___他怎么解释，大家都不相信。",
+    "options": [
+      "即使",
+      "虽然",
+      "任凭",
+      "因为"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-gra-035",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "他宁可自己加班，___让团队周末赶工。",
+    "options": [
+      "只好",
+      "也却",
+      "反而",
+      "也不"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-gra-036",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "___你亲自道歉，否则他不会原谅你。",
+    "options": [
+      "除非",
+      "即使",
+      "虽然",
+      "因为"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-037",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "他工作太忙，___忘了吃饭。",
+    "options": [
+      "以便",
+      "以至于",
+      "以免",
+      "不如"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-gra-038",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "___别的不说，单看价格就很划算。",
+    "options": [
+      "除了",
+      "即使",
+      "撇开",
+      "因为"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-gra-039",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "___花钱请人修，___自己动手试试。",
+    "options": [
+      "不但…而且",
+      "虽然…但是",
+      "因为…所以",
+      "与其…不如"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-gra-040",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "___火车就要开了，他还在排队买票。",
+    "options": [
+      "眼看",
+      "既然",
+      "虽然",
+      "除非"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-041",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "___你提醒我，不然我就忘了。",
+    "options": [
+      "因为",
+      "幸亏",
+      "虽然",
+      "如果"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-gra-042",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "他以健康___代价换来了事业的成功。",
+    "options": [
+      "作",
+      "当",
+      "为",
+      "成"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-gra-043",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "___困难再大，我们也要完成任务。",
+    "options": [
+      "既然",
+      "虽然",
+      "因为",
+      "哪怕"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "zh-gra-044",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "时间不早了，我们___早点回去___。",
+    "options": [
+      "还是…的好",
+      "宁可…也要",
+      "与其…不如",
+      "不仅…而且"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "zh-gra-045",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你如果对这个感兴趣，___先去试一试。",
+    "options": [
+      "不必",
+      "不妨",
+      "不要",
+      "不敢"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "zh-gra-046",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "这部作品早已___广大读者所喜爱。",
+    "options": [
+      "被",
+      "受",
+      "为",
+      "让"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "zh-gra-047",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你这样拖下去，___要出问题。",
+    "options": [
+      "只要",
+      "只管",
+      "只有",
+      "只怕"
+    ],
+    "answerIndex": 3
+  }
+]

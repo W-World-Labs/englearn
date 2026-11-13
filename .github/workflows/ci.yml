@@ -1,0 +1,56 @@
+name: Public application source
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: englearn-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      W_RADAR_CODE: ''
+      W_RADAR_SDK_CODE: ''
+      NITRO_HOST: '127.0.0.1'
+      CI: 'true'
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.23.4'
+      - name: Scan source and complete public history
+        run: |
+          curl --retry 2 --connect-timeout 15 --max-time 90 -fsSL -o "$RUNNER_TEMP/gitleaks.tgz" https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz
+          echo "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  $RUNNER_TEMP/gitleaks.tgz" | sha256sum --check --strict
+          tar -xzf "$RUNNER_TEMP/gitleaks.tgz" -C "$RUNNER_TEMP" gitleaks
+          "$RUNNER_TEMP/gitleaks" dir . --redact --ignore-gitleaks-allow --no-banner
+          "$RUNNER_TEMP/gitleaks" git . --redact --ignore-gitleaks-allow --no-banner --log-opts="--all --full-history -m"
+      - name: Install exact public dependencies
+        run: |
+          npm install --global npm@11.19.1 --ignore-scripts --no-audit
+          npm ci
+          git diff --exit-code -- package-lock.json
+      - name: Retain complete existing application checks
+        run: |
+          npm run typecheck
+          npm test
+          node scripts/test-radar-bootstrap.mjs
+          npm run build
+      - name: Package exact reviewed source
+        run: python3 scripts/package-public-source.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: englearn-source
+          path: ${{ runner.temp }}/englearn-source/
+          if-no-files-found: error
+          retention-days: 14

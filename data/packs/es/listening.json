@@ -1,0 +1,485 @@
+[
+  {
+    "id": "es-lis-001",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿A qué hora sale el tren?",
+    "audioScript": "El tren a Barcelona sale a las nueve y media desde el andén cuatro.",
+    "options": [
+      "9:15",
+      "9:30",
+      "9:45",
+      "10:30"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-lis-002",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué pidió?",
+    "audioScript": "Hola, quisiera un café pequeño y un muffin de chocolate, por favor.",
+    "options": [
+      "café grande",
+      "café pequeño y muffin",
+      "té",
+      "zumo"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-lis-003",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué tiempo hará?",
+    "audioScript": "Esta tarde puede llover, lleva un paraguas.",
+    "options": [
+      "sol",
+      "posible lluvia",
+      "nieve",
+      "mucho calor"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-lis-004",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuándo es la reunión?",
+    "audioScript": "La reunión de mañana se cambió a las tres de la tarde, en la sala del segundo piso.",
+    "options": [
+      "10:00",
+      "15:00",
+      "19:00",
+      "cancelada"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-lis-005",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué hará el fin de semana?",
+    "audioScript": "Este fin de semana pienso ir a la biblioteca a estudiar para el examen.",
+    "options": [
+      "biblioteca",
+      "compras",
+      "viaje",
+      "cine"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-lis-006",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Hasta qué hora abre la farmacia los sábados?",
+    "audioScript": "Hola, aquí Farmacia Central. Abrimos de lunes a viernes de nueve a nueve, los sábados de nueve a una y los domingos cerramos.",
+    "options": [
+      "Hasta la una",
+      "Hasta las nueve",
+      "Hasta las doce",
+      "No abre los sábados"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-lis-007",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Dónde es la fiesta de cumpleaños?",
+    "audioScript": "¡Hola, Pablo! Mi fiesta es este viernes a las siete de la tarde. No será en mi casa, sino en el segundo piso del bar de la plaza. No traigas regalo.",
+    "options": [
+      "En mi casa",
+      "En el segundo piso del bar de la plaza",
+      "En clase",
+      "En el parque"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-lis-008",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es el cambio de la cita médica?",
+    "audioScript": "Señor Ruiz, su cita de mañana a las diez y media tiene que pasar a las dos de la tarde por un cambio de turno. Venga a la tercera planta, consulta de medicina interna.",
+    "options": [
+      "Mañana a las 10:30, segunda planta, cirugía",
+      "Mañana a las 10:30, tercera planta, medicina interna",
+      "Mañana a las 14:00, segunda planta, cirugía",
+      "Mañana a las 14:00, tercera planta, medicina interna"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-lis-009",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es la condición de la compra de segunda mano?",
+    "audioScript": "Hola, vi tu anuncio de la silla de segunda mano. ¿Podemos vernos mañana a las cinco delante de la salida cinco de la estación del Ayuntamiento? Llevaré treinta euros en efectivo.",
+    "options": [
+      "Mañana a las cinco, salida cinco, treinta euros",
+      "Mañana a las cinco de la mañana, salida cinco, treinta euros",
+      "Mañana a las cinco, salida tres, cincuenta euros",
+      "Pasado mañana a las cinco, salida cinco, treinta euros"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-lis-010",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Según el aviso, ¿qué es correcto?",
+    "audioScript": "Aviso de la administración: desde la próxima semana, la basura orgánica se saca después de las ocho de la tarde, menos los domingos. Habrá multa si no se cumple y se ruega evitar ruidos en el pasillo por la noche.",
+    "options": [
+      "La basura se saca por la mañana",
+      "Los domingos también se saca a las ocho",
+      "Si no se cumple hay multa",
+      "No importa el ruido en el pasillo"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-lis-011",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cómo debería ir al aeropuerto?",
+    "audioScript": "Si vas en taxi al aeropuerto ahora te vas a quedar atascado. Coge la línea dos del metro hasta la terminal y cambia al exprés del aeropuerto; en total son unos cuarenta minutos.",
+    "options": [
+      "En taxi",
+      "En el autobús del aeropuerto",
+      "Línea dos del metro y luego el exprés del aeropuerto",
+      "En coche por la autopista"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-lis-012",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es el plato estrella del restaurante?",
+    "audioScript": "Nuestro plato estrella son los tallarines con ternera estofada. El especial de hoy, eso sí, es el pescado al vapor, con arroz incluido por quince euros.",
+    "options": [
+      "Los tallarines con ternera",
+      "El pescado al vapor",
+      "El menú de tallarines",
+      "El arroz frito"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-lis-013",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Adónde se ha trasladado la reunión de mañana?",
+    "audioScript": "La reunión de mañana era en la salita de la tercera planta, pero como hay más asistentes, la hemos movido al salón de actos de la primera. La hora sigue siendo las dos de la tarde.",
+    "options": [
+      "La salita de la tercera planta",
+      "El salón de actos de la primera planta",
+      "La sala de juntas de la segunda planta",
+      "Se hará en línea"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-lis-014",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Por qué se ha aplazado el lanzamiento del producto?",
+    "audioScript": "El lanzamiento previsto para el mes que viene se aplaza al tercer trimestre: la cadena de suministro de los componentes clave aún no se ha recuperado y en fase de pruebas han aparecido varios fallos que hay que corregir.",
+    "options": [
+      "Falta de demanda",
+      "La cadena de suministro no se ha recuperado y hay fallos en las pruebas",
+      "No se consiguió el recinto",
+      "Falta de personal"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-lis-015",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es la nueva norma del gimnasio para socios anuales?",
+    "audioScript": "A partir del mes que viene, los socios anuales pueden traer a un acompañante gratis dos veces, siempre que reserven antes en la aplicación; el mismo día no se podrá.",
+    "options": [
+      "Pueden traer acompañantes gratis cuando quieran",
+      "Los socios anuales pueden pausar un mes gratis",
+      "El acompañante paga la mitad",
+      "Con reserva previa en la app, dos acompañamientos gratis"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-lis-016",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué opina el hablante de este correo?",
+    "audioScript": "Este correo está redactado de forma ambigua: no indica la fecha límite ni el techo presupuestario. Mejor aclararlo antes de ponerse manos a la obra.",
+    "options": [
+      "Está muy satisfecho",
+      "Hay que ejecutarlo ya",
+      "Mejor aclararlo antes de empezar",
+      "Hay que quejarse al remitente"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-lis-017",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es el principal punto de controversia de la norma?",
+    "audioScript": "La nueva norma obliga a los conductores de VTC a tener empadronamiento o residencia local. Sus defensores dicen que garantiza la calidad del servicio; los detractores advierten de que agravará la escasez de conductores y expulsará a quienes lo hacen a tiempo parcial.",
+    "options": [
+      "El requisito de residencia local para conductores",
+      "Que el precio es demasiado alto",
+      "Que los estándares de vehículo son muy estrictos",
+      "La comisión de las plataformas"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-lis-018",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es, según el hablante, la causa raíz del fracaso del equipo?",
+    "audioScript": "En apariencia, el retraso del proyecto se debe a la falta de personal; pero en el fondo, el problema es que definimos un alcance de requisitos demasiado amplio, lo que provocó rehaceres continuos al final.",
+    "options": [
+      "La falta de personal",
+      "El sobrecoste",
+      "Las exigencias del cliente",
+      "Un alcance de requisitos demasiado amplio"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-lis-019",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es el principal cuello de botella de esta tecnología?",
+    "audioScript": "Las baterías de estado sólido pueden duplicar la densidad energética en teoría, pero el rendimiento de la producción en masa no despega y el coste no baja, así que a corto plazo se limitarán a los modelos de gama alta.",
+    "options": [
+      "La densidad energética es baja",
+      "La carga es lenta",
+      "El rendimiento de producción y el coste",
+      "El rendimiento en frío"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-lis-020",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué opina el hablante del teletrabajo?",
+    "audioScript": "El teletrabajo sí ahorra el tiempo de desplazamiento, pero a la larga se nota que faltan esas chispas de ideas que salen en conversaciones de pasillo, y los nuevos tardan visiblemente más en crecer.",
+    "options": [
+      "Tiene ventajas pero también costes ocultos",
+      "Lo apoya totalmente",
+      "Está totalmente en contra",
+      "Solo sirve a grandes empresas"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-lis-021",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Cómo valora el hablante esta biografía?",
+    "audioScript": "Esta biografía presume de retratar al personaje 'real', pero ante las decisiones clave de sus últimos años el autor siempre se queda en vaguedades, y lo que llama nuevas fuentes resultan ser, vistas de cerca, citas de segunda mano.",
+    "options": [
+      "Las fuentes son detalladas y objetivas",
+      "La prosa es conmovedora",
+      "Revierte por completo la valoración tradicional",
+      "Presume de rigor pero es vaga en lo esencial"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-lis-022",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué actitud tiene el hablante hacia este estudio?",
+    "audioScript": "La correlación que halla el estudio es interesante, pero la muestra apenas supera los doscientos y además son datos transversales; hablar de causalidad me parece prematuro.",
+    "options": [
+      "Lo acepta por completo",
+      "Muestra pequeña y datos transversales: la causalidad es prematura",
+      "La muestra es suficiente",
+      "El estudio no tiene valor"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-lis-023",
+    "module": "listening",
+    "format": "listening-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "contentLang": "es-ES",
+    "prompt": "¿Dónde está el punto de bloqueo de la negociación?",
+    "audioScript": "En la mesa ambas partes dicen estar dispuestas a ceder, pero en cuanto se toca la cláusula nuclear —a quién pertenece la soberanía de los datos— ninguna quiere moverse primero, y así seguimos.",
+    "options": [
+      "El conflicto de agendas",
+      "La mala interpretación",
+      "La soberanía de los datos: ninguno cede primero",
+      "La ausencia de un mediador"
+    ],
+    "answerIndex": 2
+  }
+]

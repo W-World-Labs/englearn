@@ -1,0 +1,4148 @@
+[
+  {
+    "id": "jlpt-n5-01-v1",
+    "family": "jlpt",
+    "label": "JLPT N5",
+    "level": "N5",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "从常用汉字读音、助词到简短通知，建立 N5 题型基础。",
+      "en": "Build N5 foundations with everyday kanji, particles and short notices.",
+      "ja": "身近な漢字、助詞、短いお知らせでN5の基礎を練習します。"
+    },
+    "sections": [
+      {
+        "id": "vocabulary",
+        "minutes": 5
+      },
+      {
+        "id": "grammar_reading",
+        "minutes": 12
+      },
+      {
+        "id": "listening",
+        "minutes": 6
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【雨】の読み方を選んでください。",
+        "options": [
+          "あめ",
+          "ゆき",
+          "かぜ",
+          "そら"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「雨」读作「あめ」。",
+          "en": "雨 is read あめ, meaning rain.",
+          "ja": "「雨」は「あめ」と読みます。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【来週】、友だちに会います。読み方を選んでください。",
+        "options": [
+          "らいねん",
+          "らいげつ",
+          "らいしゅう",
+          "こんしゅう"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「来週」是下周，读作「らいしゅう」。",
+          "en": "来週 means next week and is read らいしゅう.",
+          "ja": "来週は今の週の次の週です。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「みず」の漢字を選んでください。",
+        "options": [
+          "火",
+          "水",
+          "木",
+          "金"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「みず」对应汉字「水」。",
+          "en": "The kanji for みず is 水.",
+          "ja": "「みず」は「水」と書きます。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "風を入れたいので、まどを（　）ください。",
+        "options": [
+          "しめて",
+          "あらって",
+          "よんで",
+          "あけて"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "为了让风进来，请打开窗户。",
+          "en": "To let air in, the speaker asks for the window to be opened.",
+          "ja": "風を入れるために、窓を「あけて」と頼みます。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「ちいさい」の反対のことばを選んでください。",
+        "options": [
+          "ながい",
+          "おおきい",
+          "たかい",
+          "あたらしい"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「小さい」的反义词是「大きい」。",
+          "en": "The opposite of small is big: おおきい.",
+          "ja": "「ちいさい」の反対は「おおきい」です。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "わたしは毎朝七時（　）起きます。",
+        "options": [
+          "で",
+          "を",
+          "に",
+          "が"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "具体时间后用助词「に」。",
+          "en": "A specific time is marked with に.",
+          "ja": "「七時」のような時間には「に」を使います。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "きのう、スーパーでパンを（　）。",
+        "options": [
+          "買います",
+          "買いました",
+          "買いません",
+          "買うでしょう"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「きのう」表示过去，使用「買いました」。",
+          "en": "Yesterday calls for the past form 買いました.",
+          "ja": "昨日したことなので過去形を使います。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "図書館では大きい声で（　）ください。",
+        "options": [
+          "話さないで",
+          "話して",
+          "話すので",
+          "話したから"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「ないでください」表示请求不要做某事。",
+          "en": "ないでください asks someone not to do something.",
+          "ja": "図書館では静かにするので「話さないで」と頼みます。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "つくえの上にねこが（　）。",
+        "options": [
+          "あります",
+          "します",
+          "いきます",
+          "います"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "动物的存在用「います」。",
+          "en": "Use います for the existence of an animal.",
+          "ja": "猫は生き物なので「います」を使います。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\nわたしは ＿＿ ＿＿ ★ ＿＿ 。",
+        "options": [
+          "日本語を",
+          "毎日",
+          "勉強",
+          "します"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "完整句为「わたしは毎日日本語を勉強します」。第三格是「勉強」。",
+          "en": "The order is 毎日 → 日本語を → 勉強 → します, so the star is 勉強.",
+          "ja": "「毎日・日本語を・勉強・します」の順なので、★は「勉強」です。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "この店は何曜日に休みますか。",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "土曜日",
+          "日曜日"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "通知写明星期一休息。",
+          "en": "The notice says the shop is closed on Mondays.",
+          "ja": "お知らせに「月曜日は休み」とあります。"
+        },
+        "passage": "花の店\n午前九時から午後六時まで\n月曜日は休みです。"
+      },
+      {
+        "id": "r2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "二人はどこで会いますか。",
+        "options": [
+          "学校の前",
+          "公園の中",
+          "駅の前",
+          "山田さんの家"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "约在十点于车站前见面。",
+          "en": "They will meet in front of the station at ten.",
+          "ja": "会う場所は「駅の前」です。"
+        },
+        "passage": "山田さんへ\nあした、一緒に公園へ行きませんか。十時に駅の前で会いましょう。お弁当を持ってきてください。\nリン"
+      },
+      {
+        "id": "r3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "この人は日曜日に何をしましたか。",
+        "options": [
+          "映画を見ました",
+          "友だちと泳ぎました",
+          "会社へ行きました",
+          "家で本を読みました"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "周日没出门，在家读书。",
+          "en": "On Sunday the writer stayed home and read a book.",
+          "ja": "日曜日は出かけないで家で本を読みました。"
+        },
+        "passage": "土曜日は友だちと映画を見ました。日曜日は雨でしたから、出かけませんでした。家で本を読みました。"
+      },
+      {
+        "id": "r4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "えんぴつ二本とノート一冊はいくらですか。",
+        "options": [
+          "百五十円",
+          "二百円",
+          "二百五十円",
+          "三百円"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "铅笔两支 100 日元，加一本笔记本 150 日元，共 250 日元。",
+          "en": "Two pencils cost 100 yen; adding a 150-yen notebook gives 250 yen.",
+          "ja": "50円×2本＋150円＝250円です。"
+        },
+        "passage": "えんぴつ：一本五十円\nノート：一冊百五十円\nけしゴム：一つ百円"
+      },
+      {
+        "id": "r5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "マリアさんのかばんはどれですか。",
+        "options": [
+          "黒くて小さいかばん",
+          "赤くて大きいかばん",
+          "青くて大きいかばん",
+          "赤くて小さいかばん"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "玛丽亚的包是红色的大包。",
+          "en": "Maria says her bag is red and large.",
+          "ja": "マリアさんのかばんは赤くて大きいです。"
+        },
+        "passage": "わたしのかばんは赤くて大きいです。黒い小さいかばんは兄のです。\nマリア"
+      },
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "何時に会いますか。",
+        "options": [
+          "九時",
+          "九時半",
+          "十時",
+          "十時半"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "最终约定九点半。",
+          "en": "The agreed meeting time is half past nine.",
+          "ja": "九時ではなく、九時半に会います。"
+        },
+        "script": "あした、九時に駅で会いませんか。すみません、九時はちょっと早いです。九時半はどうですか。はい、九時半にしましょう。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "この人は何を飲みますか。",
+        "options": [
+          "コーヒー",
+          "水",
+          "紅茶",
+          "牛乳"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "说话人不喝咖啡，要热红茶。",
+          "en": "The speaker declines coffee and asks for hot tea.",
+          "ja": "コーヒーは飲まないので、温かい紅茶を頼みます。"
+        },
+        "script": "コーヒーはいかがですか。ありがとうございます。でも、コーヒーは飲みません。温かい紅茶をお願いします。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "図書館は何階ですか。",
+        "options": [
+          "一階",
+          "二階",
+          "三階",
+          "四階"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "图书馆在四楼，教室在二楼。",
+          "en": "The classroom is on floor two, but the library is on floor four.",
+          "ja": "二階は教室で、図書館は四階です。"
+        },
+        "script": "教室は二階です。図書館も二階ですか。いいえ、図書館は四階です。階段はあそこにあります。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "買い物に行く人は何を買いますか。",
+        "options": [
+          "パンと牛乳",
+          "パンと卵",
+          "牛乳と卵",
+          "パンだけ"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "家里已有鸡蛋，需要买面包和牛奶。",
+          "en": "They already have eggs, so he will buy bread and milk.",
+          "ja": "卵は家にあるので、パンと牛乳を買います。"
+        },
+        "script": "買い物に行きます。何がいりますか。パンと牛乳を買ってください。卵もいりますか。卵はまだ家にありますから、いりません。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "いちばんよい返事を選んでください。",
+        "options": [
+          "はい、そうです。",
+          "いいえ、いません。",
+          "どういたしまして。"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "听到感谢，应回应「どういたしまして」。",
+          "en": "どういたしまして is an appropriate response to thanks.",
+          "ja": "「ありがとうございます」への返事は「どういたしまして」です。"
+        },
+        "script": "重い荷物を持ってくれて、ありがとうございます。"
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "場所＋に／で",
+        "example": "図書館に本があります。図書館で勉強します。",
+        "meaning": {
+          "zh": "存在地点用「に」，动作发生地点用「で」。",
+          "en": "Use に for where something exists and で for where an action happens.",
+          "ja": "存在する場所には「に」、動作をする場所には「で」を使います。"
+        }
+      },
+      {
+        "pattern": "動詞のて形＋ください",
+        "example": "ここに名前を書いてください。",
+        "meaning": {
+          "zh": "「てください」表达请求。",
+          "en": "The te-form plus ください makes a request.",
+          "ja": "「てください」は相手に何かを頼む表現です。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n4-01-v1",
+    "family": "jlpt",
+    "label": "JLPT N4",
+    "level": "N4",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "练习日常场景词汇、条件表达、句子组合和信息查找。",
+      "en": "Practise everyday vocabulary, conditionals, sentence structure and finding information.",
+      "ja": "日常の語彙、条件表現、文の組み立て、情報検索を練習します。"
+    },
+    "sections": [
+      {
+        "id": "vocabulary",
+        "minutes": 6
+      },
+      {
+        "id": "grammar_reading",
+        "minutes": 14
+      },
+      {
+        "id": "listening",
+        "minutes": 7
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【急いで】駅へ向かいました。読み方を選んでください。",
+        "options": [
+          "さわいで",
+          "いそいで",
+          "えらんで",
+          "つづいて"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「急いで」读作「いそいで」，意为赶紧。",
+          "en": "急いで is read いそいで and means in a hurry.",
+          "ja": "「急ぐ」のて形は「急いで（いそいで）」です。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「けんきゅう」の漢字を選んでください。",
+        "options": [
+          "研修",
+          "建築",
+          "研究",
+          "見学"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「けんきゅう」写作「研究」。",
+          "en": "けんきゅう is written 研究, meaning research.",
+          "ja": "「けんきゅう」は「研究」と書きます。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "この荷物は重いので、一人では（　）ません。",
+        "options": [
+          "運べ",
+          "調べ",
+          "並べ",
+          "比べ"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "重物无法独自搬运，使用「運べません」。",
+          "en": "A heavy package cannot be carried alone: 運べません.",
+          "ja": "荷物を移動させることは「運ぶ」です。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「もうすぐ」の意味に近いものを選んでください。",
+        "options": [
+          "ずっと前に",
+          "毎日のように",
+          "ときどき",
+          "あと少しで"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「もうすぐ」表示再过一会儿。",
+          "en": "もうすぐ means soon, or after a little more time.",
+          "ja": "「もうすぐ」は「あと少しで」と同じ意味です。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「約束」の使い方として、正しい文を選んでください。",
+        "options": [
+          "駅で友だちと会う約束をしました。",
+          "窓を約束してから寝ました。",
+          "この料理はとても約束です。",
+          "雨が約束から降っています。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「約束をする」指约定做某事。",
+          "en": "約束をする means to make a promise or arrangement.",
+          "ja": "友だちと会う予定を決めるときに「約束する」を使います。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "雨が降っ（　）、試合は中止になります。",
+        "options": [
+          "れば",
+          "たり",
+          "たら",
+          "ながら"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「〜たら」表示如果下雨这一条件。",
+          "en": "たら marks the condition: if it rains, the game is cancelled.",
+          "ja": "雨が降ることが中止の条件なので「たら」を使います。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "朝ご飯を食べ（　）、学校へ行きました。",
+        "options": [
+          "ないで",
+          "なくては",
+          "ないからで",
+          "ないためを"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「食べないで」表示没吃早饭就去学校。",
+          "en": "ないで links going to school with not eating breakfast first.",
+          "ja": "「食べないで」は食べずに次の行動をすることです。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "A「この本、来週返してもいいですか。」\nB「はい、来週（　）かまいません。」",
+        "options": [
+          "を",
+          "が",
+          "に",
+          "でも"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「来週でもかまいません」表示下周还也没关系。",
+          "en": "来週でもかまいません means that returning it next week is also fine.",
+          "ja": "「来週でもかまいません」は、来週返しても問題ないという意味です。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "先生は今、学生と（　）。",
+        "options": [
+          "話しております",
+          "お話しになっています",
+          "お話ししますでした",
+          "話して差し上げます"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "描述老师的动作，使用尊敬语「お話しになっています」。",
+          "en": "お話しになっています respectfully describes the teacher speaking.",
+          "ja": "先生の動作なので尊敬語の「お話しになる」を使います。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\nわたしは ＿＿ ＿＿ ★ ＿＿ があります。",
+        "options": [
+          "行った",
+          "日本へ",
+          "こと",
+          "一度"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "顺序为「一度・日本へ・行った・こと」，第三格是「行った」。",
+          "en": "The order is 一度 → 日本へ → 行った → こと.",
+          "ja": "「一度日本へ行ったことがあります」となります。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "何を土曜日までに返す必要がありますか。",
+        "options": [
+          "借りた本全部",
+          "月曜日に借りた雑誌",
+          "先週借りた本",
+          "新しい新聞"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "短信明确要求上周借的书在周六前归还。",
+          "en": "The message asks for last week’s borrowed book by Saturday.",
+          "ja": "返すのは「先週貸した本」です。"
+        },
+        "passage": "先週貸した本ですが、日曜日に弟が使うことになりました。土曜日までに返してもらえますか。月曜日に貸した雑誌は、まだ持っていて大丈夫です。"
+      },
+      {
+        "id": "r2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "料理教室に申し込む人は、どうすればいいですか。",
+        "options": [
+          "当日の朝に電話する",
+          "金曜日までにメールする",
+          "材料を買って持っていく",
+          "何もせず会場へ行く"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "须在周五前发送邮件报名，材料由教室准备。",
+          "en": "Apply by email by Friday; ingredients are provided.",
+          "ja": "金曜日までにメールで申し込みます。"
+        },
+        "passage": "日曜日の料理教室\n時間：午前十時〜十二時\n参加費：千円（材料代を含みます）\n参加したい人は金曜日までにメールでお申し込みください。"
+      },
+      {
+        "id": "r3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "この人はなぜ自転車で通うようになりましたか。",
+        "options": [
+          "駅がなくなったから",
+          "自転車をもらったから",
+          "電車が安くなったから",
+          "新しい家から会社が近いから"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "搬家后公司离新家近，因此改骑自行车。",
+          "en": "The new home is close to work, making cycling practical.",
+          "ja": "引っ越した家から会社まで近くなったからです。"
+        },
+        "passage": "前は会社まで電車で四十分かかりました。先月会社の近くに引っ越してから、自転車で通っています。十分で着くので、朝ゆっくりご飯を食べられるようになりました。"
+      },
+      {
+        "id": "r4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "木曜日の午後六時半に利用できるのはどれですか。",
+        "options": [
+          "図書室",
+          "受付",
+          "食堂",
+          "売店"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "图书室周四延长至七点，其他设施六点半均已关闭。",
+          "en": "Only the library stays open until seven on Thursday.",
+          "ja": "木曜日の図書室は午後七時まで利用できます。"
+        },
+        "passage": "市民センター\n図書室：午前九時〜午後五時（木曜日のみ午後七時まで）\n受付：午前九時〜午後六時\n食堂：午前十一時〜午後二時\n売店：午前十時〜午後五時"
+      },
+      {
+        "id": "r5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "山田さんはどうしますか。",
+        "options": [
+          "会議に参加しない",
+          "資料を作り直す",
+          "少し遅れて会議に参加する",
+          "会議を明日に変える"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "山田会晚到十分钟，请大家先开始。",
+          "en": "Yamada will arrive ten minutes late and asks others to start.",
+          "ja": "十分ほど遅れますが、会議には参加します。"
+        },
+        "passage": "みなさんへ\n電車が止まっているため、会議には十分ほど遅れそうです。先に始めていてください。資料は昨日メールで送りました。\n山田"
+      },
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "資料を印刷しようとしている人は、まず何をしますか。",
+        "options": [
+          "資料を印刷する",
+          "会議室を予約する",
+          "メールを送る",
+          "お客さんを迎える"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "先预约会议室，再打印材料。",
+          "en": "She should reserve the meeting room before printing.",
+          "ja": "資料を印刷する前に会議室を予約します。"
+        },
+        "script": "明日の会議の資料を印刷しましょうか。その前に、三時から使える会議室を予約してください。わかりました。予約ができたら、資料を二十部印刷します。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "二人は何曜日に映画を見ますか。",
+        "options": [
+          "金曜日",
+          "土曜日",
+          "日曜日",
+          "月曜日"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "周六有事，最终决定周日看电影。",
+          "en": "Saturday is unavailable, so they choose Sunday.",
+          "ja": "土曜日は都合が悪いので、日曜日に決めました。"
+        },
+        "script": "土曜日に映画を見に行きませんか。土曜日は仕事なんです。日曜日なら休みです。じゃあ、日曜日の午後にしましょう。はい、楽しみにしています。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "この人はどうして料理を習い始めましたか。",
+        "options": [
+          "一人暮らしを始めたから",
+          "店で働くことになったから",
+          "家族に頼まれたから",
+          "料理の試験を受けるから"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "开始独居后需要自己做饭，所以学习料理。",
+          "en": "Living alone created a need to cook for himself.",
+          "ja": "一人暮らしで自分の食事を作る必要ができたからです。"
+        },
+        "script": "最近、料理教室に通っているそうですね。ええ、先月から一人暮らしを始めたんです。毎日外で食べるとお金がかかるので、自分で作れるようになりたくて。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "今日、バスはどこから出ますか。",
+        "options": [
+          "駅の東口",
+          "駅の西口",
+          "いつものバス停",
+          "市役所の前"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "因道路施工，今天改从市政府前发车。",
+          "en": "Roadworks move today’s departure point to the city hall.",
+          "ja": "工事のため、今日は市役所の前から出発します。"
+        },
+        "script": "お知らせします。道路工事のため、今日の観光バスはいつもの駅前ではなく、市役所の前から出発します。出発時刻は午前九時で、変更はありません。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "いちばんよい返事を選んでください。",
+        "options": [
+          "まだ読んでいません。",
+          "ええ、どうぞ。",
+          "机の下にあります。"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "对借笔的请求，回应「ええ、どうぞ」最合适。",
+          "en": "ええ、どうぞ grants permission to borrow the pen.",
+          "ja": "貸してほしいという頼みを受ける返事です。"
+        },
+        "script": "すみません。ちょっとそのペンを貸していただけませんか。"
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜たことがある",
+        "example": "京都へ行ったことがあります。",
+        "meaning": {
+          "zh": "表示曾有某种经历。",
+          "en": "Describes having experienced something before.",
+          "ja": "過去の経験を表します。"
+        }
+      },
+      {
+        "pattern": "〜なければならない",
+        "example": "金曜日までに申し込まなければなりません。",
+        "meaning": {
+          "zh": "表示必须做某事，注意通知中的截止时间。",
+          "en": "Expresses an obligation; check deadlines in notices.",
+          "ja": "必要な行動を表します。お知らせでは締め切りにも注意します。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n3-01-v1",
+    "family": "jlpt",
+    "label": "JLPT N3",
+    "level": "N3",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "把词汇语境、语法连接和段落推理结合起来，练习 N3 阅读与听辨。",
+      "en": "Connect contextual vocabulary, grammar and paragraph inference for N3 practice.",
+      "ja": "文脈の語彙、文法のつながり、段落の推論を組み合わせて練習します。"
+    },
+    "sections": [
+      {
+        "id": "vocabulary",
+        "minutes": 7
+      },
+      {
+        "id": "grammar_reading",
+        "minutes": 17
+      },
+      {
+        "id": "listening",
+        "minutes": 8
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【状況】を確認してから連絡します。読み方を選んでください。",
+        "options": [
+          "じょうきょう",
+          "じょうけん",
+          "しょうきょう",
+          "じょきょう"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「状況」读作「じょうきょう」。",
+          "en": "状況 is read じょうきょう, meaning situation.",
+          "ja": "「状況」は「じょうきょう」と読みます。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「しゅうり」の漢字を選んでください。",
+        "options": [
+          "修正",
+          "整理",
+          "修理",
+          "終了"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "修理物品的「しゅうり」写作「修理」。",
+          "en": "Repair is written 修理.",
+          "ja": "壊れた物を直すことを「修理」と言います。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "帰る前に、必ず電源を切ったか（　）してください。",
+        "options": [
+          "発見",
+          "確認",
+          "案内",
+          "招待"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "离开前应确认是否关闭电源。",
+          "en": "Before leaving, check whether the power has been turned off.",
+          "ja": "電源を切ったかどうか確かめるので「確認」です。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「偶然」の意味に最も近いものを選んでください。",
+        "options": [
+          "予定どおりに",
+          "何度も続けて",
+          "特に急いで",
+          "思いがけず"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「偶然」表示事先没想到或计划的情况。",
+          "en": "偶然 refers to something occurring unexpectedly or by chance.",
+          "ja": "予想や計画なしに起こることなので「思いがけず」が近い意味です。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「断る」の使い方として正しい文を選んでください。",
+        "options": [
+          "忙しかったので、食事の誘いを断った。",
+          "風が強かったので、窓を断った。",
+          "図書館で新しい本を断った。",
+          "駅までの道をまっすぐ断った。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「誘いを断る」表示拒绝邀请。",
+          "en": "断る is used to turn down an invitation.",
+          "ja": "誘いを受けないと伝えるときに「断る」を使います。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "このボタンを押す（　）、ドアが開きます。",
+        "options": [
+          "ため",
+          "のに",
+          "と",
+          "まで"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「〜と」表示自然、固定的结果。",
+          "en": "と expresses the predictable result of pressing the button.",
+          "ja": "ボタンを押すと決まってドアが開くので「と」を使います。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "忘れ物をしない（　）、出かける前にかばんを確認しています。",
+        "options": [
+          "ように",
+          "ためを",
+          "ことに",
+          "ものを"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "用「〜ないように」表示为避免某事发生。",
+          "en": "ないように expresses the aim of avoiding forgetting things.",
+          "ja": "忘れ物を防ぐ目的を「しないように」で表します。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "この説明は何度読んでもわかりにくい。もっと簡単に書いて（　）。",
+        "options": [
+          "しまうそうだ",
+          "ほしかった",
+          "あるところだ",
+          "おいたばかりだ"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「書いてほしかった」表达希望对方写得更简单。",
+          "en": "てほしかった expresses a wish that someone had written it more simply.",
+          "ja": "書いた人に対する希望を「書いてほしかった」で表します。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "山田さんはまだ来ていませんが、もうすぐ来る（　）です。昨日、参加すると言っていました。",
+        "options": [
+          "ため",
+          "まま",
+          "せい",
+          "はず"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "根据昨天的表态推断他应该会来，使用「はず」。",
+          "en": "はず expresses an expectation based on his stated plan.",
+          "ja": "参加すると聞いているので、来ると予想しています。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\nこの町は ＿＿ ＿＿ ★ ＿＿ 。",
+        "options": [
+          "便利です",
+          "うえに",
+          "交通も",
+          "静かな"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "顺序为「静かな・うえに・交通も・便利です」。★处是「交通も」。",
+          "en": "The order is 静かな → うえに → 交通も → 便利です.",
+          "ja": "「静かなうえに交通も便利です」となり、★は「交通も」です。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "新しい会議の方法には、どんなよさがありますか。",
+        "options": [
+          "準備が全くいらない",
+          "参加者を減らせる",
+          "意見を考える時間が増える",
+          "資料を読まなくてよい"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "提前共享主题，让与会者事先思考意见。",
+          "en": "Sharing topics beforehand gives participants time to think.",
+          "ja": "前もって議題がわかるので、意見を考えてから参加できます。"
+        },
+        "passage": "以前は会議が始まってから議題が知らされたため、すぐに意見を求められても困ることが多かった。そこで、今は前日までに議題と資料を共有している。会議の時間自体は変わらないが、考えを整理して参加できるようになった。"
+      },
+      {
+        "id": "r2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "筆者はなぜ朝歩くようになりましたか。",
+        "options": [
+          "気持ちよく一日を始められると気づいたから",
+          "運動の大会に出たいから",
+          "バスがなくなったから",
+          "友人に毎日会えるから"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "偶然步行后精神更好，因此养成晨走习惯。",
+          "en": "A chance walk made the writer feel better and inspired a routine.",
+          "ja": "一度歩いてみて気持ちがすっきりしたことがきっかけです。"
+        },
+        "passage": "寝坊していつものバスに乗れなかった日、次のバスを待つ代わりに駅まで歩いた。少し疲れると思ったが、着くころには気持ちがすっきりしていた。それ以来、天気がよければ一本早く家を出て、駅まで歩くようにしている。"
+      },
+      {
+        "id": "r3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "予約を取り消すとき、どうすればいいですか。",
+        "options": [
+          "当日の朝までに受付へ行く",
+          "前日の午後五時までに電話する",
+          "メールを送ればいつでもよい",
+          "連絡せず料金だけ払う"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "取消预约必须在前一天下午五点前电话联系。",
+          "en": "Cancellations must be made by phone by five on the previous day.",
+          "ja": "取り消しは前日の午後五時までに電話で連絡します。"
+        },
+        "passage": "施設予約のご案内\n予約：利用日の一週間前からホームページで受け付けます。\n変更・取り消し：前日の午後五時までに電話でご連絡ください。メールでの取り消しは受け付けていません。"
+      },
+      {
+        "id": "r4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "この人は新しい店をどう思っていますか。",
+        "options": [
+          "何も気に入らない",
+          "料理より値段を重視している",
+          "前の店と同じだと思う",
+          "便利だが静かさは足りない"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "新店方便又好吃，但较吵，不太适合安静阅读。",
+          "en": "The new café is convenient and tasty but too noisy for quiet reading.",
+          "ja": "便利さは認めていますが、静かに読む場所には向かないと感じています。"
+        },
+        "passage": "駅前にできた喫茶店は、朝早くから開いていて、パンもおいしい。ただ、席の間が狭く、いつも人の声がよく聞こえる。出勤前に食事をするにはいいが、休日にゆっくり本を読むなら、前からある小さな店に行きたい。"
+      },
+      {
+        "id": "r5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "学生が無料で入れるのはいつですか。",
+        "options": [
+          "火曜日の午後",
+          "水曜日の午前",
+          "土曜日の午前",
+          "日曜日の午後"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "学生出示学生证可在周三上午免费入馆。",
+          "en": "Students with ID enter free on Wednesday mornings.",
+          "ja": "水曜日の午前中は学生証を見せると無料になります。"
+        },
+        "passage": "市立美術館\n一般：六百円　学生：三百円\n水曜日の午前中は、学生証を提示した方に限り入館無料。\n開館：火曜〜日曜、午前九時〜午後五時（月曜休館）"
+      },
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "説明を受けた人はこの後、まず何をしますか。",
+        "options": [
+          "参加者に電話する",
+          "資料の数字を確認する",
+          "会場へ行く",
+          "資料を全て印刷する"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "先核对最新数据，确认后再打印。",
+          "en": "He should check the latest figures before printing.",
+          "ja": "印刷の前に、資料の数字を確認します。"
+        },
+        "script": "明日の説明会の資料、もう印刷してもいいですか。ちょっと待ってください。参加者の人数が変わったので、三ページの数字を最新の表と比べて確認してください。そこが合っていれば印刷をお願いします。わかりました。先に表を確認します。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "話し手が仕事を選ぶとき、最も大切にしていることは何ですか。",
+        "options": [
+          "給料が高いこと",
+          "会社が大きいこと",
+          "勉強を続けられること",
+          "家からとても近いこと"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "工资和通勤也重要，但最重视能持续学习。",
+          "en": "She gives the highest priority to continuing to learn.",
+          "ja": "給料や通勤より、新しいことを学べる環境を重視しています。"
+        },
+        "script": "転職するなら、やっぱり給料がいちばん大事ですか。もちろん給料も気になります。でも、私にとっては、新しいことを学びながら働けるかどうかが一番ですね。通勤に少し時間がかかっても、成長できる仕事を選びたいです。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "話している人は、何を伝えたいのですか。",
+        "options": [
+          "早めに準備することが大切だ",
+          "新しい道具を買うべきだ",
+          "失敗したらやめたほうがよい",
+          "予定は立てないほうがよい"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "因临时准备导致失误，所以强调提前准备。",
+          "en": "The experience illustrates the importance of preparing early.",
+          "ja": "直前の準備で困った経験から、早めの準備を勧めています。"
+        },
+        "script": "先週の発表は、資料を前の晩に作り始めたせいで、必要な写真が見つからず、とても困りました。発表自体は何とか終わりましたが、もっと早く準備していれば落ち着いて話せたと思います。次は一週間前から少しずつ進めるつもりです。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "集合場所はどこに変わりましたか。",
+        "options": [
+          "公園の入口",
+          "駅の改札の前",
+          "図書館の会議室",
+          "学校の体育館"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "原计划公园入口，因下雨改到学校体育馆。",
+          "en": "Rain moves the meeting place to the school gym.",
+          "ja": "雨のため、公園ではなく学校の体育館に集まります。"
+        },
+        "script": "明日の清掃活動についてお知らせします。雨の予報が出ているため、集合場所を公園の入口から学校の体育館に変更します。時間は予定どおり午前九時です。体育館で活動の内容を説明してから、担当の場所へ移動します。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "いちばんよい返事を選んでください。",
+        "options": [
+          "こちらこそ、よろしくお願いします。",
+          "時間がかかりそうなんです。",
+          "助かります。お願いできますか。"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "对方主动提供帮助，回应感谢并接受帮助最恰当。",
+          "en": "The speaker offers help, so accepting it with thanks fits.",
+          "ja": "手伝いの申し出に対して、感謝して頼む返事が適切です。"
+        },
+        "script": "資料の整理、まだ時間がかかりそうですね。よかったら、半分やりましょうか。"
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜ようにする",
+        "example": "忘れないように、予定を手帳に書くようにしています。",
+        "meaning": {
+          "zh": "表示有意识地坚持某种做法。",
+          "en": "Describes making a conscious habit or effort.",
+          "ja": "意識して続ける行動や努力を表します。"
+        }
+      },
+      {
+        "pattern": "〜たばかり",
+        "example": "引っ越してきたばかりなので、まだ道がよくわかりません。",
+        "meaning": {
+          "zh": "表示说话人认为刚刚完成的事情。",
+          "en": "Describes an action the speaker regards as having just happened.",
+          "ja": "話し手が、終わってからまだ時間がたっていないと感じていることを表します。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n2-01-v1",
+    "family": "jlpt",
+    "label": "JLPT N2",
+    "level": "N2",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "合并训练语言知识与阅读，关注近义表达、句间逻辑和观点理解。",
+      "en": "Practise the combined knowledge/reading section, focusing on nuance, logic and viewpoints.",
+      "ja": "言語知識と読解をまとめて練習し、言い換え、論理、筆者の考えを捉えます。"
+    },
+    "sections": [
+      {
+        "id": "language_reading",
+        "minutes": 25
+      },
+      {
+        "id": "listening",
+        "minutes": 10
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "被害の【規模】を調べています。読み方を選んでください。",
+        "options": [
+          "きぼ",
+          "きも",
+          "ぎぼ",
+          "きほ"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「規模」读作「きぼ」，指规模。",
+          "en": "規模 is read きぼ, meaning scale.",
+          "ja": "「規模」は「きぼ」と読みます。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "地域社会に「こうけん」する。漢字を選んでください。",
+        "options": [
+          "交換",
+          "貢献",
+          "貢検",
+          "公権"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "对社会作贡献的「こうけん」写作「貢献」。",
+          "en": "Contributing is written 貢献.",
+          "ja": "社会などの役に立つことは「貢献」です。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "従来の説明では増えるはずなのに、実際には減った。この結果は、従来の説明と（　）している。",
+        "options": [
+          "一致",
+          "納得",
+          "矛盾",
+          "完成"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "本题要表达与旧解释相冲突，使用「矛盾」。",
+          "en": "矛盾 expresses a conflict with the previous explanation.",
+          "ja": "説明と食い違うことを「矛盾する」と言います。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「おおむね」の意味に最も近いものを選んでください。",
+        "options": [
+          "全く",
+          "急に",
+          "特に",
+          "だいたい"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「おおむね」表示总体上、大致。",
+          "en": "おおむね means generally or for the most part.",
+          "ja": "細かい点を除いて全体として、という意味です。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「省略」の使い方として正しい文を選んでください。",
+        "options": [
+          "時間が足りないので、細かい説明を省略した。",
+          "エレベーターで五階を省略した。",
+          "寒かったので上着を省略した。",
+          "駅で友人を省略した。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「省略」指省去说明等的一部分。",
+          "en": "省略 means omitting part of an explanation or similar content.",
+          "ja": "説明の一部を述べずに済ませるときに使います。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "年齢（　）、どなたでも参加できます。",
+        "options": [
+          "に応じて",
+          "にかかわらず",
+          "に沿って",
+          "に先立って"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "不论年龄都可参加，使用「にかかわらず」。",
+          "en": "にかかわらず means that age does not restrict participation.",
+          "ja": "年齢は参加の条件にならないという意味です。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "この本は難しいが、理解できない（　）。",
+        "options": [
+          "ことになっている",
+          "にちがいない",
+          "わけではない",
+          "ばかりである"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "虽难，但并非无法理解，是部分否定。",
+          "en": "わけではない denies that the book is impossible to understand.",
+          "ja": "難しくても全く理解できないということではありません。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "結果がわかり（　）、すぐにお知らせします。",
+        "options": [
+          "次第",
+          "ながら",
+          "つつ",
+          "かけて"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「動詞ます形＋次第」表示一旦完成就马上做下一步。",
+          "en": "The masu stem plus 次第 means as soon as the result becomes known.",
+          "ja": "結果がわかったら直ちに知らせるという意味です。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "彼の努力（　）、この計画は成功しなかっただろう。",
+        "options": [
+          "によって",
+          "に対して",
+          "にとって",
+          "なしには"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「なしには〜ない」表示如果没有就不能。",
+          "en": "なしには means that success would not have been possible without his effort.",
+          "ja": "彼の努力がなければ成功しなかったという意味です。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\n十分に ＿＿ ＿＿ ★ ＿＿ でしょう。",
+        "options": [
+          "誰もが",
+          "結論なら",
+          "話し合って出した",
+          "納得する"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "顺序是「話し合って出した・結論なら・誰もが・納得する」，星号处选「誰もが」。",
+          "en": "The order is 話し合って出した・結論なら・誰もが・納得する, so 誰もが fills the star.",
+          "ja": "「十分に話し合って出した結論なら誰もが納得するでしょう」となります。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者が最も言いたいことは何か。",
+        "options": [
+          "会議は全て廃止すべきだ",
+          "会議の目的に応じて方法を選ぶべきだ",
+          "短い会議ほど必ずよい",
+          "情報共有には必ず会議が必要だ"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "作者区分信息共享与共同决策，主张按目的选择方式。",
+          "en": "The writer distinguishes sharing information from making decisions together.",
+          "ja": "情報共有か意思決定かという目的に合わせて手段を選ぶべきだと述べています。"
+        },
+        "passage": "会議を減らせば仕事の効率が上がる、と単純に考えるのは危険だ。決まった情報を伝えるだけなら文書で十分な場合もあるが、立場の異なる人が判断の理由を確認し、方針を決める場は必要である。問うべきなのは回数ではなく、その場で何を実現したいのかだ。"
+      },
+      {
+        "id": "r2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者によると、便利な道具を使う際に必要なのは何か。",
+        "options": [
+          "使う前に全ての機能を暗記すること",
+          "古い方法を必ず捨てること",
+          "道具の提案をそのまま信じること",
+          "目的に合っているか自分で判断すること"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "工具不能代替使用者判断是否适合目标。",
+          "en": "A tool’s suggestion still needs to be judged against the user’s purpose.",
+          "ja": "提案が自分の目的に合うかどうかを判断する必要があります。"
+        },
+        "passage": "便利な道具は手間を省いてくれる。しかし、道具が勧める手順が自分の目的に合うとは限らない。例えば、最短の道を示す地図も、景色を楽しみたい人にとって最適な案内ではないだろう。便利さを生かすには、何を大切にしたいのかを使う側が自覚している必要がある。"
+      },
+      {
+        "id": "r3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "AとBの両方が重視していることは何か。",
+        "options": [
+          "地域の人が施設を使いやすくすること",
+          "開館時間を毎日同じにすること",
+          "利用者を学生に限定すること",
+          "設備を全て新しくすること"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "两者方法不同，但都关注居民实际使用需求。",
+          "en": "Both proposals focus on making the library usable for local people.",
+          "ja": "方法は違っても、地域の利用者の都合に合わせる点は共通しています。"
+        },
+        "passage": "A：図書館は夕方に閉まるため、仕事帰りには利用しづらい。週に一度でも遅くまで開いていれば、地域で暮らす人の役に立つと思う。\n\nB：開館時間を延ばす前に、返却箱や予約資料の受け取り場所を増やしてはどうか。時間に余裕のない住民も利用しやすくなるはずだ。"
+      },
+      {
+        "id": "r4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "金曜日の午後に初めて相談したい人は、どうすればよいか。",
+        "options": [
+          "予約せずに窓口へ行く",
+          "金曜日の正午までにメールする",
+          "木曜日の午後五時までに電話する",
+          "相談後に予約票を出す"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "首次咨询须前一工作日下午五点前电话预约。",
+          "en": "First-time consultations require a phone booking by five on the previous working day.",
+          "ja": "金曜日の前の営業日は木曜日なので、その午後五時までに電話で予約します。"
+        },
+        "passage": "相談窓口のご案内\n受付：月曜〜金曜、午前九時〜午後五時（祝日を除く）\n初回相談：希望日の前営業日午後五時までに電話予約が必要です。\n継続相談：担当者に直接ご連絡ください。\nこの週は月曜から金曜まで祝日はありません。"
+      },
+      {
+        "id": "r5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "空欄に入る最も適切な表現を選んでください。",
+        "options": [
+          "一方で",
+          "したがって",
+          "たとえば",
+          "それなのに"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "前句给出缺乏明确分工的问题，后句据此提出结论，选「したがって」。",
+          "en": "The second sentence draws a conclusion from unclear responsibilities.",
+          "ja": "前の問題を受けて対策を導くので「したがって」が適切です。"
+        },
+        "passage": "担当があいまいなままだと、誰かが対応するだろうと全員が考えてしまう。（　）、作業を始める前に、誰が何をするかを確認する必要がある。"
+      },
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "担当者はまず何をする必要があるか。",
+        "options": [
+          "全員に新しい案を送る",
+          "見積もりを確定する",
+          "利用者の要望を整理する",
+          "会議を中止する"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "负责人应先整理用户需求，再比较方案。",
+          "en": "The first task is to organize users’ needs before comparing plans.",
+          "ja": "案を選ぶ前に、利用者の要望を整理する必要があります。"
+        },
+        "script": "新しい受付システム、二つの案が出ていますが、安い方に決めてよいでしょうか。費用だけでは決められませんね。そもそも利用者が何に困っているのか、前回の聞き取り結果を整理してもらえますか。その内容と照らし合わせて、それぞれの案を比較しましょう。わかりました。資料をまとめてから、改めて相談します。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "話し手がこの店を評価している理由は何か。",
+        "options": [
+          "必要以上の購入を勧めないから",
+          "いつも最安値だから",
+          "商品が非常に多いから",
+          "店員が全員若いから"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "店员根据用途推荐，不勉强顾客购买多余功能。",
+          "en": "The staff recommend what fits the customer instead of pushing unnecessary features.",
+          "ja": "用途に合う物を勧め、不要な機能まで買わせようとしない点を評価しています。"
+        },
+        "script": "この店は品数が特別多いわけでも、いつも一番安いわけでもありません。それでも私が通うのは、店員が使い方をよく聞いてくれるからです。先日も高い製品を見ていたら、その用途ならこちらで十分ですよ、と安い方を勧められました。必要のない機能を買わずに済んで助かりました。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "話し手は研修についてどう考えているか。",
+        "options": [
+          "一度受ければ十分だ",
+          "実際の業務と結び付けて振り返るべきだ",
+          "時間が長ければ効果がある",
+          "参加人数だけで効果を判断できる"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "应把培训内容应用到实际工作，再复盘疑问。",
+          "en": "Training should be applied at work and reviewed through actual experience.",
+          "ja": "実務で試して生じた疑問を振り返ることが大切だと考えています。"
+        },
+        "script": "研修直後のアンケートで満足度が高くても、それだけで成果があったとは言えません。学んだ方法を実際の仕事で試し、うまくいかなかった点を持ち寄って話し合う時間が必要です。受講した人数よりも、その後に仕事の進め方がどう変わったかを見るべきでしょう。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "二人はどのプランを選ぶか。",
+        "options": [
+          "Aプラン",
+          "Bプラン",
+          "Cプラン",
+          "Dプラン"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "需要可联网、五人使用、预算八千以内，D 计划满足条件。",
+          "en": "Plan D meets all three needs: five people, internet and at most 8,000 yen.",
+          "ja": "五人、インターネット、八千円以内という条件を満たすのはDです。"
+        },
+        "script": "来週五人で使う貸し会議室を選びましょう。インターネットも必要ですね。Aは五千円ですが三人までです。Bは五人で使えて六千円ですが、ネットがありません。Cは十人まででネットもありますが一万円です。Dは五人まででネットが使えて七千円ですね。予算は八千円ですから、Dにしましょう。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "最も適切な返事を選んでください。",
+        "options": [
+          "はい、昨日受け取りました。",
+          "いえ、難しいとは限りません。",
+          "承知しました。優先して取りかかります。"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "对提前至今日中完成的请求，应回应接受并优先处理。",
+          "en": "The request is to finish today; acknowledging it and prioritizing the task fits.",
+          "ja": "今日中に終える依頼なので、優先して進めると答えるのが適切です。"
+        },
+        "script": "急で申し訳ないんですが、この確認作業、明日ではなく今日中にお願いできますか。"
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜にかかわらず",
+        "example": "経験の有無にかかわらず、応募できます。",
+        "meaning": {
+          "zh": "表示不受前述条件影响。",
+          "en": "Means regardless of the stated condition.",
+          "ja": "前に挙げた条件に関係なく、同じことが成り立つと表します。"
+        }
+      },
+      {
+        "pattern": "〜わけではない",
+        "example": "便利だからといって、誰にでも使いやすいわけではありません。",
+        "meaning": {
+          "zh": "部分否定，不能理解为完全否定。",
+          "en": "Expresses a partial denial, not a complete rejection.",
+          "ja": "全体を否定するのではなく、必ずそうだとは言えないと表します。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n1-01-v1",
+    "family": "jlpt",
+    "label": "JLPT N1",
+    "level": "N1",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "通过抽象议论、语气与隐含观点理解，练习 N1 语言知识和综合阅读。",
+      "en": "Practise N1 knowledge and integrated reading through abstract arguments and implied viewpoints.",
+      "ja": "抽象的な議論や含意を読み取り、N1の言語知識と総合的な読解を練習します。"
+    },
+    "sections": [
+      {
+        "id": "language_reading",
+        "minutes": 30
+      },
+      {
+        "id": "listening",
+        "minutes": 12
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "【緻密】な計画を立てた。読み方を選んでください。",
+        "options": [
+          "ちみつ",
+          "しみつ",
+          "ちひつ",
+          "きみつ"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「緻密」读作「ちみつ」，表示细致周密。",
+          "en": "緻密 is read ちみつ and describes something detailed and precise.",
+          "ja": "細部まで注意が行き届いていることを「緻密」と言います。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "これまでの方法を（　）するだけでは、新しい課題には対応できない。",
+        "options": [
+          "阻止",
+          "譲歩",
+          "踏襲",
+          "撤回"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「踏襲」指沿用已有的方法。",
+          "en": "踏襲 means following an established method.",
+          "ja": "従来の方法をそのまま受け継ぐことは「踏襲」です。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "意見の違いをはっきりさせず、（　）にしたままでは、合意に達したとは言えない。",
+        "options": [
+          "鮮明",
+          "曖昧",
+          "厳密",
+          "円滑"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "把分歧含糊带过，并不等于真正达成一致。",
+          "en": "Leaving differences vague does not amount to agreement.",
+          "ja": "違いをはっきりさせずに残すので「曖昧」が適切です。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「おろそかにする」の意味に最も近いものを選んでください。",
+        "options": [
+          "細かく調べる",
+          "予定を変更する",
+          "強く主張する",
+          "十分な注意を払わない"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「おろそかにする」指疏忽、不认真对待。",
+          "en": "おろそかにする means failing to give something due attention.",
+          "ja": "必要な注意を払わず、いい加減に扱うことです。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「是正」の使い方として最も適切な文を選んでください。",
+        "options": [
+          "制度の不公平を是正する必要がある。",
+          "昼食の注文を是正して店員を呼んだ。",
+          "山頂からの景色を是正した。",
+          "明日は友人の結婚を是正する。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「是正」用于纠正制度等的不合理或不公平之处。",
+          "en": "是正 means correcting an unfair or inappropriate condition.",
+          "ja": "不公平や誤りを正すときに「是正する」を使います。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "専門家の助言（　）、この問題を解決するのは難しい。",
+        "options": [
+          "をもとに",
+          "なくしては",
+          "に即して",
+          "と相まって"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「なくしては」表示若没有某条件则难以实现。",
+          "en": "なくしては means without, introducing a necessary condition.",
+          "ja": "専門家の助言がなければ難しい、という意味です。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "詳細な調査を行わずに結論を出すのは、危険（　）。",
+        "options": [
+          "に至らない",
+          "に先立つ",
+          "極まりない",
+          "ときている"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「危険極まりない」表示极其危险。",
+          "en": "極まりない intensifies the adjective: extremely dangerous.",
+          "ja": "「極まりない」は程度が非常に高いことを表します。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "参加者の安全を確保する（　）、計画の変更もやむを得ない。",
+        "options": [
+          "ためには",
+          "ものの",
+          "とはいえ",
+          "にしても"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "为了确保安全，修改计划也无可避免；只有目的表达符合句意。",
+          "en": "The sentence frames changing the plan as necessary to ensure safety.",
+          "ja": "安全確保という目的のため、計画変更が必要だと述べています。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "責任者が安全確認を怠るなど、ある（　）行為だ。",
+        "options": [
+          "べき",
+          "だけの",
+          "までの",
+          "まじき"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「あるまじき行為」表示不应有的、不被允许的行为。",
+          "en": "あるまじき行為 describes conduct that is unacceptable for someone in that position.",
+          "ja": "「あるまじき行為」は、その立場の人にあってはならない行為を表します。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\n制度を ＿＿ ＿＿ ★ ＿＿ 見直す必要がある。",
+        "options": [
+          "実情に",
+          "運用する",
+          "即して",
+          "現場の"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "顺序为「運用する・現場の・実情に・即して」。★处是「実情に」。",
+          "en": "The order is 運用する → 現場の → 実情に → 即して.",
+          "ja": "「制度を運用する現場の実情に即して見直す必要がある」となります。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者が批判しているのは何か。",
+        "options": [
+          "数値を一切使わない評価",
+          "目的を吟味せず指標の改善自体を目標にすること",
+          "現場の声を調べること",
+          "複数の資料を比較すること"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "批评的是把指标变好本身当成目标，而忘记本来目的。",
+          "en": "The criticism targets improving metrics while losing sight of the underlying purpose.",
+          "ja": "本来の目的を忘れ、指標の数値を上げること自体が目的になる点を批判しています。"
+        },
+        "passage": "数値は複雑な現象を比較する手がかりになる。しかし、何を捉えるための指標だったのかが忘れられ、数値の改善それ自体が目標になることがある。相談窓口の対応件数が増えても、同じ人が問題を解決できず繰り返し訪れているなら、サービスが向上したとは言い難い。指標を捨てるべきなのではない。指標が見落とすものを問い続ける必要があるのだ。"
+      },
+      {
+        "id": "r2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「余白」を設ける理由として、筆者の考えに合うものはどれか。",
+        "options": [
+          "責任の所在を不明確にするため",
+          "全ての計画をなくすため",
+          "仕事の質を評価しないため",
+          "予期しない変化に応じて考え直せるようにするため"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "余白让人能应对未预见的变化，并重新判断方向。",
+          "en": "Unallocated time leaves room to respond and rethink when conditions change.",
+          "ja": "予測できない変化に対応し、進め方を再検討するためです。"
+        },
+        "passage": "計画を隙間なく埋めることは、一見すると資源を有効に使う態度に見える。だが、現実は計画を立てた時点の想定どおりには動かない。余白を無駄とみなして取り除けば、変化への対応だけでなく、進む方向を問い直す機会までも失われる。余白とは怠慢の別名ではなく、不確実性の中で判断を続けるための条件なのである。"
+      },
+      {
+        "id": "r3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "AとBの意見に共通するものはどれか。",
+        "options": [
+          "過去の経験をそのまま正解として扱わないこと",
+          "過去の記録を全て捨てること",
+          "成功例だけを保存すること",
+          "変化を避けること"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "两者都认为经验应结合条件审视，不能机械套用。",
+          "en": "Both caution against treating past experience as an automatic answer.",
+          "ja": "経験を条件から切り離して、そのまま正解とみなさない点が共通しています。"
+        },
+        "passage": "A：成功事例を共有することには意義がある。ただし、どのような条件の下で成功したのかが省かれれば、事例は容易に万能の処方箋として受け取られてしまう。\n\nB：失敗の記録には、次の試みを支える可能性がある。その可能性を生かすには、失敗したという結末だけでなく、当時何を前提に判断したのかを検討しなければならない。"
+      },
+      {
+        "id": "r4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者は専門分野の異なる人の対話で何を重視しているか。",
+        "options": [
+          "専門用語をできるだけ増やすこと",
+          "相手の立場に全面的に同意すること",
+          "問いの前提を互いに確かめること",
+          "一つの分野だけで結論を出すこと"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "跨领域交流需确认各自问题与术语背后的前提。",
+          "en": "Productive dialogue requires checking the assumptions behind each other’s questions.",
+          "ja": "同じ言葉でも前提が違う可能性を確かめることを重視しています。"
+        },
+        "passage": "異分野の協働で難しいのは、単に用語が異なることではない。同じ言葉が使われていても、何を問題として切り出し、何を当然の条件として扱うかが違うことがある。相手の結論だけを理解しようとしても、議論はすれ違いかねない。まず問うべきなのは、その結論がどのような問いへの答えなのか、ということだ。"
+      },
+      {
+        "id": "r5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "空欄に入る最も適切な表現を選んでください。",
+        "options": [
+          "そればかりか",
+          "むしろ",
+          "その結果",
+          "というのも"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "后句纠正“统一等于完全一致”的理解，选「むしろ」。",
+          "en": "むしろ replaces the initial assumption with a more appropriate understanding.",
+          "ja": "同じ方法にそろえるという考えを修正し、より適切な捉え方を示しています。"
+        },
+        "passage": "公平な制度とは、必ずしも全員に同じ手続きを求める制度ではない。（　）、置かれた条件の違いによって生じる不利益を減らす仕組みが必要な場合もある。"
+      },
+      {
+        "id": "l1",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "担当者は次に何をするべきか。",
+        "options": [
+          "採用する案をすぐ決める",
+          "利用者全員に同じ質問を送る",
+          "費用の見積もりだけを取り直す",
+          "異なる回答が出た背景を調べる"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "负责人要求先调查回答差异背后的使用情境。",
+          "en": "The next step is to investigate why respondents gave differing answers.",
+          "ja": "回答の違いが利用場面の違いによるものか確認するよう求めています。"
+        },
+        "script": "アンケートでは、新しい予約画面を便利だとする人と、使いづらいとする人に分かれました。多数派の意見に従って改修すればよいでしょうか。結論を急ぐ前に、どんな場面で利用したのかを確認したいですね。初めての予約なのか、以前の予約を変更したのかでも、必要な操作が違うはずです。回答が分かれた背景を調べてから、優先する変更点を決めましょう。"
+      },
+      {
+        "id": "l2",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "話し手は、地域の記録を残す際に何を重視しているか。",
+        "options": [
+          "完成した一つの物語にまとめること",
+          "異なる記憶が生まれた立場も残すこと",
+          "古い写真の枚数を増やすこと",
+          "専門家の記憶だけを採用すること"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "强调保留不同记忆及其立场，不急于统一为单一叙述。",
+          "en": "The speaker values preserving differing memories and the positions behind them.",
+          "ja": "一つに統一するのではなく、異なる記憶とその背景を記録することを重視しています。"
+        },
+        "script": "地域の歴史を聞き取っていると、同じ出来事について全く違う記憶が語られることがあります。どちらかが誤りだとすぐに決めるのではなく、その人が当時どこにいて何を見ていたのかも記録したいのです。食い違いを消して一つの滑らかな物語にすれば、読みやすくはなるでしょう。しかし、その過程で、地域の多様な経験まで失ってしまうおそれがあります。"
+      },
+      {
+        "id": "l3",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "話し手が研究の評価について主張していることは何か。",
+        "options": [
+          "目に見える成果だけで早急に価値を決めないこと",
+          "成果の公表を全てやめること",
+          "短い期間の研究を禁止すること",
+          "研究者の人数で順位を決めること"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "研究价值不一定立即显现，不能只用短期可见成果判断。",
+          "en": "Research value may emerge slowly and should not be judged solely by immediate outputs.",
+          "ja": "すぐに見える成果だけでは長期的な価値を捉えられないと述べています。"
+        },
+        "script": "研究に説明責任があることは否定しません。ただ、成果が短期間で形になるものばかりではないのです。すぐに使えるかどうかを唯一の基準にすれば、後に重要になる問いが芽のうちに失われるかもしれません。評価をなくすのではなく、研究が扱う問いの性質に応じて、時間の幅や見るべき変化を考える必要があります。"
+      },
+      {
+        "id": "l4",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "二人が採用する案はどれか。",
+        "options": [
+          "利用時間を全員一律に延ばす案",
+          "受付を完全に無人にする案",
+          "夜間受け取りを試行し、利用状況を検証する案",
+          "聞き取りをせずに新しい建物を建てる案"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "最后选择小范围试行夜间领取，并根据数据再调整。",
+          "en": "They choose a limited night-time pickup trial followed by evaluation.",
+          "ja": "全面的に変える前に、夜間受け取りを試し、利用状況を確かめる案に合意しました。"
+        },
+        "script": "仕事帰りにも図書館を使いたいという要望が増えています。全館の開館時間を毎日延ばすのは人員の面で難しいですね。予約した本だけなら、夜間に受け取れる窓口を試せるかもしれません。ただ、どのくらい利用があるかは、まだわかりません。では、まず二か月間、週に二日だけ実施して、利用者数と職員の負担を調べましょう。その結果を見て、続け方を検討するということで。"
+      },
+      {
+        "id": "l5",
+        "section": "listening",
+        "kind": "choice",
+        "prompt": "最も適切な返事を選んでください。",
+        "options": [
+          "もう提出したので、知りません。",
+          "結論はいつも正しいはずです。",
+          "承知しました。根拠との対応を再確認します。"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "上司要求重新检查论据与结论是否对应，应回应复核。",
+          "en": "The request concerns the link between evidence and conclusions, so offer to recheck it.",
+          "ja": "根拠と結論のつながりを確かめ直すという返事が適切です。"
+        },
+        "script": "報告書の方向性には賛成なんですが、この結論を支える根拠が十分かどうか、もう一度見直してもらえますか。"
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜を余儀なくされる",
+        "example": "大雨のため、計画の変更を余儀なくされました。",
+        "meaning": {
+          "zh": "表示受外部情况影响，不得不做某事。",
+          "en": "Describes being forced by circumstances to do something.",
+          "ja": "外部の事情によって、望まなくてもそうせざるを得ないことを表します。"
+        }
+      },
+      {
+        "pattern": "〜に即して",
+        "example": "現場の実情に即して、運用を見直します。",
+        "meaning": {
+          "zh": "表示按照实际情况或标准来进行。",
+          "en": "Means acting in accordance with actual conditions or a standard.",
+          "ja": "実際の状況や基準に合うように行うことを表します。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n5-02-v1",
+    "family": "jlpt",
+    "label": "JLPT N5 · 02",
+    "level": "N5",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "围绕学校、车站、便利店、祭り与电车礼仪的 N5 原创新题，覆盖汉字读音、词汇、语法与短阅读（本卷无听力）。",
+      "en": "Original N5 short practice about school, station, convenience store, festival and train manners, covering kanji, vocabulary, grammar and short reading. This volume has no listening section.",
+      "ja": "学校、駅、コンビニ、祭り、電車のマナーを題材にしたN5のオリジナル短練習です。漢字、語彙、文法、短い読解を練習します。この巻に聴解はありません。"
+    },
+    "sections": [
+      {
+        "id": "vocabulary",
+        "minutes": 6
+      },
+      {
+        "id": "grammar_reading",
+        "minutes": 8
+      },
+      {
+        "id": "reading",
+        "minutes": 7
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【山】の読み方を選んでください。",
+        "options": [
+          "かわ",
+          "やま",
+          "うみ",
+          "そら"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「山」读作「やま」，意为山。",
+          "en": "山 is read やま, meaning mountain.",
+          "ja": "「山」は「やま」と読みます。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【毎日】学校へ行きます。読み方を選んでください。",
+        "options": [
+          "まいしゅう",
+          "まいげつ",
+          "まいねん",
+          "まいにち"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「毎日」读作「まいにち」，意为每天。",
+          "en": "毎日 means every day and is read まいにち.",
+          "ja": "「毎日」は「まいにち」と読みます。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「くるま」の漢字を選んでください。",
+        "options": [
+          "車",
+          "電",
+          "駅",
+          "道"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「くるま」写作「車」。",
+          "en": "The kanji for くるま is 車, meaning car.",
+          "ja": "「くるま」は「車」と書きます。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "ともだちにてがみを（　）ました。",
+        "options": [
+          "あるきました",
+          "のみました",
+          "かきました",
+          "およぎました"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "给朋友写了信，用「かきました」。",
+          "en": "The writer wrote a letter to a friend: かきました.",
+          "ja": "友だちに手紙を書いたので「かきました」を使います。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "夏はあついです。冬は（　）です。反対のことばを選んでください。",
+        "options": [
+          "ながい",
+          "あたらしい",
+          "おもい",
+          "さむい"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「あつい」（热）的反义词是「さむい」（冷）。",
+          "en": "The opposite of hot weather あつい is cold weather さむい.",
+          "ja": "「あつい」の反対は「さむい」です。"
+        }
+      },
+      {
+        "id": "v6",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「やすみ」の使い方として、正しい文を選んでください。",
+        "options": [
+          "日曜日は学校がやすみです。",
+          "友だちとやすみを食べました。",
+          "窓をやすんでください。",
+          "えきまでやすみが走ります。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「やすみ」是名词，学校放假用「学校がやすみです」。",
+          "en": "やすみ is a noun; 学校がやすみです means school is closed.",
+          "ja": "「やすみ」は名詞で、「学校がやすみです」のように使います。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "コンビニ（　）おにぎりを買いました。",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "が"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "在便利店买东西，动作发生的场所用「で」。",
+          "en": "Use で for the place where an action happens.",
+          "ja": "動作をする場所には「で」を使います。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "すみません、ちょっと（　）ください。",
+        "options": [
+          "まちて",
+          "まって",
+          "まつて",
+          "まんて"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「待つ」的て形是「まって」。",
+          "en": "The te-form of 待つ is まって: まってください.",
+          "ja": "「待つ」のて形は「まって」です。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "この薬は毎日（　）なりません。",
+        "options": [
+          "のまないで",
+          "のみたいなら",
+          "のんだから",
+          "のまなければ"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "必须每天吃药，用「のまなければなりません」。",
+          "en": "のまなければなりません expresses the obligation to take the medicine.",
+          "ja": "毎日飲む必要があるので「のまなければなりません」を使います。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "駅の前に大きい木が（　）。",
+        "options": [
+          "あります",
+          "います",
+          "します",
+          "きます"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "树木等非生物的存在用「あります」。",
+          "en": "Use あります for the existence of a non-living thing like a tree.",
+          "ja": "木は生き物ではないので「あります」を使います。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "きのうの祭りの花火はとても（　）。",
+        "options": [
+          "きれかったです",
+          "きれいでした",
+          "きれくないでした",
+          "きれいじゃないでした"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "な形容词「きれい」的过去式是「きれいでした」。",
+          "en": "The past form of na-adjective きれい is きれいでした.",
+          "ja": "な形容詞「きれい」の過去形は「きれいでした」です。"
+        }
+      },
+      {
+        "id": "g6",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "夏休みに海で（　）です。",
+        "options": [
+          "およぐたい",
+          "およいでたい",
+          "およぎたい",
+          "およぎますたい"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "想游泳用动词 masu 去掉 masu 后加「たい」：「およぎたい」。",
+          "en": "Attach たい to the masu stem: およぎたい means want to swim.",
+          "ja": "「およぎます」のますを取って「たい」を付けます。"
+        }
+      },
+      {
+        "id": "g7",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\n土曜日に ＿＿ ＿＿ ★ ＿＿ 。",
+        "options": [
+          "わたしは",
+          "父と",
+          "行きます",
+          "海へ"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "完整句是「土曜日にわたしは父と海へ行きます」，第三格是「海へ」。",
+          "en": "The order is わたしは → 父と → 海へ → 行きます, so the star is 海へ.",
+          "ja": "「わたしは・父と・海へ・行きます」の順なので、★は「海へ」です。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "運動会はいつですか。",
+        "options": [
+          "十月五日（土）午前九時から",
+          "十月六日（日）午前九時から",
+          "十月五日（日）午後九時から",
+          "毎日午前九時から"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "运动会定于十月五日周六上午九点开始。",
+          "en": "The sports day starts at nine in the morning on Saturday, October fifth.",
+          "ja": "運動会は十月五日（土）の午前九時からです。"
+        },
+        "passage": "運動会\n十月五日（土）午前九時から\n場所：学校の庭\n雨の日は十月六日（日）にします。"
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "大阪へ行く電車は何番線ですか。",
+        "options": [
+          "1番線",
+          "3番線",
+          "2番線",
+          "4番線"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "去大阪的车在2号站台。",
+          "en": "The Osaka-bound train leaves from platform number two.",
+          "ja": "大阪行きは2番線です。"
+        },
+        "passage": "1番線：東京行き\n2番線：大阪行き\n3番線：名古屋行き"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "ペットボトルはどこに捨てますか。",
+        "options": [
+          "黄色い箱",
+          "青い箱",
+          "赤い箱",
+          "白い箱"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "塑料瓶要丢进蓝色箱子。",
+          "en": "Plastic bottles go into the blue box after rinsing.",
+          "ja": "ペットボトルは青い箱に捨てます。"
+        },
+        "passage": "ペットボトル：青い箱\n紙：黄色い箱\nビニール袋：赤い箱\n＊ごみは洗ってから捨ててください。"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "花火は何時に始まりますか。",
+        "options": [
+          "午前七時",
+          "午後八時",
+          "午前八時",
+          "午後七時"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "烟花从下午七点放到八点。",
+          "en": "The fireworks start at seven in the evening and end at eight.",
+          "ja": "花火は午後七時に始まります。"
+        },
+        "passage": "夏祭り\n花火：午後七時から八時まで\n場所：川の公園\n＊雨の日は中止です。"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "電車の中で何をしなければなりませんか。",
+        "options": [
+          "携帯電話をマナーモードにします",
+          "大きい声で話します",
+          "走ります",
+          "たばこをすいます"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "在电车里应将手机调为静音模式，不大声说话。",
+          "en": "Passengers should set phones to silent mode and avoid loud talking.",
+          "ja": "携帯電話はマナーモードにしなければなりません。"
+        },
+        "passage": "電車の中では\n・携帯電話はマナーモードにしてください。\n・大きい声で話さないでください。\n・お年寄りに席をゆずりましょう。"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "何を持っていきますか。",
+        "options": [
+          "お弁当と傘",
+          "本とえんぴつ",
+          "水着とタオル",
+          "切符とお金"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "去海边要带泳衣和毛巾。",
+          "en": "Sakura asks everyone to bring a swimsuit and a towel.",
+          "ja": "持っていくのは「水着とタオル」です。"
+        },
+        "passage": "明日、海へ行きませんか。九時にバスで行きます。水着とタオルを持ってきてください。\nさくら"
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "明日、わたしはだれとどこへ行きますか。",
+        "options": [
+          "友だちと海へ",
+          "母とデパートへ",
+          "父と学校へ",
+          "一人で駅へ"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "明天和妈妈去百货商店购物。",
+          "en": "Tomorrow will be sunny, and the writer will shop with her mother.",
+          "ja": "明日は母とデパートへ買い物に行きます。"
+        },
+        "passage": "明日の天気は晴れです。気温は二十五度です。わたしは母とデパートへ買い物に行きます。"
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜たいです",
+        "example": "海でおよぎたいです。",
+        "meaning": {
+          "zh": "想做某事时，在动词 masu 去掉 masu 后加「たい」。",
+          "en": "Attach たい to the masu stem to say you want to do something.",
+          "ja": "動詞のます形からますを取って「たい」を付けると希望を表します。"
+        }
+      },
+      {
+        "pattern": "〜なければなりません",
+        "example": "薬をのまなければなりません。",
+        "meaning": {
+          "zh": "表示必须做某事。",
+          "en": "Expresses an obligation to do something without fail.",
+          "ja": "しなければならないことを表します。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n4-02-v1",
+    "family": "jlpt",
+    "label": "JLPT N4 · 02",
+    "level": "N4",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "围绕学校、车站、便利店、祭り与电车礼仪的 N4 原创新题，练习条件、准备、变化表达及信息查找（本卷无听力）。",
+      "en": "Original N4 short practice about school, station, shop, festival and train manners, covering conditionals, preparation, change and detail finding. This volume has no listening section.",
+      "ja": "学校、駅、コンビニ、祭り、電車のマナーを題材にしたN4のオリジナル短練習です。条件、準備、変化、情報検索を練習します。この巻に聴解はありません。"
+    },
+    "sections": [
+      {
+        "id": "vocabulary",
+        "minutes": 5
+      },
+      {
+        "id": "grammar_reading",
+        "minutes": 10
+      },
+      {
+        "id": "reading",
+        "minutes": 8
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【親切】な店員に助けてもらいました。読み方を選んでください。",
+        "options": [
+          "しんさい",
+          "おやぎり",
+          "しんせつ",
+          "したしい"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「親切」读作「しんせつ」，意为亲切热心。",
+          "en": "親切 is read しんせつ, meaning kind and helpful.",
+          "ja": "「親切」は「しんせつ」と読みます。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「せつめい」の漢字を選んでください。",
+        "options": [
+          "説明",
+          "設明",
+          "税明",
+          "説朋"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「せつめい」写作「説明」。",
+          "en": "せつめい is written 説明, meaning explanation.",
+          "ja": "「せつめい」は「説明」と書きます。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "この字は小さくて（　）ません。",
+        "options": [
+          "書け",
+          "読め",
+          "話せ",
+          "聞け"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "字太小看不清，用「読めません」。",
+          "en": "The characters are too small to read: 読めません.",
+          "ja": "字が小さいので読むことができません。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「たびたび」の意味に近いものを選んでください。",
+        "options": [
+          "一度だけ",
+          "めったに",
+          "急に",
+          "何度も"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「たびたび」表示多次发生。",
+          "en": "たびたび means often, or many times over.",
+          "ja": "「たびたび」は「何度も」と同じ意味です。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「誘う」の使い方として、正しい文を選んでください。",
+        "options": [
+          "友だちを映画に誘いました。",
+          "窓を誘ってから寝ました。",
+          "このかばんはとても誘いです。",
+          "駅までの道をまっすぐ誘いました。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「誘う」指邀请朋友一起做某事。",
+          "en": "誘う means to invite someone, as in inviting a friend.",
+          "ja": "友だちを誘うときに「誘う」を使います。"
+        }
+      },
+      {
+        "id": "v6",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【無料】の読み方を選んでください。",
+        "options": [
+          "むりょ",
+          "みりょう",
+          "むりょう",
+          "むりょく"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「無料」读作「むりょう」，意为免费。",
+          "en": "無料 is read むりょう, meaning free of charge.",
+          "ja": "「無料」は「むりょう」と読みます。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "この店は安い（　）、学校から近いし、よく行きます。",
+        "options": [
+          "たり",
+          "し",
+          "ば",
+          "と"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "并列多个理由用「〜し〜し」。",
+          "en": "し lists reasons side by side: cheap and also near school.",
+          "ja": "理由を並べるときに「〜し〜し」を使います。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "旅行の前に、切符を買っ（　）ます。",
+        "options": [
+          "てみ",
+          "てしまい",
+          "てくれ",
+          "ておき"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "出行前提前买好票，用表示准备的「ておきます」。",
+          "en": "ておきます marks preparation done before the trip.",
+          "ja": "旅行の準備として切符を買うので「ておきます」を使います。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "傘を電車の中に忘れ（　）ました。",
+        "options": [
+          "てしまい",
+          "ておき",
+          "てみ",
+          "てくれ"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "不小心把伞落在电车上，用表示遗憾的「てしまいました」。",
+          "en": "てしまいました expresses regret about leaving the umbrella behind.",
+          "ja": "傘を忘れたことを残念に思うので「てしまいました」を使います。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "毎日練習して、漢字が読める（　）なりました。",
+        "options": [
+          "ために",
+          "ままに",
+          "ように",
+          "はずに"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "能力变化用「ようになります」。",
+          "en": "読めるようになる describes gaining the ability to read kanji.",
+          "ja": "読めるようになった変化を「ように」で表します。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "泥棒に財布を（　）ました。",
+        "options": [
+          "盗み",
+          "盗まれ",
+          "盗ませ",
+          "盗り"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "钱包被小偷偷走，用被动「盗まれました」。",
+          "en": "The wallet was stolen by a thief: 盗まれました is passive.",
+          "ja": "財布を取られたので受身の「盗まれました」を使います。"
+        }
+      },
+      {
+        "id": "g6",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "さっきご飯を食べた（　）ですから、まだおなかがいっぱいです。",
+        "options": [
+          "ため",
+          "まま",
+          "はず",
+          "ばかり"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "刚吃过饭，用表示刚刚完成的「たばかり」。",
+          "en": "たばかり says the meal finished just a short while ago.",
+          "ja": "ご飯を食べた直後なので「たばかり」を使います。"
+        }
+      },
+      {
+        "id": "g7",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\nこの店は ＿＿ ＿＿ ★ ＿＿ 。",
+        "options": [
+          "便利で",
+          "駅から",
+          "近くて",
+          "有名です"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "完整句为「この店は駅から近くて便利で有名です」，第三格是「便利で」。",
+          "en": "The order is 駅から → 近くて → 便利で → 有名です.",
+          "ja": "「駅から・近くて・便利で・有名です」の順なので、★は「便利で」です。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "持っていかなければならないものは何ですか。",
+        "options": [
+          "お菓子とお金",
+          "お弁当と水筒と雨具",
+          "カメラと本",
+          "何もいりません"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "远足必须带便当、水壶和雨具，不能带点心。",
+          "en": "The excursion needs lunch, a water bottle and rain gear.",
+          "ja": "持っていくのは「お弁当・水筒・雨具」です。"
+        },
+        "passage": "明日の遠足について\n持ち物：お弁当、水筒、雨具\n＊お菓子は持ってきてはいけません。\n＊九時に学校の庭に集まってください。"
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "黒い財布はどこにありますか。",
+        "options": [
+          "二番線のベンチ",
+          "三番線の売店",
+          "駅の事務所",
+          "一番線の改札"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "黑色钱包在车站办公室，红伞和白帽子在别处。",
+          "en": "The black wallet is kept at the station office.",
+          "ja": "黒い財布は駅の事務所にあります。"
+        },
+        "passage": "落とし物のお知らせ\n黒い財布：駅の事務所にあります。\n赤い傘：二番線のベンチにあります。\n白い帽子：三番線の売店にあります。"
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "一時間の給料はいくらですか。",
+        "options": [
+          "千百円",
+          "千円",
+          "千二百円",
+          "千五百円"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "便利店兼职的时薪是一千一百日元。",
+          "en": "The hourly wage for the convenience-store job is 1100 yen.",
+          "ja": "一時間の給料は千百円です。"
+        },
+        "passage": "コンビニのアルバイト募集\n時間：土曜日と日曜日の午後六時〜十時\n時給：千百円\n＊夜に働ける人を探しています。電話で申し込んでください。"
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "車で行く人はどうしなければなりませんか。",
+        "options": [
+          "駅前の道を通ります",
+          "北の駐車場に止めます",
+          "祭りに来ません",
+          "南の駐車場に止めて歩きます"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "祭り期间站前道路禁行，开车者须停南停车场后步行前往。",
+          "en": "Drivers must park in the south lot and walk to the festival.",
+          "ja": "車の人は南の駐車場に止めて歩いて来ます。"
+        },
+        "passage": "秋祭りのお知らせ\n十月十二日（土）午後一時〜五時、駅前の道は車が通れません。車の人は南の駐車場に止めて、歩いて来てください。"
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "筆者が一番言いたいことは何ですか。",
+        "options": [
+          "電車は速いほうがいい",
+          "みんなが気をつければ電車は気持ちよくなる",
+          "朝は電車が混む",
+          "携帯電話は便利だ"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "作者认为大家稍加注意，车厢会更舒适安静。",
+          "en": "The writer wants everyone to be considerate so trains feel pleasant.",
+          "ja": "みんなが気をつければ電車の中が気持ちよくなると言っています。"
+        },
+        "passage": "電車の中で大きい声で話す人がいます。私はそれがあまり好きではありません。特に朝は、静かに過ごしたいです。携帯電話の声も気になります。みんなが少し気をつければ、電車の中はもっと気持ちよくなると思います。"
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "バス旅行はいつ行いますか。",
+        "options": [
+          "明日行います",
+          "今日行います",
+          "来週の日曜日に行います",
+          "もうしません"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "因台风取消明天的旅行，改到下周日。",
+          "en": "The typhoon postpones the bus trip to next Sunday.",
+          "ja": "台風のため、バス旅行は来週の日曜日に行います。"
+        },
+        "passage": "明日のバス旅行について\n台風のため、明日のバス旅行は中止します。来週の日曜日に行きます。場所と時間は変わりません。"
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "雨の日の火曜日はどうしますか。",
+        "options": [
+          "練習します",
+          "試合をします",
+          "場所を変えます",
+          "休みます"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "下雨天休息，不练习。",
+          "en": "Practice is cancelled on rainy days like a rainy Tuesday.",
+          "ja": "雨の日は休みなので、練習しません。"
+        },
+        "passage": "サッカー部\n練習：毎週火曜日と木曜日の午後四時〜六時\n場所：学校のグラウンド\n＊雨の日は休みです。新しい部員を募集しています。"
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜ても",
+        "example": "雨が降っても、運動会をします。",
+        "meaning": {
+          "zh": "即使发生前项，后项仍然成立。",
+          "en": "Shows that the result holds even if the first event happens.",
+          "ja": "前のことが起こっても後のことが成り立つことを表します。"
+        }
+      },
+      {
+        "pattern": "〜てしまう",
+        "example": "傘を電車に忘れてしまいました。",
+        "meaning": {
+          "zh": "表示动作完成，或对结果感到遗憾。",
+          "en": "Expresses completion or regret about what happened.",
+          "ja": "動作の完了や残念な結果を表します。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n3-02-v1",
+    "family": "jlpt",
+    "label": "JLPT N3 · 02",
+    "level": "N3",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "围绕图书馆、打工、花见与雨天准备的 N3 原创新题，练习词义、语法连接和段落信息查找（本卷无听力）。",
+      "en": "Original N3 short practice about the library, part-time work, cherry-blossom viewing and rain plans, covering word meaning, grammar links and passage detail. This volume has no listening section.",
+      "ja": "図書館、アルバイト、花見、雨の準備を題材にしたN3のオリジナル短練習です。語彙、文法のつながり、文章の情報検索を練習します。この巻に聴解はありません。"
+    },
+    "sections": [
+      {
+        "id": "vocabulary",
+        "minutes": 5
+      },
+      {
+        "id": "grammar_reading",
+        "minutes": 10
+      },
+      {
+        "id": "reading",
+        "minutes": 9
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "【渋滞】の読み方を選んでください。",
+        "options": [
+          "しゅうだい",
+          "しゅうたい",
+          "じゅうたい",
+          "じゅうだい"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「渋滞」读作「じゅうたい」，指道路上车辆堵塞。",
+          "en": "渋滞 is read じゅうたい, meaning a traffic jam.",
+          "ja": "「渋滞」は「じゅうたい」と読みます。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「けいかく」の漢字を選んでください。",
+        "options": [
+          "系画",
+          "経画",
+          "計各",
+          "計画"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「けいかく」写作「計画」，意为计划。",
+          "en": "けいかく is written 計画, meaning a plan.",
+          "ja": "「けいかく」は「計画」と書きます。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "雨で試合が中止に（　）ました。",
+        "options": [
+          "する",
+          "し",
+          "なっ",
+          "なり"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「中止になる」表示比赛被取消，这里主语是比赛，只能用「なりました」。",
+          "en": "雨で試合が中止になりました uses になる: the match was cancelled by the rain.",
+          "ja": "雨のため試合が中止になったので「なり」を使います。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「さっそく」の意味に最も近いものを選んでください。",
+        "options": [
+          "あとで",
+          "ゆっくり",
+          "すぐに",
+          "ときどき"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「さっそく」意为立刻、马上，与「すぐに」意思相近。",
+          "en": "さっそく means right away, close in meaning to すぐに.",
+          "ja": "「さっそく」は「すぐに」と近い意味です。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「相談」の使い方として正しい文を選んでください。",
+        "options": [
+          "友だちに進路について相談しました。",
+          "料理を相談して食べました。",
+          "この本はとても相談です。",
+          "電車を相談して待ちました。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「相談」指找人商量事情，如和朋友商量今后的出路。",
+          "en": "相談 means consulting someone, as in discussing future plans with a friend.",
+          "ja": "進路について人に相談するときに「相談」を使います。"
+        }
+      },
+      {
+        "id": "v6",
+        "section": "vocabulary",
+        "kind": "choice",
+        "prompt": "「準備」の読み方を選んでください。",
+        "options": [
+          "じゅんび",
+          "じゅんびつ",
+          "しゅんび",
+          "じゅんぴ"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「準備」读作「じゅんび」，意为事先准备。",
+          "en": "準備 is read じゅんび, meaning preparation.",
+          "ja": "「準備」は「じゅんび」と読みます。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "駅に着い（　）、友だちから電話が来ました。",
+        "options": [
+          "うちに",
+          "たとたん",
+          "たびに",
+          "ために"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「〜たとたん（に）」表示刚做完某个动作，就发生了后项。",
+          "en": "〜たとたん(に) marks what happened right after arriving at the station.",
+          "ja": "駅に着いた直後に電話が来たので「たとたん」を使います。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "毎日薬を飲んだ（　）、体の調子がよくなりました。",
+        "options": [
+          "たびに",
+          "おかげで",
+          "かわりに",
+          "せいで"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「〜おかげで」表示由前项带来好结果，后项是身体状况好转。",
+          "en": "〜おかげで credits the improvement in health to taking medicine daily.",
+          "ja": "いい結果になったので「おかげで」を使います。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "彼は文句を言う（　）、何も手伝ってくれません。",
+        "options": [
+          "ばかりで",
+          "ことなく",
+          "ながら",
+          "ために"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「〜ばかりで」表示净是做前项，没有后项应有的行动；句意为「他只顾抱怨，什么都不帮忙」。",
+          "en": "〜ばかりで says he does nothing but complain and never helps; ことなく/ために/ながら do not fit the meaning.",
+          "ja": "文句を言うばかりで、何も手伝わないという意味です。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "空が暗いし、かばんに傘を入れて出かけたから、午後は雨が降る（　）。",
+        "options": [
+          "しか",
+          "だけ",
+          "ほど",
+          "らしい"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「〜らしい」表示根据看到的情况或听到的信息做出判断。",
+          "en": "〜らしい makes a judgement from observed signs: it seems it will rain.",
+          "ja": "空の様子から判断して「らしい」を使います。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "窓が開けて（　）ますから、少し寒いです。",
+        "options": [
+          "おき",
+          "あり",
+          "い",
+          "しまい"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「〜てある」表示某人有意做过的动作留下的状态，如窗户被开着。",
+          "en": "〜てあります describes a state left by an intentional action: the window is open.",
+          "ja": "窓が開いた状態が残っているので「てあります」を使います。"
+        }
+      },
+      {
+        "id": "g6",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "この店のラーメンは、食べられない（　）辛すぎます。",
+        "options": [
+          "ほど",
+          "しか",
+          "まで",
+          "でも"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「〜ほど」表示程度，如辣得没法吃。",
+          "en": "〜ほど expresses an extreme degree: so spicy that one cannot eat it.",
+          "ja": "辛さの程度を表すので「ほど」を使います。"
+        }
+      },
+      {
+        "id": "g7",
+        "section": "grammar_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\nこの図書館は ＿＿ ＿＿ ★ ＿＿ 。",
+        "options": [
+          "静かです",
+          "多くて",
+          "席も",
+          "明るくて"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "完整句为「この図書館は明るくて席も多くて静かです」，第三格是「多くて」。",
+          "en": "The order is 明るくて → 席も → 多くて → 静かです, so ★ is 多くて.",
+          "ja": "「明るくて・席も・多くて・静かです」の順なので、★は「多くて」です。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "市民プールについて、正しいものはどれですか。",
+        "options": [
+          "月曜日も開いています",
+          "午後九時まで開いています",
+          "中学生は無料です",
+          "水着を貸してもらえます"
+        ],
+        "answer": "C",
+        "passage": "市民プールのお知らせ\n七月から九月まで、市民プールは午前九時から午後八時まで開きます。月曜日は休みです。中学生以下は無料、大人は一回五百円です。タオルと水着は自分で持ってきてください。",
+        "explanation": {
+          "zh": "公告写明中学生以下免费，周一休息，需自带泳衣，晚上八点关门。",
+          "en": "The notice says junior-high students and younger swim free of charge.",
+          "ja": "中学生以下は無料なので「中学生は無料です」が正しいです。"
+        }
+      },
+      {
+        "id": "r2",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "山本さんは何を頼んでいますか。",
+        "options": [
+          "引っ越しを手伝うこと",
+          "アパートを探すこと",
+          "新しい電話番号を教えること",
+          "住所を変えること"
+        ],
+        "answer": "A",
+        "passage": "山本です。来月、駅の近くのアパートに引っ越します。新しい住所は中央区みどり町三ー五です。電話番号は変わりません。引っ越しの日は手伝いが必要なので、土曜日の朝に来てくれる人は連絡してください。",
+        "explanation": {
+          "zh": "山本说搬家需要帮忙，请周六早上能来的人联系他。",
+          "en": "Yamamoto asks people who can come on Saturday morning to help him move.",
+          "ja": "引っ越しを手伝ってほしいと頼んでいます。"
+        }
+      },
+      {
+        "id": "r3",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "この人がバスに乗るのはどんなときですか。",
+        "options": [
+          "毎朝",
+          "三か月ごと",
+          "雨の日",
+          "疲れたとき"
+        ],
+        "answer": "C",
+        "passage": "私は毎朝、駅まで歩いています。前はバスに乗っていましたが、朝のバスはとても混んでいて疲れるからです。歩き始めて三か月になりますが、体の調子がよくなり、朝の空気も気持ちよく感じます。雨の日だけはバスに乗ります。",
+        "explanation": {
+          "zh": "作者平时步行去车站，只在雨天坐公交车。",
+          "en": "The writer takes the bus only on rainy days and walks on other days.",
+          "ja": "雨の日だけバスに乗ると書いてあります。"
+        }
+      },
+      {
+        "id": "r4",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "本を借りるときに必要なものは何ですか。",
+        "options": [
+          "罰金と飲み物",
+          "五冊の本",
+          "住所がわかるものと身分を証明するもの",
+          "二週間分の利用券"
+        ],
+        "answer": "C",
+        "passage": "図書館の利用案内\n本は一人五冊まで、二週間借りられます。返すのが遅れると、一日十円の罰金がかかります。貸出カードを作るには、住所がわかるものと学生証か会社の名刺を持ってきてください。図書館の中で飲み物は飲めません。",
+        "explanation": {
+          "zh": "办借书卡需要能证明住址的证件，以及学生证或公司名片。",
+          "en": "To make a library card you need proof of address plus a student card or business card.",
+          "ja": "住所がわかるものと学生証などが必要です。"
+        }
+      },
+      {
+        "id": "r5",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "時給が千二百円になるのはどんな人ですか。",
+        "options": [
+          "週三日働ける人",
+          "午後五時から働ける人",
+          "制服を持っている人",
+          "経験がある人"
+        ],
+        "answer": "D",
+        "passage": "カフェのスタッフ募集\n週三日以上、午後五時から十時まで働ける方を募集しています。時給は千円からで、経験があれば千二百円です。制服は貸します。まずは電話で面接の予約をしてください。",
+        "explanation": {
+          "zh": "招聘写明有经验者时薪一千二百日元，没经验从一千日元起。",
+          "en": "The higher wage of 1200 yen is offered to people with experience.",
+          "ja": "経験があれば時給は千二百円になります。"
+        }
+      },
+      {
+        "id": "r6",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "土曜日に雨が降ったら、どうしますか。",
+        "options": [
+          "そのまま行います",
+          "中止して日曜日に行います",
+          "池の近くに集まります",
+          "食べ物を持ってこなくなります"
+        ],
+        "answer": "B",
+        "passage": "花見のお知らせ\n花が咲く季節になりました。今週の土曜日、公園で花見をします。昼十二時から、公園の池の近くに集まってください。食べ物と飲み物はそれぞれ持ってきてください。雨の場合は中止して、次の日の日曜日にします。",
+        "explanation": {
+          "zh": "通知说下雨就取消，改到第二天的周日进行。",
+          "en": "If it rains on Saturday the picnic is cancelled and moved to Sunday.",
+          "ja": "雨の場合は中止して、日曜日に行います。"
+        }
+      },
+      {
+        "id": "r7",
+        "section": "reading",
+        "kind": "choice",
+        "prompt": "筆者が一番言いたいことは何ですか。",
+        "options": [
+          "信号を増やすべきだ",
+          "スマートフォンは危険だから捨てるべきだ",
+          "スマートフォンをもっと便利にすべきだ",
+          "歩きながら使わず、止まってから使うべきだ"
+        ],
+        "answer": "D",
+        "passage": "最近、スマートフォンを見ながら歩く人が増えました。便利な道具ですが、歩きながら使うと、人にぶつかったり、信号に気づかなかったりして、とても危険です。私は、立ち止まってから使う習慣をつけるべきだと思います。少しの面倒を我慢すれば、事故はずっと減るはずです。",
+        "explanation": {
+          "zh": "作者主张应养成先停下脚步再用手机的习惯，以减少事故。",
+          "en": "The writer urges people to stop walking and stand still before using a phone.",
+          "ja": "立ち止まってから使うべきだと言っています。"
+        }
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜たとたん",
+        "example": "駅に着いたとたん、電話が来ました。",
+        "meaning": {
+          "zh": "表示刚做完前项就发生了后项。",
+          "en": "Marks what happened immediately after the first action.",
+          "ja": "前の動作の直後に後ろのことが起きたことを表します。"
+        }
+      },
+      {
+        "pattern": "〜おかげで",
+        "example": "薬を飲んだおかげで、よくなりました。",
+        "meaning": {
+          "zh": "表示因前项而得到好结果。",
+          "en": "Credits a good result to the preceding cause.",
+          "ja": "前のことのおかげでよい結果になったことを表します。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n2-02-v1",
+    "family": "jlpt",
+    "label": "JLPT N2 · 02",
+    "level": "N2",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "围绕公司通知、防灾训练、居家办公与契约常识的 N2 原创新题，练习近义表达、句间逻辑与观点理解（本卷无听力）。",
+      "en": "Original N2 short practice about office notices, disaster drills, remote work and contracts, covering synonyms, between-sentence logic and opinion. This volume has no listening section.",
+      "ja": "会社のお知らせ、防災訓練、在宅勤務、契約の常識を題材にしたN2のオリジナル短練習です。類義表現、文のつながり、意見の理解を練習します。この巻に聴解はありません。"
+    },
+    "sections": [
+      {
+        "id": "language_reading",
+        "minutes": 28
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "会社の【方針】が変わりました。読み方を選んでください。",
+        "options": [
+          "かたしん",
+          "ほうしん",
+          "ほしん",
+          "ほうじん"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「方針」读作「ほうしん」，指方针、政策。",
+          "en": "方針 is read ほうしん, meaning a policy or course of action.",
+          "ja": "「方針」は「ほうしん」と読みます。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "予定を「へんこう」する。漢字を選んでください。",
+        "options": [
+          "変更",
+          "返更",
+          "変向",
+          "偏更"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「へんこう」写作「変更」，意为更改、变动。",
+          "en": "へんこう is written 変更, meaning to change or revise.",
+          "ja": "「へんこう」は「変更」と書きます。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "新しい事実が明らかになり、これまでの説明は（　）を失った。",
+        "options": [
+          "説得力",
+          "説得心",
+          "力説",
+          "得力"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「説得力を失う」意为失去说服力，符合新事实推翻旧说明的语境。",
+          "en": "説明は説得力を失った means the explanation lost its persuasive force.",
+          "ja": "新しい事実によって説明の説得力がなくなったので「説得力」を使います。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「あらかじめ」の意味に最も近いものを選んでください。",
+        "options": [
+          "突然",
+          "前もって",
+          "徐々に",
+          "一度に"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「あらかじめ」意为事先、预先，与「前もって」意思相近。",
+          "en": "あらかじめ means in advance, close in meaning to 前もって.",
+          "ja": "「あらかじめ」は「前もって」と同じ意味です。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「反映」の使い方として最も適切な文を選んでください。",
+        "options": [
+          "会議の意見を計画に反映させた。",
+          "料理を反映して味見した。",
+          "空が反映して青くなった。",
+          "道を反映して歩いた。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「反映」指把意见等体现到某事物中，如把会议意见反映到计划里。",
+          "en": "反映 means to reflect or incorporate, as putting opinions into a plan.",
+          "ja": "意見を計画に反映させる使い方が適切です。"
+        }
+      },
+      {
+        "id": "v6",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「深刻」の読み方を選んでください。",
+        "options": [
+          "ふかこく",
+          "じんこく",
+          "しんこく",
+          "しんきょ"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「深刻」读作「しんこく」，指严重、深刻。",
+          "en": "深刻 is read しんこく, meaning serious or grave.",
+          "ja": "「深刻」は「しんこく」と読みます。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "経験の有無（　）、やる気のある人を募集しています。",
+        "options": [
+          "を問わず",
+          "をめぐって",
+          "に沿って",
+          "に反して"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「〜を問わず」表示不论前项如何，后项都成立。",
+          "en": "〜を問わず means regardless of whether one has experience.",
+          "ja": "経験があるかないかにかかわらず、という意味なので「を問わず」を使います。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "この問題は学生（　）、社会人にも関係がある。",
+        "options": [
+          "を限りに",
+          "に限らず",
+          "に限り",
+          "に限って"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「〜に限らず」表示不限于前项，后项也适用。",
+          "en": "〜に限らず means not limited to students but also working adults.",
+          "ja": "学生だけでなく社会人にも関係があるので「に限らず」を使います。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "彼がそんなことをしたとは、私には信じ（　）。",
+        "options": [
+          "らしい",
+          "やすい",
+          "そうだ",
+          "がたい"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「〜がたい」表示心理上难以做到，如难以置信。",
+          "en": "〜がたい means hard to do emotionally: hard to believe.",
+          "ja": "心理的に難しいので「信じがたい」を使います。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "電気がついているから、彼はまだ会社にいる（　）。",
+        "options": [
+          "に反する",
+          "に限らない",
+          "に違いない",
+          "に応じる"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「〜に違いない」表示有把握的推测，意为一定。",
+          "en": "〜に違いない expresses strong conviction: he must still be at the office.",
+          "ja": "確かな推測なので「に違いない」を使います。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "大切な会議があるので、今日は休む（　）。",
+        "options": [
+          "ことはない",
+          "わけにはいかない",
+          "わけがない",
+          "にすぎない"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「〜わけにはいかない」表示因义务或常识而不能做某事。",
+          "en": "〜わけにはいかない means one cannot possibly take the day off.",
+          "ja": "大事な会議があるので休むことができない、という意味です。"
+        }
+      },
+      {
+        "id": "g6",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "この図書館では、本を借りるにはカードを作る（　）。",
+        "options": [
+          "ことにしている",
+          "ことにする",
+          "ことになると",
+          "ことになっている"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「〜ことになっている」表示既定的规则或习惯。",
+          "en": "〜ことになっている states an established rule of the library.",
+          "ja": "図書館の決まりなので「ことになっている」を使います。"
+        }
+      },
+      {
+        "id": "g7",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\nこの計画は ＿＿ ＿＿ ★ ＿＿ 。",
+        "options": [
+          "取り入れて",
+          "意見を",
+          "市民の",
+          "作られました"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "完整句为「この計画は市民の意見を取り入れて作られました」，第三格是「取り入れて」。",
+          "en": "The order is 市民の → 意見を → 取り入れて → 作られました, so ★ is 取り入れて.",
+          "ja": "「市民の・意見を・取り入れて・作られました」の順なので、★は「取り入れて」です。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "十二時から十二時半に窓側の席を使えるのはどんな人ですか。",
+        "options": [
+          "会議で遅くなる人",
+          "十一時半に来た人",
+          "社員全員",
+          "事前に予約した人"
+        ],
+        "answer": "D",
+        "passage": "会社からのお知らせ\n来月から、社員食堂の利用時間が変わります。昼食は十一時半から十三時半までとなります。また、混雑を避けるため、十二時から十二時半は、窓側の席を予約した人だけが利用できます。会議で遅くなる人は、事前に予約してください。",
+        "explanation": {
+          "zh": "通知说明十二点到十二点半靠窗座位只限提前预约的人使用。",
+          "en": "From 12:00 to 12:30 only those who reserved a window seat may use them.",
+          "ja": "事前に予約した人だけが窓側の席を利用できます。"
+        }
+      },
+      {
+        "id": "r2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "参加者は訓練でまず何をしますか。",
+        "options": [
+          "避難所まで歩く",
+          "車を止める",
+          "消火器の使い方を学ぶ",
+          "火事を起こす"
+        ],
+        "answer": "C",
+        "passage": "地域の防災訓練\n今度の日曜日、地域の防災訓練を行います。午前九時に小学校の校庭に集合してください。今回は、地震の後で火事が起きた場合を想定します。参加者は、まず消火器の使い方を学び、その後で避難所まで歩きます。当日は運動靴で来てください。車での来場はご遠慮ください。",
+        "explanation": {
+          "zh": "训练先学习灭火器的使用方法，之后走到避难所。",
+          "en": "Participants first learn how to use a fire extinguisher, then walk to the shelter.",
+          "ja": "まず消火器の使い方を学びます。"
+        }
+      },
+      {
+        "id": "r3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "AとBの意見に共通していることは何ですか。",
+        "options": [
+          "通勤時間が長い",
+          "出社する必要はない",
+          "若い社員は育ちにくい",
+          "在宅勤務には便利な面がある"
+        ],
+        "answer": "D",
+        "passage": "A「在宅勤務は通勤時間が減って自分のペースで働けるので、もっと広がるべきだ。集中できる環境さえ整えれば、会社に行く必要はない。」\nB「確かに在宅勤務は便利だが、同僚と顔を合わせて相談する機会が減ると、若い社員は育ちにくい。週に一度は出社する方がいい。」",
+        "explanation": {
+          "zh": "A肯定居家办公的好处，B也承认它方便，这是两人的共识。",
+          "en": "Both A and B acknowledge that remote work has convenient aspects.",
+          "ja": "AもBも在宅勤務が便利だと認めています。"
+        }
+      },
+      {
+        "id": "r4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "この人が今すぐしなければならないことは何ですか。",
+        "options": [
+          "本の返却期限を延ばす",
+          "本を返して延滞料金を支払う",
+          "他の人の予約を待つ",
+          "新しい本を借りる"
+        ],
+        "answer": "B",
+        "passage": "図書館からの連絡\nお借り中の本が、返却期限を三日過ぎています。返却期限は先週の金曜日でした。返却が遅れた場合は、一日二十円の延滞料金がかかります。なお、同じ本を続けて借りたい場合は、他の利用者の予約がないときに限り、一回だけ更新できます。延滞している間は更新できません。",
+        "explanation": {
+          "zh": "书已逾期三天，须尽快还书并缴滞纳金，逾期期间不能续借。",
+          "en": "The book is three days overdue, so it must be returned and the overdue fee paid.",
+          "ja": "本を返して延滞料金を支払う必要があります。"
+        }
+      },
+      {
+        "id": "r5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者によると、商店街の変化に最も役立ったのは何ですか。",
+        "options": [
+          "学生の映像技術",
+          "商店街の予算",
+          "店主と学生が一緒に考えたこと",
+          "若い客の数"
+        ],
+        "answer": "C",
+        "passage": "私たちのチームは、駅前商店街の活性化について発表した。商店街の店主たちに話を聞いたところ、いちばんの問題は、若い客が来ても店の情報がうまく伝わっていないことだった。そこで、店ごとの紹介動画を作り、QRコードで見られるようにした。実は、動画の技術より、店主と学生が一緒に考える過程の方が、商店街の変化に役立ったと思う。",
+        "explanation": {
+          "zh": "作者认为店主与学生共同思考的过程比视频技术更有助于带来变化。",
+          "en": "The writer credits the joint thinking of shopkeepers and students over the video technique.",
+          "ja": "店主と学生が一緒に考える過程がいちばん役立ったと述べています。"
+        }
+      },
+      {
+        "id": "r6",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "この文章で筆者が最も注意していることは何ですか。",
+        "options": [
+          "部屋を早く決めること",
+          "ペットを飼うこと",
+          "不動産屋を選ぶこと",
+          "契約の前に条件をよく確認すること"
+        ],
+        "answer": "D",
+        "passage": "部屋を借りるときは、契約の前に、必ず不動産屋の説明をよく聞いてください。敷金や礼金の金額、退去するときの掃除代、ペットを飼えるかどうかを確認することが大切です。説明が納得できなければ、契約しないという選択もあります。書類にサインした後で費用のことを知っても、変更することはできません。",
+        "explanation": {
+          "zh": "作者强调签约前务必确认费用、宠物等条件，签约后无法更改。",
+          "en": "The writer stresses checking the terms thoroughly before signing the contract.",
+          "ja": "契約の前に条件をよく確認することを最も注意しています。"
+        }
+      },
+      {
+        "id": "r7",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者は説明書についてどう考えていますか。",
+        "options": [
+          "すべての機能を覚えるべきだ",
+          "読まなくても問題ない",
+          "一度読んでおけば安心して使える",
+          "もっと短くするべきだ"
+        ],
+        "answer": "C",
+        "passage": "最近、便利な道具の説明書を読まずに使う人が多い。確かに、使ってみれば何となく分かるかもしれない。しかし、危険な使い方や、便利な機能の半分も知らないままになってしまう。説明書は面倒だが、最初に一度だけ読めば、その後は安心して使える。面倒なことは、後で大きな損を防ぐためだと考えたい。",
+        "explanation": {
+          "zh": "作者认为说明书虽然麻烦，但读一次之后就能安心使用。",
+          "en": "The writer argues that reading the manual once lets you use the device safely.",
+          "ja": "最初に一度読めば安心して使えると考えています。"
+        }
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜に違いない",
+        "example": "彼はまだ会社にいるに違いない。",
+        "meaning": {
+          "zh": "表示有根据的强推测，意为一定。",
+          "en": "Expresses strong, well-grounded conviction.",
+          "ja": "根のある強い推測を表します。"
+        }
+      },
+      {
+        "pattern": "〜わけにはいかない",
+        "example": "大事な会議があるので休むわけにはいかない。",
+        "meaning": {
+          "zh": "表示从义务或常识上不能做某事。",
+          "en": "Means one cannot do something for social or practical reasons.",
+          "ja": "義務や常識から、あることができないことを表します。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jlpt-n1-02-v1",
+    "family": "jlpt",
+    "label": "JLPT N1 · 02",
+    "level": "N1",
+    "language": "ja-JP",
+    "format": "JLPT skills · original short practice",
+    "description": {
+      "zh": "围绕交涉、研究资助、传统工艺与科学责任的 N1 原创新题，练习抽象词汇、书面语法与论述理解（本卷无听力）。",
+      "en": "Original N1 short practice about negotiation, research grants, traditional crafts and scientific responsibility, covering abstract vocabulary, written grammar and argument. This volume has no listening section.",
+      "ja": "交渉、研究助成、伝統工芸、科学の責任を題材にしたN1のオリジナル短練習です。抽象語彙、書き言葉の文法、論理の理解を練習します。この巻に聴解はありません。"
+    },
+    "sections": [
+      {
+        "id": "language_reading",
+        "minutes": 33
+      }
+    ],
+    "questions": [
+      {
+        "id": "v1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "交渉は【難航】している。読み方を選んでください。",
+        "options": [
+          "なんこう",
+          "なんきょう",
+          "なんごう",
+          "なみこう"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「難航」读作「なんこう」，指事情进展困难。",
+          "en": "難航 is read なんこう, meaning to make little progress.",
+          "ja": "「難航」は「なんこう」と読みます。"
+        }
+      },
+      {
+        "id": "v2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "彼の主張は「あいまい」だ。漢字を選んでください。",
+        "options": [
+          "曖妹",
+          "愛昧",
+          "曖昧",
+          "瞹昧"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「あいまい」写作「曖昧」，意为含糊不清。",
+          "en": "あいまい is written 曖昧, meaning ambiguous or vague.",
+          "ja": "「あいまい」は「曖昧」と書きます。"
+        }
+      },
+      {
+        "id": "v3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "彼の発言は状況をさらに（　）させた。",
+        "options": [
+          "悪用",
+          "悪質",
+          "悪化",
+          "悪感"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「悪化させる」意为使情况进一步恶化。",
+          "en": "状況を悪化させた means the remark made the situation worse.",
+          "ja": "状況がもっと悪くなったので「悪化」を使います。"
+        }
+      },
+      {
+        "id": "v4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「おのずと」の意味に最も近いものを選んでください。",
+        "options": [
+          "急に",
+          "自然に",
+          "無理に",
+          "偶然に"
+        ],
+        "answer": "B",
+        "explanation": {
+          "zh": "「おのずと」意为自然而然地、不知不觉地。",
+          "en": "おのずと means naturally or of its own accord.",
+          "ja": "「おのずと」は「自然に」と近い意味です。"
+        }
+      },
+      {
+        "id": "v5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「覆す」の使い方として最も適切な文を選んでください。",
+        "options": [
+          "彼は一度出した結論を覆した。",
+          "かばんを覆して中身を出した。",
+          "道を覆して歩いた。",
+          "予定を覆して休んだ。"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「覆す」多用于推翻结论、决定等抽象事物。",
+          "en": "覆す means to overturn, as in overturning a conclusion one had reached.",
+          "ja": "結論を覆す使い方が適切です。"
+        }
+      },
+      {
+        "id": "v6",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "「貫く」の読み方を選んでください。",
+        "options": [
+          "ぬく",
+          "つづく",
+          "つらぬく",
+          "かんぬく"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「貫く」读作「つらぬく」，意为贯穿、贯彻。",
+          "en": "貫く is read つらぬく, meaning to pierce through or stick to.",
+          "ja": "「貫く」は「つらぬく」と読みます。"
+        }
+      },
+      {
+        "id": "g1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "大雨の影響で、イベントは中止を（　）された。",
+        "options": [
+          "及ばず",
+          "やむなく",
+          "余儀なく",
+          "かまわず"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「〜を余儀なくされる」表示被迫做某事，如被迫取消。",
+          "en": "〜を余儀なくされる means being forced into cancelling the event.",
+          "ja": "中止せざるを得なかったので「余儀なく」を使います。"
+        }
+      },
+      {
+        "id": "g2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "彼の無責任な態度は、見る（　）。",
+        "options": [
+          "にたえない",
+          "にたえる",
+          "にすぎない",
+          "にかたくない"
+        ],
+        "answer": "A",
+        "explanation": {
+          "zh": "「〜にたえない」表示难以忍受、不忍，如不忍直视。",
+          "en": "〜にたえない means unbearable to do: unbearable to watch.",
+          "ja": "無責任な態度は見ていられないので「にたえない」を使います。"
+        }
+      },
+      {
+        "id": "g3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "新製品を開発（　）、会社は多額の費用を投じた。",
+        "options": [
+          "ぐらい",
+          "ために",
+          "ように",
+          "すべく"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「〜すべく」表示目的，接在动词辞书形或「す」形后，意为为了。",
+          "en": "〜すべく means 'in order to' and attaches directly to the verb.",
+          "ja": "目的を表すので「すべく」を使います。"
+        }
+      },
+      {
+        "id": "g4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "彼は今にも泣き出さ（　）の顔をしていた。",
+        "options": [
+          "らしい",
+          "そう",
+          "よう",
+          "んばかり"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「〜んばかり」表示虽未实际发生，但程度仿佛就要发生。",
+          "en": "〜んばかり means 'as if about to', attached to the negative stem.",
+          "ja": "今にも泣き出しそうな様子なので「んばかり」を使います。"
+        }
+      },
+      {
+        "id": "g5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "分からないことがあれば、先生（　）先輩に聞いてください。",
+        "options": [
+          "しか",
+          "こそ",
+          "なり",
+          "だけ"
+        ],
+        "answer": "C",
+        "explanation": {
+          "zh": "「〜なり〜なり」表示在若干选项中任选其一。",
+          "en": "〜なり〜なり offers alternatives: ask a teacher or a senior.",
+          "ja": "いくつかの例から選ぶので「なり」を使います。"
+        }
+      },
+      {
+        "id": "g6",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "長い話し合いを（　）、両国は協定に調印した。",
+        "options": [
+          "皮切りに",
+          "かぎりに",
+          "めぐり",
+          "経て"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "「〜を経て」表示经过某过程之后，如经过商谈后签约。",
+          "en": "〜を経て means 'after going through', as after long talks.",
+          "ja": "話し合いという過程を経たので「経て」を使います。"
+        }
+      },
+      {
+        "id": "g7",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "★に入ることばを選んでください。\n環境問題は ＿＿ ＿＿ ★ ＿＿ 。",
+        "options": [
+          "解決できるものではない",
+          "努力",
+          "一人の",
+          "だけで"
+        ],
+        "answer": "D",
+        "explanation": {
+          "zh": "完整句为「環境問題は一人の努力だけで解決できるものではない」，第三格是「だけで」。",
+          "en": "The order is 一人の → 努力 → だけで → 解決できるものではない, so ★ is だけで.",
+          "ja": "「一人の・努力・だけで・解決できるものではない」の順なので、★は「だけで」です。"
+        }
+      },
+      {
+        "id": "r1",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "三十日を過ぎた申請はどうなりますか。",
+        "options": [
+          "自動的に受理される",
+          "紙で提出しなければならない",
+          "領収書が不要になる",
+          "部長の承認がなければ受理されない"
+        ],
+        "answer": "D",
+        "passage": "社内通知\n来期より、経費精算の手続きを電子申請に一本化します。紙の申請書は受け付けません。申請は、経費の発生日から三十日以内に行ってください。三十日を過ぎた場合は、部長の承認がない限り受理されません。また、領収書の画像は、金額と日付がはっきり確認できるように撮影してください。",
+        "explanation": {
+          "zh": "通知说明超过三十天的申请，没有部长批准就不予受理。",
+          "en": "Applications past 30 days are only accepted with a department head's approval.",
+          "ja": "三十日を過ぎた場合は部長の承認が必要です。"
+        }
+      },
+      {
+        "id": "r2",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "応募できないのはどんな人ですか。",
+        "options": [
+          "四十五歳以下の研究者",
+          "以前にこの助成を受けた人",
+          "大学に所属する研究者",
+          "人文科学の研究者"
+        ],
+        "answer": "B",
+        "passage": "研究助成の案内\n本財団の研究助成は、人文・社会科学の分野を対象とします。応募資格は、大学または研究機関に所属する研究者で、申請時点で四十五歳以下の方とします。ただし、これまでに本助成を受けたことのある方は対象外です。書類審査の後、通過した方には面接を行います。結果は、面接から一か月以内に通知します。",
+        "explanation": {
+          "zh": "指南写明曾获得过该资助的人不在申请范围之内。",
+          "en": "People who have already received this grant are not eligible to apply.",
+          "ja": "これまでに本助成を受けた方は対象外です。"
+        }
+      },
+      {
+        "id": "r3",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "AとBの主張が対立している点は何ですか。",
+        "options": [
+          "伝統工芸を守る必要があるかどうか",
+          "技術を公開すべきかどうか",
+          "国が資金を出すべきかどうか",
+          "職人を増やすべきかどうか"
+        ],
+        "answer": "B",
+        "passage": "A「伝統工芸を守るには、国が資金を出すだけでは足りない。職人の技術を映像などで記録し、多くの人が学べる形にするべきだ。技術そのものを公開すれば、新しい担い手が増える。」\nB「伝統工芸の価値は、長い修行の中で身につくもので、簡単に公開できるものではない。むしろ、若い職人が生活できるだけの収入を保証することが、後継者を増やす近道だ。」",
+        "explanation": {
+          "zh": "A主张公开技术，B认为技术不应轻易公开，两人在这点上对立；但都希望增加后继者。",
+          "en": "They disagree on whether the techniques should be made public, while both want more successors.",
+          "ja": "技術を公開すべきかどうかで意見が対立しています。"
+        }
+      },
+      {
+        "id": "r4",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者によると、契約の価値は何で決まりますか。",
+        "options": [
+          "問題が起きたときにどれだけ守られるか",
+          "条件が有利かどうか",
+          "署名の速さ",
+          "相手の会社の規模"
+        ],
+        "answer": "A",
+        "passage": "契約を結ぶとき、私たちはつい、有利な条件だけを見てしまう。しかし、契約の本当の価値は、問題が起きたときにどれだけ自分を守ってくれるかで決まる。特に、相手が約束を守らなかった場合の対処が書かれていない契約は危険だ。署名の前に、うまくいかなかったときのことを想像して読むべきである。",
+        "explanation": {
+          "zh": "作者认为契约的真正价值取决于出问题时能在多大程度上保护自己。",
+          "en": "The writer says a contract's value lies in how well it protects you when problems arise.",
+          "ja": "問題が起きたときにどれだけ自分を守れるかで決まります。"
+        }
+      },
+      {
+        "id": "r5",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者が求めていることは何ですか。",
+        "options": [
+          "すべての地域を同じ規模で維持すること",
+          "必要な機能を確実に届けること",
+          "人口を増やすこと",
+          "病院をなくすこと"
+        ],
+        "answer": "B",
+        "passage": "地方の人口減少が進む中で、すべての地域を同じように維持することは現実的ではない。大切なのは、住み続けたい人が安心して暮らせる仕組みを残すことだ。たとえば、遠くの病院まで通わなくても済む移動の支援や、日常の買い物を支える仕組みである。規模を大きくするより、必要な機能を確実に届けることが求められている。",
+        "explanation": {
+          "zh": "作者主张与其扩大规模，不如切实提供必要的生活功能。",
+          "en": "The writer calls for reliably delivering necessary services rather than enlarging scale.",
+          "ja": "規模より、必要な機能を確実に届けることが求められています。"
+        }
+      },
+      {
+        "id": "r6",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者によると、会議で意見が出ない原因は何ですか。",
+        "options": [
+          "参加者が考えを持っていないこと",
+          "発言しにくい仕組みになっていること",
+          "会議の回数が少ないこと",
+          "議題が多すぎること"
+        ],
+        "answer": "B",
+        "passage": "会議で意見が出ないのは、参加者に考えがないからではない。発言の順番が決まっていたり、上の立場の人の意見が先に出たりすると、若い社員は自分の考えを言いにくくなる。全員が同じ条件で発言できるよう、最初に少人数で話し合う時間を設けるといった工夫が必要だ。",
+        "explanation": {
+          "zh": "作者认为会议不出意见的原因在于发言机制让人难以开口。",
+          "en": "The writer blames structures that make it hard for people to speak up.",
+          "ja": "発言しにくい仕組みが原因だと述べています。"
+        }
+      },
+      {
+        "id": "r7",
+        "section": "language_reading",
+        "kind": "choice",
+        "prompt": "筆者が最も重要だと考えていることは何ですか。",
+        "options": [
+          "社会全体で使い方を議論する仕組みをつくること",
+          "研究の自由をなくすこと",
+          "科学者がすべての責任を一人で負うこと",
+          "研究をすぐにやめること"
+        ],
+        "answer": "A",
+        "passage": "科学者は、自分の研究が社会にどう使われるかまで責任を負うべきだろうか。研究の成果が誤って使われる例は確かにある。しかし、研究の自由を制限しすぎれば、新しい発見そのものが生まれにくくなる。重要なのは、責任を一人で負わせるのではなく、社会全体で使い方を議論し、決めていく仕組みをつくることだ。",
+        "explanation": {
+          "zh": "作者认为最重要的是建立由全社会讨论、决定研究成果用途的机制。",
+          "en": "The writer prioritises a system in which society discusses how research is used.",
+          "ja": "社会全体で使い方を議論する仕組みが最も重要だと述べています。"
+        }
+      }
+    ],
+    "tips": [
+      {
+        "pattern": "〜にたえない",
+        "example": "彼の態度は見るにたえない。",
+        "meaning": {
+          "zh": "表示难以忍受、不忍心做某事。",
+          "en": "Means something is unbearable to do or witness.",
+          "ja": "耐えられない、するのがつらいことを表します。"
+        }
+      },
+      {
+        "pattern": "〜といえども",
+        "example": "専門家といえども、完全には説明できない。",
+        "meaning": {
+          "zh": "表示即使是前项也不能例外。",
+          "en": "Means even the stated case is no exception.",
+          "ja": "たとえ前のものでも例外ではないことを表します。"
+        }
+      }
+    ]
+  }
+]

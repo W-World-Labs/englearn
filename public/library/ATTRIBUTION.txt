@@ -1,0 +1,28 @@
+Brehe's Grammar Anatomy
+Author: Steven Brehe. Produced by the University System of Georgia.
+Publisher: University of North Georgia Press.
+ISBN: 978-1-940771-49-6
+Source: https://ung.edu/university-press/books/grammar-anatomy.php
+PDF: https://web.ung.edu/media/university-press/brehes-grammar-anatomy.pdf
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+The PDF is redistributed unchanged, including its notices and attribution.
+SHA256: c757c4641bc390b2ba787adb4b6db65148eb88b0ad7056857b97e10a154168b7
+340 PDF pages; downloaded 2026-09-08.
+Text edition: brehes-grammar-anatomy-pages.json, CC BY-SA 4.0.
+Extracted with pdftotext -layout, preserving 340 page boundaries.
+This adaptation simplifies layout and omits graphics/typographic details.
+Use the unchanged PDF to check extraction errors and original presentation.
+
+LingoLearn grammar lessons and exercises
+Original content by LingoLearn contributors, 2026. CC BY-SA 4.0.
+The course consists of independently authored lessons and exercises.
+Content source: data/learning/grammar-v1.json in the application source.
+Public download: /learn?tab=library, "Download the open course content".
+
+SM-2 implementation
+Copyright (c) 2020 Vien Dinh; MIT. See supermemo-LICENSE.txt.
+https://github.com/viendinhcom/supermemo
+Revision 8093cde2b80dd5433236e035d35fca2db7abaeab, src/main.ts.
+Vendored without algorithm changes; product scheduling bounds and interpretation
+are separate in lib/learning/session.ts.

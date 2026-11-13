@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ko-spk-001",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.2,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ko-KR",
+    "prompt": "한국어로 자기소개를 해 주세요. 이름, 출신, 취미를 포함하세요. (약 1분)",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-spk-002",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.35,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "한국어를 배우는 이유와 한국어를 사용한 경험을 설명해 주세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-wri-003",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.5,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "약 150자로 가장 좋아하는 도시를 설명하고 이유를 쓰세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-wri-004",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.6499999999999999,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "약 200자로 온라인 학습의 장단점에 대한 의견을 쓰세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-spk-005",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.8,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "한국어로 전통시장 방문 경험을 1분 정도 말해 보세요. 무엇을 샀고, 가격이 어땠으며, 기분이 어땠는지 포함하세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-spk-006",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.95,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "지하철에서 지켜야 할 예절 중 가장 중요하다고 생각하는 것을 하나 고르고, 이유와 자신의 경험을 들어 설명해 보세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-wri-007",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.0999999999999999,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ko-KR",
+    "prompt": "약 150자로 동네 축제나 시장에 다녀온 후기를 쓰세요. 언제, 누구와, 무엇을 했는지 포함하세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-wri-008",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.25,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "약 200자로 도시의 출퇴근 혼잡 문제를 해결할 방법을 제안하고, 그 방법의 장단점을 쓰세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-spk-009",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.4,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "동네 도서관이 운영 시간을 밤 10시까지 늘리는 방안을 검토하고 있습니다. 이용자와 직원의 입장에서 장단점을 비교하고, 자신의 의견과 절충안을 2분 정도로 말해 보세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  },
+  {
+    "id": "ko-wri-010",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.5499999999999998,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ko-KR",
+    "prompt": "빌린 집의 난방이 자주 고장 나지만 아직 수리가 끝나지 않았습니다. 집주인에게 보낼 이메일을 350~450자로 쓰세요. 고장 상황과 생활에 미친 영향을 설명하고, 수리 일정과 수리가 늦어질 경우의 대안을 정중하게 요청하세요.",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Korean."
+  }
+]

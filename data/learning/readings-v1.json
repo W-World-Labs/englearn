@@ -1,0 +1,1756 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "attribution": "Original LingoLearn graded texts, sentence explanations, comprehension questions and word definitions. Synthetic audio is attributed separately.",
+  "items": [
+    {
+      "id": "en-foundation-text-v1",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "A morning at the market",
+        "zh": "市场的早晨"
+      },
+      "sentences": [
+        {
+          "text": "I go to the market on Saturday.",
+          "explanation": {
+            "en": "The present simple describes a routine; on marks a day.",
+            "zh": "我星期六去市场。"
+          }
+        },
+        {
+          "text": "A woman sells fresh bread near the entrance.",
+          "explanation": {
+            "en": "Sells agrees with the singular subject a woman.",
+            "zh": "一位女士在入口附近卖新鲜面包。"
+          }
+        },
+        {
+          "text": "I buy two apples and a small loaf of bread.",
+          "explanation": {
+            "en": "Two counts the apples; loaf gives a unit for bread.",
+            "zh": "我买两个苹果和一小条面包。"
+          }
+        },
+        {
+          "text": "Then I walk home with my brother.",
+          "explanation": {
+            "en": "Then orders the events. With introduces the companion.",
+            "zh": "然后我和哥哥步行回家。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-foundation-text-v1-q1",
+          "prompt": "When does the speaker visit the market?",
+          "choices": ["On Saturday", "On Monday", "Every evening"],
+          "answer": 0
+        },
+        {
+          "id": "en-foundation-text-v1-q2",
+          "prompt": "What does the speaker buy?",
+          "choices": ["Tea and oranges", "Apples and bread", "Milk and rice"],
+          "answer": 1
+        },
+        {
+          "id": "en-foundation-text-v1-q3",
+          "prompt": "Where does the woman sell bread?",
+          "choices": [
+            "Near the entrance",
+            "Behind the market",
+            "Outside the speaker's home"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "en-foundation-text-v1-q4",
+          "prompt": "How many apples does the speaker buy?",
+          "choices": ["One", "Two", "Three"],
+          "answer": 1
+        },
+        {
+          "id": "en-foundation-text-v1-q5",
+          "prompt": "Who walks home with the speaker?",
+          "choices": [
+            "The speaker's teacher",
+            "The woman selling bread",
+            "The speaker's brother"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "en-foundation-text-v1-q6",
+          "prompt": "What happens after the speaker buys the food?",
+          "choices": [
+            "The speaker takes a bus to the market",
+            "The speaker walks home",
+            "The speaker goes to school"
+          ],
+          "answer": 1
+        }
+      ],
+      "words": [
+        {
+          "id": "r:en-foundation-text-v1:0",
+          "word": "market",
+          "meaning": {
+            "en": "a place where people buy and sell goods",
+            "zh": "市场"
+          }
+        },
+        {
+          "id": "r:en-foundation-text-v1:1",
+          "word": "entrance",
+          "meaning": {
+            "en": "the place where you go into a building or area",
+            "zh": "入口"
+          }
+        },
+        {
+          "id": "r:en-foundation-text-v1:2",
+          "word": "loaf",
+          "meaning": {
+            "en": "a whole shaped piece of bread",
+            "zh": "一条或一块面包"
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-intermediate-text-v1",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "A change of plans",
+        "zh": "计划有变"
+      },
+      "sentences": [
+        {
+          "text": "We were waiting for a train when the station announced a delay.",
+          "explanation": {
+            "en": "The past continuous gives the background; the simple past interrupts it.",
+            "zh": "我们正在等火车，这时车站宣布列车晚点。"
+          }
+        },
+        {
+          "text": "Our guide had already booked a walking tour for that afternoon.",
+          "explanation": {
+            "en": "The past perfect places the booking before the delay.",
+            "zh": "导游已经预订了当天下午的步行游览。"
+          }
+        },
+        {
+          "text": "She called the museum and moved our visit to the following morning.",
+          "explanation": {
+            "en": "The following morning is the morning after that afternoon.",
+            "zh": "她给博物馆打电话，把参观改到了第二天早上。"
+          }
+        },
+        {
+          "text": "Although we arrived late, we still had time to explore the old town.",
+          "explanation": {
+            "en": "Although introduces a concession; still shows the opportunity remained.",
+            "zh": "虽然到得晚，我们仍有时间逛老城区。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-intermediate-text-v1-q1",
+          "prompt": "Why did the group change its plan?",
+          "choices": [
+            "The train was delayed",
+            "The museum closed forever",
+            "The guide lost the tickets"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "en-intermediate-text-v1-q2",
+          "prompt": "When would they visit the museum?",
+          "choices": [
+            "The previous evening",
+            "The following morning",
+            "Before the train arrived"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "en-intermediate-text-v1-q3",
+          "prompt": "What had the guide already arranged for that afternoon?",
+          "choices": ["A cooking lesson", "A walking tour", "A boat trip"],
+          "answer": 1
+        },
+        {
+          "id": "en-intermediate-text-v1-q4",
+          "prompt": "Who called the museum?",
+          "choices": ["The guide", "A station worker", "The train driver"],
+          "answer": 0
+        },
+        {
+          "id": "en-intermediate-text-v1-q5",
+          "prompt": "What were the travellers doing when they heard about the delay?",
+          "choices": [
+            "Walking around the museum",
+            "Waiting for a train",
+            "Checking into a hotel"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "en-intermediate-text-v1-q6",
+          "prompt": "Which activity did the group still have time for after arriving late?",
+          "choices": [
+            "Finishing a tour before the delay was announced",
+            "Visiting the museum that same morning",
+            "Exploring the old town"
+          ],
+          "answer": 2
+        }
+      ],
+      "words": [
+        {
+          "id": "r:en-intermediate-text-v1:0",
+          "word": "delay",
+          "meaning": {
+            "en": "a situation in which something happens later than planned",
+            "zh": "延误"
+          }
+        },
+        {
+          "id": "r:en-intermediate-text-v1:1",
+          "word": "following",
+          "meaning": {
+            "en": "coming next",
+            "zh": "接下来的"
+          }
+        },
+        {
+          "id": "r:en-intermediate-text-v1:2",
+          "word": "explore",
+          "meaning": {
+            "en": "to travel around a place to learn about it",
+            "zh": "探索；游览"
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-advanced-text-v1",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Who benefits from a new park?",
+        "zh": "谁从新公园受益？"
+      },
+      "sentences": [
+        {
+          "text": "The council proposed turning an unused car park into a public garden.",
+          "explanation": {
+            "en": "Proposed turning uses an -ing form after propose.",
+            "zh": "市政委员会提议把闲置停车场改成公共花园。"
+          }
+        },
+        {
+          "text": "While most residents welcomed the idea, several shopkeepers feared that fewer parking spaces would reduce sales.",
+          "explanation": {
+            "en": "While introduces a contrast between supporters and concerned shopkeepers.",
+            "zh": "大多数居民欢迎这个想法，但一些店主担心车位减少会影响销售。"
+          }
+        },
+        {
+          "text": "Had the council consulted them earlier, it might have avoided some of the opposition.",
+          "explanation": {
+            "en": "Had the council consulted is an inverted past unreal condition.",
+            "zh": "如果委员会早些征询他们的意见，或许能避免部分反对。"
+          }
+        },
+        {
+          "text": "The revised proposal therefore includes a delivery area and a trial period, after which local businesses will be consulted again.",
+          "explanation": {
+            "en": "After which links the trial period to the later consultation.",
+            "zh": "因此修订方案加入了卸货区和试行期，之后将再次征询当地商家的意见。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-advanced-text-v1-q1",
+          "prompt": "What concern did some shopkeepers express?",
+          "choices": [
+            "Reduced sales because of fewer parking spaces",
+            "Too many public gardens already existing",
+            "The cost of planting their own trees"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "en-advanced-text-v1-q2",
+          "prompt": "Why does the revised plan include a trial period?",
+          "choices": [
+            "To stop residents entering the garden",
+            "To allow the plan to be assessed before another consultation",
+            "To guarantee that every business will profit"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "en-advanced-text-v1-q3",
+          "prompt": "What was the proposed garden site used for previously?",
+          "choices": [
+            "Growing vegetables",
+            "Parking cars",
+            "Holding business meetings"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "en-advanced-text-v1-q4",
+          "prompt": "How does the passage describe most residents' initial reaction?",
+          "choices": [
+            "They welcomed the proposal",
+            "They asked to keep every parking space",
+            "They opposed all changes"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "en-advanced-text-v1-q5",
+          "prompt": "What does the sentence beginning 'Had the council consulted them earlier' imply?",
+          "choices": [
+            "Earlier consultation definitely happened",
+            "Earlier consultation might have reduced some opposition",
+            "Earlier consultation would certainly have removed every objection"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "en-advanced-text-v1-q6",
+          "prompt": "Which addition directly addresses access for supplying local businesses?",
+          "choices": [
+            "A ban on all vehicles in the district",
+            "A rule closing every shop during the trial",
+            "A delivery area"
+          ],
+          "answer": 2
+        }
+      ],
+      "words": [
+        {
+          "id": "r:en-advanced-text-v1:0",
+          "word": "consult",
+          "meaning": {
+            "en": "to ask for information or opinions before deciding",
+            "zh": "征询意见"
+          }
+        },
+        {
+          "id": "r:en-advanced-text-v1:1",
+          "word": "opposition",
+          "meaning": {
+            "en": "disagreement with a plan or proposal",
+            "zh": "反对"
+          }
+        },
+        {
+          "id": "r:en-advanced-text-v1:2",
+          "word": "proposal",
+          "meaning": {
+            "en": "a plan put forward for consideration",
+            "zh": "提议；方案"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-foundation-text-v1",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "At the library",
+        "zh": "在图书馆"
+      },
+      "sentences": [
+        {
+          "text": "我叫小安，是学生。",
+          "explanation": {
+            "en": "My name is Xiao An, and I am a student. 是 introduces an identity.",
+            "zh": "小安介绍自己的名字和身份。"
+          }
+        },
+        {
+          "text": "今天下午，我和朋友去图书馆。",
+          "explanation": {
+            "en": "This afternoon, my friend and I go to the library. 和 joins the two people.",
+            "zh": "“今天下午”说明时间，“和”连接两个人。"
+          }
+        },
+        {
+          "text": "我借了两本书，朋友借了一本词典。",
+          "explanation": {
+            "en": "I borrowed two books, and my friend borrowed a dictionary. 本 counts bound books.",
+            "zh": "书和词典都用量词“本”。"
+          }
+        },
+        {
+          "text": "我们五点回家。",
+          "explanation": {
+            "en": "We go home at five. 五点 gives the time.",
+            "zh": "“五点”说明回家的时间。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "zh-foundation-text-v1-q1",
+          "prompt": "小安是什么人？",
+          "choices": ["学生", "医生", "司机"],
+          "answer": 0
+        },
+        {
+          "id": "zh-foundation-text-v1-q2",
+          "prompt": "朋友借了什么？",
+          "choices": ["三本杂志", "一本词典", "两本书"],
+          "answer": 1
+        },
+        {
+          "id": "zh-foundation-text-v1-q3",
+          "prompt": "小安什么时候去图书馆？",
+          "choices": ["今天下午", "明天上午", "昨天晚上"],
+          "answer": 0
+        },
+        {
+          "id": "zh-foundation-text-v1-q4",
+          "prompt": "小安和谁一起去图书馆？",
+          "choices": ["哥哥", "老师", "朋友"],
+          "answer": 2
+        },
+        {
+          "id": "zh-foundation-text-v1-q5",
+          "prompt": "小安自己借了几本书？",
+          "choices": ["三本", "两本", "一本"],
+          "answer": 1
+        },
+        {
+          "id": "zh-foundation-text-v1-q6",
+          "prompt": "他们几点回家？",
+          "choices": ["五点", "三点", "七点"],
+          "answer": 0
+        }
+      ],
+      "words": [
+        {
+          "id": "r:zh-foundation-text-v1:0",
+          "word": "图书馆",
+          "meaning": {
+            "en": "library",
+            "zh": "图书馆"
+          }
+        },
+        {
+          "id": "r:zh-foundation-text-v1:1",
+          "word": "借",
+          "meaning": {
+            "en": "to borrow",
+            "zh": "借入；借用"
+          }
+        },
+        {
+          "id": "r:zh-foundation-text-v1:2",
+          "word": "词典",
+          "meaning": {
+            "en": "dictionary",
+            "zh": "解释词语的书"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-intermediate-text-v1",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "A parcel for a friend",
+        "zh": "给朋友的包裹"
+      },
+      "sentences": [
+        {
+          "text": "上个月，我在网上给朋友买了一件外套。",
+          "explanation": {
+            "en": "Last month I bought a coat online for a friend. 给 identifies the recipient.",
+            "zh": "“给朋友”说明受益者，“了”标记已经完成的购买。"
+          }
+        },
+        {
+          "text": "朋友以前来过我的城市，但是没去过那家店。",
+          "explanation": {
+            "en": "My friend has visited my city before, but has never been to that shop. 过 marks experience.",
+            "zh": "“过”表示经历，“没去过”表示没有这段经历。"
+          }
+        },
+        {
+          "text": "收到外套以后，他发现袖子比自己的旧外套长一点儿。",
+          "explanation": {
+            "en": "After receiving the coat, he found its sleeves slightly longer than those of his old coat. 比 marks comparison.",
+            "zh": "“比……长一点儿”表示小幅度的比较。"
+          }
+        },
+        {
+          "text": "我把订单发给他，让他联系商店换一个尺码。",
+          "explanation": {
+            "en": "I sent him the order so he could contact the shop to exchange it for another size. 把 highlights what happens to the order.",
+            "zh": "“把订单发给他”突出订单的处理结果。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "zh-intermediate-text-v1-q1",
+          "prompt": "朋友觉得外套哪里不合适？",
+          "choices": ["袖子有点长", "颜色太浅", "没有口袋"],
+          "answer": 0
+        },
+        {
+          "id": "zh-intermediate-text-v1-q2",
+          "prompt": "为什么发订单给朋友？",
+          "choices": ["告诉他邮局地址", "方便他联系商店换尺码", "让他再买一件"],
+          "answer": 1
+        },
+        {
+          "id": "zh-intermediate-text-v1-q3",
+          "prompt": "说话人在哪里买的外套？",
+          "choices": ["自己的学校", "朋友家附近的市场", "网上"],
+          "answer": 2
+        },
+        {
+          "id": "zh-intermediate-text-v1-q4",
+          "prompt": "说话人是什么时候买外套的？",
+          "choices": ["上个月", "去年夏天", "昨天晚上"],
+          "answer": 0
+        },
+        {
+          "id": "zh-intermediate-text-v1-q5",
+          "prompt": "朋友以前的经历是什么？",
+          "choices": [
+            "从没来过这个城市",
+            "去过那家店，但没来过这个城市",
+            "来过这个城市，但没去过那家店"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "zh-intermediate-text-v1-q6",
+          "prompt": "朋友收到外套之后先发现了什么？",
+          "choices": [
+            "订单上的地址写错了",
+            "新外套的袖子比旧外套长一点儿",
+            "商店已经停止营业"
+          ],
+          "answer": 1
+        }
+      ],
+      "words": [
+        {
+          "id": "r:zh-intermediate-text-v1:0",
+          "word": "外套",
+          "meaning": {
+            "en": "coat; outer jacket",
+            "zh": "穿在其他衣服外面的衣服"
+          }
+        },
+        {
+          "id": "r:zh-intermediate-text-v1:1",
+          "word": "袖子",
+          "meaning": {
+            "en": "sleeve",
+            "zh": "衣服套在手臂上的部分"
+          }
+        },
+        {
+          "id": "r:zh-intermediate-text-v1:2",
+          "word": "尺码",
+          "meaning": {
+            "en": "size of clothing",
+            "zh": "衣服的大小规格"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-advanced-text-v1",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "A quieter neighbourhood",
+        "zh": "更安静的社区"
+      },
+      "sentences": [
+        {
+          "text": "虽然新修的道路让出行更方便，但是附近居民也开始抱怨夜间噪声。",
+          "explanation": {
+            "en": "Although the new road makes travel easier, nearby residents have begun complaining about night-time noise. 虽然…但是… expresses concession.",
+            "zh": "“虽然……但是……”连接便利与噪声这两个相反的方面。"
+          }
+        },
+        {
+          "text": "这些意见不都针对车辆数量，有些居民更关心施工时间。",
+          "explanation": {
+            "en": "Not all these concerns are about the number of vehicles; some residents care more about construction times. 不都 is a partial negation.",
+            "zh": "“不都”表示部分否定，不等于所有意见都不针对车流。"
+          }
+        },
+        {
+          "text": "社区决定，无论工程进度如何，都不得在夜间进行高噪声作业。",
+          "explanation": {
+            "en": "The community decided that noisy work must never take place at night, regardless of construction progress. 无论…都… makes the rule unconditional.",
+            "zh": "“无论……都……”说明规则不因进度改变。"
+          }
+        },
+        {
+          "text": "原来的施工安排被重新调整，居民也可以每周查看后续计划。",
+          "explanation": {
+            "en": "The original construction schedule was revised, and residents can inspect future plans weekly. 被 marks the affected schedule.",
+            "zh": "“被”字句说明原有安排受到调整。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "zh-advanced-text-v1-q1",
+          "prompt": "居民的意见是否都针对车辆数量？",
+          "choices": [
+            "不是，有些针对施工时间",
+            "是，全部针对车辆数量",
+            "没有人关心车辆数量"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "zh-advanced-text-v1-q2",
+          "prompt": "夜间高噪声作业在什么情况下可以进行？",
+          "choices": ["居民外出时", "文中的规则不允许", "工程落后时"],
+          "answer": 1
+        },
+        {
+          "id": "zh-advanced-text-v1-q3",
+          "prompt": "新道路带来的好处是什么？",
+          "choices": [
+            "出行更方便",
+            "所有车辆都不再经过社区",
+            "夜间施工完全没有声音"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "zh-advanced-text-v1-q4",
+          "prompt": "居民多久可以查看一次后续计划？",
+          "choices": ["每周", "只在工程结束时", "每年"],
+          "answer": 0
+        },
+        {
+          "id": "zh-advanced-text-v1-q5",
+          "prompt": "文中的施工安排后来怎么样了？",
+          "choices": [
+            "被确定为永久不变",
+            "被重新调整了",
+            "被全部取消，工程不再进行"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "zh-advanced-text-v1-q6",
+          "prompt": "哪项最准确地概括了社区的回应？",
+          "choices": [
+            "禁止居民再提出意见",
+            "限制夜间高噪声作业，并让居民查看后续计划",
+            "只统计车辆，保持原施工时间不变"
+          ],
+          "answer": 1
+        }
+      ],
+      "words": [
+        {
+          "id": "r:zh-advanced-text-v1:0",
+          "word": "噪声",
+          "meaning": {
+            "en": "noise",
+            "zh": "不需要的、可能令人不适的声音"
+          }
+        },
+        {
+          "id": "r:zh-advanced-text-v1:1",
+          "word": "施工",
+          "meaning": {
+            "en": "construction work",
+            "zh": "进行建筑工程"
+          }
+        },
+        {
+          "id": "r:zh-advanced-text-v1:2",
+          "word": "进度",
+          "meaning": {
+            "en": "progress of a project",
+            "zh": "工作推进的程度"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-foundation-text-v1",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "A Sunday outing",
+        "zh": "星期天出门"
+      },
+      "sentences": [
+        {
+          "text": "私は大学生です。",
+          "explanation": {
+            "en": "I am a university student. です makes the identity statement polite.",
+            "zh": "“です”用于礼貌地介绍身份。"
+          }
+        },
+        {
+          "text": "日曜日に友達と公園に行きます。",
+          "explanation": {
+            "en": "On Sunday I go to the park with a friend. に marks the time and destination; と means with.",
+            "zh": "“に”标记时间和目的地，“と”表示同行者。"
+          }
+        },
+        {
+          "text": "公園で写真を撮ります。",
+          "explanation": {
+            "en": "I take photographs in the park. で marks where the action happens.",
+            "zh": "“で”标记拍照这个动作发生的地点。"
+          }
+        },
+        {
+          "text": "その後、近くの店で昼ご飯を食べます。",
+          "explanation": {
+            "en": "After that, I eat lunch at a nearby shop. その後 means after that.",
+            "zh": "“その後”表示“那之后”，句末保持礼貌形式。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "ja-foundation-text-v1-q1",
+          "prompt": "どこで写真を撮りますか。",
+          "choices": ["公園", "大学", "家"],
+          "answer": 0
+        },
+        {
+          "id": "ja-foundation-text-v1-q2",
+          "prompt": "写真を撮った後、何をしますか。",
+          "choices": ["家で寝ます", "昼ご飯を食べます", "大学に行きます"],
+          "answer": 1
+        },
+        {
+          "id": "ja-foundation-text-v1-q3",
+          "prompt": "話している人の身分は何ですか。",
+          "choices": ["大学生です", "会社員です", "医者です"],
+          "answer": 0
+        },
+        {
+          "id": "ja-foundation-text-v1-q4",
+          "prompt": "何曜日に公園に行きますか。",
+          "choices": ["月曜日", "土曜日", "日曜日"],
+          "answer": 2
+        },
+        {
+          "id": "ja-foundation-text-v1-q5",
+          "prompt": "誰と公園に行きますか。",
+          "choices": ["弟", "先生", "友達"],
+          "answer": 2
+        },
+        {
+          "id": "ja-foundation-text-v1-q6",
+          "prompt": "昼ご飯を食べる店はどこにありますか。",
+          "choices": ["駅の地下", "公園の近く", "大学の中"],
+          "answer": 1
+        }
+      ],
+      "words": [
+        {
+          "id": "r:ja-foundation-text-v1:0",
+          "word": "公園",
+          "meaning": {
+            "en": "park",
+            "zh": "公园"
+          }
+        },
+        {
+          "id": "r:ja-foundation-text-v1:1",
+          "word": "写真",
+          "meaning": {
+            "en": "photograph",
+            "zh": "照片"
+          }
+        },
+        {
+          "id": "r:ja-foundation-text-v1:2",
+          "word": "近く",
+          "meaning": {
+            "en": "nearby",
+            "zh": "附近"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-intermediate-text-v1",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Choosing a route",
+        "zh": "选择路线"
+      },
+      "sentences": [
+        {
+          "text": "今、駅で友達を待っています。",
+          "explanation": {
+            "en": "I am waiting for a friend at the station now. ている describes an ongoing action.",
+            "zh": "“待っています”表示正在等候。"
+          }
+        },
+        {
+          "text": "友達はこの町に来たことがありますが、美術館には行ったことがありません。",
+          "explanation": {
+            "en": "My friend has visited this town before but has never visited its art museum. たことがある expresses experience.",
+            "zh": "“たことがある”表示有过的经历；否定形式表示没有这段经历。"
+          }
+        },
+        {
+          "text": "バスより電車のほうが速いので、電車で行くことにしました。",
+          "explanation": {
+            "en": "We decided to take the train because it is faster than the bus. より and ほう compare; ので gives the reason.",
+            "zh": "比较结构说明电车更快，“ので”引出选择的原因。"
+          }
+        },
+        {
+          "text": "雨が降っているので、駅からは地下通路を使います。",
+          "explanation": {
+            "en": "Because it is raining, we will use the underground passage from the station. The reason comes before ので.",
+            "zh": "正在下雨是选择地下通道的原因。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "ja-intermediate-text-v1-q1",
+          "prompt": "友達が行ったことがない場所はどこですか。",
+          "choices": ["美術館", "この町", "駅"],
+          "answer": 0
+        },
+        {
+          "id": "ja-intermediate-text-v1-q2",
+          "prompt": "どうして電車を選びましたか。",
+          "choices": ["電車が無料だから", "バスより速いから", "駅が遠いから"],
+          "answer": 1
+        },
+        {
+          "id": "ja-intermediate-text-v1-q3",
+          "prompt": "話している人は今、何をしていますか。",
+          "choices": [
+            "駅で友達を待っています",
+            "美術館で絵を見ています",
+            "バスで家に帰っています"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ja-intermediate-text-v1-q4",
+          "prompt": "地下通路を使う理由は何ですか。",
+          "choices": [
+            "友達が地下で働いているから",
+            "雨が降っているから",
+            "地上の道が完全になくなったから"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ja-intermediate-text-v1-q5",
+          "prompt": "友達の経験について正しいものはどれですか。",
+          "choices": [
+            "この町に来るのは初めてです",
+            "この町には以前来たことがあります",
+            "この美術館には何度も来ています"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ja-intermediate-text-v1-q6",
+          "prompt": "二つの移動手段について、本文と合う組み合わせはどれですか。",
+          "choices": [
+            "歩いて町に入り、駅からバスに乗ります",
+            "電車で行き、駅から地下通路を使います",
+            "バスで行き、駅から船に乗ります"
+          ],
+          "answer": 1
+        }
+      ],
+      "words": [
+        {
+          "id": "r:ja-intermediate-text-v1:0",
+          "word": "美術館",
+          "meaning": {
+            "en": "art museum",
+            "zh": "美术馆"
+          }
+        },
+        {
+          "id": "r:ja-intermediate-text-v1:1",
+          "word": "地下通路",
+          "meaning": {
+            "en": "underground passage",
+            "zh": "地下通道"
+          }
+        },
+        {
+          "id": "r:ja-intermediate-text-v1:2",
+          "word": "電車",
+          "meaning": {
+            "en": "train",
+            "zh": "电车；列车"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-advanced-text-v1",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "A festival decision",
+        "zh": "节日活动的决定"
+      },
+      "sentences": [
+        {
+          "text": "私が知っている限り、この祭りが中止されたことはありませんでした。",
+          "explanation": {
+            "en": "As far as I know, this festival had never been cancelled. 限り limits the claim to the speaker’s knowledge.",
+            "zh": "“知っている限り”限定判断所依据的知识范围。"
+          }
+        },
+        {
+          "text": "しかし、今年は大雨にもかかわらず開催するべきか、意見が分かれました。",
+          "explanation": {
+            "en": "This year, however, opinions differed about whether to hold it despite the heavy rain. にもかかわらず introduces an unexpected contrast.",
+            "zh": "“にもかかわらず”表示逆接：即使有大雨这一不利情况。"
+          }
+        },
+        {
+          "text": "参加者全員が延期に反対しているわけではありません。",
+          "explanation": {
+            "en": "Not all participants oppose postponement. わけではありません gives a partial negation here.",
+            "zh": "“わけではありません”在这里表示部分否定。"
+          }
+        },
+        {
+          "text": "川の水位が上がったため、実行委員会は安全を優先して延期せざるを得ませんでした。",
+          "explanation": {
+            "en": "As the river level rose, the committee had no choice but to postpone it for safety. せざるを得ない expresses an unavoidable decision.",
+            "zh": "“せざるを得ない”表示没有别的办法，只能延期。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "ja-advanced-text-v1-q1",
+          "prompt": "延期が決まった主な理由は何ですか。",
+          "choices": [
+            "川の水位が上がり、安全を優先したため",
+            "全員が祭りに反対したため",
+            "去年も中止されたため"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ja-advanced-text-v1-q2",
+          "prompt": "参加者の意見について正しいものはどれですか。",
+          "choices": [
+            "全員が延期を希望しています",
+            "延期に反対していない人もいます",
+            "全員が延期に反対しています"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ja-advanced-text-v1-q3",
+          "prompt": "今年、どのような点で意見が分かれましたか。",
+          "choices": [
+            "祭りの名前を変更するべきか",
+            "川に新しい橋を造るべきか",
+            "大雨でも祭りを開催するべきか"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "ja-advanced-text-v1-q4",
+          "prompt": "最終的に、委員会は祭りをどうすることにしましたか。",
+          "choices": [
+            "延期する",
+            "今後永久に廃止する",
+            "予定どおり必ず開催する"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ja-advanced-text-v1-q5",
+          "prompt": "「私が知っている限り」は、最初の文にどんな意味を加えていますか。",
+          "choices": [
+            "過去の記録がすべて完全だと保証しています",
+            "今年は絶対に延期しないと約束しています",
+            "過去の状況について、話し手の知識の範囲を示しています"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "ja-advanced-text-v1-q6",
+          "prompt": "「延期せざるを得ませんでした」は、決定をどのように説明していますか。",
+          "choices": [
+            "雨がやんだので、延期の必要がなくなった",
+            "参加者全員が望んだので、自由に日程を選んだ",
+            "安全上の事情から、延期するしかなかった"
+          ],
+          "answer": 2
+        }
+      ],
+      "words": [
+        {
+          "id": "r:ja-advanced-text-v1:0",
+          "word": "延期",
+          "meaning": {
+            "en": "postponement",
+            "zh": "延期"
+          }
+        },
+        {
+          "id": "r:ja-advanced-text-v1:1",
+          "word": "水位",
+          "meaning": {
+            "en": "water level",
+            "zh": "水位"
+          }
+        },
+        {
+          "id": "r:ja-advanced-text-v1:2",
+          "word": "優先",
+          "meaning": {
+            "en": "giving priority",
+            "zh": "优先"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-foundation-text-v1",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "After class",
+        "zh": "下课之后"
+      },
+      "sentences": [
+        {
+          "text": "저는 한국어를 배우는 학생이에요.",
+          "explanation": {
+            "en": "I am a student learning Korean. 학생이에요 is a polite identity statement.",
+            "zh": "“학생이에요”用礼貌形式介绍学生身份。"
+          }
+        },
+        {
+          "text": "수업은 오후 두 시에 끝나요.",
+          "explanation": {
+            "en": "Class ends at two in the afternoon. 은 marks the topic and 에 marks time.",
+            "zh": "“은”标记话题，“에”标记两点这个时间。"
+          }
+        },
+        {
+          "text": "저는 도서관에서 책을 읽어요.",
+          "explanation": {
+            "en": "I read a book in the library. 에서 marks the action location and 을 the object.",
+            "zh": "“에서”标记阅读发生的地点，“을”标记宾语。"
+          }
+        },
+        {
+          "text": "친구는 식당에서 밥을 먹어요.",
+          "explanation": {
+            "en": "My friend eats at the dining hall. 는 marks the topic and 에서 the location of eating.",
+            "zh": "“는”引出朋友这个话题，“에서”标记吃饭地点。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "ko-foundation-text-v1-q1",
+          "prompt": "수업은 언제 끝나요?",
+          "choices": ["오후 두 시", "오전 아홉 시", "오후 다섯 시"],
+          "answer": 0
+        },
+        {
+          "id": "ko-foundation-text-v1-q2",
+          "prompt": "친구는 어디에서 밥을 먹어요?",
+          "choices": ["교실", "식당", "도서관"],
+          "answer": 1
+        },
+        {
+          "id": "ko-foundation-text-v1-q3",
+          "prompt": "말하는 사람은 무엇을 배우고 있어요?",
+          "choices": ["한국어", "수학", "일본어"],
+          "answer": 0
+        },
+        {
+          "id": "ko-foundation-text-v1-q4",
+          "prompt": "말하는 사람은 도서관에서 무엇을 해요?",
+          "choices": ["책을 읽어요", "밥을 먹어요", "노래를 불러요"],
+          "answer": 0
+        },
+        {
+          "id": "ko-foundation-text-v1-q5",
+          "prompt": "도서관에 있는 사람과 식당에 있는 사람은 같아요?",
+          "choices": [
+            "네, 두 사람 모두 도서관에서 밥을 먹어요",
+            "네, 두 사람 모두 식당에서 책을 읽어요",
+            "아니요, 말하는 사람은 도서관에 있고 친구는 식당에 있어요"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "ko-foundation-text-v1-q6",
+          "prompt": "수업이 끝나는 때는 정오 전인가요, 후인가요?",
+          "choices": [
+            "오후 두 시이므로 정오 후예요",
+            "자정에 끝나요",
+            "오전 두 시이므로 정오 전이에요"
+          ],
+          "answer": 0
+        }
+      ],
+      "words": [
+        {
+          "id": "r:ko-foundation-text-v1:0",
+          "word": "수업",
+          "meaning": {
+            "en": "class; lesson",
+            "zh": "课；课堂"
+          }
+        },
+        {
+          "id": "r:ko-foundation-text-v1:1",
+          "word": "도서관",
+          "meaning": {
+            "en": "library",
+            "zh": "图书馆"
+          }
+        },
+        {
+          "id": "r:ko-foundation-text-v1:2",
+          "word": "식당",
+          "meaning": {
+            "en": "restaurant; dining hall",
+            "zh": "餐厅"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-intermediate-text-v1",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "A weekend trip",
+        "zh": "周末旅行"
+      },
+      "sentences": [
+        {
+          "text": "지금 친구와 여행 계획을 세우고 있어요.",
+          "explanation": {
+            "en": "I am making travel plans with a friend now. 고 있어요 describes the ongoing action.",
+            "zh": "“고 있어요”表示正在制定计划。"
+          }
+        },
+        {
+          "text": "지난번에는 비가 와서 바다에 못 갔어요.",
+          "explanation": {
+            "en": "Last time we could not go to the sea because it rained. 와서 links cause and result.",
+            "zh": "“와서”连接下雨这个原因与未能去海边的结果。"
+          }
+        },
+        {
+          "text": "이번에는 지난번보다 날씨가 더 좋을 것 같아요.",
+          "explanation": {
+            "en": "I think the weather will be better this time than last time. 보다 marks comparison and 것 같아요 an expectation.",
+            "zh": "“보다”用于和上次比较，“것 같아요”表示推测。"
+          }
+        },
+        {
+          "text": "그래서 기차를 타고 바다에 가고 싶어요.",
+          "explanation": {
+            "en": "So I want to go to the sea by train. 고 싶어요 expresses a wish.",
+            "zh": "“고 싶어요”表示想去海边的愿望。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "ko-intermediate-text-v1-q1",
+          "prompt": "지난번에 바다에 못 간 이유는 뭐예요?",
+          "choices": ["비가 와서", "기차가 없어서", "친구가 아파서"],
+          "answer": 0
+        },
+        {
+          "id": "ko-intermediate-text-v1-q2",
+          "prompt": "이번에는 어떻게 가고 싶어요?",
+          "choices": ["걸어서", "기차를 타고", "배를 타고"],
+          "answer": 1
+        },
+        {
+          "id": "ko-intermediate-text-v1-q3",
+          "prompt": "지금 누구와 여행 계획을 세우고 있어요?",
+          "choices": ["선생님", "동생", "친구"],
+          "answer": 2
+        },
+        {
+          "id": "ko-intermediate-text-v1-q4",
+          "prompt": "이번에 가고 싶은 곳은 어디예요?",
+          "choices": ["산", "바다", "박물관"],
+          "answer": 1
+        },
+        {
+          "id": "ko-intermediate-text-v1-q5",
+          "prompt": "이번 날씨를 어떻게 예상하고 있어요?",
+          "choices": [
+            "지난번보다 더 좋을 것 같아요",
+            "지난번과 반드시 같을 거예요",
+            "지난번보다 더 나쁠 것이 확실해요"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-intermediate-text-v1-q6",
+          "prompt": "「가고 싶어요」는 무엇을 나타내요?",
+          "choices": [
+            "이미 도착한 사실",
+            "앞으로 가려는 소망",
+            "여행을 취소한 사실"
+          ],
+          "answer": 1
+        }
+      ],
+      "words": [
+        {
+          "id": "r:ko-intermediate-text-v1:0",
+          "word": "계획",
+          "meaning": {
+            "en": "plan",
+            "zh": "计划"
+          }
+        },
+        {
+          "id": "r:ko-intermediate-text-v1:1",
+          "word": "지난번",
+          "meaning": {
+            "en": "last time",
+            "zh": "上次"
+          }
+        },
+        {
+          "id": "r:ko-intermediate-text-v1:2",
+          "word": "바다",
+          "meaning": {
+            "en": "sea",
+            "zh": "大海"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-advanced-text-v1",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "Working together",
+        "zh": "一起工作"
+      },
+      "sentences": [
+        {
+          "text": "이 프로젝트는 규모가 작은 반면에 해결해야 할 문제가 많습니다.",
+          "explanation": {
+            "en": "This project is small in scale, but there are many problems to solve. 반면에 contrasts the two facts.",
+            "zh": "“반면에”对比项目规模小和待解决问题多。"
+          }
+        },
+        {
+          "text": "모든 직원이 같은 방법에 동의하는 것은 아닙니다.",
+          "explanation": {
+            "en": "Not all staff agree on the same method. 것은 아닙니다 gives a partial negation.",
+            "zh": "“것은 아닙니다”表示不是所有员工都同意同一种方法。"
+          }
+        },
+        {
+          "text": "의견이 다르더라도 서로의 설명을 끝까지 들어야 합니다.",
+          "explanation": {
+            "en": "Even when opinions differ, we must listen to one another’s explanations to the end. 더라도 introduces a concession.",
+            "zh": "“더라도”表示即使意见不同，也应听完对方解释。"
+          }
+        },
+        {
+          "text": "예산이 줄어들어 일정은 조정할 수밖에 없지만, 중요한 검토 과정은 유지하기로 했습니다.",
+          "explanation": {
+            "en": "A smaller budget leaves no choice but to adjust the schedule, but we decided to retain the important review process. 수밖에 없다 means there is no alternative.",
+            "zh": "“수밖에 없다”说明别无选择；句子同时说明保留重要审查流程。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "ko-advanced-text-v1-q1",
+          "prompt": "일정을 조정하는 이유는 무엇입니까?",
+          "choices": [
+            "예산이 줄어들었기 때문입니다",
+            "직원이 모두 퇴사했기 때문입니다",
+            "검토가 끝났기 때문입니다"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-advanced-text-v1-q2",
+          "prompt": "직원들의 의견에 대한 설명으로 맞는 것은 무엇입니까?",
+          "choices": [
+            "누구도 설명을 듣지 않습니다",
+            "모두 같은 방법에 동의하는 것은 아닙니다",
+            "전원이 같은 방법을 원합니다"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ko-advanced-text-v1-q3",
+          "prompt": "프로젝트의 규모와 문제의 관계는 어떻습니까?",
+          "choices": [
+            "규모가 작아서 문제가 하나도 없습니다",
+            "규모도 크고 문제도 전혀 없습니다",
+            "규모는 작지만 해결할 문제는 많습니다"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "ko-advanced-text-v1-q4",
+          "prompt": "의견이 다를 때 직원들은 어떻게 해야 합니까?",
+          "choices": [
+            "상대의 설명을 중간에 끊어야 합니다",
+            "모든 논의를 바로 취소해야 합니다",
+            "서로의 설명을 끝까지 들어야 합니다"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "ko-advanced-text-v1-q5",
+          "prompt": "예산이 줄어도 유지하기로 한 것은 무엇입니까?",
+          "choices": [
+            "처음 정한 일정 전체",
+            "중요한 검토 과정",
+            "모든 지출 항목의 금액"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ko-advanced-text-v1-q6",
+          "prompt": "본문의 대응을 가장 잘 요약한 것은 무엇입니까?",
+          "choices": [
+            "예산을 늘리고 프로젝트를 끝냅니다",
+            "검토를 모두 없애고 일정도 고정합니다",
+            "일정을 바꾸되 중요한 검토는 유지합니다"
+          ],
+          "answer": 2
+        }
+      ],
+      "words": [
+        {
+          "id": "r:ko-advanced-text-v1:0",
+          "word": "예산",
+          "meaning": {
+            "en": "budget",
+            "zh": "预算"
+          }
+        },
+        {
+          "id": "r:ko-advanced-text-v1:1",
+          "word": "조정",
+          "meaning": {
+            "en": "adjustment",
+            "zh": "调整"
+          }
+        },
+        {
+          "id": "r:ko-advanced-text-v1:2",
+          "word": "검토",
+          "meaning": {
+            "en": "review; examination",
+            "zh": "审查；检查"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-foundation-text-v1",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "An afternoon at home",
+        "zh": "在家的下午"
+      },
+      "sentences": [
+        {
+          "text": "Me llamo Elena y soy estudiante.",
+          "explanation": {
+            "en": "My name is Elena and I am a student. Soy introduces an identity.",
+            "zh": "“soy”介绍身份。"
+          }
+        },
+        {
+          "text": "Hoy estoy en casa con mi hermano.",
+          "explanation": {
+            "en": "Today I am at home with my brother. Estoy indicates location.",
+            "zh": "“estoy”在这里说明所在位置。"
+          }
+        },
+        {
+          "text": "Él prepara una ensalada y yo escribo un mensaje.",
+          "explanation": {
+            "en": "He prepares a salad and I write a message. Prepara and escribo agree with different subjects.",
+            "zh": "两个主语对应不同的现在时动词形式。"
+          }
+        },
+        {
+          "text": "Después comemos juntos en la cocina.",
+          "explanation": {
+            "en": "Afterwards we eat together in the kitchen. Comemos is the first-person plural.",
+            "zh": "“comemos”是第一人称复数形式，表示我们一起吃饭。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "es-foundation-text-v1-q1",
+          "prompt": "¿Quién prepara la ensalada?",
+          "choices": ["El hermano de Elena", "Elena", "La madre de Elena"],
+          "answer": 0
+        },
+        {
+          "id": "es-foundation-text-v1-q2",
+          "prompt": "¿Dónde comen?",
+          "choices": ["En un restaurante", "En la cocina", "En el jardín"],
+          "answer": 1
+        },
+        {
+          "id": "es-foundation-text-v1-q3",
+          "prompt": "¿Cuál es la ocupación de Elena?",
+          "choices": ["Es estudiante", "Es médica", "Es conductora"],
+          "answer": 0
+        },
+        {
+          "id": "es-foundation-text-v1-q4",
+          "prompt": "¿Con quién está Elena hoy?",
+          "choices": ["Con su hermano", "Con su vecina", "Con su profesora"],
+          "answer": 0
+        },
+        {
+          "id": "es-foundation-text-v1-q5",
+          "prompt": "¿Qué hace Elena mientras su hermano prepara la ensalada?",
+          "choices": [
+            "Escribe un mensaje",
+            "Prepara otra ensalada",
+            "Limpia el jardín"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "es-foundation-text-v1-q6",
+          "prompt": "¿Qué hacen después de preparar la comida y escribir?",
+          "choices": [
+            "Van a estudiar a la biblioteca",
+            "Salen a comprar pan",
+            "Comen juntos"
+          ],
+          "answer": 2
+        }
+      ],
+      "words": [
+        {
+          "id": "r:es-foundation-text-v1:0",
+          "word": "ensalada",
+          "meaning": {
+            "en": "salad",
+            "zh": "沙拉"
+          }
+        },
+        {
+          "id": "r:es-foundation-text-v1:1",
+          "word": "mensaje",
+          "meaning": {
+            "en": "message",
+            "zh": "消息"
+          }
+        },
+        {
+          "id": "r:es-foundation-text-v1:2",
+          "word": "juntos",
+          "meaning": {
+            "en": "together",
+            "zh": "一起"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-intermediate-text-v1",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Finding a lost bag",
+        "zh": "寻找丢失的包"
+      },
+      "sentences": [
+        {
+          "text": "Ayer olvidé mi mochila en el autobús.",
+          "explanation": {
+            "en": "Yesterday I left my backpack on the bus. Olvidé presents a completed past event.",
+            "zh": "“olvidé”说明昨天发生并结束的事件。"
+          }
+        },
+        {
+          "text": "Cuando era pequeño, perdía cosas con frecuencia, pero ahora suelo ser más cuidadoso.",
+          "explanation": {
+            "en": "When I was little, I often lost things, but now I am usually more careful. Era and perdía describe a past state and habit.",
+            "zh": "“era”和“perdía”描述过去的状态与习惯。"
+          }
+        },
+        {
+          "text": "Llamé a la oficina de objetos perdidos para preguntar por ella.",
+          "explanation": {
+            "en": "I called the lost-property office to ask about it. Para introduces the purpose.",
+            "zh": "“para”引出打电话的目的。"
+          }
+        },
+        {
+          "text": "La encontraron debajo de un asiento y fui a recogerla por la tarde.",
+          "explanation": {
+            "en": "They found it under a seat, and I went to collect it in the afternoon. La refers to the feminine mochila.",
+            "zh": "“la”指代阴性名词“mochila”；“por la tarde”表示在下午。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "es-intermediate-text-v1-q1",
+          "prompt": "¿Dónde olvidó la mochila?",
+          "choices": ["En el autobús", "En la oficina", "En una tienda"],
+          "answer": 0
+        },
+        {
+          "id": "es-intermediate-text-v1-q2",
+          "prompt": "¿Para qué llamó a la oficina?",
+          "choices": [
+            "Para cambiar su horario",
+            "Para preguntar por la mochila",
+            "Para comprar un billete"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "es-intermediate-text-v1-q3",
+          "prompt": "¿Dónde encontraron la mochila dentro del autobús?",
+          "choices": [
+            "Encima de una maleta",
+            "Debajo de un asiento",
+            "Junto al conductor"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "es-intermediate-text-v1-q4",
+          "prompt": "¿Cuándo fue a recoger la mochila?",
+          "choices": [
+            "Antes de llamar a la oficina",
+            "Por la tarde",
+            "La semana siguiente"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "es-intermediate-text-v1-q5",
+          "prompt": "¿Qué diferencia señala entre su infancia y el presente?",
+          "choices": [
+            "Antes perdía cosas a menudo; ahora suele tener más cuidado",
+            "Antes nunca perdía nada; ahora pierde todo a diario",
+            "Antes y ahora dice que siempre tiene exactamente el mismo cuidado"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "es-intermediate-text-v1-q6",
+          "prompt": "¿A qué se refiere 'ella' en 'para preguntar por ella'?",
+          "choices": ["A la mochila", "A una amiga", "A la oficina"],
+          "answer": 0
+        }
+      ],
+      "words": [
+        {
+          "id": "r:es-intermediate-text-v1:0",
+          "word": "mochila",
+          "meaning": {
+            "en": "backpack",
+            "zh": "背包"
+          }
+        },
+        {
+          "id": "r:es-intermediate-text-v1:1",
+          "word": "asiento",
+          "meaning": {
+            "en": "seat",
+            "zh": "座位"
+          }
+        },
+        {
+          "id": "r:es-intermediate-text-v1:2",
+          "word": "recoger",
+          "meaning": {
+            "en": "to collect; pick up",
+            "zh": "领取；取回"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-advanced-text-v1",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "A shared space",
+        "zh": "共享空间"
+      },
+      "sentences": [
+        {
+          "text": "El ayuntamiento quiere que los vecinos participen en el diseño de una nueva plaza.",
+          "explanation": {
+            "en": "The town council wants residents to help design a new square. Quiere que is followed by the subjunctive participen.",
+            "zh": "“quiere que”后用虚拟式“participen”表达愿望。"
+          }
+        },
+        {
+          "text": "Aunque el proyecto cuenta con apoyo, algunos comerciantes temen perder clientes durante las obras.",
+          "explanation": {
+            "en": "Although the project has support, some shopkeepers fear losing customers during construction. Aunque introduces a concession.",
+            "zh": "“aunque”引出让步；后半句说明商家的担忧。"
+          }
+        },
+        {
+          "text": "Si las obras duraran menos, las molestias serían menores.",
+          "explanation": {
+            "en": "If the work lasted less time, the disruption would be smaller. Duraran and serían form a hypothetical condition.",
+            "zh": "未完成过去虚拟式与条件式配合，描述假设情况。"
+          }
+        },
+        {
+          "text": "Se organizarán reuniones para que se escuchen distintas propuestas antes de tomar una decisión.",
+          "explanation": {
+            "en": "Meetings will be organized so that different proposals can be heard before a decision is made. Se forms a passive construction; para que takes the subjunctive.",
+            "zh": "“se”用于被动表达；“para que”后接虚拟式说明目的。"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "es-advanced-text-v1-q1",
+          "prompt": "¿Qué temen algunos comerciantes?",
+          "choices": [
+            "Perder clientes durante las obras",
+            "Que no haya reuniones",
+            "Que la plaza sea demasiado antigua"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "es-advanced-text-v1-q2",
+          "prompt": "¿Para qué se organizarán reuniones?",
+          "choices": [
+            "Para cerrar todas las tiendas",
+            "Para escuchar propuestas antes de decidir",
+            "Para anunciar una decisión ya definitiva"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "es-advanced-text-v1-q3",
+          "prompt": "¿En qué quiere el ayuntamiento que participen los vecinos?",
+          "choices": [
+            "En el diseño de una nueva plaza",
+            "En la elección de los clientes de cada comercio",
+            "En el cierre definitivo de las tiendas"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "es-advanced-text-v1-q4",
+          "prompt": "¿Qué relación plantea la frase 'Si las obras duraran menos, las molestias serían menores'?",
+          "choices": [
+            "Las obras ya han terminado sin molestias",
+            "Una duración menor reduciría las molestias en esa situación hipotética",
+            "Una duración menor aumentaría necesariamente las molestias"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "es-advanced-text-v1-q5",
+          "prompt": "¿Cuándo se prevé escuchar las distintas propuestas?",
+          "choices": [
+            "Cuando hayan terminado todas las obras",
+            "Antes de tomar una decisión",
+            "Solo después de una decisión definitiva"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "es-advanced-text-v1-q6",
+          "prompt": "¿Qué se puede afirmar sobre el apoyo al proyecto?",
+          "choices": [
+            "Nadie tiene ninguna preocupación",
+            "Existe apoyo, pero algunos comerciantes expresan preocupación",
+            "Todos lo rechazan sin excepción"
+          ],
+          "answer": 1
+        }
+      ],
+      "words": [
+        {
+          "id": "r:es-advanced-text-v1:0",
+          "word": "ayuntamiento",
+          "meaning": {
+            "en": "town council",
+            "zh": "市政机构"
+          }
+        },
+        {
+          "id": "r:es-advanced-text-v1:1",
+          "word": "obras",
+          "meaning": {
+            "en": "construction work",
+            "zh": "施工；工程"
+          }
+        },
+        {
+          "id": "r:es-advanced-text-v1:2",
+          "word": "molestias",
+          "meaning": {
+            "en": "inconveniences; disturbances",
+            "zh": "不便；困扰"
+          }
+        }
+      ]
+    }
+  ]
+}

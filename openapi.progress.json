@@ -1,0 +1,316 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "LingoLearn cloud learning progress",
+    "version": "1.2.0"
+  },
+  "servers": [
+    {
+      "url": "https://llearn.myfastools.com"
+    }
+  ],
+  "security": [
+    {
+      "sessionCookie": []
+    }
+  ],
+  "paths": {
+    "/api/progress": {
+      "get": {
+        "summary": "Read own cloud learning progress",
+        "operationId": "getLearningProgress",
+        "responses": {
+          "200": {
+            "description": "Own progress in {progress}; GET returns null when no record exists."
+          },
+          "403": {
+            "description": "Valid W-ID session required; an optional X-LingoLearn-Account header must match its subject."
+          },
+          "500": {
+            "description": "Storage is unavailable or corrupt; existing records are preserved."
+          }
+        },
+        "description": "Response uses Cache-Control: private, no-store.",
+        "parameters": [
+          {
+            "name": "X-LingoLearn-Account",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Expected W-ID subject for account-scoped browser requests. A mismatch with the authenticated session returns 403 before reading or writing; omission retains legacy client compatibility."
+          }
+        ]
+      },
+      "put": {
+        "summary": "Merge a partial progress update",
+        "operationId": "putLearningProgress",
+        "responses": {
+          "200": {
+            "description": "Own progress in {progress}; GET returns null when no record exists."
+          },
+          "403": {
+            "description": "Valid W-ID session required; an optional X-LingoLearn-Account header must match its subject."
+          },
+          "500": {
+            "description": "Storage is unavailable or corrupt; existing records are preserved."
+          },
+          "400": {
+            "description": "Malformed JSON or invalid progress fields; nothing is written."
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "progress"
+                ],
+                "properties": {
+                  "progress": {
+                    "$ref": "#/components/schemas/ProgressPatch"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-LingoLearn-Account",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Expected W-ID subject for account-scoped browser requests. A mismatch with the authenticated session returns 403 before reading or writing; omission retains legacy client compatibility."
+          }
+        ],
+        "description": "Supplied fields update the stored snapshot. Course moduleCrowns and legacy moduleCrowns merge by module; omitted modules and courses remain unchanged."
+      },
+      "post": {
+        "summary": "Sync a client progress snapshot",
+        "operationId": "postLearningProgress",
+        "responses": {
+          "200": {
+            "description": "Own progress in {progress}; GET returns null when no record exists."
+          },
+          "403": {
+            "description": "Valid W-ID session required; an optional X-LingoLearn-Account header must match its subject."
+          },
+          "500": {
+            "description": "Storage is unavailable or corrupt; existing records are preserved."
+          },
+          "400": {
+            "description": "Malformed JSON or invalid progress fields; nothing is written."
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "progress"
+                ],
+                "properties": {
+                  "progress": {
+                    "$ref": "#/components/schemas/ProgressPatch"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-LingoLearn-Account",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Expected W-ID subject for account-scoped browser requests. A mismatch with the authenticated session returns 403 before reading or writing; omission retains legacy client compatibility."
+          }
+        ],
+        "description": "Lifetime counters use maxima. Daily XP and current streak merge within the same lastActiveDate; otherwise the newer activity date and its counters win. Weekly XP merges within the same week, otherwise the newer week and its counter win. Legacy ISO week keys remain accepted. Course results merge by module, preserving existing server modules on conflicts while retaining distinct client modules and languages."
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "sessionCookie": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "lingolearn_session"
+      }
+    },
+    "schemas": {
+      "ProgressPatch": {
+        "type": "object",
+        "description": "Known supplied fields are validated. Omitted fields retain existing values on PUT. First POST sync receives defaults; later partial snapshots preserve account preferences; unknown top-level fields are discarded. Counters are client-supplied learning progress, not verified rewards.",
+        "properties": {
+          "xp": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "streak": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "longestStreak": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "dailyGoalXp": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "dailyXpToday": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "weeklyXp": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "totalAssessments": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "lastActiveDate": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "weekKey": {
+            "type": "string",
+            "pattern": "^(?:\\d{4}-\\d{2}-\\d{2}|\\d{4}-W\\d{2})?$"
+          },
+          "activeCourse": {
+            "type": "string",
+            "pattern": "^[a-z]{2}(?:-[a-zA-Z]{2})?$"
+          },
+          "achievements": {
+            "type": "array",
+            "maxItems": 1000,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            }
+          },
+          "awardedXp": {
+            "type": "array",
+            "maxItems": 1000,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "description": "Deduplicated and bounded to the most recent 200 IDs."
+          },
+          "moduleCrowns": {
+            "type": "object",
+            "properties": {
+              "vocabulary": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "grammar": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "reading": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "listening": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "speaking": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "writing": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              }
+            },
+            "additionalProperties": false
+          },
+          "courses": {
+            "type": "object",
+            "propertyNames": {
+              "pattern": "^[a-z]{2}(?:-[a-zA-Z]{2})?$"
+            },
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "moduleCrowns"
+              ],
+              "properties": {
+                "moduleCrowns": {
+                  "type": "object",
+                  "properties": {
+                    "vocabulary": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 5
+                    },
+                    "grammar": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 5
+                    },
+                    "reading": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 5
+                    },
+                    "listening": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 5
+                    },
+                    "speaking": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 5
+                    },
+                    "writing": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 5
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

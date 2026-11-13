@@ -1,0 +1,862 @@
+[
+  {
+    "id": "gra-001",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.37,
+      "b": -2.08,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "She ___ a teacher.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-002",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.04,
+      "b": -1.96,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "They ___ playing football now.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "gra-003",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.41,
+      "b": -1.84,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "I ___ an apple every morning.",
+    "options": [
+      "eat",
+      "eats",
+      "eating",
+      "ate"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-004",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.08,
+      "b": -2.13,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "This is ___ book.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "some"
+    ],
+    "answerIndex": 2,
+    "retired": true
+  },
+  {
+    "id": "gra-005",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.45,
+      "b": -2.01,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "___ you like coffee?",
+    "options": [
+      "Does",
+      "Do",
+      "Is",
+      "Are"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-006",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.12,
+      "b": -1.89,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "He has ___ orange in his bag.",
+    "options": [
+      "a",
+      "the",
+      "an",
+      "some"
+    ],
+    "answerIndex": 2,
+    "retired": true
+  },
+  {
+    "id": "gra-007",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.49,
+      "b": -2.18,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "We ___ to school by bus.",
+    "options": [
+      "goes",
+      "going",
+      "go",
+      "gone"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "gra-008",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.16,
+      "b": -2.06,
+      "c": 0.25
+    },
+    "cefr": "A1",
+    "prompt": "There ___ two cats on the sofa.",
+    "options": [
+      "is",
+      "are",
+      "be",
+      "am"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-009",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.53,
+      "b": -1.14,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "Yesterday I ___ to the cinema.",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-010",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.2,
+      "b": -1.02,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "She is ___ than her sister.",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "more tall"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-011",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.57,
+      "b": -1.31,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "I have ___ finished my homework.",
+    "options": [
+      "yet",
+      "still",
+      "already",
+      "ever"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "gra-012",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.24,
+      "b": -1.19,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "If it rains, we ___ stay home.",
+    "options": [
+      "will",
+      "would",
+      "are",
+      "have"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-013",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.61,
+      "b": -1.07,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "He can't drive, ___ he?",
+    "options": [
+      "can",
+      "can't",
+      "does",
+      "is"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-014",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.28,
+      "b": -1.36,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "They have lived here ___ 2010.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "during"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-015",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.65,
+      "b": -1.24,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "I'm not used to ___ up early.",
+    "options": [
+      "get",
+      "got",
+      "getting",
+      "gets"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "gra-016",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.32,
+      "b": -1.12,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "prompt": "The film was ___ boring that I left.",
+    "options": [
+      "such",
+      "too",
+      "so",
+      "very"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "gra-017",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.69,
+      "b": -0.2,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "By next year, she ___ here for a decade.",
+    "options": [
+      "will work",
+      "will have worked",
+      "works",
+      "worked"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-018",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.36,
+      "b": -0.49,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "I wish I ___ more time to study.",
+    "options": [
+      "have",
+      "had",
+      "will have",
+      "having"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-019",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.03,
+      "b": -0.37,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "The report ___ by the team last week.",
+    "options": [
+      "was written",
+      "wrote",
+      "has written",
+      "is writing"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-020",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.4,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "He suggested ___ a break.",
+    "options": [
+      "to take",
+      "take",
+      "taking",
+      "took"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "gra-021",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.07,
+      "b": -0.54,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "Neither of the answers ___ correct.",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-022",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.44,
+      "b": -0.42,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "She asked me where ___.",
+    "options": [
+      "do I live",
+      "I lived",
+      "did I live",
+      "I live did"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-023",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.11,
+      "b": -0.3,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "It's high time we ___ leaving.",
+    "options": [
+      "are",
+      "were",
+      "be",
+      "being"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-024",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.48,
+      "b": -0.59,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "prompt": "The more you practise, ___ you become.",
+    "options": [
+      "better",
+      "the better",
+      "best",
+      "the best"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-025",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.15,
+      "b": 0.43,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "Had I known earlier, I ___ differently.",
+    "options": [
+      "would act",
+      "would have acted",
+      "will act",
+      "had acted"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-026",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.52,
+      "b": 0.55,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "___ his wealth, he is remarkably modest.",
+    "options": [
+      "Despite",
+      "Although",
+      "However",
+      "Because"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-027",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.19,
+      "b": 0.67,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "Scarcely ___ when the phone rang.",
+    "options": [
+      "had I sat down",
+      "I had sat down",
+      "did I sit",
+      "I sat down"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-028",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.56,
+      "b": 0.38,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "The committee insists that he ___ present.",
+    "options": [
+      "is",
+      "be",
+      "will be",
+      "was"
+    ],
+    "answerIndex": 1,
+    "retired": true
+  },
+  {
+    "id": "gra-029",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.23,
+      "b": 0.5,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "Not only ___ late, but he also forgot the keys.",
+    "options": [
+      "he was",
+      "was he",
+      "he is",
+      "is he"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-030",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.6,
+      "b": 0.62,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "This is the very book ___ I told you about.",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "what"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-031",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.27,
+      "b": 0.33,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "She would rather you ___ smoke here.",
+    "options": [
+      "don't",
+      "didn't",
+      "won't",
+      "not"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-032",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.64,
+      "b": 0.45,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "prompt": "I'd sooner walk than ___ in that old car.",
+    "options": [
+      "riding",
+      "ride",
+      "to ride",
+      "rode"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-033",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.31,
+      "b": 1.47,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "No sooner had we arrived ___ it started to pour.",
+    "options": [
+      "when",
+      "than",
+      "then",
+      "that"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-034",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.68,
+      "b": 1.59,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "Were it not for your help, the project ___.",
+    "options": [
+      "fails",
+      "would fail",
+      "would have failed",
+      "had failed"
+    ],
+    "answerIndex": 2,
+    "retired": true
+  },
+  {
+    "id": "gra-035",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.35,
+      "b": 1.3,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "Such was the demand ___ tickets sold out instantly.",
+    "options": [
+      "which",
+      "that",
+      "as",
+      "so"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-036",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.02,
+      "b": 1.42,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "Little ___ that his words would change everything.",
+    "options": [
+      "he knew",
+      "did he know",
+      "he did know",
+      "knew he"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-037",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.39,
+      "b": 1.54,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "The proposal, ___ merits, was ultimately rejected.",
+    "options": [
+      "whatever its",
+      "whichever its",
+      "however its",
+      "whoever its"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-038",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.06,
+      "b": 1.25,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "I object to ___ in such a dismissive manner.",
+    "options": [
+      "being spoken to",
+      "be spoken",
+      "speaking",
+      "speak"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-039",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.43,
+      "b": 1.37,
+      "c": 0.25
+    },
+    "cefr": "C1",
+    "prompt": "On no account ___ the red button.",
+    "options": [
+      "you must press",
+      "must you press",
+      "you press",
+      "press you"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-040",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 2.39,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "Notwithstanding the objections, the motion ___ carried.",
+    "options": [
+      "was",
+      "were",
+      "has",
+      "had"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-041",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.47,
+      "b": 2.1,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "Would that I ___ heeded her warning.",
+    "options": [
+      "have",
+      "had",
+      "would",
+      "did"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "gra-042",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.14,
+      "b": 2.22,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "So ___ was the argument that no one could refute it.",
+    "options": [
+      "cogent",
+      "cogently",
+      "cogency",
+      "cogence"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-043",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.51,
+      "b": 2.34,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "He spoke ___ as if he owned the place.",
+    "options": [
+      "so authoritatively",
+      "such authoritative",
+      "so authoritative",
+      "such authoritatively"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "gra-044",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.18,
+      "b": 2.46,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "Hardly a day goes by ___ I don't think of it.",
+    "options": [
+      "that",
+      "but",
+      "when",
+      "than"
+    ],
+    "answerIndex": 1,
+    "retired": true
+  },
+  {
+    "id": "gra-045",
+    "module": "grammar",
+    "format": "mcq",
+    "irt": {
+      "a": 1.55,
+      "b": 2.17,
+      "c": 0.25
+    },
+    "cefr": "C2",
+    "prompt": "The findings, ___ as they are, warrant scrutiny.",
+    "options": [
+      "tentative",
+      "tentatively",
+      "tentativeness",
+      "more tentative"
+    ],
+    "answerIndex": 0
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "es-rea-001",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Dónde vive Carlos?",
+    "passage": "Carlos vive en Madrid. Cada mañana va al trabajo en metro. Los fines de semana juega al fútbol con amigos.",
+    "options": [
+      "Barcelona",
+      "Madrid",
+      "Sevilla",
+      "Valencia"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-rea-002",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "¿Cómo va al trabajo?",
+    "passage": "Carlos vive en Madrid. Cada mañana va al trabajo en metro. Los fines de semana juega al fútbol con amigos.",
+    "options": [
+      "en coche",
+      "en metro",
+      "en bici",
+      "a pie"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-rea-003",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué ventaja tiene el teletrabajo?",
+    "passage": "En los últimos años, muchas personas han elegido trabajar desde casa. Esto ahorra tiempo de viaje y da más flexibilidad, pero algunos temen que reduzca la comunicación entre compañeros.",
+    "options": [
+      "Más viajes",
+      "Ahorra tiempo de viaje",
+      "Más reuniones",
+      "Sueldo mayor"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-rea-004",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué preocupa a algunas personas?",
+    "passage": "En los últimos años, muchas personas han elegido trabajar desde casa. Esto ahorra tiempo de viaje y da más flexibilidad, pero algunos temen que reduzca la comunicación entre compañeros.",
+    "options": [
+      "La comida",
+      "El clima",
+      "La comunicación",
+      "El transporte"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-rea-005",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es el tema del texto?",
+    "passage": "En los últimos años, muchas personas han elegido trabajar desde casa. Esto ahorra tiempo de viaje y da más flexibilidad, pero algunos temen que reduzca la comunicación entre compañeros.",
+    "options": [
+      "El teletrabajo",
+      "El metro de Madrid",
+      "Las vacaciones",
+      "La oficina"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-rea-006",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuándo fue la protagonista a la fiesta?",
+    "passage": "El sábado pasado fui con una amiga a la Fiesta de la Cosecha de Valleverde, un pueblo pequeño de mi región. La fiesta celebra el final del verano con un pasacalles de música y baile por la calle principal. En la plaza había un mercado de artesanía con queso, miel y pan. Yo compré queso y miel por veinte euros con un bono local. Con el bono pagué un diez por ciento menos, y la vendedora me regaló un poco de membrillo. Mi amiga comió churros con chocolate y sacó muchas fotos. Al volver a casa pensé que la fiesta del pueblo es más familiar que un centro comercial.",
+    "options": [
+      "El sábado pasado",
+      "El domingo pasado",
+      "El viernes pasado",
+      "El lunes pasado"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-rea-007",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué es el pasacalles?",
+    "passage": "El sábado pasado fui con una amiga a la Fiesta de la Cosecha de Valleverde, un pueblo pequeño de mi región. La fiesta celebra el final del verano con un pasacalles de música y baile por la calle principal. En la plaza había un mercado de artesanía con queso, miel y pan. Yo compré queso y miel por veinte euros con un bono local. Con el bono pagué un diez por ciento menos, y la vendedora me regaló un poco de membrillo. Mi amiga comió churros con chocolate y sacó muchas fotos. Al volver a casa pensé que la fiesta del pueblo es más familiar que un centro comercial.",
+    "options": [
+      "Una tienda nueva",
+      "Un desfile de música y baile",
+      "Un tipo de queso",
+      "Un mercado nocturno"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-rea-008",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué compró la protagonista?",
+    "passage": "El sábado pasado fui con una amiga a la Fiesta de la Cosecha de Valleverde, un pueblo pequeño de mi región. La fiesta celebra el final del verano con un pasacalles de música y baile por la calle principal. En la plaza había un mercado de artesanía con queso, miel y pan. Yo compré queso y miel por veinte euros con un bono local. Con el bono pagué un diez por ciento menos, y la vendedora me regaló un poco de membrillo. Mi amiga comió churros con chocolate y sacó muchas fotos. Al volver a casa pensé que la fiesta del pueblo es más familiar que un centro comercial.",
+    "options": [
+      "Ropa y zapatos",
+      "Churros y chocolate",
+      "Queso y miel",
+      "Fruta y verdura"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-rea-009",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué ventaja tiene el bono local?",
+    "passage": "El sábado pasado fui con una amiga a la Fiesta de la Cosecha de Valleverde, un pueblo pequeño de mi región. La fiesta celebra el final del verano con un pasacalles de música y baile por la calle principal. En la plaza había un mercado de artesanía con queso, miel y pan. Yo compré queso y miel por veinte euros con un bono local. Con el bono pagué un diez por ciento menos, y la vendedora me regaló un poco de membrillo. Mi amiga comió churros con chocolate y sacó muchas fotos. Al volver a casa pensé que la fiesta del pueblo es más familiar que un centro comercial.",
+    "options": [
+      "Se puede usar como dinero en todas partes",
+      "Da el doble de puntos",
+      "El envío es gratis",
+      "Se paga un diez por ciento menos"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-rea-010",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0.25
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "¿Cómo se sintió al volver a casa?",
+    "passage": "El sábado pasado fui con una amiga a la Fiesta de la Cosecha de Valleverde, un pueblo pequeño de mi región. La fiesta celebra el final del verano con un pasacalles de música y baile por la calle principal. En la plaza había un mercado de artesanía con queso, miel y pan. Yo compré queso y miel por veinte euros con un bono local. Con el bono pagué un diez por ciento menos, y la vendedora me regaló un poco de membrillo. Mi amiga comió churros con chocolate y sacó muchas fotos. Al volver a casa pensé que la fiesta del pueblo es más familiar que un centro comercial.",
+    "options": [
+      "La fiesta del pueblo es más familiar que un centro comercial",
+      "Todo era demasiado caro",
+      "Los vendedores eran antipáticos",
+      "Había poca comida"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-rea-011",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es el objetivo del texto?",
+    "passage": "El metro de Madrid en hora punta es uno de los transportes más llenos del mundo. Para viajar cómodos en un vagón estrecho hacen falta pequeños gestos de civismo. Primero, es mejor dejar libres los asientos reservados para mayores y embarazadas, aunque estén vacíos. Las llamadas deben ser cortas y en voz baja, y para ver vídeos hay que usar auriculares. Además, la mochila se lleva delante o se deja en el suelo para no molestar a quien está detrás. Al subir, hay que esperar a que bajen los pasajeros y entrar en dos filas. Estas normas no son una ley, sino un acuerdo entre ciudadanos, pero al final reducen el tiempo de viaje y el estrés de todos.",
+    "options": [
+      "Anunciar una subida del billete",
+      "Proponer normas de civismo",
+      "Promocionar una línea nueva",
+      "Presentar lugares turísticos"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-rea-012",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué significa «hora punta»?",
+    "passage": "El metro de Madrid en hora punta es uno de los transportes más llenos del mundo. Para viajar cómodos en un vagón estrecho hacen falta pequeños gestos de civismo. Primero, es mejor dejar libres los asientos reservados para mayores y embarazadas, aunque estén vacíos. Las llamadas deben ser cortas y en voz baja, y para ver vídeos hay que usar auriculares. Además, la mochila se lleva delante o se deja en el suelo para no molestar a quien está detrás. Al subir, hay que esperar a que bajen los pasajeros y entrar en dos filas. Estas normas no son una ley, sino un acuerdo entre ciudadanos, pero al final reducen el tiempo de viaje y el estrés de todos.",
+    "options": [
+      "La hora con más viajeros",
+      "La hora más barata",
+      "La hora sin servicio",
+      "La hora de la noche"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-rea-013",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué se debe hacer con la mochila?",
+    "passage": "El metro de Madrid en hora punta es uno de los transportes más llenos del mundo. Para viajar cómodos en un vagón estrecho hacen falta pequeños gestos de civismo. Primero, es mejor dejar libres los asientos reservados para mayores y embarazadas, aunque estén vacíos. Las llamadas deben ser cortas y en voz baja, y para ver vídeos hay que usar auriculares. Además, la mochila se lleva delante o se deja en el suelo para no molestar a quien está detrás. Al subir, hay que esperar a que bajen los pasajeros y entrar en dos filas. Estas normas no son una ley, sino un acuerdo entre ciudadanos, pero al final reducen el tiempo de viaje y el estrés de todos.",
+    "options": [
+      "Llevarla siempre a la espalda",
+      "Ponerla en el asiento",
+      "Llevarla delante o dejarla en el suelo",
+      "Dejarla en la puerta"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-rea-014",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Cuál es el orden correcto para subir?",
+    "passage": "El metro de Madrid en hora punta es uno de los transportes más llenos del mundo. Para viajar cómodos en un vagón estrecho hacen falta pequeños gestos de civismo. Primero, es mejor dejar libres los asientos reservados para mayores y embarazadas, aunque estén vacíos. Las llamadas deben ser cortas y en voz baja, y para ver vídeos hay que usar auriculares. Además, la mochila se lleva delante o se deja en el suelo para no molestar a quien está detrás. Al subir, hay que esperar a que bajen los pasajeros y entrar en dos filas. Estas normas no son una ley, sino un acuerdo entre ciudadanos, pero al final reducen el tiempo de viaje y el estrés de todos.",
+    "options": [
+      "Subir primero sin esperar",
+      "Entrar en una fila y correr",
+      "Correr para coger sitio",
+      "Esperar a que bajen y entrar en dos filas"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-rea-015",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué defiende el autor?",
+    "passage": "El metro de Madrid en hora punta es uno de los transportes más llenos del mundo. Para viajar cómodos en un vagón estrecho hacen falta pequeños gestos de civismo. Primero, es mejor dejar libres los asientos reservados para mayores y embarazadas, aunque estén vacíos. Las llamadas deben ser cortas y en voz baja, y para ver vídeos hay que usar auriculares. Además, la mochila se lleva delante o se deja en el suelo para no molestar a quien está detrás. Al subir, hay que esperar a que bajen los pasajeros y entrar en dos filas. Estas normas no son una ley, sino un acuerdo entre ciudadanos, pero al final reducen el tiempo de viaje y el estrés de todos.",
+    "options": [
+      "Las normas son una ley y hay multa",
+      "La velocidad es más importante que el civismo",
+      "Los asientos reservados los usa cualquiera",
+      "Son un acuerdo que reduce el tiempo y el estrés de todos"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "es-rea-016",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué ha cambiado en los últimos años según el texto?",
+    "passage": "En los últimos años, la compra de ropa de segunda mano ha pasado de ser una opción minoritaria a una tendencia generalizada entre los jóvenes. El auge de las aplicaciones de reventa ha facilitado el intercambio de prendas usadas, mientras que la preocupación por el impacto ambiental de la moda rápida ha reforzado el cambio de hábitos. Sin embargo, algunos expertos advierten de que la facilidad para comprar de forma impulsiva también se traslada al mercado de segunda mano, por lo que el beneficio real para el planeta dependerá de que se compren menos prendas en total, no solo más baratas.",
+    "options": [
+      "La ropa de segunda mano se ha popularizado",
+      "Se han cerrado muchas tiendas de ropa",
+      "Los jóvenes solo compran ropa nueva",
+      "La moda rápida ha desaparecido"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "es-rea-017",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué factores impulsan esta tendencia según el texto?",
+    "passage": "En los últimos años, la compra de ropa de segunda mano ha pasado de ser una opción minoritaria a una tendencia generalizada entre los jóvenes. El auge de las aplicaciones de reventa ha facilitado el intercambio de prendas usadas, mientras que la preocupación por el impacto ambiental de la moda rápida ha reforzado el cambio de hábitos. Sin embargo, algunos expertos advierten de que la facilidad para comprar de forma impulsiva también se traslada al mercado de segunda mano, por lo que el beneficio real para el planeta dependerá de que se compren menos prendas en total, no solo más baratas.",
+    "options": [
+      "Subvenciones del gobierno",
+      "Apps de reventa y preocupación ambiental",
+      "La falta de tiendas físicas",
+      "Campañas de marcas de lujo"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "es-rea-018",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿Qué advierten algunos expertos?",
+    "passage": "En los últimos años, la compra de ropa de segunda mano ha pasado de ser una opción minoritaria a una tendencia generalizada entre los jóvenes. El auge de las aplicaciones de reventa ha facilitado el intercambio de prendas usadas, mientras que la preocupación por el impacto ambiental de la moda rápida ha reforzado el cambio de hábitos. Sin embargo, algunos expertos advierten de que la facilidad para comprar de forma impulsiva también se traslada al mercado de segunda mano, por lo que el beneficio real para el planeta dependerá de que se compren menos prendas en total, no solo más baratas.",
+    "options": [
+      "La ropa usada es poco higiénica",
+      "Las apps cobran comisiones altas",
+      "La compra impulsiva también pasa a la segunda mano",
+      "Los jóvenes no saben combinar prendas"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "es-rea-019",
+    "module": "reading",
+    "format": "reading-mcq",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0.25
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "¿De qué depende el beneficio real para el planeta?",
+    "passage": "En los últimos años, la compra de ropa de segunda mano ha pasado de ser una opción minoritaria a una tendencia generalizada entre los jóvenes. El auge de las aplicaciones de reventa ha facilitado el intercambio de prendas usadas, mientras que la preocupación por el impacto ambiental de la moda rápida ha reforzado el cambio de hábitos. Sin embargo, algunos expertos advierten de que la facilidad para comprar de forma impulsiva también se traslada al mercado de segunda mano, por lo que el beneficio real para el planeta dependerá de que se compren menos prendas en total, no solo más baratas.",
+    "options": [
+      "De comprar menos prendas en total",
+      "De vender toda la ropa vieja",
+      "De subir el precio de la moda rápida",
+      "De exportar ropa a otros países"
+    ],
+    "answerIndex": 0
+  }
+]

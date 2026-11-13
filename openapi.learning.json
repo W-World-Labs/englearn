@@ -1,0 +1,1872 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "LingoLearn graded learning and open library API",
+    "version": "1.4.0",
+    "description": "Owner-scoped graded learning journals, optional recall practice and an allowlisted open textbook. v0.12 adds optional reviews/reviewDraft; existing records without these fields remain valid. The signed W-ID sub is the only record owner. Unknown fields are ignored; clients must tolerate unknown response fields and preserve saved history. Assessment, vocabulary and exam contracts remain unchanged. v0.13 adds a read-only account learning plan, derived from existing owner-scoped assessment, vocabulary and journal records. Existing records and scores are not migrated or rewritten. v0.14 adds optional workbench state, original graded audio and owner-scoped question reports. Existing IDs, scores and journal fields remain valid. New clients preserve all prior history; clients that omit a saved workbench extension receive 409. v0.15 adds canonical question IDs without changing journal v1 fields or historical validation. New client queues select two items per activity and preserve saved item snapshots. Account-scoped browser clients send X-LingoLearn-Account; when present it must match the verified W-ID subject or the request returns 403 before reading or writing records. Cookie-only clients remain supported. v1.4 adds optional ieltsPrep to the same owner-scoped journal: score requirements, self-reported bands, local-calendar task checks, bounded error recall and writing drafts. Omitting a saved ieltsPrep returns 409; older journals remain valid. Preparation never changes exam scores. Recordings stay in the browser tab and are not uploaded."
+  },
+  "paths": {
+    "/api/learning/journal": {
+      "get": {
+        "operationId": "getLearningJournal",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Retrieve one owned attempt. When provided, pagination is ignored."
+          },
+          {
+            "in": "query",
+            "name": "draftId",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Include an owned browser draft when listing."
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            }
+          },
+          {
+            "in": "query",
+            "name": "pageSize",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "One owned journal or a paginated list containing at most one journal. Private, no-store; Vary Cookie. Use draftId=grammar-v1 for reconciliation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/AttemptResponse"
+                    },
+                    {
+                      "$ref": "#/components/schemas/History"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "404": {
+            "description": "No matching record owned by this account."
+          },
+          "503": {
+            "description": "Storage unavailable; do not treat as empty history."
+          },
+          "403": {
+            "description": "The expected account does not match the verified session subject. No account record is read or written."
+          }
+        }
+      },
+      "post": {
+        "operationId": "saveLearningJournal",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "description": "One ongoing grammar-v1 journal per owner. Create using revision null; update using the last acknowledged revision. Identical retries are idempotent. startedAt and previously completed events are immutable. Events append chronologically with unique IDs, known lesson IDs and exactly four valid answer indexes. Offline batches are accepted. Draft answers are a checked prefix of zero to four answers; the draft may be replaced and the book bookmark updated. Timestamps must be safe positive millisecond integers, no more than 30 seconds ahead of server time; draft time is no earlier than the latest completed event. Scores and SM-2 dates are derived, never accepted from clients. A full journal keeps prior history available but cannot append beyond 10,000 rounds. Conflicts return the current account attempt; export the local copy before replacing it. Optional reviews append up to 1,000 immutable recall rounds, each with 1–20 unique known cards from one learning language. Ratings 0/1/2 mean again/with help/remembered, not assessment scores. Imported recall timestamps can predate journal creation and be appended out of chronological order; scheduling sorts by completion time with stable tie ordering. reviewDraft is independent of the unit draft. A draft can be explicitly replaced; while retaining its ID, startedAt, cards and the saved rating prefix are immutable, including when completing it. IDs must be unique across unit events, recall rounds and the recall draft. An old client cannot truncate saved recall history (409). Offline result files are previewed/merged in the client before submitting the full journal with its current revision; they grant no owner authority. Optional workbench follows LearningWorkbench. Omission of an existing extension and rewrites to completed activities or fixed queues return 409. New recall card keys x:<practice-variant-id> and r:<text-id>:<word-index> are supported. Reserved retest questions are excluded from recall/export cards.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["session", "revision"],
+                "properties": {
+                  "session": {
+                    "$ref": "#/components/schemas/StudyJournal"
+                  },
+                  "revision": {
+                    "type": ["integer", "null"],
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Atomically saved or identical retry acknowledged.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AttemptResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid JSON, session, revision or timing."
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "description": "Origin mismatch. The expected account does not match the verified session subject. No account record is read or written."
+          },
+          "409": {
+            "description": "Revision conflict or attempted history rewrite. Preserve browser answers; ask the learner to resolve. Response includes the existing account attempt.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/AttemptResponse"
+                    },
+                    {
+                      "type": "object",
+                      "required": ["error"],
+                      "properties": {
+                        "error": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request body exceeds 5,000,000 bytes."
+          },
+          "415": {
+            "description": "Content-Type must be application/json."
+          },
+          "503": {
+            "description": "Save unavailable; preserve the browser copy and offer retry."
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ]
+      }
+    },
+    "/api/library/book": {
+      "get": {
+        "operationId": "readOpenBook",
+        "description": "Public allowlisted book content: original unchanged CC BY-SA PDF or attributed text extraction. No arbitrary path or external URL. GET supports single byte ranges; HEAD returns headers only. Reading changes no account state; bookmarks are saved with the learning journal.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "const": "brehe-grammar"
+            }
+          },
+          {
+            "in": "header",
+            "name": "Range",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Optional single bytes=start-end or suffix range for GET."
+          },
+          {
+            "in": "query",
+            "name": "format",
+            "schema": {
+              "type": "string",
+              "enum": ["pdf", "text"],
+              "default": "pdf"
+            },
+            "description": "Original PDF, or the CC BY-SA text edition retaining 340 original page boundaries. Text simplifies layout and omits graphics."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Full PDF; HEAD returns the same content headers without a body.",
+            "content": {
+              "application/pdf": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "book",
+                    "author",
+                    "publisher",
+                    "license",
+                    "source",
+                    "changes",
+                    "pages"
+                  ],
+                  "properties": {
+                    "book": {
+                      "const": "brehe-grammar"
+                    },
+                    "author": {
+                      "type": "string"
+                    },
+                    "publisher": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "const": "CC-BY-SA-4.0"
+                    },
+                    "source": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "changes": {
+                      "type": "string"
+                    },
+                    "pages": {
+                      "type": "array",
+                      "minItems": 340,
+                      "maxItems": 340,
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "206": {
+            "description": "Partial PDF with Content-Range and Content-Length."
+          },
+          "404": {
+            "description": "Unknown book ID."
+          },
+          "416": {
+            "description": "Invalid or unsatisfiable range."
+          },
+          "503": {
+            "description": "Book temporarily unavailable."
+          },
+          "400": {
+            "description": "Unknown format."
+          }
+        }
+      },
+      "head": {
+        "operationId": "headOpenBook",
+        "description": "Public allowlisted book content: original unchanged CC BY-SA PDF or attributed text extraction. No arbitrary path or external URL. GET supports single byte ranges; HEAD returns headers only. Reading changes no account state; bookmarks are saved with the learning journal.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "const": "brehe-grammar"
+            }
+          },
+          {
+            "in": "query",
+            "name": "format",
+            "schema": {
+              "type": "string",
+              "enum": ["pdf", "text"],
+              "default": "pdf"
+            },
+            "description": "Original PDF, or the CC BY-SA text edition retaining 340 original page boundaries. Text simplifies layout and omits graphics."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Full PDF; HEAD returns the same content headers without a body."
+          },
+          "404": {
+            "description": "Unknown book ID."
+          },
+          "503": {
+            "description": "Book temporarily unavailable."
+          },
+          "400": {
+            "description": "Unknown format."
+          }
+        }
+      }
+    },
+    "/api/learning/plan": {
+      "get": {
+        "operationId": "getAccountLearningPlan",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "language",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": ["en", "zh", "ja", "ko", "es"]
+            }
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "description": "Read only. The verified W-ID sub selects all records; no userId, workspace or administrator claim grants another account access. Grammar and vocabulary evidence are independent and restricted to the exact learning language. Uses the newest eligible grammar assessment within 180 days with at least 5 items, finite theta, valid CEFR, and 0 < SE <= 0.8. A1/A2, B1/B2, C1/C2 map to three practice stages. Practice adjustment uses the latest result per distinct lesson within 90 days and after the grammar assessment. Three concepts on at least two UTC dates, each >=75% and mean >=80%, permit moving to the next stage; mean <50% across three concepts at the current stage steps back once. Vocabulary uses the latest finished test within 180 days, observed band accuracy and recognition evidence, never a grammar or exam conversion. No evidence means a tentative foundation starting point with diagnostic links, not a measured beginner level. Lessons prioritize continuation, weak concepts, due reviews, then unseen lessons. Recall ratings affect review/word selection only. These are uncalibrated practice heuristics, not a proficiency certification. Clients tolerate unknown fields, discard responses after owner/language changes, and may recompute from evidence with the current owned journal. Refresh after relevant records change or returning to the page. The app uses a 10-second timeout and explicit retry; errors must not be replaced with an empty beginner profile.",
+        "responses": {
+          "200": {
+            "description": "Account-derived practice plan. No read-time writes. No shared caching.",
+            "headers": {
+              "Cache-Control": {
+                "schema": {
+                  "const": "private, no-store"
+                }
+              },
+              "Vary": {
+                "schema": {
+                  "const": "Cookie"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AccountLearningPlan"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Missing or unsupported learning language."
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "503": {
+            "description": "Evidence storage unreadable or corrupt. Show retry/manual learning; do not infer a beginner stage."
+          },
+          "403": {
+            "description": "The expected account does not match the verified session subject. No account record is read or written."
+          }
+        }
+      }
+    },
+    "/api/learning/feedback": {
+      "get": {
+        "operationId": "getLearningFeedback",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Retrieve one owned attempt. When provided, pagination is ignored."
+          },
+          {
+            "in": "query",
+            "name": "draftId",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Include an owned browser draft when listing."
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            }
+          },
+          {
+            "in": "query",
+            "name": "pageSize",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Private no-store owned report or pagination. Same id/draftId/page/pageSize behavior as journal. List items contain normalized report fields plus revision and updatedAt.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "attempt": {
+                          "$ref": "#/components/schemas/SavedLearningFeedback"
+                        }
+                      },
+                      "required": ["attempt"]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "allOf": [
+                              {
+                                "$ref": "#/components/schemas/LearningFeedback"
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "revision": {
+                                    "type": "integer"
+                                  },
+                                  "updatedAt": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "description": "Unix milliseconds, <= server time + 30 seconds."
+                                  }
+                                },
+                                "required": ["revision", "updatedAt"]
+                              }
+                            ]
+                          }
+                        },
+                        "page": {
+                          "type": "integer"
+                        },
+                        "pageSize": {
+                          "type": "integer"
+                        },
+                        "total": {
+                          "type": "integer"
+                        },
+                        "latest": {
+                          "oneOf": [
+                            {
+                              "$ref": "#/components/schemas/SavedLearningFeedback"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "draft": {
+                          "oneOf": [
+                            {
+                              "$ref": "#/components/schemas/SavedLearningFeedback"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "items",
+                        "page",
+                        "pageSize",
+                        "total",
+                        "latest",
+                        "draft"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "404": {
+            "description": "No matching record owned by this account."
+          },
+          "503": {
+            "description": "Storage unavailable; do not treat as empty history."
+          },
+          "403": {
+            "description": "The expected account does not match the verified session subject. No account record is read or written."
+          }
+        }
+      },
+      "post": {
+        "operationId": "saveLearningFeedback",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "description": "Owner-scoped immutable question reports. First write uses revision null, byte limit 12,000, identical retries are idempotent. W-ID subject owns each report; unknown owner/score fields are ignored. No notification, score rewrite or inferred permission. GET returns only this account’s reports.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["session", "revision"],
+                "properties": {
+                  "session": {
+                    "$ref": "#/components/schemas/LearningFeedback"
+                  },
+                  "revision": {
+                    "type": ["integer", "null"],
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Atomically saved or identical retry acknowledged.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "attempt": {
+                      "$ref": "#/components/schemas/SavedLearningFeedback"
+                    }
+                  },
+                  "required": ["attempt"]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid JSON, session, revision or timing."
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "description": "Origin mismatch. The expected account does not match the verified session subject. No account record is read or written."
+          },
+          "409": {
+            "description": "Revision conflict or attempted history rewrite. Preserve browser answers; ask the learner to resolve. Response includes the existing account attempt.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "attempt": {
+                      "$ref": "#/components/schemas/SavedLearningFeedback"
+                    },
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "required": ["attempt", "error"]
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request exceeds 12,000 bytes."
+          },
+          "415": {
+            "description": "Content-Type must be application/json."
+          },
+          "503": {
+            "description": "Save unavailable; preserve the browser copy and offer retry."
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ]
+      }
+    },
+    "/api/learning/audio": {
+      "get": {
+        "operationId": "getLearningAudio",
+        "security": [],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en-foundation-text-v1",
+                "en-intermediate-text-v1",
+                "en-advanced-text-v1",
+                "zh-foundation-text-v1",
+                "zh-intermediate-text-v1",
+                "zh-advanced-text-v1",
+                "ja-foundation-text-v1",
+                "ja-intermediate-text-v1",
+                "ja-advanced-text-v1",
+                "ko-foundation-text-v1",
+                "ko-intermediate-text-v1",
+                "ko-advanced-text-v1",
+                "es-foundation-text-v1",
+                "es-intermediate-text-v1",
+                "es-advanced-text-v1"
+              ]
+            }
+          },
+          {
+            "in": "header",
+            "name": "Range",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Original MP3, audio/mpeg; public max-age=86400; Content-Length and Accept-Ranges bytes. HEAD has no body."
+          },
+          "206": {
+            "description": "Single byte-range MP3, Content-Range and exact length."
+          },
+          "404": {
+            "description": "Unknown or missing text ID."
+          },
+          "416": {
+            "description": "Invalid or unsatisfiable single range."
+          },
+          "503": {
+            "description": "Asset temporarily unavailable; transcript remains available."
+          }
+        }
+      },
+      "head": {
+        "operationId": "headLearningAudio",
+        "security": [],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en-foundation-text-v1",
+                "en-intermediate-text-v1",
+                "en-advanced-text-v1",
+                "zh-foundation-text-v1",
+                "zh-intermediate-text-v1",
+                "zh-advanced-text-v1",
+                "ja-foundation-text-v1",
+                "ja-intermediate-text-v1",
+                "ja-advanced-text-v1",
+                "ko-foundation-text-v1",
+                "ko-intermediate-text-v1",
+                "ko-advanced-text-v1",
+                "es-foundation-text-v1",
+                "es-intermediate-text-v1",
+                "es-advanced-text-v1"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Original MP3, audio/mpeg; public max-age=86400; Content-Length and Accept-Ranges bytes. HEAD has no body."
+          },
+          "206": {
+            "description": "Single byte-range MP3, Content-Range and exact length."
+          },
+          "404": {
+            "description": "Unknown or missing text ID."
+          },
+          "416": {
+            "description": "Invalid or unsatisfiable single range."
+          },
+          "503": {
+            "description": "Asset temporarily unavailable; transcript remains available."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "sessionCookie": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "lingolearn_session",
+        "description": "HttpOnly W-ID-derived application session. Server validates signature and expiry."
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "W-ID sign-in required or session invalid/expired."
+      }
+    },
+    "schemas": {
+      "SavedJournal": {
+        "type": "object",
+        "required": ["session", "revision", "updatedAt"],
+        "properties": {
+          "session": {
+            "$ref": "#/components/schemas/StudyJournal"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "updatedAt": {
+            "type": "number"
+          }
+        }
+      },
+      "AttemptResponse": {
+        "type": "object",
+        "required": ["attempt"],
+        "properties": {
+          "attempt": {
+            "$ref": "#/components/schemas/SavedJournal"
+          }
+        }
+      },
+      "Summary": {
+        "type": "object",
+        "required": [
+          "id",
+          "startedAt",
+          "status",
+          "completedLessons",
+          "revision",
+          "updatedAt"
+        ],
+        "properties": {
+          "id": {
+            "const": "grammar-v1"
+          },
+          "startedAt": {
+            "type": "integer"
+          },
+          "status": {
+            "const": "running"
+          },
+          "completedLessons": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 120,
+            "description": "Distinct lessons practised, not a calibrated mastery score."
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "updatedAt": {
+            "type": "integer"
+          }
+        }
+      },
+      "History": {
+        "type": "object",
+        "required": [
+          "items",
+          "total",
+          "page",
+          "pageSize",
+          "totalPages",
+          "latest",
+          "draft"
+        ],
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Summary"
+            }
+          },
+          "total": {
+            "type": "integer"
+          },
+          "page": {
+            "type": "integer"
+          },
+          "pageSize": {
+            "type": "integer"
+          },
+          "totalPages": {
+            "type": "integer"
+          },
+          "latest": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/SavedJournal"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "draft": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/SavedJournal"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "StudyJournal": {
+        "type": "object",
+        "required": [
+          "id",
+          "course",
+          "startedAt",
+          "status",
+          "events",
+          "draft",
+          "bookPage"
+        ],
+        "properties": {
+          "id": {
+            "const": "grammar-v1"
+          },
+          "course": {
+            "const": "grammar-v1"
+          },
+          "startedAt": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "status": {
+            "const": "running"
+          },
+          "bookPage": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 340
+          },
+          "events": {
+            "type": "array",
+            "maxItems": 10000,
+            "items": {
+              "$ref": "#/components/schemas/StudyEvent"
+            }
+          },
+          "draft": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/StudyDraft"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "reviews": {
+            "type": "array",
+            "maxItems": 1000,
+            "items": {
+              "$ref": "#/components/schemas/ReviewRound"
+            }
+          },
+          "reviewDraft": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/ReviewDraft"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "workbench": {
+            "$ref": "#/components/schemas/LearningWorkbench"
+          },
+          "ieltsPrep": {
+            "$ref": "#/components/schemas/IeltsPreparation"
+          }
+        }
+      },
+      "IeltsPreparation": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "version",
+          "goal",
+          "minimum",
+          "examDate",
+          "minutes",
+          "current",
+          "completed",
+          "mistakes",
+          "writing"
+        ],
+        "description": "Planning heuristics only. Current bands are self-reported, unknown is null, and suggested target vectors obey overall half-band rounding and every skill minimum. Dates are valid calendar dates (YYYY-MM-DD); historical test dates remain readable. Completion checks are not mastery evidence. Unknown fields are stripped when normalizing. Existing optional preparation cannot be silently dropped.",
+        "properties": {
+          "version": {
+            "const": 1
+          },
+          "goal": {
+            "type": "number",
+            "minimum": 4,
+            "maximum": 9,
+            "multipleOf": 0.5
+          },
+          "minimum": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 9,
+            "multipleOf": 0.5
+          },
+          "examDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "minutes": {
+            "enum": [
+              15,
+              30,
+              60,
+              90,
+              120,
+              180
+            ]
+          },
+          "current": {
+            "type": "object",
+            "required": [
+              "listening",
+              "reading",
+              "writing",
+              "speaking"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "listening": {
+                "oneOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 9,
+                    "multipleOf": 0.5
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "reading": {
+                "oneOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 9,
+                    "multipleOf": 0.5
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "writing": {
+                "oneOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 9,
+                    "multipleOf": 0.5
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "speaking": {
+                "oneOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 9,
+                    "multipleOf": 0.5
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          },
+          "completed": {
+            "type": "array",
+            "maxItems": 732,
+            "description": "Unique date/skill pairs; client keeps a rolling history.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "date",
+                "skill"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "skill": {
+                  "enum": [
+                    "listening",
+                    "reading",
+                    "writing",
+                    "speaking"
+                  ]
+                }
+              }
+            }
+          },
+          "mistakes": {
+            "type": "array",
+            "maxItems": 160,
+            "description": "Unique examId/questionId pairs referencing known objective questions in that skill. Known-question recall is not unseen assessment evidence.",
+            "items": {
+              "$ref": "#/components/schemas/IeltsPrepMistake"
+            }
+          },
+          "writing": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "examId",
+              "task",
+              "draft",
+              "rewrite"
+            ],
+            "properties": {
+              "examId": {
+                "enum": [
+                  "academic-practice-01-v1",
+                  "academic-practice-02-v1"
+                ]
+              },
+              "task": {
+                "enum": [
+                  "task-1",
+                  "task-2"
+                ]
+              },
+              "draft": {
+                "type": "string",
+                "maxLength": 16000
+              },
+              "rewrite": {
+                "type": "string",
+                "maxLength": 16000
+              }
+            }
+          }
+        }
+      },
+      "IeltsPrepMistake": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "examId",
+          "questionId",
+          "skill",
+          "cause",
+          "dueAt",
+          "checks",
+          "lastCorrect"
+        ],
+        "properties": {
+          "examId": {
+            "enum": [
+              "academic-practice-01-v1",
+              "academic-practice-02-v1"
+            ]
+          },
+          "questionId": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "skill": {
+            "enum": [
+              "listening",
+              "reading"
+            ]
+          },
+          "cause": {
+            "enum": [
+              "vocabulary",
+              "sound",
+              "spelling",
+              "location",
+              "distractor",
+              "evidence",
+              "timing"
+            ]
+          },
+          "dueAt": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "checks": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          },
+          "lastCorrect": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      },
+      "StudyEvent": {
+        "type": "object",
+        "required": ["id", "lessonId", "at", "answers"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "lessonId": {
+            "type": "string",
+            "description": "A grammar-v1 lesson ID from the course content downloadable at /learn?tab=library."
+          },
+          "at": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "answers": {
+            "type": "array",
+            "maxItems": 4,
+            "items": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "minItems": 4
+          }
+        }
+      },
+      "StudyDraft": {
+        "type": "object",
+        "required": ["lessonId", "startedAt", "answers"],
+        "properties": {
+          "lessonId": {
+            "type": "string"
+          },
+          "startedAt": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "answers": {
+            "type": "array",
+            "maxItems": 4,
+            "items": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 2
+            }
+          }
+        }
+      },
+      "ReviewDraft": {
+        "type": "object",
+        "required": ["id", "startedAt", "cards", "ratings"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "startedAt": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "cards": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "description": "Known g:<lesson-id>:<question-index>, v:<bank-v1-word-id>, x:<practice-variant-id> or r:<text-id>:<word-index>; all cards use the same learning language. Reserved retest variants are excluded."
+            }
+          },
+          "ratings": {
+            "type": "array",
+            "maxItems": 20,
+            "items": {
+              "type": "integer",
+              "enum": [0, 1, 2]
+            },
+            "description": "Checked prefix, at most cards.length. Self-ratings: again / with help / remembered."
+          }
+        }
+      },
+      "ReviewRound": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/ReviewDraft"
+          },
+          {
+            "type": "object",
+            "required": ["at"],
+            "properties": {
+              "at": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Completion time >= startedAt, <= server time + 30 seconds; ratings length must equal cards length."
+              }
+            }
+          }
+        ]
+      },
+      "OfflineReviewResults": {
+        "type": "object",
+        "description": "Client-only portable result JSON, not a new API endpoint. Must include at least one completed round or a draft. Preview before merging; deduplicate identical IDs and reject conflicting history. Explicit opt-in restores an unfinished draft. Maximum file size 5 MB; no identity or ownership fields. A specific offline HTML pack only accepts cards it contains.",
+        "required": ["format", "version", "rounds"],
+        "properties": {
+          "format": {
+            "const": "lingolearn-review-results"
+          },
+          "version": {
+            "const": 1
+          },
+          "rounds": {
+            "type": "array",
+            "maxItems": 1000,
+            "items": {
+              "$ref": "#/components/schemas/ReviewRound"
+            }
+          },
+          "draft": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/ReviewDraft"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "PracticeStage": {
+        "type": "string",
+        "enum": ["foundation", "intermediate", "advanced"]
+      },
+      "LearningEvidence": {
+        "type": "object",
+        "required": ["language", "grammar", "vocabulary"],
+        "properties": {
+          "language": {
+            "type": "string",
+            "enum": ["en", "zh", "ja", "ko", "es"]
+          },
+          "grammar": {
+            "oneOf": [
+              {
+                "type": "object",
+                "required": ["stage", "at", "items"],
+                "properties": {
+                  "stage": {
+                    "$ref": "#/components/schemas/PracticeStage"
+                  },
+                  "at": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Unix time in milliseconds."
+                  },
+                  "items": {
+                    "type": "integer",
+                    "minimum": 5
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "vocabulary": {
+            "oneOf": [
+              {
+                "type": "object",
+                "required": [
+                  "stage",
+                  "at",
+                  "total",
+                  "correct",
+                  "missed",
+                  "seen"
+                ],
+                "properties": {
+                  "stage": {
+                    "$ref": "#/components/schemas/PracticeStage"
+                  },
+                  "at": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Unix time in milliseconds."
+                  },
+                  "total": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "correct": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "missed": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  },
+                  "seen": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "LearningPlan": {
+        "type": "object",
+        "required": [
+          "language",
+          "stage",
+          "basis",
+          "adjustment",
+          "grammarDiagnostic",
+          "vocabularyDiagnostic",
+          "lessons",
+          "reviewCount",
+          "resumeRecall",
+          "vocabularyStage",
+          "wordIds"
+        ],
+        "properties": {
+          "language": {
+            "type": "string",
+            "enum": ["en", "zh", "ja", "ko", "es"]
+          },
+          "stage": {
+            "$ref": "#/components/schemas/PracticeStage"
+          },
+          "basis": {
+            "type": "string",
+            "enum": ["assessment", "practice", "starter"]
+          },
+          "adjustment": {
+            "type": ["string", "null"],
+            "enum": ["up", "down", null]
+          },
+          "grammarDiagnostic": {
+            "type": "boolean"
+          },
+          "vocabularyDiagnostic": {
+            "type": "boolean"
+          },
+          "lessons": {
+            "type": "array",
+            "maxItems": 3,
+            "items": {
+              "type": "object",
+              "required": ["id", "reason"],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "reason": {
+                  "type": "string",
+                  "enum": ["resume", "weak", "due", "new"]
+                }
+              }
+            }
+          },
+          "reviewCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "practice": {
+            "type": "object",
+            "required": ["lessons", "days"],
+            "properties": {
+              "lessons": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "days": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "description": "Distinct lessons practised within 90 days and the count of distinct UTC days among them; omitted when there is no recent practice. Practice evidence, not a calibrated score."
+          },
+          "promotion": {
+            "type": "object",
+            "required": ["qualifying", "days"],
+            "properties": {
+              "qualifying": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              },
+              "days": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              }
+            },
+            "description": "Progress inputs toward the next practice stage: of the three most recent current-stage concepts, how many meet the qualifying bar (at least 4 items, at least 75% correct), and the distinct UTC practice days across them. Omitted at the advanced stage. Promotion additionally requires all three concepts and a mean of at least 80%; these are transparent practice heuristics, not a proficiency certification."
+          },
+          "resumeRecall": {
+            "type": "boolean"
+          },
+          "vocabularyStage": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/PracticeStage"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "wordIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true,
+            "maxItems": 12
+          }
+        }
+      },
+      "AccountLearningPlan": {
+        "type": "object",
+        "required": ["version", "generatedAt", "evidence", "plan"],
+        "properties": {
+          "version": {
+            "const": 1
+          },
+          "generatedAt": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix time in milliseconds."
+          },
+          "evidence": {
+            "$ref": "#/components/schemas/LearningEvidence"
+          },
+          "plan": {
+            "$ref": "#/components/schemas/LearningPlan"
+          }
+        }
+      },
+      "LearningActivityDraft": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "kind": {
+            "enum": ["practice", "retest", "reading", "listening"]
+          },
+          "target": {
+            "type": "string",
+            "description": "Known concept or graded text matching kind."
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "maxItems": 20,
+            "uniqueItems": true,
+            "description": "Canonical item IDs for this target and kind. New queues use two items, preferring unseen questions then latest mistakes then oldest attempts. Saved subsets, order and checked prefixes remain valid when the bank grows. Reading and listening share question identity."
+          },
+          "answers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "maxItems": 20,
+            "description": "Checked prefix of choice indexes, each within its actual question bounds."
+          },
+          "startedAt": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          }
+        },
+        "required": ["id", "kind", "target", "items", "answers", "startedAt"]
+      },
+      "LearningActivityRound": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "kind": {
+            "enum": ["practice", "retest", "reading", "listening"]
+          },
+          "target": {
+            "type": "string",
+            "description": "Known concept or graded text matching kind."
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "maxItems": 20,
+            "uniqueItems": true
+          },
+          "answers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "maxItems": 20,
+            "description": "Checked prefix of choice indexes, each within its actual question bounds."
+          },
+          "startedAt": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          },
+          "at": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "target",
+          "items",
+          "answers",
+          "startedAt",
+          "at"
+        ],
+        "description": "All answers required; chronological immutable append. Retest items are reserved, unseen and at least three days after the latest prior practice. Answers are marked from canonical content; no client scores accepted. The v0.15 client additionally spaces reserved batches by three days after the previous completed retest. Historical journal v1 replay retains the original three-day-after-practice rule, including previously valid single-item retests. Pool selection is client scheduling, not a calibrated assessment or authorization boundary."
+      },
+      "LearningPreference": {
+        "type": "object",
+        "properties": {
+          "purpose": {
+            "enum": ["general", "travel", "work", "exam"]
+          },
+          "minutes": {
+            "enum": [5, 15, 30]
+          }
+        },
+        "required": ["purpose", "minutes"]
+      },
+      "DailyLearningTask": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "enum": [
+              "recall",
+              "lesson",
+              "practice",
+              "retest",
+              "reading",
+              "listening"
+            ]
+          },
+          "target": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 0,
+            "maxItems": 20,
+            "uniqueItems": true
+          },
+          "minutes": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "resultId": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "at": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          },
+          "skipped": {
+            "const": true
+          }
+        },
+        "required": ["kind", "target", "items", "minutes"],
+        "description": "One language, validated canonical items. A completed task has at and, except lesson/skip, a saved matching resultId whose start is >= plan start and completion <= task completion. Skips never have resultId. Completed tasks are immutable; completion is a chronological prefix."
+      },
+      "DailyLearningSession": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "language": {
+            "enum": ["en", "zh", "ja", "ko", "es"]
+          },
+          "startedAt": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          },
+          "minutes": {
+            "enum": [5, 15, 30]
+          },
+          "purpose": {
+            "enum": ["general", "travel", "work", "exam"]
+          },
+          "tasks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DailyLearningTask"
+            },
+            "minItems": 1,
+            "maxItems": 30
+          },
+          "completedAt": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          }
+        },
+        "required": [
+          "id",
+          "language",
+          "startedAt",
+          "minutes",
+          "purpose",
+          "tasks"
+        ],
+        "description": "Sum of estimated task minutes <= selected budget. Queue identity, language, purpose, budget and task contents are immutable. One unfinished plan per language. completedAt requires all tasks completed or explicitly skipped; weekly completed count excludes skipped plans."
+      },
+      "LearningDifficultySignal": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "lessonId": {
+            "type": "string"
+          },
+          "at": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          },
+          "value": {
+            "enum": ["easy", "hard"]
+          }
+        },
+        "required": ["id", "lessonId", "at", "value"]
+      },
+      "LearningWorkbench": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "const": 1
+          },
+          "preferences": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "$ref": "#/components/schemas/LearningPreference"
+              },
+              "zh": {
+                "$ref": "#/components/schemas/LearningPreference"
+              },
+              "ja": {
+                "$ref": "#/components/schemas/LearningPreference"
+              },
+              "ko": {
+                "$ref": "#/components/schemas/LearningPreference"
+              },
+              "es": {
+                "$ref": "#/components/schemas/LearningPreference"
+              }
+            }
+          },
+          "rounds": {
+            "type": "array",
+            "maxItems": 3000,
+            "items": {
+              "$ref": "#/components/schemas/LearningActivityRound"
+            }
+          },
+          "draft": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/LearningActivityDraft"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "days": {
+            "type": "array",
+            "maxItems": 500,
+            "items": {
+              "$ref": "#/components/schemas/DailyLearningSession"
+            }
+          },
+          "difficulty": {
+            "type": "array",
+            "maxItems": 2000,
+            "items": {
+              "$ref": "#/components/schemas/LearningDifficultySignal"
+            }
+          },
+          "words": {
+            "type": "array",
+            "maxItems": 500,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "description": "Known r:<graded-text-id>:<word-index> key."
+            }
+          }
+        },
+        "required": [
+          "version",
+          "preferences",
+          "rounds",
+          "draft",
+          "days",
+          "difficulty",
+          "words"
+        ],
+        "description": "Optional v1 extension within the existing 5 MB journal. Round, signal and plan IDs are unique across this extension and legacy events/reviews/reviewDraft. Rounds/signals append immutably; draft checked prefixes cannot change. Preferences and saved contextual words can be updated. No self-rating changes an exam score or grants entitlement."
+      },
+      "LearningFeedback": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^feedback-[a-zA-Z0-9-]{1,80}$"
+          },
+          "startedAt": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          },
+          "status": {
+            "const": "finished"
+          },
+          "question": {
+            "type": "string",
+            "maxLength": 200,
+            "description": "Known g:lesson:index, v:word, r:text:index, x:activity-question, a:assessment-item, e:paper:question or i:IELTS-question/task."
+          },
+          "reason": {
+            "enum": ["answer", "explanation", "difficulty"]
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 500,
+            "description": "Optional details represented by an empty string; trimmed on save."
+          }
+        },
+        "required": ["id", "startedAt", "status", "question", "reason", "note"]
+      },
+      "SavedLearningFeedback": {
+        "type": "object",
+        "properties": {
+          "session": {
+            "$ref": "#/components/schemas/LearningFeedback"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "updatedAt": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Unix milliseconds, <= server time + 30 seconds."
+          }
+        },
+        "required": ["session", "revision", "updatedAt"]
+      }
+    },
+    "parameters": {
+      "ExpectedAccount": {
+        "name": "X-LingoLearn-Account",
+        "in": "header",
+        "required": false,
+        "schema": {
+          "type": "string"
+        },
+        "description": "The W-ID subject verified by the originating browser tab. If supplied, it must match the current session cookie; an account change returns 403 and preserves the browser copy."
+      }
+    }
+  }
+}

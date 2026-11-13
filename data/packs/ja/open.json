@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ja-spk-001",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.2,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "日本語で自己紹介してください（名前、出身、趣味）。約1分。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-wri-002",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.35,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "150字程度で好きな都市を説明し、理由を書いてください。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-spk-003",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.5,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "日本語を学ぶ理由と使用経験を説明してください。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-wri-004",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.6499999999999999,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "200字程度でオンライン学習の利点と欠点を述べてください。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-spk-005",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.8,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "地域のお祭りや行事に参加した経験について話してください（いつ・何をしたか・感想）。約1〜2分。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-spk-006",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.95,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "電車のマナーについて、あなたが大切だと思うことを二つ挙げ、理由とともに話してください。約2分。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-wri-007",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.0999999999999999,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "200字程度で、あなたの故郷を訪ねる友人への手紙を書き、おすすめの場所・行き方・注意点を紹介してください。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-wri-008",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.25,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "250字程度で「高齢化が進む地域で若者の参加を促すにはどうすればよいか」について、二つの提案と予想される課題を論じてください。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-spk-009",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.4,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "旅行当日の朝、予約していた列車が運休になりました。友人と高速バスで行くか、旅行を翌週に延期するか相談します。費用と予定への影響を比べ、自分の提案を二分程度で説明してください。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  },
+  {
+    "id": "ja-wri-010",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.5499999999999998,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "大学が共同自習室を予約制にする案を検討しています。学生の立場から、予約制の利点と問題点を挙げ、公平に利用できる具体的なルールを提案する意見文を400字程度で書いてください。",
+    "rubric": "Score 0.0–1.0 (task, coherence, range, accuracy). Brief feedback in Japanese."
+  }
+]

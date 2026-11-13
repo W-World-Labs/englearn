@@ -1,0 +1,563 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "LingoLearn TOPIK, HSK and JLPT practice records API",
+    "version": "1.3.2",
+    "description": "Additive account API for original short practice papers. W-ID sub owns all records; platform administrator status grants no cross-account access. History is filtered by family. Clients must tolerate unknown response fields. This does not change the IELTS API or W-ID contract. JLPT numbered choices display as 1–4 but retain A–D answer values in storage, like other multiple-choice papers. Account-scoped browser clients send X-LingoLearn-Account; when present it must match the verified W-ID subject or the request returns 403 before reading or writing records. Cookie-only clients remain supported."
+  },
+  "paths": {
+    "/api/exams/{family}/attempts": {
+      "get": {
+        "operationId": "getLanguagePracticeAttempts",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Retrieve one owned attempt. When provided, pagination is ignored."
+          },
+          {
+            "in": "query",
+            "name": "draftId",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Include an owned browser draft when listing."
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            }
+          },
+          {
+            "in": "query",
+            "name": "pageSize",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Owned attempt or paginated history, newest startedAt first. Expired deadlines are reconciled. Cache-Control: private, no-store; Vary: Cookie.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/AttemptResponse"
+                    },
+                    {
+                      "$ref": "#/components/schemas/History"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "404": {
+            "description": "No matching record owned by this account."
+          },
+          "503": {
+            "description": "Storage unavailable; do not treat as empty history."
+          },
+          "403": {
+            "description": "The expected account does not match the verified session subject. No account record is read or written."
+          }
+        }
+      },
+      "post": {
+        "operationId": "saveLanguagePracticeAttempt",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "description": "Create with revision null, update with last acknowledged revision. Identical retries are idempotent. Completed attempts and previously submitted sections are immutable. Owner is derived solely from the session cookie. Requests with an Origin must match this application. Paper and mode are immutable. Timers cannot be extended. Multiple sections completed between acknowledged saves may be submitted together, with their deadline capped by the previously saved remaining time budget. Only objective practice accuracy is computed in the client, never official scores.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["session", "revision"],
+                "properties": {
+                  "session": {
+                    "$ref": "#/components/schemas/ExamSession"
+                  },
+                  "revision": {
+                    "type": ["integer", "null"],
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Atomically saved or identical retry acknowledged.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AttemptResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid JSON, session, revision or timing."
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "description": "Origin mismatch. The expected account does not match the verified session subject. No account record is read or written."
+          },
+          "409": {
+            "description": "Revision conflict or submitted record. Preserve browser answers; ask the learner to resolve. Response includes the existing account attempt.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/AttemptResponse"
+                    },
+                    {
+                      "type": "object",
+                      "required": ["error"],
+                      "properties": {
+                        "error": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds 512000 bytes."
+          },
+          "415": {
+            "description": "Content-Type must be application/json."
+          },
+          "503": {
+            "description": "Save unavailable; preserve the browser copy and offer retry."
+          },
+          "404": {
+            "description": "Unsupported exam family."
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ]
+      },
+      "parameters": [
+        {
+          "in": "path",
+          "name": "family",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "enum": ["topik", "hsk", "jlpt"]
+          },
+          "description": "Supported practice families; other values return 404."
+        }
+      ]
+    },
+    "/api/exams/audio": {
+      "parameters": [
+        {
+          "in": "query",
+          "name": "paperId",
+          "required": true,
+          "schema": {
+            "type": "string"
+          },
+          "description": "Bundled practice paper ID, or hsk-check-v1 / topik-check-v1 / jlpt-check-v1 for headphone checks."
+        },
+        {
+          "in": "query",
+          "name": "questionId",
+          "required": true,
+          "schema": {
+            "type": "string"
+          },
+          "description": "A listening question ID belonging to the paper, or sample for headphone checks."
+        }
+      ],
+      "get": {
+        "operationId": "getLanguagePracticeAudio",
+        "description": "Public bundled synthetic MP3 recordings generated from original practice scripts. No runtime calls to a voice provider. Valid paper/question pairs are allowlisted in the asset manifest. Byte ranges support seeking; Cache-Control public, max-age=86400.",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Range",
+            "schema": {
+              "type": "string"
+            },
+            "example": "bytes=1000-1999"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Complete audio/mpeg with Content-Length and Accept-Ranges: bytes."
+          },
+          "206": {
+            "description": "Partial audio/mpeg with Content-Range and Content-Length."
+          },
+          "404": {
+            "description": "Unknown paper/question pair."
+          },
+          "416": {
+            "description": "Invalid or unsatisfiable byte range."
+          },
+          "503": {
+            "description": "Bundled audio unavailable; playback must show an error and offer retry."
+          }
+        }
+      },
+      "head": {
+        "operationId": "headLanguagePracticeAudio",
+        "responses": {
+          "200": {
+            "description": "Audio length and range capability; no body."
+          },
+          "404": {
+            "description": "Unknown paper/question pair."
+          },
+          "503": {
+            "description": "Bundled audio unavailable."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "sessionCookie": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "lingolearn_session",
+        "description": "HttpOnly W-ID-derived application session. Server validates signature and expiry."
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "W-ID sign-in required or session invalid/expired."
+      }
+    },
+    "schemas": {
+      "ExamSession": {
+        "type": "object",
+        "required": [
+          "id",
+          "paperId",
+          "mode",
+          "startedAt",
+          "deadline",
+          "sectionIndex",
+          "questionIndex",
+          "status",
+          "answers",
+          "flags"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "all",
+              "listening",
+              "reading",
+              "writing",
+              "vocabulary",
+              "grammar_reading",
+              "language_reading"
+            ],
+            "description": "Mode must exist on the paper. JLPT N5–N3: vocabulary, grammar_reading, listening; N2/N1: language_reading, listening. all runs each section in order."
+          },
+          "startedAt": {
+            "type": "number",
+            "description": "Unix milliseconds."
+          },
+          "deadline": {
+            "type": "number",
+            "description": "Current section deadline, Unix milliseconds. Cannot extend an existing section."
+          },
+          "sectionIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2,
+            "description": "Zero-based index among selected sections, bounded by paper and mode; must be the final selected section when finished."
+          },
+          "status": {
+            "enum": ["running", "finished"]
+          },
+          "completedAt": {
+            "type": "number",
+            "description": "Required when finished; Unix milliseconds."
+          },
+          "answers": {
+            "type": "object",
+            "description": "Keys must be question IDs in the selected paper and skills. Choice answers are A/B/C/D as available, or empty. Open writing is ungraded.",
+            "additionalProperties": {
+              "type": "string",
+              "maxLength": 10000
+            }
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Question IDs in the selected paper and skills; duplicates are removed."
+          },
+          "paperId": {
+            "type": "string",
+            "enum": [
+              "hsk-1-01-v1",
+              "hsk-2-01-v1",
+              "hsk-3-01-v1",
+              "hsk-4-01-v1",
+              "hsk-5-01-v1",
+              "hsk-6-01-v1",
+              "hsk-1-02-v1",
+              "hsk-2-02-v1",
+              "hsk-3-02-v1",
+              "hsk-4-02-v1",
+              "hsk-5-02-v1",
+              "hsk-6-02-v1",
+              "topik-i-01-v1",
+              "topik-ii-01-v1",
+              "topik-i-02-v1",
+              "topik-ii-02-v1",
+              "jlpt-n5-01-v1",
+              "jlpt-n4-01-v1",
+              "jlpt-n3-01-v1",
+              "jlpt-n2-01-v1",
+              "jlpt-n1-01-v1",
+              "jlpt-n5-02-v1",
+              "jlpt-n4-02-v1",
+              "jlpt-n3-02-v1",
+              "jlpt-n2-02-v1",
+              "jlpt-n1-02-v1"
+            ],
+            "description": "Must belong to the family in the URL."
+          },
+          "questionIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Zero-based question index within the current section, bounded by that paper."
+          }
+        },
+        "description": "Only declared session fields are persisted; supplied grades, owners and unknown fields are discarded. startedAt cannot exceed server time by over 30 seconds. deadline must not exceed startedAt plus selected paper duration plus 1 second. completedAt must be at least startedAt.",
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "finished"
+                }
+              }
+            },
+            "then": {
+              "required": ["completedAt"]
+            }
+          }
+        ]
+      },
+      "SavedExam": {
+        "type": "object",
+        "required": ["session", "revision", "updatedAt"],
+        "properties": {
+          "session": {
+            "$ref": "#/components/schemas/ExamSession"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "updatedAt": {
+            "type": "number"
+          }
+        }
+      },
+      "AttemptResponse": {
+        "type": "object",
+        "required": ["attempt"],
+        "properties": {
+          "attempt": {
+            "$ref": "#/components/schemas/SavedExam"
+          }
+        }
+      },
+      "Summary": {
+        "type": "object",
+        "required": [
+          "id",
+          "mode",
+          "status",
+          "startedAt",
+          "updatedAt",
+          "revision",
+          "paperId"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "mode": {
+            "enum": [
+              "all",
+              "listening",
+              "reading",
+              "writing",
+              "vocabulary",
+              "grammar_reading",
+              "language_reading"
+            ],
+            "description": "Mode must exist on the paper. JLPT N5–N3: vocabulary, grammar_reading, listening; N2/N1: language_reading, listening. all runs each section in order."
+          },
+          "status": {
+            "enum": ["running", "finished"]
+          },
+          "startedAt": {
+            "type": "number"
+          },
+          "completedAt": {
+            "type": "number"
+          },
+          "updatedAt": {
+            "type": "number"
+          },
+          "revision": {
+            "type": "integer"
+          },
+          "paperId": {
+            "type": "string",
+            "enum": [
+              "hsk-1-01-v1",
+              "hsk-2-01-v1",
+              "hsk-3-01-v1",
+              "hsk-4-01-v1",
+              "hsk-5-01-v1",
+              "hsk-6-01-v1",
+              "hsk-1-02-v1",
+              "hsk-2-02-v1",
+              "hsk-3-02-v1",
+              "hsk-4-02-v1",
+              "hsk-5-02-v1",
+              "hsk-6-02-v1",
+              "topik-i-01-v1",
+              "topik-ii-01-v1",
+              "topik-i-02-v1",
+              "topik-ii-02-v1",
+              "jlpt-n5-01-v1",
+              "jlpt-n4-01-v1",
+              "jlpt-n3-01-v1",
+              "jlpt-n2-01-v1",
+              "jlpt-n1-01-v1",
+              "jlpt-n5-02-v1",
+              "jlpt-n4-02-v1",
+              "jlpt-n3-02-v1",
+              "jlpt-n2-02-v1",
+              "jlpt-n1-02-v1"
+            ],
+            "description": "Must belong to the family in the URL."
+          }
+        }
+      },
+      "History": {
+        "type": "object",
+        "required": [
+          "items",
+          "total",
+          "page",
+          "pageSize",
+          "totalPages",
+          "latest",
+          "draft"
+        ],
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Summary"
+            }
+          },
+          "total": {
+            "type": "integer"
+          },
+          "page": {
+            "type": "integer"
+          },
+          "pageSize": {
+            "type": "integer"
+          },
+          "totalPages": {
+            "type": "integer"
+          },
+          "latest": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/SavedExam"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "draft": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/SavedExam"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "parameters": {
+      "ExpectedAccount": {
+        "name": "X-LingoLearn-Account",
+        "in": "header",
+        "required": false,
+        "schema": {
+          "type": "string"
+        },
+        "description": "The W-ID subject verified by the originating browser tab. If supplied, it must match the current session cookie; an account change returns 403 and preserves the browser copy."
+      }
+    }
+  }
+}

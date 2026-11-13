@@ -1,0 +1,7016 @@
+{
+  "version": "grammar-v1",
+  "license": "CC-BY-SA-4.0",
+  "author": "LingoLearn contributors",
+  "sourceNotice": "Original lessons and exercises. Grammar stages are a teaching sequence, not calibrated proficiency certification.",
+  "lessons": [
+    {
+      "id": "en-be",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "Names, roles and be",
+        "zh": "用 be 介绍身份"
+      },
+      "explanation": {
+        "en": "Use am with I, is with a singular subject, and are with you or a plural subject. Put not after be to make a negative. A profession normally needs a/an in the singular.",
+        "zh": "I 后用 am，单数主语后用 is，you 和复数主语后用 are。否定时在 be 后加 not。单数职业名称前通常需要 a/an。"
+      },
+      "examples": [
+        "I am a nurse.",
+        "The windows are not open."
+      ],
+      "questions": [
+        {
+          "prompt": "I ___ a new student.",
+          "choices": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "My brother ___ a cook.",
+          "choices": [
+            "am",
+            "are",
+            "is"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "We ___ ready to leave.",
+          "choices": [
+            "am",
+            "are",
+            "is"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Choose the correct negative.",
+          "choices": [
+            "She is not tired.",
+            "She not is tired.",
+            "She does not tired."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "en-present-simple",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "Habits and the present simple",
+        "zh": "用一般现在时谈习惯"
+      },
+      "explanation": {
+        "en": "Use the present simple for habits and general facts. Add -s or -es with he, she or it in positive statements. After does not, use the base form, without -s.",
+        "zh": "一般现在时表达习惯和一般事实。肯定句中，he、she、it 后的动词通常加 -s 或 -es；does not 后用动词原形。"
+      },
+      "examples": [
+        "Lena walks to work every day.",
+        "He does not drink coffee."
+      ],
+      "questions": [
+        {
+          "prompt": "Every morning, she ___ the bus.",
+          "choices": [
+            "take",
+            "taking",
+            "takes"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "They ___ near the station.",
+          "choices": [
+            "living",
+            "live",
+            "lives"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "He does not ___ meat.",
+          "choices": [
+            "eat",
+            "eats",
+            "eating"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "The shop ___ at nine every day.",
+          "choices": [
+            "open",
+            "opening",
+            "opens"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "en-questions",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "Ask simple questions",
+        "zh": "一般现在时提问"
+      },
+      "explanation": {
+        "en": "Use do/does before the subject to ask about an action, followed by the base verb. For a sentence with be, move be before the subject instead. Who and what can themselves be subjects.",
+        "zh": "询问动作时，把 do/does 放在主语前，后面的动词用原形。句子已有 be 时，直接把 be 放到主语前。who、what 也可以作主语。"
+      },
+      "examples": [
+        "Does Mina work here?",
+        "Are you hungry?"
+      ],
+      "questions": [
+        {
+          "prompt": "___ you like tea?",
+          "choices": [
+            "Is",
+            "Do",
+            "Does"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "___ your sister play tennis?",
+          "choices": [
+            "Does",
+            "Do",
+            "Are"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Where ___ the library?",
+          "choices": [
+            "do",
+            "does",
+            "is"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Does he ___ English?",
+          "choices": [
+            "speaking",
+            "speak",
+            "speaks"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "en-present-continuous",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "What is happening now?",
+        "zh": "用现在进行时说眼前的事"
+      },
+      "explanation": {
+        "en": "The present continuous is am/is/are + an -ing form. It describes an action in progress or a temporary situation. Compare a regular habit with an action happening right now.",
+        "zh": "现在进行时由 am/is/are 加动词 -ing 形式构成，表示正在发生的动作或临时情况。注意区分经常做的事与此刻正在做的事。"
+      },
+      "examples": [
+        "I usually cycle, but today I am walking.",
+        "They are cooking dinner now."
+      ],
+      "questions": [
+        {
+          "prompt": "Look! The dog ___ in the river.",
+          "choices": [
+            "is swimming",
+            "swim",
+            "are swimming"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "We ___ for the train right now.",
+          "choices": [
+            "is waiting",
+            "waits",
+            "are waiting"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "I ___ a message at the moment.",
+          "choices": [
+            "writes",
+            "am writing",
+            "is writing"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Choose the complete progressive form.",
+          "choices": [
+            "She is reading.",
+            "She reading.",
+            "She is read."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "en-past-simple",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "Finished events in the past",
+        "zh": "用一般过去时叙述往事"
+      },
+      "explanation": {
+        "en": "Use a past form for a completed event at a finished past time. Regular verbs often end in -ed; common verbs may be irregular. After did or did not, return to the base form.",
+        "zh": "发生在已结束时间里的事件用过去式。规则动词常加 -ed，也有不规则过去式。did 或 did not 后仍用动词原形。"
+      },
+      "examples": [
+        "We visited the museum yesterday.",
+        "Did you see the rainbow?"
+      ],
+      "questions": [
+        {
+          "prompt": "Yesterday we ___ to the park.",
+          "choices": [
+            "go",
+            "gone",
+            "went"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "She ___ the door five minutes ago.",
+          "choices": [
+            "opening",
+            "opened",
+            "open"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Did they ___ on time?",
+          "choices": [
+            "arrive",
+            "arrived",
+            "arriving"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "I did not ___ the email yesterday.",
+          "choices": [
+            "sent",
+            "sending",
+            "send"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "en-articles",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "A, an and the",
+        "zh": "冠词 a、an 和 the"
+      },
+      "explanation": {
+        "en": "Use a/an for one non-specific countable thing. Choose an before a vowel sound, not merely a vowel letter. Use the when the listener can identify which thing you mean.",
+        "zh": "a/an 用于一个尚未特指的可数事物。元音音素前用 an，判断依据是发音，不只是字母。听者能确定所指事物时常用 the。"
+      },
+      "examples": [
+        "She bought an umbrella.",
+        "I saw a dog. The dog followed me."
+      ],
+      "questions": [
+        {
+          "prompt": "Choose a/an for one non-specific object: I need ___ umbrella.",
+          "choices": [
+            "some",
+            "an",
+            "a"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "He works at ___ university.",
+          "choices": [
+            "a",
+            "an",
+            "many"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Refer back to the same cat: I saw a cat. ___ cat was sleeping.",
+          "choices": [
+            "A",
+            "An",
+            "The"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "She waited for ___ hour.",
+          "choices": [
+            "many",
+            "an",
+            "a"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "en-countability",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "Countable and uncountable nouns",
+        "zh": "可数与不可数名词"
+      },
+      "explanation": {
+        "en": "Countable nouns have singular and plural forms. Uncountable nouns such as information, rice and advice do not normally take a/an or plural -s in these meanings. Use many with plural countable nouns and much with uncountable nouns.",
+        "zh": "可数名词有单复数。information、rice、advice 等在常见含义下不可数，不直接加 a/an 或复数 -s。many 修饰复数可数名词，much 修饰不可数名词。"
+      },
+      "examples": [
+        "How many bags do you have?",
+        "We do not have much time."
+      ],
+      "questions": [
+        {
+          "prompt": "How ___ chairs do we need?",
+          "choices": [
+            "many",
+            "much",
+            "a"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "There is not ___ water left.",
+          "choices": [
+            "many",
+            "a",
+            "much"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "She gave me some useful ___.",
+          "choices": [
+            "an advice",
+            "advice",
+            "advices"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "I bought three ___.",
+          "choices": [
+            "apples",
+            "apple",
+            "an apple"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "en-time-prepositions",
+      "language": "en",
+      "stage": "foundation",
+      "title": {
+        "en": "At, on and in for time",
+        "zh": "时间介词 at、on、in"
+      },
+      "explanation": {
+        "en": "Use at with clock times, on with days or dates, and in with months, years or longer periods. Expressions such as next Monday and last year normally have no time preposition.",
+        "zh": "钟点前用 at，星期或日期前用 on，月份、年份等较长时间前用 in。next Monday、last year 等表达前通常不用时间介词。"
+      },
+      "examples": [
+        "The lesson starts at seven.",
+        "We met in June."
+      ],
+      "questions": [
+        {
+          "prompt": "The train leaves ___ 8:30.",
+          "choices": [
+            "on",
+            "in",
+            "at"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Her birthday is ___ July.",
+          "choices": [
+            "on",
+            "in",
+            "at"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "We have a lesson ___ Friday.",
+          "choices": [
+            "on",
+            "in",
+            "at"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Choose the usual expression.",
+          "choices": [
+            "See you on next Monday.",
+            "See you in next Monday.",
+            "See you next Monday."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "en-present-perfect",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "Present perfect and past time",
+        "zh": "现在完成时与过去时间"
+      },
+      "explanation": {
+        "en": "Use have/has + past participle to connect a past event or continuing situation to now. For an event with a finished time such as yesterday, normally use the past simple. Since gives a starting point; for gives a duration.",
+        "zh": "现在完成时由 have/has 加过去分词构成，把过去的经历或持续状态与现在联系起来。yesterday 等已结束时间通常搭配一般过去时。since 表起点，for 表时长。"
+      },
+      "examples": [
+        "I have lived here for five years, and I still live here.",
+        "She arrived yesterday."
+      ],
+      "questions": [
+        {
+          "prompt": "I have known him ___ 2020.",
+          "choices": [
+            "during",
+            "since",
+            "for"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "They have lived here ___ six months.",
+          "choices": [
+            "for",
+            "since",
+            "ago"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "She has never ___ a camel.",
+          "choices": [
+            "rode",
+            "ride",
+            "ridden"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "We ___ that film yesterday.",
+          "choices": [
+            "have saw",
+            "saw",
+            "have seen"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "en-past-continuous",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "Background and interruption",
+        "zh": "过去进行时与背景动作"
+      },
+      "explanation": {
+        "en": "Use was/were + -ing for an action in progress at a past moment. The past simple can identify an event that interrupted it. The form agrees with the subject: I/he/she was; you/we/they were.",
+        "zh": "was/were 加 -ing 表示过去某时正在进行的动作。一般过去时可以表达期间突然发生的事件。注意 was 和 were 与主语的一致关系。"
+      },
+      "examples": [
+        "I was cooking when the phone rang.",
+        "They were talking at ten last night."
+      ],
+      "questions": [
+        {
+          "prompt": "At eight last night, we ___ dinner.",
+          "choices": [
+            "were eating",
+            "was eating",
+            "eating"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "She ___ when the alarm rang.",
+          "choices": [
+            "were sleeping",
+            "sleep",
+            "was sleeping"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "While I was walking home, I ___ my neighbour.",
+          "choices": [
+            "meeting",
+            "met",
+            "meet"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "The children ___ playing when I arrived.",
+          "choices": [
+            "were",
+            "was",
+            "is"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "en-future-forms",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "Ways to talk about the future",
+        "zh": "表达将来的几种结构"
+      },
+      "explanation": {
+        "en": "Will takes a base verb. Be going to takes a base verb too, and be agrees with the subject. The present continuous can express an arrangement. After when or as soon as in a future time clause, normally use a present form rather than will.",
+        "zh": "will 和 be going to 后接动词原形，后者的 be 随主语变化。现在进行时也能表达已安排的将来事项。表示将来的 when、as soon as 时间从句通常用现在时，不用 will。"
+      },
+      "examples": [
+        "I will call you when I arrive.",
+        "We are meeting the team tomorrow."
+      ],
+      "questions": [
+        {
+          "prompt": "She will ___ you tomorrow.",
+          "choices": [
+            "calls",
+            "calling",
+            "call"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "They ___ going to move next month.",
+          "choices": [
+            "am",
+            "are",
+            "is"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "I will text you when I ___.",
+          "choices": [
+            "arrive",
+            "will arrive",
+            "arriving"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "We are ___ the doctor at ten tomorrow.",
+          "choices": [
+            "see",
+            "saw",
+            "seeing"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "en-modals",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "Obligation and permission",
+        "zh": "义务、禁止与许可"
+      },
+      "explanation": {
+        "en": "Must and can are followed by a base verb. Must not means prohibition; do not have to means there is no obligation. Have to changes with the subject and time, unlike must.",
+        "zh": "must、can 后接动词原形。must not 表示禁止；do not have to 表示不必，两者含义不同。have to 会随主语、时态变化。"
+      },
+      "examples": [
+        "You must not park here.",
+        "It is optional: you do not have to attend."
+      ],
+      "questions": [
+        {
+          "prompt": "You must ___ a ticket before boarding.",
+          "choices": [
+            "buying",
+            "buy",
+            "to buy"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Attendance is optional. You ___ come.",
+          "choices": [
+            "do not have to",
+            "must not",
+            "cannot"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "It is forbidden. You ___ smoke here.",
+          "choices": [
+            "do not have to",
+            "need not",
+            "must not"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "She ___ to wear a uniform at work.",
+          "choices": [
+            "having",
+            "has",
+            "have"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "en-comparison",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "Comparing people and things",
+        "zh": "比较级与最高级"
+      },
+      "explanation": {
+        "en": "Use -er or more for a comparative, not both together. Use than to introduce the second term. As ... as expresses equality. Superlatives often use the before the adjective.",
+        "zh": "比较级使用 -er 或 more，不要叠加。比较对象由 than 引出。as ... as 表示同等程度；最高级前常用 the。"
+      },
+      "examples": [
+        "This bag is lighter than mine.",
+        "Her answer is more detailed."
+      ],
+      "questions": [
+        {
+          "prompt": "This route is ___ than the old one.",
+          "choices": [
+            "shorter",
+            "more shorter",
+            "shortest"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "My room is as large ___ yours.",
+          "choices": [
+            "than",
+            "that",
+            "as"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "It is the ___ building in the town.",
+          "choices": [
+            "most tall than",
+            "tallest",
+            "taller"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Her explanation is ___ than mine.",
+          "choices": [
+            "more useful",
+            "usefuller than",
+            "most useful"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "en-conditionals",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "Real and imagined conditions",
+        "zh": "真实与假设条件句"
+      },
+      "explanation": {
+        "en": "A common first conditional uses if + present and will + base verb for a possible future. A second conditional uses a past form and would + base verb for an imagined present or future. Would normally belongs in the result clause, not the if clause.",
+        "zh": "常见第一条件句用 if 加现在时、主句用 will 加原形，表达可能发生的将来情况。第二条件句用过去式和 would 加原形表达现在或将来的假设。would 通常放在结果从句。"
+      },
+      "examples": [
+        "If it rains, we will stay inside.",
+        "If I had a garden, I would grow tomatoes."
+      ],
+      "questions": [
+        {
+          "prompt": "If it ___ tomorrow, we will cancel the picnic.",
+          "choices": [
+            "will rain",
+            "raining",
+            "rains"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "If I had more time, I ___ a language.",
+          "choices": [
+            "would learned",
+            "would learn",
+            "will learned"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "If she calls, I ___ you.",
+          "choices": [
+            "will tell",
+            "would told",
+            "telling"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "If I ___ you, I would apologise.",
+          "choices": [
+            "am",
+            "will be",
+            "were"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "en-passive",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "Focus on the action: the passive",
+        "zh": "被动语态突出动作对象"
+      },
+      "explanation": {
+        "en": "The passive uses be + past participle. Change be to express tense and agreement. The person doing the action can be added with by, but need not be mentioned when unknown or unimportant.",
+        "zh": "被动语态由 be 加过去分词构成，be 体现时态和主谓一致。动作执行者可以用 by 引出；不清楚或不重要时可以省略。"
+      },
+      "examples": [
+        "The bridge was built in 1998.",
+        "These rooms are cleaned every day."
+      ],
+      "questions": [
+        {
+          "prompt": "The letter was ___ yesterday.",
+          "choices": [
+            "sending",
+            "sent",
+            "send"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "These cars ___ made in Japan.",
+          "choices": [
+            "are",
+            "is",
+            "be"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "The window was broken ___ a falling branch.",
+          "choices": [
+            "from",
+            "of",
+            "by"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "The documents will ___ tomorrow.",
+          "choices": [
+            "be check",
+            "be checked",
+            "checked"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "en-relative-clauses",
+      "language": "en",
+      "stage": "intermediate",
+      "title": {
+        "en": "Add information with relative clauses",
+        "zh": "用定语从句补充信息"
+      },
+      "explanation": {
+        "en": "Who refers to people, which to things, and whose introduces possession. A defining clause identifies the noun; a non-defining clause adds extra information and is separated with commas. Do not use that directly after a comma in a non-defining clause.",
+        "zh": "who 指人，which 指物，whose 表所属。限制性定语从句用于确定对象；非限制性从句补充信息，用逗号隔开，逗号后通常不用 that。"
+      },
+      "examples": [
+        "The woman whose bike was stolen called the police.",
+        "My car, which is ten years old, still runs well."
+      ],
+      "questions": [
+        {
+          "prompt": "The student ___ won the prize is here.",
+          "choices": [
+            "who",
+            "which",
+            "whose"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "The writer ___ book I read lives nearby.",
+          "choices": [
+            "who",
+            "which",
+            "whose"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "The cafe, ___ opened last week, is busy.",
+          "choices": [
+            "what",
+            "which",
+            "that"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "That is the tool ___ I need.",
+          "choices": [
+            "which",
+            "who",
+            "whose"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "en-mixed-conditionals",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Past causes, present results",
+        "zh": "混合条件句的时间关系"
+      },
+      "explanation": {
+        "en": "A mixed conditional can connect an unreal past cause (if + had + past participle) with an unreal present result (would + base verb). A past result instead uses would have + past participle. Choose forms by the intended time, not by mechanically pairing every clause.",
+        "zh": "混合条件句可用 if 加过去完成时表达未发生的过去原因，主句用 would 加原形表达现在结果。若结果也在过去，则用 would have 加过去分词。应先判断两部分各自的时间。"
+      },
+      "examples": [
+        "If I had taken that job, I would live abroad now.",
+        "If she had called earlier, we would have waited."
+      ],
+      "questions": [
+        {
+          "prompt": "If I had slept well, I ___ so tired now.",
+          "choices": [
+            "would not have been",
+            "will not be",
+            "would not be"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "If they had left earlier, they ___ the train yesterday.",
+          "choices": [
+            "will catch",
+            "would have caught",
+            "would catch"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "If he ___ the map, he would know where we are now.",
+          "choices": [
+            "had studied",
+            "would study",
+            "has studied"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "If I were better at cooking, I ___ a cake for yesterday’s party.",
+          "choices": [
+            "will bake",
+            "would bake",
+            "would have baked"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "en-inversion",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Emphasis with inversion",
+        "zh": "倒装结构与强调"
+      },
+      "explanation": {
+        "en": "After a fronted negative or restrictive expression such as never, rarely or only then, put the auxiliary before the subject. Add do/does/did when the normal sentence has no auxiliary. Not until also triggers inversion in the main clause.",
+        "zh": "never、rarely、only then 等否定或限制性表达前置时，助动词放在主语前。原句没有助动词时补 do/does/did。not until 前置后，主句也用部分倒装。"
+      },
+      "examples": [
+        "Never have I seen such a sky.",
+        "Only then did we understand."
+      ],
+      "questions": [
+        {
+          "prompt": "Rarely ___ such care.",
+          "choices": [
+            "I seen have",
+            "have I seen",
+            "I have seen"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Only then ___ the mistake.",
+          "choices": [
+            "did she notice",
+            "she did noticed",
+            "she noticed did"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Not until midnight ___ home.",
+          "choices": [
+            "he returned",
+            "returned he did",
+            "did he return"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Never ___ this rule.",
+          "choices": [
+            "you ignore should",
+            "should you ignore",
+            "you should ignore"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "en-clefts",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Highlight the important information",
+        "zh": "分裂句聚焦重点"
+      },
+      "explanation": {
+        "en": "An it-cleft uses It is/was + focused information + that/who + the rest of the clause. A wh-cleft often begins with What ... and follows it with be. Keep the rest of the sentence grammatically complete after moving the focus.",
+        "zh": "it 分裂句用 It is/was 加强调成分，再接 that/who 从句。wh 分裂句常用 What ... 作主语，后接 be。改变焦点后仍要保持句子结构完整。"
+      },
+      "examples": [
+        "It was the noise that woke me.",
+        "What we need is more time."
+      ],
+      "questions": [
+        {
+          "prompt": "It was Maria ___ solved the problem.",
+          "choices": [
+            "who",
+            "whose",
+            "which"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What I need ___ a quiet room.",
+          "choices": [
+            "are",
+            "have",
+            "is"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "It was yesterday ___ we received the news.",
+          "choices": [
+            "which is",
+            "that",
+            "what"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Choose the well-formed cleft.",
+          "choices": [
+            "It was the wind that broke the branch.",
+            "It the wind was broke the branch.",
+            "It was the wind what break the branch."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "en-participle-clauses",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Concise clauses and clear subjects",
+        "zh": "分词结构与逻辑主语"
+      },
+      "explanation": {
+        "en": "A participle clause normally shares its understood subject with the main clause. An -ing form often has active meaning; a past participle often has passive meaning. Having + past participle marks an action completed before the main action.",
+        "zh": "分词结构的隐含主语通常应与主句主语一致。-ing 形式常表主动，过去分词常表被动。having 加过去分词表示先于主句完成的动作。"
+      },
+      "examples": [
+        "Having checked the address, I posted the letter.",
+        "Built of stone, the house stays cool."
+      ],
+      "questions": [
+        {
+          "prompt": "___ the report, she sent it to her manager.",
+          "choices": [
+            "Have finished",
+            "Has finishing",
+            "Having finished"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "___ by the noise, the baby woke up.",
+          "choices": [
+            "Disturb",
+            "Disturbed",
+            "Disturbing"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Choose the sentence with a clear shared subject.",
+          "choices": [
+            "Walking home, I noticed the stars.",
+            "Walking home, the stars looked bright.",
+            "Walking home, the sky was dark."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "The samples, ___ at low temperature, remained stable.",
+          "choices": [
+            "storing",
+            "store",
+            "stored"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "en-reporting-passive",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Report claims cautiously",
+        "zh": "报道型被动结构"
+      },
+      "explanation": {
+        "en": "Reporting passives separate a reported claim from the writer’s own assertion: It is believed that ... or The person is believed to ... . Use to have + past participle when the reported action happened before the reporting time.",
+        "zh": "It is believed that ... 或主语加 is believed to ... 用于表明这是他人的说法。若被报道的动作早于报道时点，不定式可用 to have 加过去分词。"
+      },
+      "examples": [
+        "The painting is believed to be genuine.",
+        "The suspect is reported to have left yesterday."
+      ],
+      "questions": [
+        {
+          "prompt": "The artist is believed ___ abroad.",
+          "choices": [
+            "live",
+            "to live",
+            "living"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "He is reported ___ the country last week.",
+          "choices": [
+            "to have left",
+            "to leaving",
+            "have leave"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "It is said ___ the building is unsafe.",
+          "choices": [
+            "what",
+            "to",
+            "that"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "The documents are thought to have been ___.",
+          "choices": [
+            "destroying",
+            "destroyed",
+            "destroy"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "en-modal-perfect",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Reasoning about the past",
+        "zh": "情态动词推测过去"
+      },
+      "explanation": {
+        "en": "Use modal + have + past participle to reason about a past event. Must have expresses a strong positive inference; cannot have expresses a strong negative inference. Might have leaves the possibility open. Should have can express an unmet expectation or criticism.",
+        "zh": "情态动词加 have 加过去分词可推测过去。must have 表强肯定推断，cannot have 表强否定推断，might have 表可能。should have 也可表示未实现的期待或批评。"
+      },
+      "examples": [
+        "The floor is wet; someone must have spilled water.",
+        "You should have told me earlier."
+      ],
+      "questions": [
+        {
+          "prompt": "She must have ___ the message.",
+          "choices": [
+            "seen",
+            "saw",
+            "see"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "It is possible that he forgot. He ___ forgotten.",
+          "choices": [
+            "must to have",
+            "might has",
+            "might have"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "You should ___ checked the address.",
+          "choices": [
+            "has",
+            "have",
+            "had"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "They cannot have ___ here: the door was locked.",
+          "choices": [
+            "been",
+            "was",
+            "be"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "en-mandative",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Recommendations and the subjunctive",
+        "zh": "建议要求中的虚拟语气"
+      },
+      "explanation": {
+        "en": "After expressions such as recommend that or essential that, formal English can use a base-form subjunctive: she be, he attend. It does not add third-person -s. Should + base verb is another common pattern, especially in British English.",
+        "zh": "recommend that、essential that 等后面，正式英语可用动词原形的虚拟语气，例如 she be、he attend，不加第三人称 -s。英式英语也常用 should 加原形。"
+      },
+      "examples": [
+        "They recommended that he attend the meeting.",
+        "It is essential that everyone be informed."
+      ],
+      "questions": [
+        {
+          "prompt": "Use the base-form subjunctive: They insist that she ___ present.",
+          "choices": [
+            "is",
+            "was",
+            "be"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Use the base-form subjunctive: I suggest that he ___ again.",
+          "choices": [
+            "tried",
+            "try",
+            "tries"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "It is vital that the file should ___ backed up.",
+          "choices": [
+            "be",
+            "is",
+            "being"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Choose the base-form subjunctive.",
+          "choices": [
+            "They asked that he does not discloses the result.",
+            "They asked that he not disclosed the result.",
+            "They asked that he not disclose the result."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "en-cohesion",
+      "language": "en",
+      "stage": "advanced",
+      "title": {
+        "en": "Connect contrasting ideas",
+        "zh": "让转折关系更清楚"
+      },
+      "explanation": {
+        "en": "Although introduces a clause with a subject and verb. Despite normally takes a noun or -ing form, or the phrase the fact that + clause. However is a linking adverb; it does not by itself join two independent clauses with only a comma.",
+        "zh": "although 后接有主语和谓语的从句。despite 后常接名词或 -ing 形式，也可接 the fact that 从句。however 是连接副词，不能仅靠它和一个逗号拼接两个独立分句。"
+      },
+      "examples": [
+        "Although it was cold, we went outside.",
+        "It was cold. However, we went outside."
+      ],
+      "questions": [
+        {
+          "prompt": "___ the rain, the match continued.",
+          "choices": [
+            "Even though",
+            "Despite",
+            "Although"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "___ it was raining, they kept working.",
+          "choices": [
+            "Although",
+            "Despite",
+            "In spite"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Despite ___ tired, she finished the task.",
+          "choices": [
+            "she was",
+            "be",
+            "being"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Choose the correctly punctuated contrast.",
+          "choices": [
+            "The plan was costly however it worked.",
+            "The plan was costly; however, it worked.",
+            "The plan was costly, however it worked."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "zh-identity",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "Introduce people with 是",
+        "zh": "用“是”介绍身份"
+      },
+      "explanation": {
+        "en": "Use 是 to connect a person with a noun describing identity. Negate it with 不是. An adjective predicate such as 很忙 usually does not need 是.",
+        "zh": "“是”连接人物和身份名词；否定用“不是”。“很忙”这类形容词谓语通常不需要“是”。"
+      },
+      "examples": [
+        "她是老师。",
+        "我不是医生。"
+      ],
+      "questions": [
+        {
+          "prompt": "用“是”介绍她的职业：她___一名护士。",
+          "choices": [
+            "是",
+            "有",
+            "在"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "请选择“是”的否定形式。",
+          "choices": [
+            "没是",
+            "无是",
+            "不是"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "不表示强调，只用形容词作谓语，哪句合适？",
+          "choices": [
+            "我有很忙。",
+            "我很忙。",
+            "我是很忙。"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "这是___书，不是我的。",
+          "choices": [
+            "他的",
+            "他是",
+            "他在"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-possession",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "Having and not having",
+        "zh": "“有”和“没有”"
+      },
+      "explanation": {
+        "en": "有 expresses possession or existence. Its ordinary negative is 没有, not 不有. A location can come first to introduce something present there.",
+        "zh": "“有”表达拥有或存在，通常用“没有”否定。地点放在前面时，可以介绍那里有什么。"
+      },
+      "examples": [
+        "我有两本书。",
+        "桌子上没有杯子。"
+      ],
+      "questions": [
+        {
+          "prompt": "我___一个妹妹。",
+          "choices": [
+            "是",
+            "在",
+            "有"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "今天我___时间。",
+          "choices": [
+            "不是有",
+            "没有",
+            "不有"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "桌子上___一杯茶。",
+          "choices": [
+            "有",
+            "是",
+            "在"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "你___词典吗？",
+          "choices": [
+            "是",
+            "很",
+            "有"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "zh-questions",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "Yes/no questions with 吗",
+        "zh": "用“吗”提问"
+      },
+      "explanation": {
+        "en": "Add 吗 to a statement to form a yes/no question. Do not normally add 吗 to an A-not-A question such as 是不是. Questions with 谁 or 什么 already contain a question word.",
+        "zh": "在陈述句末加“吗”可构成是非问。“是不是”等正反问一般不再加“吗”；“谁、什么”等疑问词也已表达提问。"
+      },
+      "examples": [
+        "你喜欢喝茶吗？",
+        "他是不是老师？"
+      ],
+      "questions": [
+        {
+          "prompt": "用“吗”构成普通的是非问：你会说中文___？",
+          "choices": [
+            "吧",
+            "吗",
+            "的"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "请选择普通的是非问。",
+          "choices": [
+            "你是学生吗？",
+            "你是学生谁？",
+            "你是学生什么？"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "请选择自然的正反问。",
+          "choices": [
+            "你是老师的。",
+            "你是老师。",
+            "你是不是老师？"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "“你叫什么名字？”里的疑问词是___。",
+          "choices": [
+            "你",
+            "什么",
+            "名字"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "zh-classifiers",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "Numbers and measure words",
+        "zh": "数词与量词"
+      },
+      "explanation": {
+        "en": "A number normally comes before a measure word and a noun: 三本书. Common pairings include 本 for books, 张 for flat sheets and 把 for many handled objects such as umbrellas. These pairings need to be learned with the noun.",
+        "zh": "数词、量词、名词通常依次排列，如“三本书”。书常用“本”，纸常用“张”，伞常用“把”。学习名词时最好一起记常用量词。"
+      },
+      "examples": [
+        "两本词典",
+        "三张纸"
+      ],
+      "questions": [
+        {
+          "prompt": "我买了两___书。",
+          "choices": [
+            "本",
+            "张",
+            "把"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "请给我一___纸。",
+          "choices": [
+            "本",
+            "条",
+            "张"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "门口有一___伞。",
+          "choices": [
+            "张",
+            "把",
+            "本"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "请选择常用的说法。",
+          "choices": [
+            "三个苹果",
+            "三本苹果",
+            "三张苹果"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-completion",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "Completed actions with 了",
+        "zh": "动作完成与“了”"
+      },
+      "explanation": {
+        "en": "了 after a verb can mark a completed action; it is not a general past-tense ending. 没有 negates a completed action and normally removes this verb-final 了. Sentence-final 了 can instead signal a changed situation.",
+        "zh": "动词后的“了”可以表示动作完成，并不是通用的过去时词尾。用“没有”否定动作完成时，通常去掉这一“了”。句末“了”也可表示情况变化。"
+      },
+      "examples": [
+        "我昨天买了一本书。",
+        "我昨天没有买书。"
+      ],
+      "questions": [
+        {
+          "prompt": "请选择表示完成的句子。",
+          "choices": [
+            "我正在看一部电影。",
+            "我明天想看电影。",
+            "我看了一部电影。"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "否定“他吃了早饭”所说的已完成动作，应选哪句？",
+          "choices": [
+            "他明天不吃早饭。",
+            "他没有吃早饭。",
+            "他没有吃了早饭。"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "“天黑了”中的“了”主要表示___。",
+          "choices": [
+            "情况变化",
+            "物品数量",
+            "人物身份"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "我写___作业，就去休息了。",
+          "choices": [
+            "着",
+            "过",
+            "完了"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "zh-experience",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "Past experience with 过",
+        "zh": "用“过”表达经历"
+      },
+      "explanation": {
+        "en": "Verb + 过 often expresses experience before now. 没有 + verb + 过 negates that experience. Compare 去过 (have been before) with 去了 (went, in a particular event).",
+        "zh": "动词加“过”常表示曾经有过某种经历。“没有”加动词加“过”表示没有这种经历。“去过”重在经历，“去了”重在一次具体事件。"
+      },
+      "examples": [
+        "我去过北京。",
+        "她没有坐过飞机。"
+      ],
+      "questions": [
+        {
+          "prompt": "我以前去___上海。",
+          "choices": [
+            "地",
+            "过",
+            "着"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "她从来没有吃___这种水果。",
+          "choices": [
+            "过",
+            "着",
+            "地"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "“我去过成都”主要强调___。",
+          "choices": [
+            "现在正在去",
+            "明天一定去",
+            "曾有这种经历"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "你有没有看___这部电影？",
+          "choices": [
+            "得",
+            "过",
+            "地"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "zh-comparison",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "Compare with 比",
+        "zh": "用“比”作比较"
+      },
+      "explanation": {
+        "en": "The common comparison pattern is A 比 B + adjective. Do not add 很 before that adjective in a simple 比 comparison. You can add 一点儿 or a measured difference after the adjective.",
+        "zh": "常见结构是“A 比 B 加形容词”。简单的“比”字句中，形容词前通常不加“很”；形容词后可加“一点儿”或具体差量。"
+      },
+      "examples": [
+        "这本书比那本书贵一点儿。",
+        "哥哥比我高十厘米。"
+      ],
+      "questions": [
+        {
+          "prompt": "今天___昨天冷。",
+          "choices": [
+            "比",
+            "把",
+            "被"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "请选择自然的比较句。",
+          "choices": [
+            "他比我很高。",
+            "他比我最高。",
+            "他比我高。"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "哥哥比我大___岁。",
+          "choices": [
+            "三的",
+            "三",
+            "第三"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "这条路没有那条路___。",
+          "choices": [
+            "长",
+            "很长",
+            "更长"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-ba",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "Results with 把",
+        "zh": "“把”字句与处理结果"
+      },
+      "explanation": {
+        "en": "把 places a known object before the verb and often highlights how it is affected. The verb usually needs a result, direction or other completion information. Negatives and modals normally go before 把.",
+        "zh": "“把”把已知对象放到动词前，突出它受到的处理。动词后通常要有结果、趋向等补充信息。否定词、能愿动词一般放在“把”前。"
+      },
+      "examples": [
+        "请把门关上。",
+        "我没有把钥匙带来。"
+      ],
+      "questions": [
+        {
+          "prompt": "请___窗户关上。",
+          "choices": [
+            "比",
+            "对",
+            "把"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "请选择自然的句子。",
+          "choices": [
+            "我写完把了作业。",
+            "我把作业写完了。",
+            "我把作业写。"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "他___把书还给我。",
+          "choices": [
+            "没有",
+            "不把",
+            "不有"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "请把杯子放___桌子上。",
+          "choices": [
+            "是",
+            "有",
+            "在"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "zh-bei",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "Affected subjects with 被",
+        "zh": "“被”字句的表达重点"
+      },
+      "explanation": {
+        "en": "被 introduces a passive relationship: the subject receives the action. The agent can follow 被 or be omitted. The predicate usually describes an effect or result rather than a bare action.",
+        "zh": "“被”字句的主语是动作的承受者。“被”后可写动作执行者，也可省略；谓语通常说明受到的影响或结果。"
+      },
+      "examples": [
+        "玻璃被风吹破了。",
+        "这个问题已经被解决了。"
+      ],
+      "questions": [
+        {
+          "prompt": "窗户___风吹开了。",
+          "choices": [
+            "比",
+            "被",
+            "把"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "请选择自然的被动句。",
+          "choices": [
+            "自行车被偷走了。",
+            "自行车把偷走了。",
+            "自行车比偷走了。"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "这个问题已经被___了。",
+          "choices": [
+            "解决着",
+            "解决的",
+            "解决"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "在“他被老师表扬了”中，动作执行者是___。",
+          "choices": [
+            "表扬",
+            "老师",
+            "他"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "zh-concession",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "Although and yet",
+        "zh": "让步关系：虽然……但是……"
+      },
+      "explanation": {
+        "en": "虽然 introduces a concession, and 但是 or 可是 can introduce a contrasting result. 即使 expresses a hypothetical concession and often pairs with 也. Distinguish an established fact from an imagined condition.",
+        "zh": "“虽然”引出让步事实，“但是、可是”等引出转折结果。“即使”常表达假设性让步，与“也”呼应，应区分已有事实和假设条件。"
+      },
+      "examples": [
+        "虽然很累，但是她没有放弃。",
+        "即使下雨，我们也会出发。"
+      ],
+      "questions": [
+        {
+          "prompt": "___天气很冷，但是大家都来了。",
+          "choices": [
+            "虽然",
+            "因为",
+            "只有"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "即使遇到困难，我们___不会放弃。",
+          "choices": [
+            "才",
+            "才会",
+            "也"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "虽然价格高，___质量很好。",
+          "choices": [
+            "因此",
+            "但是",
+            "所以"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "“即使明天下雨”主要表达___。",
+          "choices": [
+            "假设的让步条件",
+            "已经发生的事实",
+            "必然发生的原因"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-regardless",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "Regardless of the condition",
+        "zh": "无论……都……"
+      },
+      "explanation": {
+        "en": "无论 and 不管 introduce a range of conditions, often with question words or alternatives. 都 or 也 in the following clause says the result holds across them. 只有 ... 才 instead states a necessary condition.",
+        "zh": "“无论、不管”常与疑问词或选择形式搭配，表示任一条件；后面的“都、也”说明结果不受这些条件影响。“只有……才……”则强调必要条件。"
+      },
+      "examples": [
+        "无论你在哪里，我都会支持你。",
+        "只有认真检查，才能发现问题。"
+      ],
+      "questions": [
+        {
+          "prompt": "无论发生什么，我___会帮你。",
+          "choices": [
+            "才",
+            "仅仅",
+            "都"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "___你去不去，活动都会照常举行。",
+          "choices": [
+            "因为",
+            "不管",
+            "只有"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "只有按时提交，___能参加评选。",
+          "choices": [
+            "才",
+            "都",
+            "无论"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "不管多忙，他___每天读书。",
+          "choices": [
+            "才",
+            "只有",
+            "都"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "zh-scope",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "Not all and none",
+        "zh": "“不都”与“都不”的范围"
+      },
+      "explanation": {
+        "en": "Word order changes the scope of negation. 不都 means not all; 都不 means none of the group do the action. 并不是 ... 都 ... explicitly rejects a generalization without asserting that every member fails.",
+        "zh": "否定词的位置会改变范围。“不都”是否定全部成立，即并非每个都如此；“都不”则对所有成员否定。“并不是……都……”用于否定一概而论。"
+      },
+      "examples": [
+        "这些书不都适合初学者。",
+        "这些书我都不买。"
+      ],
+      "questions": [
+        {
+          "prompt": "“他们不都是老师”的意思是___。",
+          "choices": [
+            "每个人都是老师",
+            "并非每个人都是老师",
+            "没有一个人是老师"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "“他们都不喝咖啡”的意思是___。",
+          "choices": [
+            "没有人喝咖啡",
+            "只有一人不喝",
+            "每个人都喝"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "请选择表示“并非所有”的句子。",
+          "choices": [
+            "所有建议都不可行。",
+            "没有任何建议可行。",
+            "并不是所有建议都可行。"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "“我不是什么都知道”强调___。",
+          "choices": [
+            "知道全部事情",
+            "有些事情不知道",
+            "完全什么都不知道"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ja-copula",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "Polite identity sentences",
+        "zh": "用です介绍身份"
+      },
+      "explanation": {
+        "en": "In a polite noun sentence, place です after the noun. A common negative is ではありません. Do not attach です directly to a polite verb form such as 行きます.",
+        "zh": "礼貌体名词句在名词后用です，常见否定形式为ではありません。行きます等礼貌体动词后不再直接加です。"
+      },
+      "examples": [
+        "私は学生です。",
+        "田中さんは先生ではありません。"
+      ],
+      "questions": [
+        {
+          "prompt": "私は学生___。",
+          "choices": [
+            "です",
+            "ます",
+            "を"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "田中さんは先生では___。",
+          "choices": [
+            "います",
+            "あります",
+            "ありません"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "これは本___。",
+          "choices": [
+            "に",
+            "です",
+            "ます"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "自然な文を選んでください。",
+          "choices": [
+            "学校へ行きます。",
+            "学校へ行きますです。",
+            "学校へ行くますです。"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-topic",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "Topic and possession",
+        "zh": "话题は与所属の"
+      },
+      "explanation": {
+        "en": "は introduces a topic; it is pronounced wa as a particle. の links a possessor or modifier to a noun. A question can keep the topic and replace the unknown identity with だれ or 何.",
+        "zh": "助词は提示话题，读作 wa。の连接所属者或修饰语与名词。提问身份时可以保留话题，用だれ、何表示未知内容。"
+      },
+      "examples": [
+        "私は中国人です。",
+        "これは私のかばんです。"
+      ],
+      "questions": [
+        {
+          "prompt": "私___学生です。",
+          "choices": [
+            "を",
+            "で",
+            "は"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "これは田中さん___本です。",
+          "choices": [
+            "へ",
+            "の",
+            "を"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "あの人は___ですか。",
+          "choices": [
+            "だれ",
+            "どこで",
+            "いくらに"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "私の名前___リンです。",
+          "choices": [
+            "を",
+            "で",
+            "は"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ja-objects-places",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "Objects and action locations",
+        "zh": "を与动作地点で"
+      },
+      "explanation": {
+        "en": "を marks a direct object. で marks the place where an action occurs. に commonly marks the destination or the location of existence, so existence and action locations use different patterns.",
+        "zh": "を标记直接宾语。で表示动作发生的地点；に常表示目的地或存在的位置，要区分动作地点与存在地点。"
+      },
+      "examples": [
+        "図書館で本を読みます。",
+        "机の上に本があります。"
+      ],
+      "questions": [
+        {
+          "prompt": "水___飲みます。",
+          "choices": [
+            "で",
+            "を",
+            "に"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "図書館___勉強します。",
+          "choices": [
+            "で",
+            "を",
+            "が"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "机の上___本があります。",
+          "choices": [
+            "を",
+            "から",
+            "に"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "音楽___聞きます。",
+          "choices": [
+            "に",
+            "を",
+            "で"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ja-polite-past",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "Polite present and past verbs",
+        "zh": "ます体的现在、过去和否定"
+      },
+      "explanation": {
+        "en": "Polite verbs use ます, ません, ました and ませんでした for non-past positive, non-past negative, past positive and past negative. Keep the verb stem before these endings.",
+        "zh": "礼貌体动词的非过去肯定、否定、过去肯定、过去否定分别用ます、ません、ました、ませんでした，前接相应词干。"
+      },
+      "examples": [
+        "昨日、映画を見ました。",
+        "昨日は働きませんでした。"
+      ],
+      "questions": [
+        {
+          "prompt": "昨日、パンを食べ___。",
+          "choices": [
+            "ました",
+            "ますでした",
+            "るました"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "「行きます」の否定はどれですか。",
+          "choices": [
+            "行くません",
+            "行きないですます",
+            "行きません"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "昨日は学校へ行き___。",
+          "choices": [
+            "ないました",
+            "ませんでした",
+            "ませんます"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "毎日、日本語を勉強し___。",
+          "choices": [
+            "ます",
+            "るます",
+            "たます"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-ongoing",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Actions in progress with ている",
+        "zh": "用ている表示进行"
+      },
+      "explanation": {
+        "en": "The て-form + いる/います can describe an ongoing action. Some verbs instead express a resulting state, as in 結婚しています. First form the て-form correctly: 読む becomes 読んで.",
+        "zh": "动词て形加いる/います可表示动作进行。有些动词表示结果状态，如結婚しています。先注意て形变化，例如読む变为読んで。"
+      },
+      "examples": [
+        "今、本を読んでいます。",
+        "姉は結婚しています。"
+      ],
+      "questions": [
+        {
+          "prompt": "今、本を___います。",
+          "choices": [
+            "読みて",
+            "読んだで",
+            "読んで"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "母は今、料理を___います。",
+          "choices": [
+            "したで",
+            "して",
+            "しる"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "「待つ」のて形はどれですか。",
+          "choices": [
+            "待って",
+            "待つて",
+            "待いて"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "今、友達と話して___。",
+          "choices": [
+            "あります",
+            "ですます",
+            "います"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ja-reasons",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Explain reasons with から and ので",
+        "zh": "用から、ので说明原因"
+      },
+      "explanation": {
+        "en": "から and ので introduce reasons. Before ので, a noun or な-adjective normally uses な: 学生なので、静かなので. An い-adjective keeps its い. Polite forms can also be followed by から.",
+        "zh": "から和ので表示原因。名词、な形容词接ので时通常加な，如学生なので、静かなので；い形容词保留い。礼貌体后也可接から。"
+      },
+      "examples": [
+        "雨なので、家にいます。",
+        "暑いから、窓を開けます。"
+      ],
+      "questions": [
+        {
+          "prompt": "雨___ので、出かけません。",
+          "choices": [
+            "のですな",
+            "な",
+            "だ"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "静か___ので、ここで勉強します。",
+          "choices": [
+            "な",
+            "い",
+            "だ"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "今日は寒い___、上着を着ます。",
+          "choices": [
+            "まで",
+            "しか",
+            "から"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "学生___ので、割引があります。",
+          "choices": [
+            "を",
+            "な",
+            "い"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ja-experience",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Describe experiences",
+        "zh": "たことがある表达经历"
+      },
+      "explanation": {
+        "en": "Use the plain past form + ことがある to describe an experience. A negative such as ことがありません means the experience has not happened. This differs from the past of a particular event.",
+        "zh": "动词普通体过去式加ことがある表示曾有过某种经历。ことがありません表示没有这种经历，与叙述一次具体过去事件不同。"
+      },
+      "examples": [
+        "京都に行ったことがあります。",
+        "すしを作ったことはありません。"
+      ],
+      "questions": [
+        {
+          "prompt": "日本に___ことがあります。",
+          "choices": [
+            "行った",
+            "行きます",
+            "行っているます"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "この映画を___ことがあります。",
+          "choices": [
+            "見ます",
+            "見るました",
+            "見た"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「経験がない」という意味はどれですか。",
+          "choices": [
+            "今行っています。",
+            "行ったことがありません。",
+            "昨日行きました。"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "富士山に登ったこと___ありますか。",
+          "choices": [
+            "が",
+            "を",
+            "で"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-comparison",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Compare with より and ほう",
+        "zh": "より与ほう的比较"
+      },
+      "explanation": {
+        "en": "A は B より adjective says A has more of a quality than B. B より A のほうが adjective focuses on A. In a comparison question, どちら asks which of two alternatives.",
+        "zh": "AはBより加形容词表示A比B更具有某种性质。BよりAのほうが加形容词也可表达比较。どちら用于询问两个选项中的哪一个。"
+      },
+      "examples": [
+        "電車はバスより速いです。",
+        "夏より冬のほうが好きです。"
+      ],
+      "questions": [
+        {
+          "prompt": "電車はバス___速いです。",
+          "choices": [
+            "まで",
+            "しか",
+            "より"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "こちらの___が安いです。",
+          "choices": [
+            "しか",
+            "ほう",
+            "より"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "紅茶とコーヒーと、___が好きですか。",
+          "choices": [
+            "どちら",
+            "いつ",
+            "いくら"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "冬___夏のほうが暑いです。",
+          "choices": [
+            "しか",
+            "までに",
+            "より"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ja-limit",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "Conditions with 限り",
+        "zh": "限り表示范围与条件"
+      },
+      "explanation": {
+        "en": "限り can mean as long as or within the limits of something. 知っている限り means as far as one knows; できる限り means as much as possible. The form and context determine which boundary is expressed.",
+        "zh": "限り可表示“只要……就……”或“在……范围内”。知っている限り表示“据我所知”，できる限り表示“尽可能”，需结合前接形式和语境判断范围。"
+      },
+      "examples": [
+        "私が知っている限り、店は開いています。",
+        "できる限り手伝います。"
+      ],
+      "questions": [
+        {
+          "prompt": "私が知っている___、彼はまだ来ていません。",
+          "choices": [
+            "ところ",
+            "限り",
+            "ばかり"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "できる___早く返事をください。",
+          "choices": [
+            "限り",
+            "だけに",
+            "ものを"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "元気である___、働き続けたいです。",
+          "choices": [
+            "ばかり",
+            "わけ",
+            "限り"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「知っている限り」は何を限定しますか。",
+          "choices": [
+            "物の所有者",
+            "話し手の知識の範囲",
+            "出来事の回数だけ"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ja-partial-negation",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "Avoid overgeneralization",
+        "zh": "わけではない表示部分否定"
+      },
+      "explanation": {
+        "en": "わけではない can reject an inference or an overgeneralization. 必ずしも ... わけではない means not necessarily. It does not always mean that the opposite is completely true.",
+        "zh": "わけではない可否定某种推论或一概而论。必ずしも……わけではない表示“未必、并非一定”，不能一律理解成完全相反的结论。"
+      },
+      "examples": [
+        "高い物が必ずしも良いわけではありません。",
+        "嫌いなわけではないですが、今日は食べません。"
+      ],
+      "questions": [
+        {
+          "prompt": "全部分かった___ではありません。",
+          "choices": [
+            "わけ",
+            "ために",
+            "ながら"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "必ずしも高い物が良いわけでは___。",
+          "choices": [
+            "ある",
+            "いる",
+            "ない"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「嫌いなわけではない」はどんな意味ですか。",
+          "choices": [
+            "何も説明していない",
+            "嫌いだという推測を否定する",
+            "必ず大嫌いだ"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "全員が賛成した___ではありません。",
+          "choices": [
+            "わけ",
+            "ために",
+            "ままで"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-despite",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "Unexpected contrast",
+        "zh": "にもかかわらず表达逆接"
+      },
+      "explanation": {
+        "en": "にもかかわらず links an established circumstance with an unexpected result and is common in formal writing. It can follow a plain-form clause or a noun. Keep it distinct from a reason-result connection.",
+        "zh": "にもかかわらず把已知情况与出乎预期的结果连接起来，常用于正式表达，可接普通体从句或名词，要与因果关系区分。"
+      },
+      "examples": [
+        "雨にもかかわらず、大勢の人が集まりました。",
+        "十分準備したにもかかわらず、緊張しました。"
+      ],
+      "questions": [
+        {
+          "prompt": "雨___かかわらず、試合は続きました。",
+          "choices": [
+            "だけを",
+            "からを",
+            "にも"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "努力したにもかかわらず、結果が出ませんでした。この文は何を表しますか。",
+          "choices": [
+            "所有関係",
+            "予想に反する結果",
+            "単純な原因と当然の結果"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "休日にも___、彼は出勤しました。",
+          "choices": [
+            "かかわらず",
+            "かかわるので",
+            "かかわったから"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "「準備したにもかかわらず」に続く自然な内容はどれですか。",
+          "choices": [
+            "準備をした理由です。",
+            "準備したことそのものです。",
+            "本番で失敗しました。"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ja-unavoidable",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "When there is no alternative",
+        "zh": "ざるを得ない表达不得不"
+      },
+      "explanation": {
+        "en": "ざるを得ない means that circumstances leave no acceptable alternative. It attaches to the negative stem: 行かない becomes 行かざるを得ない. する is irregular and becomes せざるを得ない.",
+        "zh": "ざるを得ない表示因情况所迫而不得不做。接动词未然形，如行かない变为行かざるを得ない。する较特殊，要用せざるを得ない。"
+      },
+      "examples": [
+        "予定を変更せざるを得ません。",
+        "証拠を認めざるを得ません。"
+      ],
+      "questions": [
+        {
+          "prompt": "計画を変更___ざるを得ません。",
+          "choices": [
+            "する",
+            "せ",
+            "し"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "この事実を認め___を得ません。",
+          "choices": [
+            "ざる",
+            "ないざる",
+            "ずる"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "「行く」を使ってください。行か___を得ません。",
+          "choices": [
+            "ずる",
+            "ないざる",
+            "ざる"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「ざるを得ない」の意味に近いのはどれですか。",
+          "choices": [
+            "絶対にしてはいけない",
+            "ほかに選択肢がなく、しなければならない",
+            "喜んで何でもする"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ko-identity",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "Introduce yourself politely",
+        "zh": "用이에요、예요介绍身份"
+      },
+      "explanation": {
+        "en": "In polite everyday noun sentences, use 이에요 after a final consonant and 예요 after a vowel. To negate identity, use noun + 이/가 아니에요 rather than attaching a negative verb ending to the noun.",
+        "zh": "日常礼貌体名词句中，有收音时用이에요，无收音时用예요。否定身份用名词加이/가 아니에요，不直接给名词加动词否定词尾。"
+      },
+      "examples": [
+        "저는 학생이에요.",
+        "저는 의사가 아니에요."
+      ],
+      "questions": [
+        {
+          "prompt": "저는 학생___.",
+          "choices": [
+            "이에요",
+            "예요",
+            "해요"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "이분은 의사___.",
+          "choices": [
+            "이에요",
+            "있어요",
+            "예요"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "저는 선생님이 ___.",
+          "choices": [
+            "안 해요",
+            "아니에요",
+            "없어요"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "이것은 사과___.",
+          "choices": [
+            "예요",
+            "이에요",
+            "가요"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ko-topic",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "Topics with 은 and 는",
+        "zh": "用은、는提示话题"
+      },
+      "explanation": {
+        "en": "은/는 marks a topic and can also signal contrast. Use 은 after a final consonant and 는 after a vowel. It is different from the object marker 을/를.",
+        "zh": "은/는提示话题，也可表达对比。有收音时用은，无收音时用는；不要与宾格助词을/를混淆。"
+      },
+      "examples": [
+        "저는 한국어를 배워요.",
+        "이 책은 재미있어요."
+      ],
+      "questions": [
+        {
+          "prompt": "저___ 학생이에요.",
+          "choices": [
+            "은",
+            "를",
+            "는"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "이 책___ 재미있어요.",
+          "choices": [
+            "를",
+            "은",
+            "는"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "오늘___ 시간이 없어요.",
+          "choices": [
+            "은",
+            "는",
+            "을"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "사과___ 좋아하지만 배는 안 좋아해요.",
+          "choices": [
+            "은",
+            "이",
+            "는"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ko-objects",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "Objects with 을 and 를",
+        "zh": "宾格助词을、를"
+      },
+      "explanation": {
+        "en": "을/를 marks the direct object of an action. Use 을 after a consonant and 를 after a vowel. Korean often places the verb at the end of a simple clause.",
+        "zh": "을/를标记动作的直接对象。有收音时用을，无收音时用를。韩语简单句的动词常位于句末。"
+      },
+      "examples": [
+        "책을 읽어요.",
+        "커피를 마셔요."
+      ],
+      "questions": [
+        {
+          "prompt": "책___ 읽어요.",
+          "choices": [
+            "에서",
+            "을",
+            "를"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "커피___ 마셔요.",
+          "choices": [
+            "를",
+            "을",
+            "에서"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "음악___ 들어요.",
+          "choices": [
+            "를",
+            "에게",
+            "을"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "영화___ 봐요.",
+          "choices": [
+            "에서",
+            "를",
+            "을"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ko-locations",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "Where you are and where you act",
+        "zh": "存在地点与动作地点"
+      },
+      "explanation": {
+        "en": "에 marks a location with 있다/없다 and commonly a destination with 가다/오다. 에서 marks where an action such as studying or eating takes place. The verb helps determine which marker is needed.",
+        "zh": "에用于있다/없다的存在地点，也常表示가다/오다的目的地。에서表示学习、吃饭等动作发生的地点，要结合动词选择。"
+      },
+      "examples": [
+        "학교에 가요.",
+        "도서관에서 공부해요."
+      ],
+      "questions": [
+        {
+          "prompt": "도서관___ 공부해요.",
+          "choices": [
+            "에서",
+            "에",
+            "에게"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "방___ 책이 있어요.",
+          "choices": [
+            "에서",
+            "에게",
+            "에"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "목적지를 나타내는 조사를 고르세요. 내일 학교___ 가요.",
+          "choices": [
+            "에게",
+            "에",
+            "에서"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "식당___ 밥을 먹어요.",
+          "choices": [
+            "에서",
+            "에",
+            "에게"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ko-ongoing",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "Ongoing actions with 고 있다",
+        "zh": "用고 있다表达进行"
+      },
+      "explanation": {
+        "en": "Add -고 있다 to a verb stem to describe an action in progress. Use 있어요 for a polite current action and 있었어요 for an action in progress in the past. Stative uses and clothing expressions have their own patterns.",
+        "zh": "动词词干加고 있다可表示正在进行的动作。礼貌体现在用있어요，过去进行用있었어요。状态和穿戴表达还可能有各自的用法。"
+      },
+      "examples": [
+        "지금 책을 읽고 있어요.",
+        "그때 저는 기다리고 있었어요."
+      ],
+      "questions": [
+        {
+          "prompt": "지금 책을 읽___ 있어요.",
+          "choices": [
+            "는",
+            "을",
+            "고"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "친구가 밥을 먹고 ___.",
+          "choices": [
+            "해요",
+            "있어요",
+            "이에요"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "과거 진행형을 고르세요.",
+          "choices": [
+            "기다리고 있었어요.",
+            "기다리고 있어요.",
+            "기다릴 거예요."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "지금 한국어를 공부___ 있어요.",
+          "choices": [
+            "하는",
+            "할",
+            "하고"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ko-reasons",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "Reasons with 아서 and 어서",
+        "zh": "用아서、어서连接原因"
+      },
+      "explanation": {
+        "en": "-아서/-어서 connects a cause to a result. 하다 commonly becomes 해서. In a simple cause-result sentence, the final predicate carries the main tense. For commands and suggestions, -(으)니까 is often the more appropriate reason connector.",
+        "zh": "아서/어서把原因连接到结果，하다常变为해서。简单因果句的主要时态通常在句末谓语体现。命令、建议前的原因表达常用(으)니까。"
+      },
+      "examples": [
+        "비가 와서 집에 있었어요.",
+        "피곤해서 일찍 잤어요."
+      ],
+      "questions": [
+        {
+          "prompt": "-아서/어서로 이유를 연결하세요. 피곤___ 일찍 잤어요.",
+          "choices": [
+            "하며",
+            "해서",
+            "하고"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "배가 ___ 밥을 먹었어요.",
+          "choices": [
+            "고파서",
+            "고프고 싶어서",
+            "고플 줄"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "-아서/어서로 원인을 연결하세요. 비가 ___ 길이 젖었어요.",
+          "choices": [
+            "오지만",
+            "오면",
+            "와서"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「공부하다」의 -아서/어서 형태는 무엇인가요?",
+          "choices": [
+            "공부하어서",
+            "공부해서",
+            "공부하아서"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ko-comparison",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "Comparisons with 보다",
+        "zh": "用보다作比较"
+      },
+      "explanation": {
+        "en": "보다 marks the comparison standard, with 더 often expressing more. The standard may appear before or after the topic. 가장 or 제일 can mark a superlative within a group.",
+        "zh": "보다标记比较基准，더常表示“更”。比较基准可放在话题前后。가장、제일可表达某一范围里的最高程度。"
+      },
+      "examples": [
+        "오늘은 어제보다 더 추워요.",
+        "이것이 가장 작아요."
+      ],
+      "questions": [
+        {
+          "prompt": "오늘은 어제___ 더 추워요.",
+          "choices": [
+            "보다",
+            "에게",
+            "에서"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "두 가방의 크기를 비교하세요. 이 가방이 저 가방보다 ___ 커요.",
+          "choices": [
+            "잘",
+            "가장",
+            "더"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "반에서 ___ 키가 커요.",
+          "choices": [
+            "에게",
+            "가장",
+            "보다"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "「A보다 B가 더 커요」에서 더 큰 것은 무엇인가요?",
+          "choices": [
+            "B",
+            "A",
+            "둘 다 반드시 같음"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ko-wishes",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "Say what you want to do",
+        "zh": "用고 싶다表达愿望"
+      },
+      "explanation": {
+        "en": "Verb stem + -고 싶다 expresses the speaker’s wish to do something. Use -고 싶어요 politely. For someone else’s observed wishes, -고 싶어 하다 is a common pattern. A noun desire can instead use 갖고 싶다 or 원하다 as appropriate.",
+        "zh": "动词词干加고 싶다表达想做某事，礼貌体用고 싶어요。描述别人表现出的愿望时常用고 싶어 하다。希望拥有物品时可根据语境用갖고 싶다等。"
+      },
+      "examples": [
+        "한국에 가고 싶어요.",
+        "동생은 여행하고 싶어 해요."
+      ],
+      "questions": [
+        {
+          "prompt": "한국에 가___ 싶어요.",
+          "choices": [
+            "는",
+            "을",
+            "고"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "말하는 사람의 소망을 나타내세요. 저는 물을 마시고 ___.",
+          "choices": [
+            "아니에요",
+            "싶어요",
+            "있었어요"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "동생은 여행하고 싶어 ___.",
+          "choices": [
+            "해요",
+            "예요",
+            "가요"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "책을 읽___ 싶어요.",
+          "choices": [
+            "은",
+            "에서",
+            "고"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ko-even-if",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "Concession with 더라도",
+        "zh": "用더라도表示即使"
+      },
+      "explanation": {
+        "en": "-더라도 presents a condition that will not change the result. It often translates as even if. Distinguish this hypothetical concession from simply giving a cause.",
+        "zh": "더라도表示某种条件即使成立，后面的结果也不改变，常译为“即使”。要与单纯说明原因区分。"
+      },
+      "examples": [
+        "바쁘더라도 연락해 주세요.",
+        "실패하더라도 다시 도전하겠습니다."
+      ],
+      "questions": [
+        {
+          "prompt": "양보 조건을 나타내세요. 바쁘___ 연락해 주세요.",
+          "choices": [
+            "기 위해",
+            "더라도",
+            "기 전에"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "「실패하더라도 다시 하겠다」는 어떤 관계인가요?",
+          "choices": [
+            "조건에도 결과가 유지됨",
+            "실패가 반드시 성공의 원인임",
+            "두 명사의 소유 관계"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "양보 조건을 나타내세요. 늦___ 꼭 와 주세요.",
+          "choices": [
+            "기 위해",
+            "기 때문에",
+            "더라도"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「더라도」와 가까운 뜻은 무엇인가요?",
+          "choices": [
+            "in order to",
+            "even if",
+            "because"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ko-contrast",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "Contrast with 반면에",
+        "zh": "用반면에突出对照"
+      },
+      "explanation": {
+        "en": "반면에 contrasts two sides. An action verb commonly takes -는 반면에; a descriptive verb uses an appropriate attributive form, such as 비싼 반면에. The contrast may concern the same subject or two subjects.",
+        "zh": "반면에突出两方面的对照。动作动词常接는 반면에；描述词采用相应定语形式，如비싼 반면에。可以比较同一对象的两面，也可以比较两个对象。"
+      },
+      "examples": [
+        "이 제품은 비싼 반면에 품질이 좋아요.",
+        "형은 운동을 좋아하는 반면에 저는 독서를 좋아해요."
+      ],
+      "questions": [
+        {
+          "prompt": "가격이 ___ 반면에 성능이 좋아요.",
+          "choices": [
+            "비싼",
+            "비싸는",
+            "비싸게"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "두 사람의 차이를 대조하세요. 그는 아침에 일하는 ___ 저는 밤에 일해요.",
+          "choices": [
+            "덕분에",
+            "동안",
+            "반면에"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「장점이 있는 반면에 단점도 있다」는 무엇을 나타내나요?",
+          "choices": [
+            "소유",
+            "대조",
+            "명령"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "「좋아하다」를 알맞게 바꾸세요. 운동을 ___ 반면에 독서는 싫어해요.",
+          "choices": [
+            "좋아하는",
+            "좋아하은",
+            "좋아해서"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ko-no-choice",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "No alternative: 수밖에 없다",
+        "zh": "수밖에 없다表达别无选择"
+      },
+      "explanation": {
+        "en": "-(으)ㄹ 수밖에 없다 means there is no alternative but to do something. Add -을 after most consonant-ending stems and -ㄹ after vowel-ending stems. 밖에 in this meaning requires a negative predicate such as 없다.",
+        "zh": "(으)ㄹ 수밖에 없다表示除了这样做没有其他选择。多数有收音词干后加을，无收音后加ㄹ；这里的밖에要与없다等否定形式呼应。"
+      },
+      "examples": [
+        "다시 할 수밖에 없어요.",
+        "결과를 받아들일 수밖에 없어요."
+      ],
+      "questions": [
+        {
+          "prompt": "시간이 없어서 택시를 ___ 수밖에 없어요.",
+          "choices": [
+            "타는",
+            "타고",
+            "탈"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "그 말을 ___ 수밖에 없었어요.",
+          "choices": [
+            "믿고",
+            "믿을",
+            "믿는"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "「수밖에 없다」의 뜻은 무엇인가요?",
+          "choices": [
+            "다른 선택이 없다",
+            "원하는 선택이 무한하다",
+            "행동이 금지된다"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "계획을 바꿀 수밖에 ___.",
+          "choices": [
+            "있어요",
+            "예요",
+            "없어요"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ko-partial-negation",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "Not necessarily all",
+        "zh": "는 것은 아니다表示部分否定"
+      },
+      "explanation": {
+        "en": "-는 것은 아니다 can reject a generalization or inference. 모두 ... 것은 아니다 means not everyone/not everything necessarily fits the claim; 아무도 ... 않다 instead denies it for everyone. Read the scope carefully.",
+        "zh": "는 것은 아니다可否定概括或推论。모두……것은 아니다常表示并非所有都如此；아무도……않다则对所有人否定。理解时要仔细判断否定范围。"
+      },
+      "examples": [
+        "모두가 동의하는 것은 아니에요.",
+        "비싸다고 항상 좋은 것은 아니에요."
+      ],
+      "questions": [
+        {
+          "prompt": "모두가 찬성하는 ___ 아니에요.",
+          "choices": [
+            "중을",
+            "것은",
+            "때문은"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "「모두가 동의하는 것은 아니다」와 가까운 뜻은 무엇인가요?",
+          "choices": [
+            "not everyone agrees",
+            "nobody agrees",
+            "everyone agrees"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "비싸다고 항상 좋은 것은 ___.",
+          "choices": [
+            "있어요",
+            "해요",
+            "아니에요"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「아무도 오지 않았다」는 무슨 뜻인가요?",
+          "choices": [
+            "정확히 한 사람만 왔다",
+            "아무 사람도 오지 않았다",
+            "모두 왔다"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "es-ser-estar",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "Identity and temporary states",
+        "zh": "ser与estar的基本区别"
+      },
+      "explanation": {
+        "en": "Ser commonly expresses identity or a characteristic; estar commonly expresses location or a current state. The adjective meaning and context can change the choice. Learn the forms with the subject rather than treating the verbs as interchangeable.",
+        "zh": "ser常表达身份、特征，estar常表达位置或当前状态。形容词含义和语境也会影响选择，应结合主语学习变位，不要把两者当成可以互换。"
+      },
+      "examples": [
+        "Soy profesora.",
+        "Estamos en casa."
+      ],
+      "questions": [
+        {
+          "prompt": "Yo ___ profesora.",
+          "choices": [
+            "soy",
+            "estoy",
+            "eres"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Ahora nosotros ___ en casa.",
+          "choices": [
+            "somos",
+            "está",
+            "estamos"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "La biblioteca ___ al lado del parque.",
+          "choices": [
+            "están",
+            "está",
+            "es"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Mi hermano ___ médico.",
+          "choices": [
+            "es",
+            "está",
+            "son"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-present",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "Present-tense verb endings",
+        "zh": "规则动词现在时变位"
+      },
+      "explanation": {
+        "en": "Regular -ar, -er and -ir verbs change their endings for the subject. Yo often ends in -o. Nosotros uses -amos, -emos or -imos. Subject pronouns can be omitted when the verb and context identify the person.",
+        "zh": "规则-ar、-er、-ir动词根据主语改变词尾。yo常对应-o；nosotros分别对应-amos、-emos、-imos。主语明确时，主语代词可以省略。"
+      },
+      "examples": [
+        "Hablo español.",
+        "Vivimos cerca de la estación."
+      ],
+      "questions": [
+        {
+          "prompt": "Yo ___ español.",
+          "choices": [
+            "hablas",
+            "hablan",
+            "hablo"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Nosotros ___ en Madrid.",
+          "choices": [
+            "vives",
+            "vivimos",
+            "viven"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Ella ___ pan.",
+          "choices": [
+            "come",
+            "como",
+            "comen"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Tú ___ mucho.",
+          "choices": [
+            "trabajo",
+            "trabajan",
+            "trabajas"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "es-agreement",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "Gender and number agreement",
+        "zh": "名词、冠词与形容词的一致"
+      },
+      "explanation": {
+        "en": "Articles and many adjectives agree with the noun in gender and number. Not every noun ending predicts gender, so learn the article with the noun. Adjectives ending in -e often keep the same gender form but still change for number.",
+        "zh": "冠词和许多形容词与名词保持性数一致。不能只靠词尾判断所有名词的性，建议连同冠词一起学习。-e结尾的形容词常不分性，但仍有数的变化。"
+      },
+      "examples": [
+        "Una casa pequeña.",
+        "Los libros interesantes."
+      ],
+      "questions": [
+        {
+          "prompt": "Una casa ___.",
+          "choices": [
+            "pequeñas",
+            "pequeña",
+            "pequeño"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Los libros son ___.",
+          "choices": [
+            "interesantes",
+            "interesante",
+            "interesantas"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "___ mesa es blanca.",
+          "choices": [
+            "El",
+            "Los",
+            "La"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Dos coches ___.",
+          "choices": [
+            "rojas",
+            "rojos",
+            "rojo"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "es-questions",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "Useful question words",
+        "zh": "常用疑问词"
+      },
+      "explanation": {
+        "en": "Use dónde for place, cuándo for time, quién for a person and cuánto for quantity. Direct written questions have both opening and closing question marks. Question words carry written accents.",
+        "zh": "dónde问地点，cuándo问时间，quién问人物，cuánto问数量。书面直接疑问句前后都使用问号，疑问词带重音符号。"
+      },
+      "examples": [
+        "¿Dónde vives?",
+        "¿Cuándo empieza la clase?"
+      ],
+      "questions": [
+        {
+          "prompt": "¿___ vives? — En Sevilla.",
+          "choices": [
+            "Dónde",
+            "Cuándo",
+            "Quién"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "¿___ empieza la clase? — A las nueve.",
+          "choices": [
+            "Dónde",
+            "Quién",
+            "Cuándo"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "¿___ es ella? — Es mi hermana.",
+          "choices": [
+            "Dónde",
+            "Quién",
+            "Cuándo"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "¿___ cuesta? — Diez euros.",
+          "choices": [
+            "Cuánto",
+            "Quién",
+            "Dónde"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-past",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Completed events and past habits",
+        "zh": "简单过去时与过去未完成时"
+      },
+      "explanation": {
+        "en": "The preterite presents a past event as complete. The imperfect commonly sets a background or describes a repeated past habit. Context and the speaker’s viewpoint matter; a time word alone does not mechanically determine the tense.",
+        "zh": "简单过去时把过去事件作为完成的整体叙述；过去未完成时常表达背景或过去习惯。语境与叙述视角很重要，不能机械地只凭一个时间词选时态。"
+      },
+      "examples": [
+        "Ayer compré un libro.",
+        "De niña, jugaba en este parque todos los días."
+      ],
+      "questions": [
+        {
+          "prompt": "Usa el pretérito: ayer yo ___ un libro.",
+          "choices": [
+            "compraba",
+            "compraré",
+            "compré"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Describe un hábito de la infancia: todos los días ___ al parque.",
+          "choices": [
+            "voy",
+            "iba",
+            "iré"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Usa el imperfecto de ser: cuando ___ niña, vivía aquí.",
+          "choices": [
+            "era",
+            "fui",
+            "seré"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Usa el pretérito de llegar: ellos ___ anoche.",
+          "choices": [
+            "llegaban",
+            "llegan",
+            "llegaron"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "es-por-para",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Purpose and cause: para and por",
+        "zh": "目的para与原因por"
+      },
+      "explanation": {
+        "en": "Para commonly marks purpose, a recipient or a deadline. Por commonly gives a reason, route or exchange. These are starting patterns, not a universal translation rule for the English word for.",
+        "zh": "para常表示目的、接收者或期限；por常表示原因、途经或交换。这些是基本用法，不能把英语for全部机械对应到同一个介词。"
+      },
+      "examples": [
+        "Estudio para aprender.",
+        "Gracias por tu ayuda."
+      ],
+      "questions": [
+        {
+          "prompt": "Estudio ___ aprender más.",
+          "choices": [
+            "desde",
+            "para",
+            "por"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Gracias ___ tu ayuda.",
+          "choices": [
+            "por",
+            "para",
+            "hacia"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Indica el destinatario: este regalo es ___ ti.",
+          "choices": [
+            "por",
+            "desde",
+            "para"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Pagué diez euros ___ el libro.",
+          "choices": [
+            "hacia",
+            "por",
+            "para"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "es-comparison",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Compare with más, menos and tan",
+        "zh": "西班牙语的比较结构"
+      },
+      "explanation": {
+        "en": "Use más/menos + adjective + que for a difference. Use tan + adjective + como for equality. Bueno and malo have common irregular comparatives mejor and peor; normally avoid más mejor.",
+        "zh": "不同程度的比较用más/menos加形容词加que；同等比较用tan加形容词加como。bueno、malo常用不规则比较级mejor、peor，通常不用más mejor。"
+      },
+      "examples": [
+        "Este tren es más rápido que aquel.",
+        "Mi habitación es tan grande como la tuya."
+      ],
+      "questions": [
+        {
+          "prompt": "Este tren es más rápido ___ aquel.",
+          "choices": [
+            "que",
+            "como",
+            "de que"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Es tan fácil ___ parece.",
+          "choices": [
+            "que",
+            "de",
+            "como"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Esta opción es ___ que la otra.",
+          "choices": [
+            "muy mejor",
+            "mejor",
+            "más mejor"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Mi casa es menos grande ___ la tuya.",
+          "choices": [
+            "que",
+            "como",
+            "a"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-object-pronouns",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Direct object pronouns",
+        "zh": "直接宾语代词的位置与一致"
+      },
+      "explanation": {
+        "en": "Lo, la, los and las commonly replace direct objects and agree with the replaced noun. They normally precede a conjugated verb. With an infinitive, they can attach to its end; some verbal phrases allow placement before the conjugated verb too.",
+        "zh": "lo、la、los、las常替代直接宾语，并与所指名词保持性数一致。通常放在变位动词前，也可以连接在不定式后面；部分动词短语允许两种位置。"
+      },
+      "examples": [
+        "Compro la camisa. La compro.",
+        "Voy a leerlo. / Lo voy a leer."
+      ],
+      "questions": [
+        {
+          "prompt": "Compro la camisa. ___ compro.",
+          "choices": [
+            "Lo",
+            "Los",
+            "La"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Leo los libros. ___ leo.",
+          "choices": [
+            "Lo",
+            "Los",
+            "La"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Veo el coche. ___ veo.",
+          "choices": [
+            "Lo",
+            "La",
+            "Las"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Una colocación correcta con infinitivo es ___.",
+          "choices": [
+            "leer lo el",
+            "lo leo",
+            "leerlo"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "es-subjunctive",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "Wishes and the present subjunctive",
+        "zh": "愿望从句与现在虚拟式"
+      },
+      "explanation": {
+        "en": "A wish or recommendation about a different subject often takes que + subjunctive. With the same subject, an infinitive is common: quiero ir. A factual statement with sé que normally takes the indicative.",
+        "zh": "愿望、建议涉及另一个主语时，常用que加虚拟式；主语相同时常用不定式，如quiero ir。sé que等表达已知事实时通常用直陈式。"
+      },
+      "examples": [
+        "Quiero que vengas mañana.",
+        "Quiero ir mañana."
+      ],
+      "questions": [
+        {
+          "prompt": "Quiero que tú ___ mañana.",
+          "choices": [
+            "venir",
+            "vengas",
+            "vienes"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Espero que todo ___ bien.",
+          "choices": [
+            "salga",
+            "sale",
+            "salir"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Sé que ella ___ aquí.",
+          "choices": [
+            "viva",
+            "vivir",
+            "vive"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Con el mismo sujeto: quiero ___ pronto.",
+          "choices": [
+            "sales",
+            "salir",
+            "salga"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "es-hypothetical",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "Hypothetical conditions",
+        "zh": "假设条件与虚拟式"
+      },
+      "explanation": {
+        "en": "For an unreal or hypothetical present condition, a common pattern is si + imperfect subjunctive followed by a conditional result. For an unreal past condition, use si + pluperfect subjunctive and a conditional perfect result.",
+        "zh": "非现实或假设的现在条件，常用si加过去未完成虚拟式，结果用条件式。过去未实现的条件常用si加过去完成虚拟式，结果用复合条件式。"
+      },
+      "examples": [
+        "Si tuviera tiempo, viajaría.",
+        "Si hubiera estudiado, habría aprobado."
+      ],
+      "questions": [
+        {
+          "prompt": "Si yo ___ más tiempo, viajaría.",
+          "choices": [
+            "tuviera",
+            "tendría",
+            "tengo"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Si hubiera estudiado, ___ aprobado.",
+          "choices": [
+            "habré",
+            "he",
+            "habría"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Si fuera rico, ___ una casa.",
+          "choices": [
+            "compro",
+            "compraría",
+            "compraré"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Usa una condición irreal del pasado: si ___ antes, habría visto a Ana.",
+          "choices": [
+            "hubiera llegado",
+            "llegaría",
+            "llego"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-se",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "Impersonal and passive se",
+        "zh": "无人称与自复被动se"
+      },
+      "explanation": {
+        "en": "In passive se constructions, the verb agrees with the grammatical subject: se venden pisos. In impersonal se constructions with a personal a, the verb is singular: se busca a los responsables. Identify the structure before choosing agreement.",
+        "zh": "自复被动结构里，动词与语法主语一致，如se venden pisos。带人称前置词a的无人称结构使用单数动词，如se busca a los responsables。先识别结构，再决定一致关系。"
+      },
+      "examples": [
+        "Se venden libros usados.",
+        "Se busca a los responsables."
+      ],
+      "questions": [
+        {
+          "prompt": "Se ___ pisos en este edificio.",
+          "choices": [
+            "vende",
+            "vendiendo",
+            "venden"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Se ___ a los responsables.",
+          "choices": [
+            "buscando",
+            "busca",
+            "buscan"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Aquí se ___ español.",
+          "choices": [
+            "habla",
+            "hablan",
+            "hablando"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "En pasiva refleja: se ___ las entradas por internet.",
+          "choices": [
+            "compra",
+            "comprando",
+            "compran"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "es-connectors",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "Cause, contrast and purpose",
+        "zh": "因果、让步和目的连接词"
+      },
+      "explanation": {
+        "en": "Aunque can introduce a concession; porque gives a cause. Para que with a different subject introduces a purpose and normally takes the subjunctive. Sin embargo links a contrast between statements and needs appropriate punctuation.",
+        "zh": "aunque引出让步，porque说明原因。para que涉及不同主语的目的时通常接虚拟式。sin embargo连接转折关系，需要合适的标点。"
+      },
+      "examples": [
+        "Te lo explico para que lo entiendas.",
+        "Es caro; sin embargo, es útil."
+      ],
+      "questions": [
+        {
+          "prompt": "Te lo explico para que lo ___.",
+          "choices": [
+            "entender",
+            "entiendas",
+            "entiendes"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "No salí ___ estaba enfermo.",
+          "choices": [
+            "porque",
+            "para que",
+            "sin embargo"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "___ está cansada, sigue trabajando.",
+          "choices": [
+            "Para que",
+            "Sin embargo",
+            "Aunque"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Elige la frase de propósito.",
+          "choices": [
+            "Trabajo sin embargo mis hijos estudiar.",
+            "Trabajo para que mis hijos estudien.",
+            "Trabajo porque que mis hijos estudian."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "zh-location",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "Locate with 在",
+        "zh": "用“在”表示位置"
+      },
+      "explanation": {
+        "en": "Place 在 before a location word to say where someone or something is: 我在家. To say where an action happens, put 在 + place before the verb: 她在图书馆看书. Negate with 不在. Use 是 for identity, not location.",
+        "zh": "“在”加处所词表示所在位置：我在家。表示动作发生的地点时，“在＋处所”放在动词前：她在图书馆看书。否定用“不在”。表身份用“是”，二者分工不同。"
+      },
+      "examples": [
+        "书在桌子上。",
+        "他们不在教室。"
+      ],
+      "questions": [
+        {
+          "prompt": "我的钥匙___包里。",
+          "choices": [
+            "在",
+            "是",
+            "有"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "否定“他在家”：",
+          "choices": [
+            "他不在家。",
+            "他不是在家。",
+            "他不在是家。"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "表示动作发生的地点，哪句正确？",
+          "choices": [
+            "我们在学校是学习。",
+            "我们在学校学习。",
+            "我们是学校学习。"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "小猫___沙发下面。",
+          "choices": [
+            "在",
+            "是",
+            "到"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-duration",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "Say how long with duration",
+        "zh": "用时长补语说“多久”"
+      },
+      "explanation": {
+        "en": "Put the length of time after the verb: 我学了三年汉语. When the object is a noun, repeat the verb or attach it with 的: 他学汉语学了三年 / 我看了两个小时的书. Negate with 没（有）: 我没等多久.",
+        "zh": "时长放在动词后：我学了三年汉语。宾语是名词时可重复动词（他学汉语学了三年），或用“的”连接（我看了两个小时的书）。否定用“没（有）”：我没等多久。"
+      },
+      "examples": [
+        "她在北京住了五年。",
+        "我等了半个小时。"
+      ],
+      "questions": [
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "我学了三年汉语。",
+            "我三年学了汉语。",
+            "我学三年了汉语。"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "否定句：我___等很久。",
+          "choices": [
+            "没",
+            "不",
+            "别"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "带名词宾语又带时长，哪种说法自然？",
+          "choices": [
+            "他工作八个小时了公司。",
+            "他在公司工作了八个小时。",
+            "他八个小时工作在公司。"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "我看了两个小时___书。",
+          "choices": [
+            "的",
+            "得",
+            "地"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-adjectives",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "Describe with adjectives",
+        "zh": "い形容词与な形容词"
+      },
+      "explanation": {
+        "en": "い-adjectives end in い and inflect by themselves: 高い → 高くない → 高かった. な-adjectives keep the stem and need な before a noun (静かな町); in the predicate they take です or だ: この町は静かです.",
+        "zh": "い形容词以“い”结尾，自身变形：高い→高くない→高かった。な形容词修饰名词时接“な”（静かな町），作谓语时用“です／だ”：この町は静かです。"
+      },
+      "examples": [
+        "この本はおもしろいです。",
+        "静かな公園で休みます。"
+      ],
+      "questions": [
+        {
+          "prompt": "この山は___です。",
+          "choices": [
+            "高い",
+            "高な",
+            "高く"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "___町に住んでいます。（静か）",
+          "choices": [
+            "静かい",
+            "静かな",
+            "静かく"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "否定：この店は高く___です。",
+          "choices": [
+            "ない",
+            "な",
+            "だ"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "昨日は暑く___。",
+          "choices": [
+            "ない",
+            "あります",
+            "ありませんでした"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "ja-potential",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Say what you can do",
+        "zh": "用可能形说“会、能”"
+      },
+      "explanation": {
+        "en": "The potential form says that someone can do something. Ru-verbs change る to られる: 食べる → 食べられる. U-verbs move to the e-row plus る: 読む → 読める. Two verbs are fixed: する → できる, 来る → 来られる. The object often takes が: 日本語が話せます.",
+        "zh": "可能形表示“会、能”。一段动词把“る”换成“られる”：食べる→食べられる。五段动词变成え段加“る”：読む→読める。特殊：する→できる、来る→来られる。对象常用“が”：日本語が話せます。"
+      },
+      "examples": [
+        "彼は日本語が話せます。",
+        "この漢字は読めますか。"
+      ],
+      "questions": [
+        {
+          "prompt": "「泳ぐ」の可能形は___。",
+          "choices": [
+            "泳ぎます",
+            "泳げます",
+            "泳いでいます"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "「読む」の可能形は___。",
+          "choices": [
+            "読みます",
+            "読める",
+            "読もう"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "「する」の可能形は___。",
+          "choices": [
+            "される",
+            "できます",
+            "します"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "ピアノ___弾けます。",
+          "choices": [
+            "をだけ",
+            "が",
+            "へ"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ko-negation",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "Not doing with 안 and 못",
+        "zh": "用안与못表示否定"
+      },
+      "explanation": {
+        "en": "안 before a verb says someone does not do something by choice: 저는 안 먹어요. 못 says they cannot do it: 시간이 없어서 못 가요. Put 안 or 못 directly in front of the verb; the polite 아/어요 ending stays the same.",
+        "zh": "动词前加“안”表示主观不做：저는 안 먹어요（我不吃）。加“못”表示不能：시간이 없어서 못 가요（没时间，去不了）。안、못 直接放在动词前，词尾仍用礼貌的 아/어요。"
+      },
+      "examples": [
+        "저는 매운 음식을 안 먹어요.",
+        "오늘은 못 가요."
+      ],
+      "questions": [
+        {
+          "prompt": "저는 커피를 ___ 마셔요.（自己决定不喝）",
+          "choices": [
+            "안",
+            "못",
+            "아"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "시간이 없어서 ___ 가요.（去不了）",
+          "choices": [
+            "안",
+            "못",
+            "을"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "“안 가요” 的意思是___。",
+          "choices": [
+            "不能去",
+            "不去",
+            "没去过"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "동생은 매운 음식을 ___ 먹어요.（弟弟吃不了辣）",
+          "choices": [
+            "안",
+            "못",
+            "을"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ko-future",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "Plans and guesses with (으)ㄹ 거예요",
+        "zh": "用(으)ㄹ 거예요说打算与推测"
+      },
+      "explanation": {
+        "en": "Attach ㄹ 거예요 after a vowel and 을 거예요 after a consonant to talk about a plan or a guess: 갈 거예요 / 먹을 거예요. It also works for adjectives and guesses about the future: 좋을 거예요. It describes intention or expectation, not a fixed timetable.",
+        "zh": "元音后接“ㄹ 거예요”，辅音后接“을 거예요”，表示打算或推测：갈 거예요／먹을 거예요。形容词同样可用：좋을 거예요。它表示将来的打算或推测，不是固定日程。"
+      },
+      "examples": [
+        "내일 친구를 만날 거예요.",
+        "이번 주말은 바쁠 거예요."
+      ],
+      "questions": [
+        {
+          "prompt": "내일 영화를 볼 ___.",
+          "choices": [
+            "거예요",
+            "고 있어요",
+            "었어요"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "받침 있는 동사：먹___ 거예요.",
+          "choices": [
+            "을",
+            "ㄹ",
+            "는"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "추측：내일은 날씨가 ___.",
+          "choices": [
+            "좋을 거예요",
+            "좋고 있어요",
+            "좋었어요만"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "받침 없는 동사：가___ 거예요.",
+          "choices": [
+            "을",
+            "ㄹ",
+            "게"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "es-gustar",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "Likes with gustar",
+        "zh": "用gustar表达喜好"
+      },
+      "explanation": {
+        "en": "With gustar the thing liked is the subject: me gusta el libro, me gustan los libros. Put me, te, le, nos, os or les in front to say who likes it; use gusta for a singular thing or an action and gustan for plurals. Negate with no: no me gusta.",
+        "zh": "gustar 的主语是“被喜欢的事物”：me gusta el libro／me gustan los libros。前面用 me/te/le/nos/os/les 表示“谁喜欢”；单数事物或动作用 gusta，复数用 gustan。否定加 no：no me gusta。"
+      },
+      "examples": [
+        "Me gusta el café.",
+        "No nos gustan las esperas."
+      ],
+      "questions": [
+        {
+          "prompt": "___ gusta el café.",
+          "choices": [
+            "Me",
+            "Yo",
+            "Mi"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Me ___ los museos.",
+          "choices": [
+            "gusta",
+            "gustan",
+            "gusto"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "否定：___ me gusta esperar.",
+          "choices": [
+            "No",
+            "Sin",
+            "Ni"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "A ella ___ gusta viajar.",
+          "choices": [
+            "le",
+            "la",
+            "les"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-reflexive",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Daily routines with reflexive verbs",
+        "zh": "自复动词说日常作息"
+      },
+      "explanation": {
+        "en": "Reflexive verbs describe actions done to oneself, and the pronoun matches the subject: me despierto, te levantas, se ducha. The pronoun goes before the conjugated verb or attaches to an infinitive: voy a acostarme. They can also mark a change of state: me enfermé.",
+        "zh": "自复动词表示动作回到自身，代词随主语变化：me despierto／te levantas／se ducha。代词放在变位动词之前，或附在不定式之后：voy a acostarme。也可表示状态变化：me enfermé。"
+      },
+      "examples": [
+        "Me despierto a las siete.",
+        "Ella se duerme temprano."
+      ],
+      "questions": [
+        {
+          "prompt": "Yo ___ despierto temprano.",
+          "choices": [
+            "me",
+            "te",
+            "se"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Ella ___ acuesta a las diez.",
+          "choices": [
+            "me",
+            "se",
+            "te"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "不定式后接：Voy a ___.",
+          "choices": [
+            "acostarme",
+            "me acostar",
+            "acostar me"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "否定：No ___ levanto temprano.",
+          "choices": [
+            "me",
+            "se",
+            "le"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-proportion",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "The more…the more with 越…越…",
+        "zh": "用“越…越…”表达正比"
+      },
+      "explanation": {
+        "en": "越…越… links two degrees that grow together: the first clause gives the condition and the second shows the result deepening with it. One adjective can repeat around the verb: 越学越有意思. With two different actors or aspects, use two 越 clauses: 雨越下越大. It marks a proportional tendency, not a fixed amount.",
+        "zh": "“越…越…”连接两个同向变化的程度：前一分句给出条件，后一分句表示随之加深的结果。同一动词可复现：越学越有意思。主体或方面不同时用两个“越”分句：雨越下越大。它表示正比趋势，不表示固定数量。"
+      },
+      "examples": [
+        "越想越明白。",
+        "孩子越长越高。"
+      ],
+      "questions": [
+        {
+          "prompt": "填关联词：___学___有意思。",
+          "choices": [
+            "越，越",
+            "又，又",
+            "再，再"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "天气越来冷越。",
+            "天气越来越冷。",
+            "越天气来冷越。"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "两个主体都在变化，哪句自然？",
+          "choices": [
+            "越他说我越不懂。",
+            "他越说我越懂不。",
+            "他越说，我越不懂。"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "“越…越…”表示___。",
+          "choices": [
+            "程度正比变化",
+            "固定数量",
+            "对比转折"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-proportion",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "The more…the more with ば〜ほど",
+        "zh": "用「ば〜ほど」表达正比"
+      },
+      "explanation": {
+        "en": "Attach the conditional ば to a verb or adjective, then repeat the plain form with ほど: 読めば読むほど means the more you read. The pattern links two degrees that grow together: 練習すればするほど上手になる. It marks a proportional tendency, not a fixed amount.",
+        "zh": "动词或形容词接假定形「ば」，再重复原形加「ほど」：読めば読むほど 意为“越读越……”。「〜ば〜ほど」连接两个同向变化的程度：練習すればするほど上手になる。它表示正比趋势，不是固定数量。"
+      },
+      "examples": [
+        "考えれば考えるほど分からなくなる。",
+        "見れば見るほど美しい。"
+      ],
+      "questions": [
+        {
+          "prompt": "___読む___おもしろいです。",
+          "choices": [
+            "読めば，ほど",
+            "読んで，ほど",
+            "読むと，だけ"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "練習すれば___ほど上手になります。",
+          "choices": [
+            "して",
+            "する",
+            "すれば"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "値段が高ければ高い___品質がいいとは限らない。",
+          "choices": [
+            "まで",
+            "だけ",
+            "ほど"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「〜ば〜ほど」の意味は___。",
+          "choices": [
+            "比例した変化",
+            "固定の量",
+            "意外な結果"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ko-proportion",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "The more…the more with -(으)ㄹ수록",
+        "zh": "用-(으)ㄹ수록表达正比"
+      },
+      "explanation": {
+        "en": "-(으)ㄹ수록 links a growing condition to a growing result: 갈수록 means the more it goes on. After a consonant use 을수록 (먹을수록); after a vowel use ㄹ수록 (볼수록). The verb or adjective does not repeat: 볼수록 좋아요. It marks a proportional tendency, not a fixed amount.",
+        "zh": "-(으)ㄹ수록 连接递增的条件与递增的结果：갈수록 意为“越来越……”。辅音后接 을수록（먹을수록），元音后接 ㄹ수록（볼수록）。动词不重复：볼수록 좋아요。它表示正比趋势，不是固定数量。"
+      },
+      "examples": [
+        "살수록 이사가 힘들어요.",
+        "볼수록 예뻐요."
+      ],
+      "questions": [
+        {
+          "prompt": "갈수록 的意思是___。",
+          "choices": [
+            "越来越",
+            "越来越少",
+            "虽然"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "받침 있는 동사：먹___ 맛있어요.",
+          "choices": [
+            "ㄹ수록",
+            "을수록",
+            "는수록"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "받침 없는 동사：갈___ 힘들어요.",
+          "choices": [
+            "을수록",
+            "고수록",
+            "ㄹ수록"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "읽을수록 재미있어요.",
+            "읽는수록 재미있어요.",
+            "읽고수록 재미있어요."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-proportion",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "Proportions with cuanto más…más",
+        "zh": "用cuanto más…más表达正比"
+      },
+      "explanation": {
+        "en": "Cuanto más X, más Y links two degrees that grow together: cuanto más estudias, más aprendes. The word after cuanto agrees with what it modifies: cuanta más agua, más sano. Mientras más is an informal variant. It marks a proportional tendency, not a fixed amount.",
+        "zh": "cuanto más X, más Y 连接两个同步变化的程度：cuanto más estudias, más aprendes（越学越会）。cuanto 后的词要与其修饰对象配合：cuanta más agua。mientras más 是口语变体。它表示正比趋势，不是固定数量。"
+      },
+      "examples": [
+        "Cuanto más leo, más quiero leer.",
+        "Cuanta más gente viene, mejor."
+      ],
+      "questions": [
+        {
+          "prompt": "___ más practicas, mejor hablas.",
+          "choices": [
+            "Cuanto",
+            "Cuando",
+            "Cuantos"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "___ más agua bebes, mejor te sientes.",
+          "choices": [
+            "Cuanto",
+            "Cuanta",
+            "Cuantas"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "Más cuanto comes, más pesas.",
+            "Cuanto comes más, pesas más.",
+            "Cuanto más comes, más pesas."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "cuanto más…más expresa ___.",
+          "choices": [
+            "cambio proporcional",
+            "cantidad fija",
+            "contraste"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-ability",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "Can and may with 会 and 可以",
+        "zh": "用“会”和“可以”表达能力与许可"
+      },
+      "explanation": {
+        "en": "会 expresses a learned skill: 我会游泳 means I can swim. 可以 expresses permission or possibility: 这里可以停车 means you may park here. For future ability use 会: 明天我会来. The negatives are 不会 and 不可以.",
+        "zh": "“会”表示学会的技能：我会游泳。“可以”表示许可或可能：这里可以停车。将来的能力也用“会”：明天我会来。否定式是“不会”和“不可以”。"
+      },
+      "examples": [
+        "她会说法语。",
+        "这里不可以吸烟。"
+      ],
+      "questions": [
+        {
+          "prompt": "他会___游泳。（学会的技能）",
+          "choices": [
+            "会",
+            "想",
+            "要"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "这里___停车吗？——可以。",
+          "choices": [
+            "是",
+            "可以",
+            "在"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "我会不开车。",
+            "我不开车会。",
+            "我不会开车。"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "“可以”表示___。",
+          "choices": [
+            "许可或可能",
+            "正在",
+            "已经"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-permission",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "Ask and allow with 〜てもいい",
+        "zh": "用「〜てもいい」请求许可"
+      },
+      "explanation": {
+        "en": "The て-form plus もいい asks or gives permission: 写真を撮ってもいいですか means May I take photos? Answer yes with いいですよ or refuse with だめです. For a clear rule use 〜てはいけません: ここで泳いではいけません means you must not swim here.",
+        "zh": "动词て形加「もいい」用于请求或给予许可：写真を撮ってもいいですか（可以拍照吗？）。肯定回答用「いいですよ」，否定用「だめです」。表示禁止用「〜てはいけません」：ここで泳いではいけません。"
+      },
+      "examples": [
+        "ここに座ってもいいです。",
+        "危ないので、触ってはいけません。"
+      ],
+      "questions": [
+        {
+          "prompt": "写真を撮って___いいですか。",
+          "choices": [
+            "も",
+            "は",
+            "が"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "「〜てはいけません」は___を表す。",
+          "choices": [
+            "許可",
+            "禁止",
+            "推量"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "入って___いいですよ。",
+          "choices": [
+            "を",
+            "の",
+            "も"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "正しい文は___。",
+          "choices": [
+            "ここで食べてもいいです。",
+            "ここ食べてもいいです。",
+            "ここが食べてもいいです。"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ko-permission",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "Ask and allow with -어도 돼요",
+        "zh": "用-어도 돼요请求许可"
+      },
+      "explanation": {
+        "en": "-아/어도 돼요 asks or gives permission: 사진을 찍어도 돼요? means May I take photos? For a rule of prohibition use -면 안 돼요: 여기서 수영하면 안 돼요 means you must not swim here. After ㅏ/ㅗ vowels use -아도; elsewhere use -어도.",
+        "zh": "-아/어도 돼요 用于请求或给予许可：사진을 찍어도 돼요?（可以拍照吗？）。表示禁止用 -면 안 돼요：여기서 수영하면 안 돼요。ㅏ/ㅗ 元音后接 -아도，其余接 -어도。"
+      },
+      "examples": [
+        "여기 앉아도 돼요.",
+        "늦으면 안 돼요."
+      ],
+      "questions": [
+        {
+          "prompt": "사진을 찍어___ 돼요?",
+          "choices": [
+            "도",
+            "면",
+            "고"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "-면 안 돼요 的意思是___。",
+          "choices": [
+            "许可",
+            "禁止",
+            "打算"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "늦___ 안 돼요.",
+          "choices": [
+            "어서",
+            "도",
+            "으면"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "여기서 먹어도 돼요.",
+            "여기서 먹면 돼요 안.",
+            "여기서 먹도 돼요."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-poder",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "Can and may with poder",
+        "zh": "用poder表达能力和许可"
+      },
+      "explanation": {
+        "en": "Poder + infinitive expresses ability or permission: puedo nadar means I can swim and ¿puedo entrar? asks May I come in? It is irregular in the present: puedo, puedes, puede, podemos, podéis, pueden. The verb after poder stays in the infinitive.",
+        "zh": "poder + 原形动词表示能力或许可：puedo nadar（我会游泳）；¿puedo entrar?（我可以进来吗？）。现在时变位不规则：puedo, puedes, puede, podemos, podéis, pueden。poder 后的动词保持原形。"
+      },
+      "examples": [
+        "No puedo venir mañana.",
+        "¿Puedes ayudarme?"
+      ],
+      "questions": [
+        {
+          "prompt": "Yo ___ nadar.",
+          "choices": [
+            "puedo",
+            "poder",
+            "puede"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Ella ___ venir mañana.",
+          "choices": [
+            "puedes",
+            "puede",
+            "puedo"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "No puedo voy hoy.",
+            "No poder ir hoy.",
+            "No puedo ir hoy."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Después de poder, el verbo va en ___.",
+          "choices": [
+            "infinitivo",
+            "gerundio",
+            "pasado"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-purpose",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "Purpose with 为了 and 来/去",
+        "zh": "用“为了”和“来/去”表达目的"
+      },
+      "explanation": {
+        "en": "为了 introduces a purpose: 为了健康，他每天跑步 means he runs every day for his health. The purpose can also come second: 他每天跑步是为了健康. A movement verb with 来 or 去 can introduce the goal: 我来北京学习 means I came to Beijing to study.",
+        "zh": "“为了”引出目的：为了健康，他每天跑步。目的分句也可后置：他每天跑步是为了健康。位移动词后加“来/去”也可引出目的：我来北京学习。"
+      },
+      "examples": [
+        "为了提高成绩，她每天复习。",
+        "他去图书馆看书。"
+      ],
+      "questions": [
+        {
+          "prompt": "___学好汉语，他每天练习。",
+          "choices": [
+            "为了",
+            "因为",
+            "所以"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "他来中国___汉语。（表目的）",
+          "choices": [
+            "了",
+            "学习",
+            "着"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "他买去商店水果。",
+            "他去商店了买水果。",
+            "他去商店买水果。"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "“为了”后面的内容是___。",
+          "choices": [
+            "目的",
+            "原因",
+            "结果"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-purpose",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Purpose with ために and ように",
+        "zh": "用「ために/ように」表达目的"
+      },
+      "explanation": {
+        "en": "Dictionary form plus ために marks a purpose the subject controls: 日本語を勉強するために日本へ来ました means I came to Japan to study Japanese. Use ように after verbs the subject cannot fully control: 見えるように前に座ります means I sat in front so that I could see. A noun takes のために.",
+        "zh": "动词辞书形加「ために」表示主体可控的目的：日本語を勉強するために日本へ来ました。难以自控的动词用「ように」：見えるように前に座ります。名词用「のために」。"
+      },
+      "examples": [
+        "健康のために毎日歩いています。",
+        "忘れないようにメモしました。"
+      ],
+      "questions": [
+        {
+          "prompt": "日本語を勉強する___日本へ来ました。",
+          "choices": [
+            "ために",
+            "のでは",
+            "ほど"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "聞こえる___大きな声で話します。",
+          "choices": [
+            "ために",
+            "ように",
+            "ところ"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "健康の___毎日歩きます。",
+          "choices": [
+            "ばかり",
+            "ように",
+            "ために"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "正しい文は___。",
+          "choices": [
+            "忘れないようにメモしました。",
+            "忘れないためにメモしました。",
+            "忘れなくてようにメモしました。"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ko-purpose",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "Purpose with -(으)려고",
+        "zh": "用-(으)려고表达目的"
+      },
+      "explanation": {
+        "en": "-(으)려고 attaches to a verb stem to mark intention or purpose: 한국어를 배우려고 한국에 왔어요 means I came to Korea to learn Korean. After a consonant use 으려고; after a vowel use 려고. It cannot combine with a past-tense marker.",
+        "zh": "-(으)려고 接动词词干表示意图或目的：한국어를 배우려고 한국에 왔어요（为了学韩语来到韩国）。辅音后接 으려고，元音后接 려고。不能与时制词尾共现。"
+      },
+      "examples": [
+        "친구를 만나려고 카페에 갔어요.",
+        "건강해지려고 운동해요."
+      ],
+      "questions": [
+        {
+          "prompt": "한국어를 배우___ 한국에 왔어요.",
+          "choices": [
+            "려고",
+            "고",
+            "면서"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "받침 있는 동사：먹___ 왔어요.",
+          "choices": [
+            "려고",
+            "으려고",
+            "는고"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "책을 살려고 서점에 갔어요.",
+            "책을 사는고 서점에 갔어요.",
+            "책을 사려고 서점에 갔어요."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "-(으)려고 表示___。",
+          "choices": [
+            "目的/意图",
+            "过去经历",
+            "禁止"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-progressive",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Ongoing actions: estar + gerundio",
+        "zh": "用estar + 副动词表示进行"
+      },
+      "explanation": {
+        "en": "Estar + gerundio describes an action in progress: estoy comiendo means I am eating. The gerund is regular: -ando for -ar verbs and -iendo for -er/-ir verbs, with stem changes like leyendo or durmiendo. Only estar is conjugated; the gerund never changes for person.",
+        "zh": "estar + 副动词表示正在进行的动作：estoy comiendo（我正在吃）。副动词规则构成：-ar 动词用 -ando，-er/-ir 动词用 -iendo，另有 leyendo、durmiendo 等变体。只有 estar 随人称变化，副动词不变。"
+      },
+      "examples": [
+        "Estamos estudiando ahora.",
+        "Ella está durmiendo."
+      ],
+      "questions": [
+        {
+          "prompt": "___ comiendo ahora.",
+          "choices": [
+            "Estoy",
+            "Soy",
+            "Tengo"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "leer 的副动词是___。",
+          "choices": [
+            "leendo",
+            "leyendo",
+            "leióndo"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "Están duermen.",
+            "Son durmiendo.",
+            "Están durmiendo."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "En el progresivo, el verbo que se conjuga es ___.",
+          "choices": [
+            "estar",
+            "el gerundio",
+            "haber"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-inference",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "Confident guesses with 一定 and 看来",
+        "zh": "用“一定”和“看来”表达推断"
+      },
+      "explanation": {
+        "en": "一定 expresses a confident deduction: 他一定知道 means he must know. 看来 presents a guess based on what the speaker observes: 天黑了，看来要下雨了 means it looks like it will rain. 吧 can soften a guess at the end of a sentence: 你已经吃饭了吧.",
+        "zh": "“一定”表示有把握的推断：他一定知道。“看来”根据所见情况作出推测：天黑了，看来要下雨了。“吧”放在句末可使猜测语气缓和：你已经吃饭了吧。"
+      },
+      "examples": [
+        "灯还亮着，他一定在家。",
+        "看来你很喜欢这本书。"
+      ],
+      "questions": [
+        {
+          "prompt": "灯还亮着，他___在家。",
+          "choices": [
+            "一定",
+            "曾经",
+            "刚刚"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "___要下雨了。（根据观察推测）",
+          "choices": [
+            "居然",
+            "看来",
+            "已经"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "了你已经知道吧。",
+            "你已经了吧知道。",
+            "你已经知道了吧。"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "“看来”表示___。",
+          "choices": [
+            "根据情况的推测",
+            "过去的经历",
+            "命令"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ja-guess",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "Deductions with はず and に違いない",
+        "zh": "用「はず」「に違いない」表达推断"
+      },
+      "explanation": {
+        "en": "はず marks a reasoned expectation: 彼はもう着くはずだ means he should have arrived by now. に違いない is a stronger deduction: あの店は高いに違いない means that shop must be expensive. Both follow plain-form predicates; na-adjectives take な and nouns take の before はず but join に違いない directly.",
+        "zh": "「はず」表示有依据的推测：彼はもう着くはずだ（他应该已经到了）。「に違いない」推断语气更强：あの店は高いに違いない。两者接普通形；な形容词和名词接「はず」时用「な/の」，接「に違いない」时直接连接。"
+      },
+      "examples": [
+        "彼は知っているはずです。",
+        "あの人は田中さんに違いない。"
+      ],
+      "questions": [
+        {
+          "prompt": "彼はもう着く___だ。",
+          "choices": [
+            "はず",
+            "もの",
+            "こと"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "あの店は高い___。（強い推測）",
+          "choices": [
+            "わけではない",
+            "に違いない",
+            "つもりだ"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "正しい文は___。",
+          "choices": [
+            "このへんは静かにはずです。",
+            "このへんは静かだはずです。",
+            "このへんは静かなはずです。"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "「〜はず」の意味は___。",
+          "choices": [
+            "根拠のある推測",
+            "強い命令",
+            "過去の事実"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "ko-supposition",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "Guesses with -나 보다 and -겠",
+        "zh": "用-나 보다和-겠表达推测"
+      },
+      "explanation": {
+        "en": "-나 보다 shares a guess based on what the speaker sees or feels: 비가 오나 봐요 means it looks like rain; action verbs take -나 보다 while descriptive verbs take -(으)ㄴ가 보다. -겠 marks a conjecture about the future or an unseen situation: 맛있겠어요 means it will probably taste good.",
+        "zh": "-나 보다 根据亲眼所见或感受作推测：비가 오나 봐요（好像要下雨了）；动作动词接 -나 보다，形容词接 -(으)ㄴ가 보다。-겠 对未来或未亲见的情况作推测：맛있겠어요（应该会好吃）。"
+      },
+      "examples": [
+        "밖이 어두워졌나 봐요.",
+        "내일은 바쁘겠어요."
+      ],
+      "questions": [
+        {
+          "prompt": "비가 오___ 봐요.",
+          "choices": [
+            "나",
+            "으나",
+            "는가"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "形容词：사람이 많___ 봐요.",
+          "choices": [
+            "나",
+            "은가",
+            "는가"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "내일은 바쁜가 봐요.",
+            "내일은 바쁘나 봐요.",
+            "내일은 바쁘겠어요."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "-나 보다 는 ___를 나타내요.",
+          "choices": [
+            "직접 관찰한 추측",
+            "강한 명령",
+            "과거 완료"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "es-probability",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "Guessing with the future and deber de",
+        "zh": "用将来时和deber de表达推测"
+      },
+      "explanation": {
+        "en": "The simple future can make a guess about the present: estará en casa means he is probably at home. Deber de + infinitive gives the same idea: debe de estar en casa. Use deber + infinitive without de for obligation instead: debe estudiar means he has to study.",
+        "zh": "简单将来时可以对现在作推测：estará en casa（他大概在家）。deber de + 原形动词表达相同含义：debe de estar en casa。而 deber + 原形（不带 de）表示义务：debe estudiar（他应该学习）。"
+      },
+      "examples": [
+        "Serán las ocho.",
+        "Debe de ser difícil."
+      ],
+      "questions": [
+        {
+          "prompt": "¿Dónde está Juan? —___ en casa.（大概）",
+          "choices": [
+            "Estará",
+            "Es",
+            "Estaba"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "推测：___ de estar enfermo.",
+          "choices": [
+            "Puede",
+            "Debe",
+            "Tiene"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "Debe estudiando más.",
+            "Debe de estudia más.",
+            "Debe estudiar más."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "“Estará en casa” 在这里表示___。",
+          "choices": [
+            "对现在的推测",
+            "确定的过去",
+            "命令"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "zh-demonstratives",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "Pointing with 这 and 那",
+        "zh": "用“这”和“那”指人或物"
+      },
+      "explanation": {
+        "en": "这 points to something near the speaker (“this”); 那 points to something farther away (“that”). Before a noun, add the right measure word: 这个人, 那本书, 这杯水.",
+        "zh": "“这”指近处的事物，“那”指远处的事物。名词前要加合适的量词：这个人、那本书、这杯水。"
+      },
+      "examples": [
+        "这是我的老师。",
+        "那个人是我的朋友。",
+        "这本书很有意思。"
+      ],
+      "questions": [
+        {
+          "prompt": "哪句用“这”指近处的东西？",
+          "choices": [
+            "这是我的书。",
+            "那是我的书。",
+            "哪是我的书？"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "这 marks things close to the speaker; 那 marks far things and 哪 asks a question.",
+            "zh": "“这”指离说话人近的东西；“那”指远处，“哪”用于提问。"
+          }
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "那个人是医生。",
+            "人那个是医生。",
+            "那个是人医生。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The order is 那 + measure word + noun + 是…",
+            "zh": "语序是“那 + 量词 + 名词 + 是……”。"
+          }
+        },
+        {
+          "prompt": "___ 是邮局。",
+          "choices": [
+            "那儿",
+            "这",
+            "吗"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "这 can stand alone as the subject for something nearby.",
+            "zh": "“这”可以单独作主语，指近处的地方或东西。"
+          }
+        },
+        {
+          "prompt": "“那本书”的意思是 ___。",
+          "choices": [
+            "远处的那本书",
+            "近处的这本书",
+            "不知道哪本书"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "那 marks distance; 本 is the measure word for books.",
+            "zh": "“那”指远处；“本”是书的量词。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-demonstratives",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "Point with これ・それ・あれ",
+        "zh": "用「これ・それ・あれ」指东西"
+      },
+      "explanation": {
+        "en": "Japanese uses three words for pointing: これ for things near the speaker, それ near the listener, and あれ far from both. Before a noun they become この, その, あの: この本, あの人.",
+        "zh": "日语用三个词指东西：これ（说话人近处）、それ（听话人近处）、あれ（双方都远）。修饰名词时用この・その・あの：この本、あの人。"
+      },
+      "examples": [
+        "これは私の傘です。",
+        "あの人は先生です。",
+        "それは何ですか。"
+      ],
+      "questions": [
+        {
+          "prompt": "話す人の近くにあるものを指す言葉はどれですか。",
+          "choices": [
+            "それ",
+            "あれ",
+            "これ"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "これ marks what is near the speaker; それ is near the listener and あれ far from both.",
+            "zh": "「これ」指说话人近处；「それ」指听话人近处；「あれ」指双方都远。"
+          }
+        },
+        {
+          "prompt": "正しい文を選んでください。",
+          "choices": [
+            "この本は面白いです。",
+            "これ本は面白いです。",
+            "あれ人は先生です。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Before a noun, これ becomes この and あれ becomes あの.",
+            "zh": "修饰名词时用「この」「あの」，不能说「これ本」「あれ人」。"
+          }
+        },
+        {
+          "prompt": "「あれ」は___ものを指します。",
+          "choices": [
+            "聞き手の近く",
+            "二人から遠い",
+            "話し手の近く"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "あれ points to something far from both speaker and listener.",
+            "zh": "「あれ」指离双方都远的东西。"
+          }
+        },
+        {
+          "prompt": "「それ」は___の近くのものです。",
+          "choices": [
+            "話し手",
+            "二人から遠い",
+            "聞き手"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "それ points to something near the listener.",
+            "zh": "「それ」指听话人近处的东西。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-demonstratives",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "Point with 이・그・저",
+        "zh": "用 이・그・저 指人或物"
+      },
+      "explanation": {
+        "en": "Korean has three demonstratives: 이 for things near the speaker, 그 near the listener, and 저 far from both. They combine with 것 to mean “this/that thing” (이것, 그것, 저것) and go directly before nouns: 이 책, 그 사람, 저 건물.",
+        "zh": "韩语有三个指示词：이（说话人近处）、그（听话人近处）、저（双方都远）。和 것 组合成 이것/그것/저것；直接放在名词前：이 책、그 사람、저 건물。"
+      },
+      "examples": [
+        "이것은 제 가방입니다.",
+        "저 사람은 선생님입니다.",
+        "그것은 무엇입니까?"
+      ],
+      "questions": [
+        {
+          "prompt": "말하는 사람 가까이 있는 것을 가리키는 말은 무엇입니까?",
+          "choices": [
+            "그것",
+            "이것",
+            "저것"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "이 marks what is near the speaker; 그 near the listener, 저 far from both.",
+            "zh": "이 指说话人近处；그 指听话人近处；저 指双方都远。"
+          }
+        },
+        {
+          "prompt": "올바른 문장을 고르십시오.",
+          "choices": [
+            "이 책은 재미있습니다.",
+            "이것 책은 재미있습니다.",
+            "저 사람은 책입니다."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Before a noun use 이/그/저, not 이것/그것/저것.",
+            "zh": "名词前用 이/그/저，不能用 이것/그것/저것。"
+          }
+        },
+        {
+          "prompt": "「저」는 ___ 것을 가리킵니다.",
+          "choices": [
+            "말하는 사람에게 가까운",
+            "두 사람에게서 먼",
+            "듣는 사람에게 가까운"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "저 points to something far from both speaker and listener.",
+            "zh": "저 指离双方都远的东西。"
+          }
+        },
+        {
+          "prompt": "「그 사람」의 「그」가 가리키는 위치는 ___입니다.",
+          "choices": [
+            "말하는 사람 근처",
+            "두 사람에게서 먼 곳",
+            "듣는 사람 근처"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "그 points to something near the listener.",
+            "zh": "그 指听话人近处。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-demonstratives",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "Point with este, ese and aquel",
+        "zh": "用 este、ese、aquel 指人或物"
+      },
+      "explanation": {
+        "en": "Spanish demonstratives change for gender and distance: este/esta for things near the speaker, ese/esa near the listener, and aquel/aquella far away. Match the noun's gender: este libro, esa mesa, aquella casa.",
+        "zh": "西班牙语指示词随性和距离变化：este/esta 指说话人近处，ese/esa 指听话人近处，aquel/aquella 指远处。词性要和名词一致：este libro、esa mesa、aquella casa。"
+      },
+      "examples": [
+        "Este libro es mío.",
+        "Esa mesa es nueva.",
+        "Aquella casa es grande."
+      ],
+      "questions": [
+        {
+          "prompt": "¿Qué palabra señala algo cerca del hablante?",
+          "choices": [
+            "ese",
+            "este",
+            "aquel"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Este marks something near the speaker; ese near the listener; aquel far away.",
+            "zh": "Este 指说话人近处；ese 指听话人近处；aquel 指远处。"
+          }
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "Esta silla es cómoda.",
+            "Este silla es cómoda.",
+            "Aquel silla es cómoda."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Silla is feminine, so the demonstrative must be esta.",
+            "zh": "Silla 是阴性，所以用 esta。"
+          }
+        },
+        {
+          "prompt": "«Ese» señala algo ___.",
+          "choices": [
+            "cerca del oyente",
+            "cerca del hablante",
+            "muy lejos"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Ese points to something near the listener.",
+            "zh": "Ese 指听话人近处的东西。"
+          }
+        },
+        {
+          "prompt": "Completa: ___ casa está lejos.",
+          "choices": [
+            "Este",
+            "Aquella",
+            "Ese"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "The house is far away and casa is feminine: aquella.",
+            "zh": "房子在远处，casa 是阴性，用 aquella。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-conditionals",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "If…then with 如果…就",
+        "zh": "用“如果……就……”说假设"
+      },
+      "explanation": {
+        "en": "如果 introduces a condition (“if…”) and 就 marks the result (“then…”): 如果下雨，我就不去。When the context is clear, 如果 can be dropped.",
+        "zh": "“如果”引出条件，“就”引出结果：如果下雨，我就不去。语境清楚时“如果”可以省略。"
+      },
+      "examples": [
+        "如果明天下雨，我就不去跑步。",
+        "如果你有时间，就给我打个电话。",
+        "如果太贵，我就不买了。"
+      ],
+      "questions": [
+        {
+          "prompt": "哪句说了假设和结果？",
+          "choices": [
+            "我有空就去你家了。",
+            "如果我有空，就去你家。",
+            "如果我有空你家去。"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "如果…就… links a condition to its result.",
+            "zh": "“如果……就……”把条件和结果连起来。"
+          }
+        },
+        {
+          "prompt": "填空：___ 天气好，我们就去公园。",
+          "choices": [
+            "虽然",
+            "如果",
+            "因为"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "If marks a condition; 虽然 concedes and 因为 gives a reason.",
+            "zh": "条件句用“如果”；“虽然”表转折，“因为”表原因。"
+          }
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "如果我生病，就不上班。",
+            "如果我生病就不上班是。",
+            "就如果我生病，不上班。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "如果 heads the condition clause and 就 heads the result.",
+            "zh": "“如果”带条件分句，“就”带结果分句。"
+          }
+        },
+        {
+          "prompt": "“如果太贵，我就不买”里的“就”表示 ___。",
+          "choices": [
+            "马上",
+            "结果",
+            "时间"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Here 就 introduces the result when the condition holds.",
+            "zh": "这里的“就”引出条件成立时的结果。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-conditionals",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Say if with 〜たら",
+        "zh": "用「〜たら」说假设"
+      },
+      "explanation": {
+        "en": "〜たら marks a condition: 雨が降ったら、行きません (if it rains, I won't go). It is the た-form plus ら. For picking up a topic as a condition, なら is used: 行くなら、早く出よう.",
+        "zh": "「〜たら」表示条件：雨が降ったら、行きません。由た形+ら构成。「なら」用于承接话题：行くなら、早く出よう。"
+      },
+      "examples": [
+        "雨が降ったら、家にいます。",
+        "暇だったら、電話してください。",
+        "東京に行くなら、この電車です。"
+      ],
+      "questions": [
+        {
+          "prompt": "「雨が降ったら、行きません」の意味は___。",
+          "choices": [
+            "雨なら行かない",
+            "雨でも行く",
+            "雨だから行く"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "〜たら turns the first clause into a condition.",
+            "zh": "「〜たら」把前句变成条件。"
+          }
+        },
+        {
+          "prompt": "正しい文を選んでください。",
+          "choices": [
+            "暇だったら、来てください。",
+            "暇たら、来てください。",
+            "暇だたら、来てください。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "暇 is a na-adjective: 暇だ + ったら gives 暇だったら.",
+            "zh": "「暇」是な形容词：暇だ+ったら→暇だったら。"
+          }
+        },
+        {
+          "prompt": "「食べたら」の「たら」は___を表します。",
+          "choices": [
+            "条件",
+            "過去だけ",
+            "命令"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "たら marks a condition, not just the past.",
+            "zh": "「たら」表条件，不只是过去。"
+          }
+        },
+        {
+          "prompt": "___、連絡してください。",
+          "choices": [
+            "着くたら",
+            "着いたら",
+            "着くならは"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "着く + たら becomes 着いたら.",
+            "zh": "着く+たら→着いたら。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-conditionals",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "Say if with -(으)면",
+        "zh": "用 -(으)면 说假设"
+      },
+      "explanation": {
+        "en": "-(으)면 attaches to a stem to mark a condition: 비가 오면 집에 있어요 (if it rains, I stay home). Use -으면 after a final consonant and -면 after a vowel: 먹으면, 가면. After a noun, -(이)면 means “if it is”: 학생이면 할인이 있어요.",
+        "zh": "-(으)면 接在词干后表条件：비가 오면 집에 있어요。有收音用 -으면，无收音用 -면：먹으면、가면。名词后用 -(이)면：학생이면 할인이 있어요。"
+      },
+      "examples": [
+        "시간이 있으면 만나요.",
+        "비가 오면 집에 있어요.",
+        "한국에 가면 김치를 먹어요."
+      ],
+      "questions": [
+        {
+          "prompt": "「비가 오면 집에 있어요」의 뜻은___。",
+          "choices": [
+            "비가 오면 집에 있는다",
+            "비가 와도 나간다",
+            "비 때문에 못 간다"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "-(으)면 makes the first clause a condition.",
+            "zh": "-(으)면 把前句变成条件。"
+          }
+        },
+        {
+          "prompt": "올바른 형태를 고르십시오: 먹다 → ___.",
+          "choices": [
+            "먹면다",
+            "먹으면",
+            "먹는면"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Stems ending in a consonant take -으면: 먹으면.",
+            "zh": "有收音的词干接 -으면：먹으면。"
+          }
+        },
+        {
+          "prompt": "「시간이 있으면 만나요」에서 「-으면」은 ___을 나타냅니다.",
+          "choices": [
+            "조건",
+            "과거",
+            "존경"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "-(으)면 marks a condition.",
+            "zh": "-(으)면 表条件。"
+          }
+        },
+        {
+          "prompt": "알맞은 문장은 무엇입니까?",
+          "choices": [
+            "가면 보여요.",
+            "가으면 보여요.",
+            "가면은 보여요."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "가 ends in a vowel, so it takes -면: 가면.",
+            "zh": "가 无收音，接 -면：가면。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-conditionals",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Real conditions with si",
+        "zh": "用 si 说真实条件"
+      },
+      "explanation": {
+        "en": "Si introduces a real condition in the present: Si llueve, me quedo en casa (if it rains, I stay home). After si the verb stays in the indicative, never the future or subjunctive: si tengo tiempo, te ayudo.",
+        "zh": "si 引出现在时的真实条件：Si llueve, me quedo en casa。si 从句用陈述式现在时，不用将来时或虚拟式：si tengo tiempo, te ayudo。"
+      },
+      "examples": [
+        "Si tengo tiempo, te llamo.",
+        "Si llueve, no salimos.",
+        "Si quieres, ven conmigo."
+      ],
+      "questions": [
+        {
+          "prompt": "¿Qué expresa «si llueve, me quedo»?",
+          "choices": [
+            "una condición real",
+            "un deseo imposible",
+            "una orden"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Si + present marks a real, possible condition.",
+            "zh": "Si+现在时表示真实可能的条件。"
+          }
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "Si tengo dinero, compro el libro.",
+            "Si tendré dinero, compro el libro.",
+            "Si tengo dinero compro libro el."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "After si use the indicative present, not the future.",
+            "zh": "si 后用陈述式现在时，不用将来时。"
+          }
+        },
+        {
+          "prompt": "En «si quieres, ven», «quieres» está en ___.",
+          "choices": [
+            "indicativo",
+            "subjuntivo",
+            "infinitivo"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The si-clause keeps the indicative.",
+            "zh": "si 从句用陈述式。"
+          }
+        },
+        {
+          "prompt": "Completa: ___ estudias, apruebas.",
+          "choices": [
+            "Porque",
+            "Si",
+            "Aunque"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Si introduces the condition.",
+            "zh": "si 引出条件。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-causative",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "Have someone do with 使/让/叫",
+        "zh": "用“使、让、叫”说使役"
+      },
+      "explanation": {
+        "en": "使, 让 and 叫 mark that someone causes another person to act: 老师让学生先回家 (the teacher has the students go home first). 使 is the most formal; 让 and 叫 are everyday and can also mean “to let/allow”.",
+        "zh": "“使、让、叫”表示让某人做某事：老师让学生先回家。“使”最正式；“让、叫”更常用，也可表示“允许”。"
+      },
+      "examples": [
+        "妈妈让我去买菜。",
+        "这件事使我很高兴。",
+        "老师叫我们安静。"
+      ],
+      "questions": [
+        {
+          "prompt": "哪句表示“让别人做某事”？",
+          "choices": [
+            "妈妈让我去买菜。",
+            "我去让妈妈买菜。",
+            "让妈妈买菜我去。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The causer comes first, then 使/让/叫 plus the person who acts.",
+            "zh": "使动者在前，“使/让/叫”后接做事的人。"
+          }
+        },
+        {
+          "prompt": "“让我想想”里的“让”意思是 ___。",
+          "choices": [
+            "强迫",
+            "允许",
+            "帮助"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Here 让 means “let/allow”, a common extension of the causative.",
+            "zh": "这里的“让”表示“允许”，是使役的常见引申。"
+          }
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "这个消息使大家很担心。",
+            "这个使消息大家担心。",
+            "使这个大家消息担心。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "消息 + 使 + 大家 + 很担心 follows the causative order.",
+            "zh": "“使”句的语序：原因 + 使 + 人 + 状态/动作。"
+          }
+        },
+        {
+          "prompt": "填空：老师___我们先把书收起来。",
+          "choices": [
+            "被",
+            "叫",
+            "把"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "叫 marks the person caused to act; 被 is passive and 把 fronts the object.",
+            "zh": "“叫”引出被要求做事的人；“被”表被动，“把”提前宾语。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-causative",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "Make or let someone do with 〜させる",
+        "zh": "用「〜させる」说使役"
+      },
+      "explanation": {
+        "en": "The causative 〜させる means to make or let someone do something: 先生は学生に読ませます (the teacher has the student read). Godan verbs change the last kana to the あ-row and add せる (読ませる); ichidan verbs drop る and add させる (食べさせる). The person made to act is marked with に.",
+        "zh": "使役形「〜させる」表示让某人做某事：先生は学生に読ませます。五段动词把词尾变あ段+せる（読ませる）；一段动词去る+させる（食べさせる）。被使役的人用に。"
+      },
+      "examples": [
+        "母は私に野菜を食べさせます。",
+        "先生は学生に作文を書かせました。",
+        "部長は田中さんに報告書を作らせます。"
+      ],
+      "questions": [
+        {
+          "prompt": "「母は私に掃除させます」で掃除するのは___。",
+          "choices": [
+            "母",
+            "私",
+            "二人"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "The person marked with に does the action.",
+            "zh": "に 标记的人是动作执行者。"
+          }
+        },
+        {
+          "prompt": "「食べる」の使役形はどれですか。",
+          "choices": [
+            "食べせる",
+            "食べさせる",
+            "食べませる"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Ichidan verbs drop る and add させる.",
+            "zh": "一段动词去る+させる。"
+          }
+        },
+        {
+          "prompt": "正しい文を選んでください。",
+          "choices": [
+            "先生は学生に歌を歌わせました。",
+            "先生は学生を歌を歌させました。",
+            "先生は学生に歌を歌せました。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The actor is marked に and 歌う becomes 歌わせる.",
+            "zh": "被使役者用に；歌う→歌わせる。"
+          }
+        },
+        {
+          "prompt": "「読む」の使役形は___。",
+          "choices": [
+            "読むせる",
+            "読みさせる",
+            "読ませる"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "読む → 読ま + せる (godan あ-row + せる).",
+            "zh": "読む→読ま+せる（五段あ段+せる）。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-causative",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "Make someone do with -게 하다",
+        "zh": "用 -게 하다 说使役"
+      },
+      "explanation": {
+        "en": "-게 하다 marks that someone makes or lets another person act: 선생님이 학생에게 읽게 해요 (the teacher has the student read). The person made to act is marked with 에게/한테 or 을/를. With an adjective stem it means to make something reach a state: 방을 깨끗하게 해요.",
+        "zh": "-게 하다 表示让某人做某事：선생님이 학생에게 읽게 해요。被使役的人用 에게/한테 或 을/를。形容词词干+-게 하다 表示使某物达到某种状态：방을 깨끗하게 해요。"
+      },
+      "examples": [
+        "어머니가 저에게 밥을 먹게 해요.",
+        "선생님이 학생들에게 책을 읽게 했어요.",
+        "이 사진이 나를 슬프게 해요."
+      ],
+      "questions": [
+        {
+          "prompt": "「어머니가 저에게 숙제를 하게 해요」에서 숙제하는 사람은___。",
+          "choices": [
+            "어머니",
+            "저",
+            "둘 다"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "The person marked 에게 does the action.",
+            "zh": "에게 标记的人是动作执行者。"
+          }
+        },
+        {
+          "prompt": "올바른 문장을 고르십시오.",
+          "choices": [
+            "선생님이 학생에게 노래를 부르게 해요.",
+            "선생님이 학생 노래를 부르게 해요.",
+            "선생님이 학생에게 노래 부르 해요."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Mark the caused person with 에게 and attach -게 to the verb stem.",
+            "zh": "被使役者用 에게；动词词干接 -게。"
+          }
+        },
+        {
+          "prompt": "「-게 하다」의 의미는___입니다.",
+          "choices": [
+            "누군가가 하게 만들다",
+            "스스로 하다",
+            "하고 싶다"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "-게 하다 expresses making or letting someone do.",
+            "zh": "-게 하다 表示让/使某人做。"
+          }
+        },
+        {
+          "prompt": "「방을 깨끗하게 해요」는 ___을 나타냅니다.",
+          "choices": [
+            "이미 깨끗한 방",
+            "상태가 되게 함",
+            "방 청소 습관"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Adjective stem + -게 하다 means causing a state.",
+            "zh": "形容词词干+-게 하다 表示使……达到某状态。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-causative",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "Have someone do with hacer + infinitive",
+        "zh": "用 hacer + 不定式说使役"
+      },
+      "explanation": {
+        "en": "Hacer + infinitive means to have or make someone do something: El profesor hace leer el texto a los alumnos. The person who performs the action is introduced with a or used as a direct object. With dejar instead of hacer, it means to let: Dejo salir al gato.",
+        "zh": "hacer + 不定式表示让某人做某事：El profesor hace leer el texto a los alumnos。执行动作的人用 a 引出或作直接宾语。dejar + 不定式表示允许：Dejo salir al gato。"
+      },
+      "examples": [
+        "El jefe hace trabajar al equipo los sábados.",
+        "Mi madre me hace estudiar dos horas.",
+        "Dejo entrar a los invitados."
+      ],
+      "questions": [
+        {
+          "prompt": "«La madre hace limpiar la habitación al niño»: ¿quién limpia?",
+          "choices": [
+            "la madre",
+            "el niño",
+            "los dos"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "The person after a (or the object pronoun) performs the action.",
+            "zh": "a 后的人（或宾语代词）是动作执行者。"
+          }
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "El profesor hace leer a los alumnos.",
+            "El profesor hace leyendo a los alumnos.",
+            "El profesor hace a leer los alumnos."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Hacer is followed directly by the infinitive.",
+            "zh": "hacer 后直接接不定式。"
+          }
+        },
+        {
+          "prompt": "«Dejo salir al perro» significa ___.",
+          "choices": [
+            "obligo a salir",
+            "permito que salga",
+            "salgo con el perro"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Dejar + infinitive expresses permission, not obligation.",
+            "zh": "dejar + 不定式表示允许，不表强迫。"
+          }
+        },
+        {
+          "prompt": "Después de hacer va el ___.",
+          "choices": [
+            "gerundio",
+            "infinitivo",
+            "participio"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "The causative structure is hacer + infinitive.",
+            "zh": "使役结构是 hacer + 不定式。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-time",
+      "language": "zh",
+      "stage": "foundation",
+      "title": {
+        "en": "Tell time and dates",
+        "zh": "说时间和日期"
+      },
+      "explanation": {
+        "en": "Clock time uses 点 for o'clock and 分 for minutes: 三点二十分 (3:20). Dates go from big to small: 五月十二号 (May 12). Weekdays use 星期 + number: 星期三; Sunday is 星期天/星期日.",
+        "zh": "钟点用“点”和“分”：三点二十分。日期从大到小：五月十二号。星期用“星期+数字”：星期三；星期日是星期天。"
+      },
+      "examples": [
+        "现在四点十五分。",
+        "今天是八月三号，星期四。",
+        "我们星期一见。"
+      ],
+      "questions": [
+        {
+          "prompt": "“三点二十分”是几点？",
+          "choices": [
+            "3:20",
+            "2:30",
+            "3:02"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "三点 is 3 o'clock and 二十分 is 20 minutes.",
+            "zh": "三点是三时，二十分是二十分钟。"
+          }
+        },
+        {
+          "prompt": "哪句说了日期？",
+          "choices": [
+            "今天是七月十号。",
+            "今天七是月号。",
+            "是今天七月十。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Dates go month then day: 七月十号.",
+            "zh": "日期先说月后说日：七月十号。"
+          }
+        },
+        {
+          "prompt": "“星期三”是星期 ___。",
+          "choices": [
+            "二",
+            "三",
+            "天"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "星期 + 三 means Wednesday, the third weekday counted.",
+            "zh": "“星期+三”是星期三。"
+          }
+        },
+        {
+          "prompt": "填空：明天是___，我们休息。",
+          "choices": [
+            "三点",
+            "十五分",
+            "星期六"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "Only a weekday fits “我们休息”.",
+            "zh": "只有星期几才能接“我们休息”。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-time",
+      "language": "ja",
+      "stage": "foundation",
+      "title": {
+        "en": "Tell time and days",
+        "zh": "说时间和星期"
+      },
+      "explanation": {
+        "en": "Hours use 時 and minutes 分: 三時二十分 (3:20); 半 means half past. Days of the week end in 曜日: 月曜日 to 日曜日. Dates say the month first: 四月五日. Ask with 何時, 何曜日, 何日.",
+        "zh": "时间用「時」和「分」：三時二十分；「半」是半点。星期以「曜日」结尾：月曜日〜日曜日。日期先说月：四月五日。提问用何時・何曜日・何日。"
+      },
+      "examples": [
+        "今は二時十五分です。",
+        "明日は金曜日です。",
+        "五月三日に会いましょう。"
+      ],
+      "questions": [
+        {
+          "prompt": "「四時半」は何時ですか。",
+          "choices": [
+            "4:30",
+            "4:05",
+            "5:04"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "半 means half past the hour.",
+            "zh": "「半」是半点。"
+          }
+        },
+        {
+          "prompt": "正しい文を選んでください。",
+          "choices": [
+            "今日は水曜日です。",
+            "今日水曜は日です。",
+            "今日は曜日水です。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Weekdays end in 曜日 and take は after the topic.",
+            "zh": "星期以「曜日」结尾，主题后用は。"
+          }
+        },
+        {
+          "prompt": "「何曜日」は何を聞きますか。",
+          "choices": [
+            "時間",
+            "曜日",
+            "場所"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "何曜日 asks the day of the week.",
+            "zh": "「何曜日」问星期几。"
+          }
+        },
+        {
+          "prompt": "___は六月十日です。",
+          "choices": [
+            "明日",
+            "六時",
+            "十時"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "A day expression fits before a date; 時 is clock time.",
+            "zh": "日期前用「明日」等日子词；「時」是钟点。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-time",
+      "language": "ko",
+      "stage": "foundation",
+      "title": {
+        "en": "Tell time and days",
+        "zh": "说时间和星期"
+      },
+      "explanation": {
+        "en": "Korean tells time with native numbers for hours and Sino-Korean numbers for minutes: 세 시 이십오 분 (3:25); 반 is half past. Days end in 요일: 월요일 to 일요일; dates say 월 then 일: 오월 십일. Ask with 몇 시, 무슨 요일, 며칠.",
+        "zh": "韩语钟点用固有数词+시，分钟用汉字数词+분：세 시 이십오 분；반 是半点。星期以요일结尾：월요일〜일요일；日期월+일：오월 십일。提问用 몇 시、무슨 요일、며칠。"
+      },
+      "examples": [
+        "지금 네 시 반이에요.",
+        "내일은 금요일이에요.",
+        "칠월 칠일에 만나요."
+      ],
+      "questions": [
+        {
+          "prompt": "「다섯 시 반」은 몇 시입니까?",
+          "choices": [
+            "5:30",
+            "5:05",
+            "6:05"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "반 means half past.",
+            "zh": "반 是半点。"
+          }
+        },
+        {
+          "prompt": "올바른 문장을 고르십시오.",
+          "choices": [
+            "오늘은 수요일이에요.",
+            "오늘은 수요가 일이에요.",
+            "오늘 수요일은 이에요."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "요일 names the weekday with 은/는 as topic.",
+            "zh": "星期名以요일结尾，用은/는。"
+          }
+        },
+        {
+          "prompt": "「며칠」은 무엇을 묻습니까?",
+          "choices": [
+            "시간",
+            "날짜",
+            "장소"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "며칠 asks the day of the month (the date).",
+            "zh": "며칠 问几号（日期）。"
+          }
+        },
+        {
+          "prompt": "시각의 「시」에는 ___ 숫자를 씁니다.",
+          "choices": [
+            "한자어(일, 이, 삼)",
+            "고유어(하나, 둘, 셋)",
+            "영어 숫자"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Hours use native numbers (한/두/세 시); minutes use Sino numbers.",
+            "zh": "钟点用固有数词（한/두/세 시）；分钟用汉字数词。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-time",
+      "language": "es",
+      "stage": "foundation",
+      "title": {
+        "en": "Tell time and dates",
+        "zh": "说时间和日期"
+      },
+      "explanation": {
+        "en": "Ask ¿Qué hora es? and answer es la una for one o'clock, son las + number otherwise: son las tres y veinte (3:20); y media is half past, menos cuarto is quarter to. Days and months take small letters: lunes, enero. Dates use el + day + de + month: el cinco de mayo.",
+        "zh": "问时间用 ¿Qué hora es?；一点用 es la una，其余用 son las+数字：son las tres y veinte；y media 是半点，menos cuarto 是差一刻。星期和月份小写：lunes、enero。日期用 el+日+de+月：el cinco de mayo。"
+      },
+      "examples": [
+        "Son las cuatro y media.",
+        "Hoy es lunes.",
+        "Mi cumpleaños es el ocho de junio."
+      ],
+      "questions": [
+        {
+          "prompt": "«Son las dos y cuarto» es ___.",
+          "choices": [
+            "2:15",
+            "2:45",
+            "4:02"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Y cuarto adds fifteen minutes.",
+            "zh": "y cuarto 是过一刻（15分）。"
+          }
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "Hoy es martes.",
+            "Hoy es el martes.",
+            "Martes es hoy es."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "“Today is Tuesday” takes no article: hoy es martes.",
+            "zh": "“今天是周二”不用冠词：hoy es martes。"
+          }
+        },
+        {
+          "prompt": "«Es la una y media» usa «es» porque ___.",
+          "choices": [
+            "es mediodía",
+            "la una es singular",
+            "es de noche"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Only la una is singular; other hours take son.",
+            "zh": "只有 la una 是单数，其余钟点用 son。"
+          }
+        },
+        {
+          "prompt": "Completa: Mi examen es ___ diez de abril.",
+          "choices": [
+            "en",
+            "el",
+            "a"
+          ],
+          "answer": 1,
+          "explanation": {
+            "en": "Dates take the article el: el diez de abril.",
+            "zh": "日期前用冠词 el：el diez de abril。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-relatives",
+      "language": "zh",
+      "stage": "intermediate",
+      "title": {
+        "en": "Describe nouns with 的-clauses",
+        "zh": "用“的”字短语修饰名词"
+      },
+      "explanation": {
+        "en": "Put a verb phrase before 的 to modify a noun: 昨天买的书 (the book bought yesterday), 我喜欢的人 (the person I like). The modified noun follows 的; the describing clause comes first, the opposite order to English.",
+        "zh": "把动词短语放在“的”前面修饰名词：昨天买的书、我喜欢的人。被修饰的名词在“的”后面，顺序和英语相反。"
+      },
+      "examples": [
+        "这是我昨天买的书。",
+        "穿红衣服的人是老师。",
+        "他说的话很有意思。"
+      ],
+      "questions": [
+        {
+          "prompt": "“昨天买的书”的意思是 ___。",
+          "choices": [
+            "the book bought yesterday",
+            "the book I will buy",
+            "yesterday's bookstore"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "昨天买 describes 书 through 的.",
+            "zh": "“昨天买”通过“的”修饰“书”。"
+          }
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "我喜欢的歌很好听。",
+            "我喜欢歌的很好听。",
+            "的喜欢我歌很好听。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The 的-clause precedes the noun it modifies.",
+            "zh": "“的”字短语在被修饰名词之前。"
+          }
+        },
+        {
+          "prompt": "填空：在图书馆工作___人是我的老师。",
+          "choices": [
+            "的",
+            "了",
+            "吗"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "的 links the describing clause 在图书馆工作 to 人.",
+            "zh": "“的”连接修饰语“在图书馆工作”和“人”。"
+          }
+        },
+        {
+          "prompt": "“他做的菜”中做菜的是 ___。",
+          "choices": [
+            "他",
+            "菜",
+            "客人"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "他做 describes 菜; he is the one who cooks.",
+            "zh": "“他做”修饰“菜”，做菜的是“他”。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-relatives",
+      "language": "ja",
+      "stage": "intermediate",
+      "title": {
+        "en": "Describe nouns with plain-form clauses",
+        "zh": "用普通形修饰名词"
+      },
+      "explanation": {
+        "en": "A plain-form clause before a noun describes it: 昨日買った本 (the book bought yesterday), 読んでいる人 (a person who is reading). No particle like の is needed between the clause and the noun.",
+        "zh": "普通形短句直接放在名词前修饰它：昨日買った本、読んでいる人。短句和名词之间不加「の」。"
+      },
+      "examples": [
+        "昨日買った本は面白いです。",
+        "駅にいる人は友達です。",
+        "私が作った料理です。"
+      ],
+      "questions": [
+        {
+          "prompt": "「昨日買った本」の意味は___。",
+          "choices": [
+            "昨日買った本",
+            "明日買う本",
+            "本を昨日売った"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "昨日買った describes 本; the plain-form clause precedes the noun.",
+            "zh": "「昨日買った」修饰「本」，普通形短句在名词前。"
+          }
+        },
+        {
+          "prompt": "正しい文を選んでください。",
+          "choices": [
+            "読んでいる人は姉です。",
+            "読んでいるの人は姉です。",
+            "人読んでいるは姉です。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "No の is needed between the clause and the noun.",
+            "zh": "短句和名词之间不加「の」。"
+          }
+        },
+        {
+          "prompt": "「私が作ったケーキ」で作ったのは___。",
+          "choices": [
+            "私",
+            "ケーキ",
+            "あなた"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "私が作った describes ケーキ; the maker is 私.",
+            "zh": "「私が作った」修饰「ケーキ」，做的人是「私」。"
+          }
+        },
+        {
+          "prompt": "___人は医者です。",
+          "choices": [
+            "病院にいる",
+            "病院を",
+            "病院の"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "A plain-form clause 病院にいる modifies 人.",
+            "zh": "普通形「病院にいる」修饰「人」。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-relatives",
+      "language": "ko",
+      "stage": "intermediate",
+      "title": {
+        "en": "Describe nouns with -(으)ㄴ/는 forms",
+        "zh": "用 -(으)ㄴ/는 形式修饰名词"
+      },
+      "explanation": {
+        "en": "Verb and adjective stems take adnominal endings before a noun: 먹은 사과 (the apple that was eaten), 읽는 사람 (a person who reads), 먹을 책 (a book to read). Use -(으)ㄴ for completed/past, -는 for present, -(으)ㄹ for future: 만난 친구, 만나는 친구, 만날 친구.",
+        "zh": "动词、形容词词干在名词前接冠形词尾：먹은 사과、읽는 사람、먹을 책。已发生用 -(으)ㄴ，进行用 -는，将来用 -(으)ㄹ：만난 친구、만나는 친구、만날 친구。"
+      },
+      "examples": [
+        "어제 산 책이 재미있어요.",
+        "지금 자는 아이가 제 동생이에요.",
+        "내일 만날 친구가 한국인이에요."
+      ],
+      "questions": [
+        {
+          "prompt": "「어제 산 책」의 뜻은___입니다.",
+          "choices": [
+            "어제 산 책",
+            "내일 살 책",
+            "책을 산 사람"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "산 (past adnominal of 사다) describes 책.",
+            "zh": "산（사다 的过去冠形）修饰 책。"
+          }
+        },
+        {
+          "prompt": "올바른 표현을 고르십시오.",
+          "choices": [
+            "지금 자는 아이",
+            "지금 자은 아이",
+            "지금 자를 아이"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Present action takes -는: 자는 아이.",
+            "zh": "进行中的动作用 -는：자는 아이。"
+          }
+        },
+        {
+          "prompt": "「내일 만날 친구」에서 「-을/ㄹ」은 ___을 나타냅니다.",
+          "choices": [
+            "과거",
+            "현재",
+            "미래"
+          ],
+          "answer": 2,
+          "explanation": {
+            "en": "-(으)ㄹ marks a future modifier.",
+            "zh": "-(으)ㄹ 表示将来的修饰。"
+          }
+        },
+        {
+          "prompt": "「예쁜 꽃」의 「예쁜」은 ___에서 왔습니다.",
+          "choices": [
+            "예쁘다",
+            "예뻐요만",
+            "예쁨"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Adjective stems take -(으)ㄴ to modify nouns: 예쁜.",
+            "zh": "形容词词干接 -(으)ㄴ 修饰名词：예쁜。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-relatives",
+      "language": "es",
+      "stage": "intermediate",
+      "title": {
+        "en": "Describe nouns with que-clauses",
+        "zh": "用 que 从句修饰名词"
+      },
+      "explanation": {
+        "en": "Use que to attach a clause to a noun: el libro que compré (the book that I bought), la persona que vive aquí (the person who lives here). Unlike English, que cannot be dropped: la casa que vendió (the house she sold).",
+        "zh": "用 que 把从句接在名词后：el libro que compré、la persona que vive aquí。与英语不同，que 不能省略：la casa que vendió。"
+      },
+      "examples": [
+        "El libro que compré es interesante.",
+        "La chica que canta es mi hermana.",
+        "La casa que ves es antigua."
+      ],
+      "questions": [
+        {
+          "prompt": "«El libro que compré» significa ___.",
+          "choices": [
+            "el libro que compré",
+            "el libro que compraré",
+            "el libro de la tienda"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Que compré describes el libro.",
+            "zh": "que compré 修饰 el libro。"
+          }
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "La persona que canta es Ana.",
+            "La persona canta es Ana que.",
+            "La que persona canta es Ana."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The que-clause follows the noun it describes.",
+            "zh": "que 从句在被修饰名词之后。"
+          }
+        },
+        {
+          "prompt": "«La película que vimos» — ¿quién vio la película?",
+          "choices": [
+            "nosotros",
+            "la película",
+            "el cine"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Que vimos means “that we saw”.",
+            "zh": "que vimos 是“我们看的”。"
+          }
+        },
+        {
+          "prompt": "Completa: El coche ___ compraste es rojo.",
+          "choices": [
+            "que",
+            "quien es",
+            "donde"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Que links the clause to the noun.",
+            "zh": "que 连接从句和名词。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zh-hearsay",
+      "language": "zh",
+      "stage": "advanced",
+      "title": {
+        "en": "Report what others say with 据说 and 听说",
+        "zh": "用“据说、听说”转述传闻"
+      },
+      "explanation": {
+        "en": "据说 and 听说 report information heard from others without vouching for it: 据说这家店很有名 (it's said this shop is famous), 听说他辞职了 (I heard he quit). 据说 is more formal; both distance the speaker from the claim, unlike directly stating facts.",
+        "zh": "“据说”“听说”表示转述从别处听到的信息，说话人不为真实性担保：据说这家店很有名、听说他辞职了。“据说”更正式；两者都与直接陈述事实不同。"
+      },
+      "examples": [
+        "据说这部电影很好看。",
+        "听说下周要降温。",
+        "据说明年房租要涨。"
+      ],
+      "questions": [
+        {
+          "prompt": "“据说这家店很有名”的意思是 ___。",
+          "choices": [
+            "别人这么说",
+            "我自己确定",
+            "这家店自己说"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "据说 reports what others say, not the speaker's own claim.",
+            "zh": "“据说”表示转述别人的话，不是说话人自己的断言。"
+          }
+        },
+        {
+          "prompt": "选出正确的句子。",
+          "choices": [
+            "听说他昨天回国了。",
+            "听他说回国昨天了。",
+            "他听说昨天回国了的。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "听说 introduces the reported clause.",
+            "zh": "“听说”引出转述的内容。"
+          }
+        },
+        {
+          "prompt": "“据说”和“听说”的区别一般是 ___。",
+          "choices": [
+            "“据说”更正式",
+            "“听说”更正式",
+            "意思完全相反"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Both report hearsay; 据说 is the more formal/written choice.",
+            "zh": "都表转述；“据说”更正式，多用于书面。"
+          }
+        },
+        {
+          "prompt": "填空：___ 明天的考试取消了，大家都在讨论。",
+          "choices": [
+            "听说",
+            "一定",
+            "难道"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "The clause is reported information, so 听说 fits; 一定 asserts, 难道 questions.",
+            "zh": "句中是转述消息，用“听说”；“一定”表断定，“难道”表反问。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-hearsay",
+      "language": "ja",
+      "stage": "advanced",
+      "title": {
+        "en": "Report hearsay with 〜そうだ and らしい",
+        "zh": "用「〜そうだ」「らしい」转述传闻"
+      },
+      "explanation": {
+        "en": "〜そうだ after a plain form reports hearsay: 明日雨が降るそうだ (they say it will rain). らしい also marks information heard indirectly, with a slight guess: 彼は来ないらしい. Do not confuse hearsay そうだ with the looks-like そうだ (おいしそう).",
+        "zh": "普通形+「〜そうだ」表示传闻：明日雨が降るそうだ。「らしい」也表间接听到的信息并带推测：彼は来ないらしい。注意传闻「そうだ」与样态「そうだ」（おいしそう）不同。"
+      },
+      "examples": [
+        "あの店はおいしいそうです。",
+        "田中さんは来ないらしいです。",
+        "明日は雪が降るそうです。"
+      ],
+      "questions": [
+        {
+          "prompt": "「あの店はおいしいそうです」の意味は___。",
+          "choices": [
+            "人から聞いた",
+            "自分で食べた",
+            "店が言った"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "そうだ here reports hearsay, not appearance.",
+            "zh": "这里的「そうだ」表传闻，不是样态。"
+          }
+        },
+        {
+          "prompt": "正しい文を選んでください。",
+          "choices": [
+            "彼は来ないそうです。",
+            "彼は来ないそうだです。",
+            "彼は来ないのそうです。"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Plain form + そうだ; polite speech adds です after そう.",
+            "zh": "普通形+そうだ；礼貌体在そう后加です。"
+          }
+        },
+        {
+          "prompt": "「おいしそう」と「おいしいそうだ」の違いは___。",
+          "choices": [
+            "前は様子、後は伝聞",
+            "前は伝聞、後は様子",
+            "同じ意味"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "おいしそう (looks tasty) is appearance; おいしいそうだ reports hearsay.",
+            "zh": "「おいしそう」是样子，「おいしいそうだ」是传闻。"
+          }
+        },
+        {
+          "prompt": "「来週は休み___。」(人から聞いた)",
+          "choices": [
+            "だそうです",
+            "そうなります",
+            "そうでした"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "休みだ + そうです → 休みだそうです.",
+            "zh": "休みだ+そうです→休みだそうです。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ko-hearsay",
+      "language": "ko",
+      "stage": "advanced",
+      "title": {
+        "en": "Report hearsay with -(ㄴ)대요 and 래요",
+        "zh": "用 -(ㄴ)대요/래요 转述传闻"
+      },
+      "explanation": {
+        "en": "-(ㄴ)대요 reports what someone else said: 비가 온대요 (they say it will rain / I heard it rains). The ending changes by stem type: verbs take -ㄴ대요/-는대요 (간대요/먹는대요), adjectives -대요 (좋대요), and 이다 becomes -(이)래요 (학생이래요).",
+        "zh": "-(ㄴ)대요 表示转述别人的话：비가 온대요。动词词干接 -ㄴ대요/-는대요（간대요/먹는대요），形容词接 -대요（좋대요），이다 变成 -(이)래요（학생이래요）。"
+      },
+      "examples": [
+        "내일 비가 온대요.",
+        "그 식당이 맛있대요.",
+        "그분이 의사래요."
+      ],
+      "questions": [
+        {
+          "prompt": "「내일 비가 온대요」의 뜻은___입니다.",
+          "choices": [
+            "비가 온다고 들었다",
+            "비가 확실히 온다",
+            "비가 오면 좋겠다"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "-(ㄴ)대요 relays what the speaker heard.",
+            "zh": "-(ㄴ)대요 转述听来的内容。"
+          }
+        },
+        {
+          "prompt": "올바른 형태를 고르십시오: 가다 → ___.",
+          "choices": [
+            "간대요",
+            "가대요",
+            "가는대요도"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Vowel-ending verb stems take -ㄴ대요: 가+ㄴ대요 → 간대요.",
+            "zh": "无收音动词词干接 -ㄴ대요：가+ㄴ대요→간대요。"
+          }
+        },
+        {
+          "prompt": "「그분이 의사래요」의 「래요」는 무엇에서 왔습니까?",
+          "choices": [
+            "이다+래요",
+            "있다+래요",
+            "읽다+래요"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "이다 + indirect quote ending gives -(이)래요.",
+            "zh": "이다+间接引用结尾→-(이)래요。"
+          }
+        },
+        {
+          "prompt": "「맛있대요」의 「대요」는 ___에 붙었습니다.",
+          "choices": [
+            "형용사 어간",
+            "동사 어간",
+            "명사"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Adjective stems take -대요: 맛있+대요.",
+            "zh": "形容词词干接 -대요：맛있+대요。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "es-hearsay",
+      "language": "es",
+      "stage": "advanced",
+      "title": {
+        "en": "Report what people say with dicen que and según",
+        "zh": "用 dicen que 和 según 转述传闻"
+      },
+      "explanation": {
+        "en": "Dicen que reports what people say: dicen que llueve mañana (they say it rains tomorrow). Según marks the source: según el diario, la tienda cierra (according to the paper, the shop closes). Reported speech keeps the indicative: dijo que venía (he said he was coming).",
+        "zh": "dicen que 转述众人的说法：dicen que llueve mañana。según 标明来源：según el diario。转述时动词保持陈述式：dijo que venía。"
+      },
+      "examples": [
+        "Dicen que la película es buena.",
+        "Según el mapa, el banco está cerca.",
+        "Dijo que vendría temprano."
+      ],
+      "questions": [
+        {
+          "prompt": "«Dicen que la película es buena» significa ___.",
+          "choices": [
+            "otros lo dicen",
+            "yo lo sé",
+            "la película lo dice"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Dicen que reports what others say.",
+            "zh": "dicen que 转述别人的说法。"
+          }
+        },
+        {
+          "prompt": "Elige la frase correcta.",
+          "choices": [
+            "Dijo que vendría temprano.",
+            "Dijo vendría temprano que.",
+            "Que dijo vendría temprano."
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Reported speech needs que after dijo.",
+            "zh": "转述时 dijo 后需要 que。"
+          }
+        },
+        {
+          "prompt": "«Según el diario» indica ___.",
+          "choices": [
+            "la fuente",
+            "la hora",
+            "el lugar"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Según introduces the source of the information.",
+            "zh": "según 引出信息来源。"
+          }
+        },
+        {
+          "prompt": "«Dicen que llueve» usa el verbo en ___.",
+          "choices": [
+            "indicativo",
+            "subjuntivo",
+            "infinitivo"
+          ],
+          "answer": 0,
+          "explanation": {
+            "en": "Reported clauses keep the indicative.",
+            "zh": "转述从句用陈述式。"
+          }
+        }
+      ]
+    }
+  ]
+}

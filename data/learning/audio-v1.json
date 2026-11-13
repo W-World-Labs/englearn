@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "source": "Original LingoLearn texts, synthesized locally with MeloTTS (EN/ES/JA) and Qwen3-TTS (ZH/KO). No learner data or online speech provider.",
+  "generator": {
+    "revision": "209145371cff8fc3bd60d7be902ea69cbdb7965a",
+    "source": "https://github.com/myshell-ai/MeloTTS",
+    "license": "MIT"
+  },
+  "models": {
+    "English": {
+      "revision": "bb4fb7346d566d277ba8c8c7dbfdf6786139b8ef",
+      "license": "mit",
+      "source": "https://huggingface.co/myshell-ai/MeloTTS-English",
+      "engine": "melo"
+    },
+    "Chinese": {
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "license": "Apache-2.0",
+      "engine": "qwen"
+    },
+    "Japanese": {
+      "revision": "367f8795464b531b4e97c1515bddfc1243e60891",
+      "license": "mit",
+      "source": "https://huggingface.co/myshell-ai/MeloTTS-Japanese",
+      "engine": "melo"
+    },
+    "Korean": {
+      "source": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "license": "Apache-2.0",
+      "engine": "qwen"
+    },
+    "Spanish": {
+      "revision": "dbb5496df39d11a66c1d5f5a9ca357c3c9fb95fb",
+      "license": "mit",
+      "source": "https://huggingface.co/myshell-ai/MeloTTS-Spanish",
+      "engine": "melo"
+    }
+  },
+  "clips": [
+    {
+      "id": "en-foundation-text-v1",
+      "file": "en-foundation-text-v1.mp3",
+      "duration": 10.344,
+      "sha256": "0061d8de571228ca5d0e8d7352945d2924267aecf0c18c1f6b76f60f114726ff",
+      "scriptSha256": "0f59979a015896e57dc4a8bb5d6cbae561bd65ccfe80e4c881769eaf8abc3a1e",
+      "model": "myshell-ai/MeloTTS-English",
+      "revision": "bb4fb7346d566d277ba8c8c7dbfdf6786139b8ef",
+      "speaker": 0
+    },
+    {
+      "id": "en-intermediate-text-v1",
+      "file": "en-intermediate-text-v1.mp3",
+      "duration": 14.952,
+      "sha256": "5786e710535f694cddbf9dee4b3b8fe2c7ff5490d776a25ef775a46073c543fb",
+      "scriptSha256": "01d3ccd4f6c1dd8af1fd0bff65ee8dcc904bb7cc10e5369b217e7bd27475b775",
+      "model": "myshell-ai/MeloTTS-English",
+      "revision": "bb4fb7346d566d277ba8c8c7dbfdf6786139b8ef",
+      "speaker": 0
+    },
+    {
+      "id": "en-advanced-text-v1",
+      "file": "en-advanced-text-v1.mp3",
+      "duration": 24.936,
+      "sha256": "869164973f3fca30f3d3cbc075d2c72463530229b035ada6083fe95fd21cd902",
+      "scriptSha256": "130dd47945b746fb1fe731171d281cea689c2e61f7d60dd5209f7805e91562d3",
+      "model": "myshell-ai/MeloTTS-English",
+      "revision": "bb4fb7346d566d277ba8c8c7dbfdf6786139b8ef",
+      "speaker": 0
+    },
+    {
+      "id": "es-foundation-text-v1",
+      "file": "es-foundation-text-v1.mp3",
+      "duration": 13.2,
+      "sha256": "69605b42c96b5804fc0ca5ebc52f67624f6d84b65905c14812f7766f9dbab0e6",
+      "scriptSha256": "7daf5ab1839b19b85805abefc08fbb81cb002fa99ad9a16d5867a2fd0bb23820",
+      "model": "myshell-ai/MeloTTS-Spanish",
+      "revision": "dbb5496df39d11a66c1d5f5a9ca357c3c9fb95fb",
+      "speaker": 0
+    },
+    {
+      "id": "es-intermediate-text-v1",
+      "file": "es-intermediate-text-v1.mp3",
+      "duration": 17.712,
+      "sha256": "3fe3e9963d29e6ac6a058b9a2037c2725ae1fc4c2b31cca2a5f3d1e1e91931d5",
+      "scriptSha256": "b9c36b389663f03981e210b408d111f3ebfb5c4a7d2317895092027ed1da9a02",
+      "model": "myshell-ai/MeloTTS-Spanish",
+      "revision": "dbb5496df39d11a66c1d5f5a9ca357c3c9fb95fb",
+      "speaker": 0
+    },
+    {
+      "id": "es-advanced-text-v1",
+      "file": "es-advanced-text-v1.mp3",
+      "duration": 22.08,
+      "sha256": "8ff6ec48aaa25b780d78e873d5d977b903b5338cbcbfc7471423d80525b9f79a",
+      "scriptSha256": "d7687f554acd3a7a77ba1e2194ee43a20bf7926e110bae2ed88700040f7d34ee",
+      "model": "myshell-ai/MeloTTS-Spanish",
+      "revision": "dbb5496df39d11a66c1d5f5a9ca357c3c9fb95fb",
+      "speaker": 0
+    },
+    {
+      "id": "ja-foundation-text-v1",
+      "file": "ja-foundation-text-v1.mp3",
+      "duration": 12.672,
+      "sha256": "f5e64b00900ce0d46321c2b46d27150489241f56192ffbdf4ca04d47b3ce8c6e",
+      "scriptSha256": "350fdc8788ca068e3597f4eb4540266560c9230123abeb2a659faf7b5c9c321f",
+      "model": "myshell-ai/MeloTTS-Japanese",
+      "revision": "367f8795464b531b4e97c1515bddfc1243e60891",
+      "speaker": 0
+    },
+    {
+      "id": "ja-intermediate-text-v1",
+      "file": "ja-intermediate-text-v1.mp3",
+      "duration": 18.552,
+      "sha256": "dcc31147c24aa5ac53a37e3a414565994ac75950d6cad2b2a806ba31e764653e",
+      "scriptSha256": "0d8e5e5e26a60623026076313d2410262f317f8a5d4485162668cc1a0b277c50",
+      "model": "myshell-ai/MeloTTS-Japanese",
+      "revision": "367f8795464b531b4e97c1515bddfc1243e60891",
+      "speaker": 0
+    },
+    {
+      "id": "ja-advanced-text-v1",
+      "file": "ja-advanced-text-v1.mp3",
+      "duration": 24.144,
+      "sha256": "d117fba73dfb0ca24c6a65b91f3161dc67fc1811ac91e01b0c0bac3556d76c0f",
+      "scriptSha256": "22cd84ac70733c34913041f61ff6d80bc80844bb05004f968bcface504be4b6f",
+      "model": "myshell-ai/MeloTTS-Japanese",
+      "revision": "367f8795464b531b4e97c1515bddfc1243e60891",
+      "speaker": 0
+    },
+    {
+      "id": "ko-foundation-text-v1",
+      "file": "ko-foundation-text-v1.mp3",
+      "duration": 14.784,
+      "sha256": "0a432a551ee8e1387145cdc784fb09f24892d4680063265a091a5bb1eaabb956",
+      "scriptSha256": "e9ab014d8f7d9c6f87b348ea1044b31d9323b243e1dd0043c361347102288d6b",
+      "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "speaker": "Sohee"
+    },
+    {
+      "id": "ko-intermediate-text-v1",
+      "file": "ko-intermediate-text-v1.mp3",
+      "duration": 28.776,
+      "sha256": "730cf64d633dfd8c8eaeb9617ce9a330a52d166f177e6b0e286524d787949b33",
+      "scriptSha256": "85d36fcbb3b20985d9c33ec751492def3fc225d69f5ed174dd00cb5c99c300e1",
+      "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "speaker": "Sohee"
+    },
+    {
+      "id": "ko-advanced-text-v1",
+      "file": "ko-advanced-text-v1.mp3",
+      "duration": 27.984,
+      "sha256": "cdfe7b530e908d07ca0164321994ad6a0a61e2757d2f0735df9798e952f36e29",
+      "scriptSha256": "df927721c66676b866e47d50128ec3761b0815c20a58950972ed9ea82a86f5b0",
+      "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "speaker": "Sohee",
+      "segmentation": "sentence",
+      "sampling": true
+    },
+    {
+      "id": "zh-foundation-text-v1",
+      "file": "zh-foundation-text-v1.mp3",
+      "duration": 13.104,
+      "sha256": "17655db4512c3764008d784cf35838e55b05ede719bab4b4e118531a9fdebc5d",
+      "scriptSha256": "ee5471f916ebc81d9ccda72689df0c7955cc917def4ad567f6bd29a750471eff",
+      "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "speaker": "Vivian",
+      "segmentation": "sentence",
+      "sampling": true
+    },
+    {
+      "id": "zh-intermediate-text-v1",
+      "file": "zh-intermediate-text-v1.mp3",
+      "duration": 19.104,
+      "sha256": "bc7195d7adf5a7ca64b2f11365c6096b48993b5f1cdf7535df7a3d152266c47a",
+      "scriptSha256": "7cf5fced27321248c37b24c5aa78934b14c6adb8141d1947e4e84ea110bdcb84",
+      "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "speaker": "Vivian",
+      "segmentation": "sentence",
+      "sampling": true
+    },
+    {
+      "id": "zh-advanced-text-v1",
+      "file": "zh-advanced-text-v1.mp3",
+      "duration": 27.408,
+      "sha256": "693759bc89101698468dfe03ccf262aacb81c412d7eef0032b57e8393dca613e",
+      "scriptSha256": "5f97cff6d6cb4fe99d90f553b0bb30d9bc443d6f8db9194debc30b8e82eebc18",
+      "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+      "speaker": "Vivian",
+      "segmentation": "sentence",
+      "sampling": true
+    }
+  ],
+  "auxiliaries": [
+    {
+      "repo": "bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "license": "Apache-2.0",
+      "use": "text features"
+    },
+    {
+      "repo": "bert-base-multilingual-uncased",
+      "revision": "7cbf9a625e29989f6b9c6c2fa68234c304f7e38f",
+      "license": "Apache-2.0",
+      "use": "unused upstream tokenizer import; no features in released clips"
+    },
+    {
+      "repo": "tohoku-nlp/bert-base-japanese-v3",
+      "revision": "65243d6e5629b969c77309f217bd7b1a79d43c7e",
+      "license": "Apache-2.0",
+      "use": "tokenizer only"
+    },
+    {
+      "repo": "dccuchile/bert-base-spanish-wwm-uncased",
+      "revision": "d1c9c4565c9d6731e57ed7f027b802697bad861e",
+      "license": "CC-BY-4.0",
+      "use": "tokenizer only"
+    }
+  ],
+  "qwenGenerator": {
+    "source": "https://github.com/QwenLM/Qwen3-TTS",
+    "package": "qwen-tts",
+    "version": "0.1.1",
+    "license": "Apache-2.0"
+  }
+}

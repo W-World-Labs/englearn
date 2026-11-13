@@ -1,0 +1,535 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "LingoLearn IELTS records API",
+    "version": "1.1.2",
+    "description": "Contract for IELTS account records only. The authenticated W-ID sub owns every record; platform administrator status grants no cross-account access. Consumers must tolerate unknown response fields. v1.1 adds the Practice 02 set: ExamSession/Summary carry examId (01 or 02) and /api/ielts/audio takes an optional set parameter. Account-scoped browser clients send X-LingoLearn-Account; when present it must match the verified W-ID subject or the request returns 403 before reading or writing records. Cookie-only clients remain supported."
+  },
+  "paths": {
+    "/api/ielts/attempts": {
+      "get": {
+        "operationId": "getIeltsAttempts",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Retrieve one owned attempt. When provided, pagination is ignored."
+          },
+          {
+            "in": "query",
+            "name": "draftId",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Include an owned browser draft when listing."
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            }
+          },
+          {
+            "in": "query",
+            "name": "pageSize",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Owned attempt or paginated history, newest startedAt first. Expired deadlines are reconciled. Cache-Control: private, no-store; Vary: Cookie.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/AttemptResponse"
+                    },
+                    {
+                      "$ref": "#/components/schemas/History"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "404": {
+            "description": "No matching record owned by this account."
+          },
+          "503": {
+            "description": "Storage unavailable; do not treat as empty history."
+          },
+          "403": {
+            "description": "The expected account does not match the verified session subject. No account record is read or written."
+          }
+        }
+      },
+      "post": {
+        "operationId": "saveIeltsAttempt",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "description": "Create with revision null, update with last acknowledged revision. Identical retries are idempotent. An attempt's examId, mode and startedAt cannot change. Completed attempts and previously submitted sections are immutable. Owner is derived solely from the session cookie. Requests with an Origin must match this application.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["session", "revision"],
+                "properties": {
+                  "session": {
+                    "$ref": "#/components/schemas/ExamSession"
+                  },
+                  "revision": {
+                    "type": ["integer", "null"],
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Atomically saved or identical retry acknowledged.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AttemptResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid JSON, session, revision or timing."
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "description": "Origin mismatch. The expected account does not match the verified session subject. No account record is read or written."
+          },
+          "409": {
+            "description": "Revision conflict or submitted record. Preserve browser answers; ask the learner to resolve. Response includes the existing account attempt.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/AttemptResponse"
+                    },
+                    {
+                      "type": "object",
+                      "required": ["error"],
+                      "properties": {
+                        "error": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds 512000 bytes."
+          },
+          "415": {
+            "description": "Content-Type must be application/json."
+          },
+          "503": {
+            "description": "Save unavailable; preserve the browser copy and offer retry."
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ]
+      }
+    },
+    "/api/ielts/audio": {
+      "get": {
+        "operationId": "getIeltsAudio",
+        "description": "Public bundled practice audio. Supports a single byte range so playback can resume at the current test time. Files are streamed from public/ielts-assets under the application working directory.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "part",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            }
+          },
+          {
+            "in": "query",
+            "name": "set",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": ["01", "02"],
+              "default": "01"
+            },
+            "description": "Practice set; 02 serves the synthesized Practice 02 recordings."
+          },
+          {
+            "in": "header",
+            "name": "Range",
+            "schema": {
+              "type": "string"
+            },
+            "example": "bytes=1000-1999"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Full audio/mpeg; Accept-Ranges: bytes."
+          },
+          "206": {
+            "description": "Partial audio/mpeg with Content-Range and Content-Length."
+          },
+          "404": {
+            "description": "Unknown practice part."
+          },
+          "416": {
+            "description": "Invalid/unsatisfiable range."
+          },
+          "503": {
+            "description": "Bundled audio unavailable."
+          }
+        }
+      },
+      "head": {
+        "operationId": "headIeltsAudio",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "part",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Audio length and range capability; no body."
+          },
+          "404": {
+            "description": "Unknown practice part."
+          },
+          "503": {
+            "description": "Bundled audio unavailable."
+          }
+        }
+      }
+    },
+    "/api/health": {
+      "get": {
+        "operationId": "getEnglearnHealth",
+        "description": "Application identity and release metadata. Feature readiness is verified separately through the exam and authentication endpoints. Additive fields extend the existing health response.",
+        "responses": {
+          "200": {
+            "description": "Process is serving requests.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["ok", "service", "version", "release"],
+                  "properties": {
+                    "ok": {
+                      "const": true
+                    },
+                    "service": {
+                      "const": "englearn"
+                    },
+                    "version": {
+                      "type": "string"
+                    },
+                    "release": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "sessionCookie": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "lingolearn_session",
+        "description": "HttpOnly W-ID-derived application session. Server validates signature and expiry."
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "W-ID sign-in required or session invalid/expired."
+      }
+    },
+    "schemas": {
+      "ExamSession": {
+        "type": "object",
+        "required": [
+          "examId",
+          "id",
+          "mode",
+          "startedAt",
+          "deadline",
+          "sectionIndex",
+          "partIndex",
+          "status",
+          "answers",
+          "flags",
+          "notes",
+          "highlights"
+        ],
+        "properties": {
+          "examId": {
+            "enum": ["academic-practice-01-v1", "academic-practice-02-v1"],
+            "description": "Practice set identity, immutable after creation."
+          },
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "mode": {
+            "type": "string",
+            "enum": ["full", "listening", "reading", "writing"]
+          },
+          "startedAt": {
+            "type": "number",
+            "description": "Unix milliseconds."
+          },
+          "deadline": {
+            "type": "number",
+            "description": "Current section deadline, Unix milliseconds. Cannot extend an existing section."
+          },
+          "sectionIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "partIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "status": {
+            "enum": ["running", "finished"]
+          },
+          "completedAt": {
+            "type": "number",
+            "description": "Required when finished; Unix milliseconds."
+          },
+          "answers": {
+            "type": "object",
+            "maxProperties": 100,
+            "additionalProperties": {
+              "type": "string",
+              "maxLength": 30000
+            }
+          },
+          "flags": {
+            "type": "array",
+            "maxItems": 100,
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "object",
+            "maxProperties": 100,
+            "additionalProperties": {
+              "type": "string",
+              "maxLength": 10000
+            }
+          },
+          "highlights": {
+            "type": "object",
+            "maxProperties": 10,
+            "additionalProperties": {
+              "type": "array",
+              "maxItems": 200,
+              "items": {
+                "type": "object",
+                "required": ["start", "end"],
+                "properties": {
+                  "start": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "end": {
+                    "type": "integer",
+                    "maximum": 50000
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "SavedExam": {
+        "type": "object",
+        "required": ["session", "revision", "updatedAt"],
+        "properties": {
+          "session": {
+            "$ref": "#/components/schemas/ExamSession"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "updatedAt": {
+            "type": "number"
+          }
+        }
+      },
+      "AttemptResponse": {
+        "type": "object",
+        "required": ["attempt"],
+        "properties": {
+          "attempt": {
+            "$ref": "#/components/schemas/SavedExam"
+          }
+        }
+      },
+      "Summary": {
+        "type": "object",
+        "required": [
+          "id",
+          "examId",
+          "mode",
+          "status",
+          "startedAt",
+          "updatedAt",
+          "revision"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "examId": {
+            "enum": ["academic-practice-01-v1", "academic-practice-02-v1"]
+          },
+          "mode": {
+            "enum": ["full", "listening", "reading", "writing"]
+          },
+          "status": {
+            "enum": ["running", "finished"]
+          },
+          "startedAt": {
+            "type": "number"
+          },
+          "completedAt": {
+            "type": "number"
+          },
+          "updatedAt": {
+            "type": "number"
+          },
+          "revision": {
+            "type": "integer"
+          }
+        }
+      },
+      "History": {
+        "type": "object",
+        "required": [
+          "items",
+          "total",
+          "page",
+          "pageSize",
+          "totalPages",
+          "latest",
+          "draft"
+        ],
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Summary"
+            }
+          },
+          "total": {
+            "type": "integer"
+          },
+          "page": {
+            "type": "integer"
+          },
+          "pageSize": {
+            "type": "integer"
+          },
+          "totalPages": {
+            "type": "integer"
+          },
+          "latest": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/SavedExam"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "draft": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/SavedExam"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "parameters": {
+      "ExpectedAccount": {
+        "name": "X-LingoLearn-Account",
+        "in": "header",
+        "required": false,
+        "schema": {
+          "type": "string"
+        },
+        "description": "The W-ID subject verified by the originating browser tab. If supplied, it must match the current session cookie; an account change returns 403 and preserves the browser copy."
+      }
+    }
+  }
+}

@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "ja-voc-001",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "水",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-002",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "家",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-003",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "学校",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-004",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "友達",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-005",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "仕事",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-006",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "時間",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-007",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "問題",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-008",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "文化",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-009",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "経済",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-010",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "環境",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-011",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "研究",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-012",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "社会",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-013",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "歴史",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-014",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "科学",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-015",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "技術",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-016",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "教育",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-017",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "健康",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-018",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "幸せ",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-019",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "重要",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-020",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "可能",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-021",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "方法",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-022",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "意味",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-023",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "経験",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-024",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "関係",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-025",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "意見",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-026",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "自然",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-027",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "約束",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-028",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "趣味",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-029",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "将来",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-030",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "全部",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-031",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "水み",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-032",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "家屋",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-033",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "学佼",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-034",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "友達う",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-035",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "仕事み",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-036",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "意見き",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-037",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "約束る",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-038",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "自然ね",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-039",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "将来む",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-040",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "方法い",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-041",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "酸",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-042",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "国立",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-043",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "驚く",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-044",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "政党",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-045",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "新鮮",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-046",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "喜ぶ",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-047",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "削減",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-048",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "共感",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-049",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "冷凍",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-050",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "落ちる",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-051",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "まもなく",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-052",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "祈り",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-053",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "中断",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-054",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "前者",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-055",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "吸う",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-056",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "月刊",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-057",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "小規模",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-058",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "合宿",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-059",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "入居",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-060",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "穏やか",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-061",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "遅刻",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-062",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "じっくり",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-063",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "借りる",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-064",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "景色",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-065",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "踊る",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-066",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "直す",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-067",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "贈り物",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-068",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "運ぶ",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-069",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "祝日",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-070",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "絵画",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-071",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "驚くき",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-072",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "政冶",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-073",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "新鮮み",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-074",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "共感る",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-075",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "削減い",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-076",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "中折",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-077",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "月刋",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-078",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "入剧",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-079",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "穏やから",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-080",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "贈り物ね",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-081",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "仲裁",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-082",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "妥協",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-083",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "醸成",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-084",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "格差",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-085",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "手順",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-086",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "許可",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-087",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "禁止",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-088",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "誠実",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-089",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "根拠",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-090",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "名誉",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-091",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "違反",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-092",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "維持",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-093",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "促進",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-094",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "監督",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-095",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "繁栄",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-096",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "懸念",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-097",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "葛藤",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-098",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "毀損",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-099",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "反映",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-100",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "矛盾",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-101",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "蓄積",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-102",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "緩和",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-103",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "暫定",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-104",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "担保",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-105",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "免除",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-106",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "徹底",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-107",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "慎重",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-108",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "奨励",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-109",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "邂逅",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-110",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "履行",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-111",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "仲栽",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-112",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "妥脅",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-113",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "醸戊",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-114",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "格査",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-115",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "手準",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-116",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "許呵",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-117",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "金止",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-118",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "誠芙",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-119",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "根拘",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-120",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "名養",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-121",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "規制",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-122",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "腐敗",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-123",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "委任",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-124",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "調整",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-125",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "紛争",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-126",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "怠慢",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-127",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "侵害",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-128",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "猶予",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-129",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "談合",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-130",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "偏見",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-131",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "緻密",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-132",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "廃止",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-133",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "糾弾",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-134",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "審査",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-135",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "降格",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-136",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "抑止",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-137",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "破棄",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-138",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "懲戒",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-139",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "癒着",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-140",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "起訴",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-141",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "弁論",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-142",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "弾劾",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-143",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "遵守",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-144",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "偽造",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-145",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "選任",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-146",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "論点",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-147",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "導出",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-148",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "閑静",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-149",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "巧妙",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-150",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "露出",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-151",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "規剌",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-152",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "腐拝",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-153",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "委壬",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-154",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "猶于",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-155",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "談恰",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-156",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "偏貝",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-157",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "廃上",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-158",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "糾殫",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-159",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "審差",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-160",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "弾刻",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-161",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "憲法",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-162",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "裁判",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-163",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "証言",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-164",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "陰謀",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-165",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "反乱",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-166",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "同盟",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-167",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "領土",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-168",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "主権",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-169",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "外交",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-170",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "交渉",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-171",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "署名",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-172",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "審議",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-173",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "表決",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-174",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "否決",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-175",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "制裁",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-176",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "介入",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-177",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "略奪",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-178",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "独占",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-179",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "検疫",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-180",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "発生",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-181",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "潜伏",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-182",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "暗示",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-183",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "相続",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-184",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "遺産",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-185",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "執行",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-186",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "判決",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-187",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "原告",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-188",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "被告",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-189",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "訴訟",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-190",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "控訴",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-191",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "憲怯",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-192",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "裁半",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-193",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "証盲",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-194",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "陰某",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-195",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "領上",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-196",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "主椎",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-197",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "外父",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-198",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "署各",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-199",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "審義",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-200",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "判快",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-201",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "拘留",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-202",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "引渡",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-203",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "仮釈放",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-204",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "不正",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-205",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "横領",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-206",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "賄賂",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-207",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "告発",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-208",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "立件",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-209",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "捜査",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-210",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "公判",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-211",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "量刑",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-212",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "上告",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-213",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "審理",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-214",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "召喚",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-215",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "汚職",
+    "isPseudoword": false
+  },
+  {
+    "id": "ja-voc-216",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "拘溜",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-217",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "引菠",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-218",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "横颈",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-219",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "賄路",
+    "isPseudoword": true
+  },
+  {
+    "id": "ja-voc-220",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "ja-JP",
+    "prompt": "この単語を知っていますか？",
+    "word": "告荒",
+    "isPseudoword": true
+  }
+]

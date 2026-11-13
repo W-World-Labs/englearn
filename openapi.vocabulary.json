@@ -1,0 +1,453 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "LingoLearn vocabulary test records API",
+    "version": "1.2.1",
+    "description": "Vocabulary reference test records owned by W-ID sub. v1.2 adds adaptive version 2 with variable-length stopping (quick 12–30, full/detailed 20–40). v1 adaptive fixed budgets and v0.6 fixed-stratum records remain resumable and reviewable. Consumers must recognise adaptive.version and Summary.adaptiveVersion; Summary.total is the cap for running v2 records and actual count when finished. Score/stopping are derived from versioned answers. Client-supplied scores and stopping flags are not accepted. Clients must tolerate unknown fields. Existing exams and W-ID contracts are unchanged. App v0.9 report and TXT rendering withhold counts/ranges when sequential recognition evidence is insufficient, including for older records. Stored session fields, selection and stopping rules are unchanged. Account-scoped browser clients send X-LingoLearn-Account; when present it must match the verified W-ID subject or the request returns 403 before reading or writing records. Cookie-only clients remain supported."
+  },
+  "paths": {
+    "/api/vocabulary/attempts": {
+      "get": {
+        "operationId": "getVocabularyAttempts",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Retrieve one owned attempt. When provided, pagination is ignored."
+          },
+          {
+            "in": "query",
+            "name": "draftId",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Include an owned browser draft when listing."
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            }
+          },
+          {
+            "in": "query",
+            "name": "pageSize",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          },
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Owned record or history, newest startedAt first. No clock expiry; tests are untimed. Cache-Control private, no-store; Vary Cookie.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/AttemptResponse"
+                    },
+                    {
+                      "$ref": "#/components/schemas/History"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "404": {
+            "description": "No matching record owned by this account."
+          },
+          "503": {
+            "description": "Storage unavailable; do not treat as empty history."
+          },
+          "403": {
+            "description": "The expected account does not match the verified session subject. No account record is read or written."
+          }
+        }
+      },
+      "post": {
+        "operationId": "saveVocabularyAttempt",
+        "security": [
+          {
+            "sessionCookie": []
+          }
+        ],
+        "description": "Create with revision null and update using the last acknowledged revision. Identical retries are idempotent. Owner comes only from the session cookie. Bank, language, definition language, mode, startedAt and adaptive pool/version are immutable. Adaptive questions append in deterministic accuracy-rule order; already presented items/options and answers preceding the latest question cannot be rewritten. The latest draft answer remains editable until advancing. Offline batches are validated by replay. Legacy records without adaptive keep immutable complete question lists and editable answers until completion. Completed tests cannot be changed. Every budgeted question must have a valid choice or unknown before completion. Requests with Origin must match this app. No deadline or ability-to-size conversion. Version 2 validates minimum 3/5 samples per band, posterior-precision/predicted-gain stopping and the 30/40 cap. Replay rejects questions after the earliest stopping point as well as premature completion. A terminal running draft may await explicit confirmation; actual completion requires all presented answers and valid completedAt. Version 1 and legacy budgets remain exactly 20/40.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["session", "revision"],
+                "properties": {
+                  "session": {
+                    "$ref": "#/components/schemas/ExamSession"
+                  },
+                  "revision": {
+                    "type": ["integer", "null"],
+                    "minimum": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Atomically saved or identical retry acknowledged.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AttemptResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid JSON, session, revision or timing."
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "description": "Origin mismatch. The expected account does not match the verified session subject. No account record is read or written."
+          },
+          "409": {
+            "description": "Revision conflict or submitted record. Preserve browser answers; ask the learner to resolve. Response includes the existing account attempt.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/AttemptResponse"
+                    },
+                    {
+                      "type": "object",
+                      "required": ["error"],
+                      "properties": {
+                        "error": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds 512000 bytes."
+          },
+          "415": {
+            "description": "Content-Type must be application/json."
+          },
+          "503": {
+            "description": "Save unavailable; preserve the browser copy and offer retry."
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ExpectedAccount"
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "sessionCookie": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "lingolearn_session",
+        "description": "HttpOnly W-ID-derived application session. Server validates signature and expiry."
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "W-ID sign-in required or session invalid/expired."
+      }
+    },
+    "schemas": {
+      "ExamSession": {
+        "type": "object",
+        "required": [
+          "id",
+          "bank",
+          "language",
+          "meaningLanguage",
+          "mode",
+          "startedAt",
+          "status",
+          "questions",
+          "answers",
+          "index"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "bank": {
+            "const": "wordfreq-3.1.1-v1"
+          },
+          "language": {
+            "enum": ["en", "zh", "ja", "ko", "es"]
+          },
+          "meaningLanguage": {
+            "enum": ["en", "zh"]
+          },
+          "mode": {
+            "enum": ["quick", "full"],
+            "description": "Version 2: quick 12–30 (3 per band minimum), full/detailed 20–40 (5 per band minimum). Version 1 and legacy: exactly 20 quick or 40 full."
+          },
+          "startedAt": {
+            "type": "number",
+            "minimum": 0
+          },
+          "status": {
+            "enum": ["running", "finished"]
+          },
+          "completedAt": {
+            "type": "number",
+            "description": "Required when finished; no earlier than startedAt."
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 39,
+            "description": "Zero-based current presented question; must be less than questions.length. Earlier adaptive questions can be reviewed but their answers are locked."
+          },
+          "questions": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 40,
+            "description": "Unique presented current-bank items. Version 2 starts with one, grows up to 30 quick/40 full, and finishes at the earliest valid stopping point with all presented items answered and minimum per-band coverage. Version 1 finishes with 20/40 and >=3 per band. Legacy without adaptive uses fixed 20/40 and 5/10 per band. At most one adaptive question is unanswered, at the end. Every option list contains four unique same-language IDs including the correct ID. Order must match immutable-pool replay.",
+            "items": {
+              "type": "object",
+              "required": ["id", "options"],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "options": {
+                  "type": "array",
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "answers": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Map sampled item ID to an offered option ID, or unknown. Correct answers equal the sampled item ID. No extra or cross-language answers."
+          },
+          "adaptive": {
+            "type": "object",
+            "required": ["version", "pool"],
+            "description": "Immutable pool and algorithm version. Version 1: start band 2; recent 3 responses within current band, >=75% with at least 2 answers moves target up, <=50% down; choose nearest unused band, then fewer samples, then lower band; reserve >=3 samples per band near the end; fixed 20/40. Version 2: fill 3/5 samples in every band first using the same staircase restricted to under-covered bands, then select the available band with maximum expected reduction in posterior count variance. Uniform per-band recognition prior on 100-form grid; correct likelihood .25+.75k, failure 1-k. Expected gain uses total-variance identity p(1-p)(conditional_mean_correct-conditional_mean_wrong)^2; total variance sums bands. After all minima: stop at posterior SD <=900/650 word forms; else at cap 30/40; else if the best remaining question predicts SD reduction <15/8. Ties use v1 target-distance/sample ordering. Pending/unasked items add no evidence. These are uncalibrated product reference targets, not validated accuracy. Full method and simulation assumptions: data/vocabulary/README.md.",
+            "properties": {
+              "version": {
+                "enum": [1, 2]
+              },
+              "pool": {
+                "type": "array",
+                "minItems": 40,
+                "maxItems": 40,
+                "description": "All 40 unique current-bank questions for the selected language, 10 per band. Same option validation as questions.",
+                "items": {
+                  "type": "object",
+                  "required": ["id", "options"],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "options": {
+                      "type": "array",
+                      "minItems": 4,
+                      "maxItems": 4,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "SavedExam": {
+        "type": "object",
+        "required": ["session", "revision", "updatedAt"],
+        "properties": {
+          "session": {
+            "$ref": "#/components/schemas/ExamSession"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "updatedAt": {
+            "type": "number"
+          }
+        }
+      },
+      "AttemptResponse": {
+        "type": "object",
+        "required": ["attempt"],
+        "properties": {
+          "attempt": {
+            "$ref": "#/components/schemas/SavedExam"
+          }
+        }
+      },
+      "Summary": {
+        "type": "object",
+        "required": [
+          "id",
+          "language",
+          "meaningLanguage",
+          "mode",
+          "startedAt",
+          "status",
+          "answered",
+          "total"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-]{1,100}$"
+          },
+          "language": {
+            "enum": ["en", "zh", "ja", "ko", "es"]
+          },
+          "meaningLanguage": {
+            "enum": ["en", "zh"]
+          },
+          "mode": {
+            "enum": ["quick", "full"]
+          },
+          "startedAt": {
+            "type": "number",
+            "minimum": 0
+          },
+          "status": {
+            "enum": ["running", "finished"]
+          },
+          "completedAt": {
+            "type": "number",
+            "description": "Required when finished; no earlier than startedAt."
+          },
+          "answered": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 40
+          },
+          "total": {
+            "type": "integer",
+            "minimum": 12,
+            "maximum": 40,
+            "description": "For running v2 tests, cap 30 quick/40 full. For finished v2 tests, actual administered count. Version 1 and legacy retain 20/40. Must not interpret a running v2 cap as a fixed required length."
+          },
+          "adaptiveVersion": {
+            "enum": [1, 2],
+            "description": "Absent for legacy fixed-stratum records. Version 2 uses dynamic stopping."
+          }
+        }
+      },
+      "History": {
+        "type": "object",
+        "required": [
+          "items",
+          "total",
+          "page",
+          "pageSize",
+          "totalPages",
+          "latest",
+          "draft"
+        ],
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Summary"
+            }
+          },
+          "total": {
+            "type": "integer"
+          },
+          "page": {
+            "type": "integer"
+          },
+          "pageSize": {
+            "type": "integer"
+          },
+          "totalPages": {
+            "type": "integer"
+          },
+          "latest": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/SavedExam"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "draft": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/SavedExam"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "parameters": {
+      "ExpectedAccount": {
+        "name": "X-LingoLearn-Account",
+        "in": "header",
+        "required": false,
+        "schema": {
+          "type": "string"
+        },
+        "description": "The W-ID subject verified by the originating browser tab. If supplied, it must match the current session cookie; an account change returns 403 and preserves the browser copy."
+      }
+    }
+  }
+}

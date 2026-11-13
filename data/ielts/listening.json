@@ -1,0 +1,1113 @@
+{
+  "_provenance": {
+    "source": "https://github.com/LuchoBazz/ielts-ai-dataset",
+    "path": "datasets/practice-drills/listening/ielts-listening-band-8.0-test-001",
+    "revision": "cba645115e62eccabfe03cb70e9488646b57c290",
+    "licence": "CC BY 4.0 (© LuchoBazz), full text in public/ielts-assets/CC-BY-4.0.txt",
+    "changes": "Question format adapted, terminal map added. Recordings byte-identical (sha256 in NOTICE.md).",
+    "notice": "public/ielts-assets/NOTICE.md"
+  },  "parts": [
+    {
+      "id": "listening-1",
+      "title": "Commercial Freight Shipping Enquiry",
+      "content": "Agent: Good afternoon, Pacific Freight and Logistics. Lisa speaking. How can I help you today?\nCustomer: Hello, Lisa. My name is David. I'm calling because I need to arrange an international shipment for my small business. It's my first time shipping commercially, so I'm a bit unsure of the process.\nAgent: Not a problem at all, David. We handle first-time commercial shipments every day. I can walk you through it and give you a quote right now. First, can I get the full name of your business?\nCustomer: Yes, it's called Ironwood Artisans. That's Ironwood, all one word, and Artisans with an 's' at the end.\nAgent: Ironwood Artisans. Great. And what exactly are you looking to ship?\nCustomer: We manufacture custom wooden furniture. For this particular order, it's a batch of dining chairs.\nAgent: Excellent. Now, where will this shipment be heading? What's the final destination country?\nCustomer: The client is based in New Zealand. Specifically, the delivery address is in Auckland, but I assume it goes to the main port first.\nAgent: Yes, our primary shipping route goes directly into the Port of Auckland, so that's perfect. Now, to calculate the freight cost, I'll need some details about the cargo itself. Do you have the total weight of the shipment?\nCustomer: Yes, I weighed the pallets this morning. The total weight comes to 450 kilograms. Wait, sorry, I added an extra pallet at the last minute. The final weight is actually 520 kilograms.\nAgent: 520 kilograms. Noted. And because freight charges also depend on the volume, could you give me the dimensions of the total shipment? We usually need the height, width, and length in meters.\nCustomer: Sure. I have them written down here. The total length is 2.5 meters, the width is 1.2 meters, and the height is exactly 1.8 meters.\nAgent: Length 2.5, width 1.2, height 1.8. Perfect. Because wooden products can be susceptible to moisture during sea transit, I highly recommend adding protective wrapping. It's an extra \u00a340. Would you like to include that?\nCustomer: Absolutely. I don't want to risk any water damage. Please add the wrapping.\nAgent: Done. We also need to discuss insurance. We offer a basic liability cover, which is included in the standard rate, or a comprehensive policy that covers the full retail value against all damages.\nCustomer: Given the value of the custom furniture, I'd better go with the comprehensive policy. Better safe than sorry.\nAgent: A wise choice for high-value goods. One important regulatory point: when shipping timber products to New Zealand, customs is extremely strict about biosecurity. You must ensure the wood is treated and there is no bark attached. \nCustomer: Oh, yes. All our timber is kiln-dried and fully treated. I have the certificates.\nAgent: Good. They also have a strict list of restricted items. You cannot include any plant matter, seeds, or untreated organic material in the packing crates.\nCustomer: We only use synthetic foam packing peanuts and bubble wrap, so there won't be any seeds or plant matter anywhere near it.\nAgent: Excellent. That should clear customs without a hitch. Now, when would you like us to collect the pallets from your workshop?\nCustomer: The items will be fully crated and ready by this Friday. Could you collect them on Monday?\nAgent: Let me check the schedule. We have a truck in your area on Monday, which is the 14th of November. We can pencil you in for a morning pickup.\nCustomer: The 14th works perfectly. How do I go about paying for this?\nAgent: Once I generate the final invoice, I'll email it over. We accept bank transfers, credit cards, or for commercial accounts, direct debit. Which do you prefer?\nCustomer: A bank transfer is easiest for my accounting software. I'll do it that way.\nAgent: Excellent. I'm generating your booking now. Your reference number is F-R-E-9-9-2. Please quote that reference on your bank transfer so we can instantly link the payment to your shipment.\nCustomer: F-R-E-9-9-2. Got it. Thank you so much for your help, Lisa.",
+      "audio": "/api/ielts/audio?part=1",
+      "map": false
+    },
+    {
+      "id": "listening-2",
+      "title": "Greenwich Airport Terminal 3 Expansion Briefing",
+      "content": "Project Manager: Good evening, ladies and gentlemen, and thank you for attending this public briefing on the upcoming expansion of Greenwich Airport. I'm Sarah Jenkins, the lead project manager for the new Terminal 3 development. \n\nI want to start by addressing why this expansion is necessary. Over the past decade, our passenger numbers have doubled. While many assume we are building Terminal 3 to accommodate more international long-haul flights, the reality is that the surge in domestic budget airlines has completely overwhelmed our current capacity. Terminal 3 is specifically designed to handle these high-frequency, short-haul domestic routes. \n\nNow, regarding the financing of this colossal project, there have been some misleading reports in the local press claiming a hike in municipal taxes. I want to assure you all today that zero taxpayer money is being used. The entire \u00a3400 million budget is being fully funded by a consortium of private investors and retail partners who will operate within the terminal.\n\nWe are also acutely aware of the environmental concerns raised by the community. To mitigate our carbon footprint, we initially looked at installing a massive array of solar panels on the roof. However, due to glare issues affecting air traffic control, we opted instead to incorporate a state-of-the-art rainwater harvesting system, which will provide 100% of the non-potable water needed for the terminal's sanitation facilities. \n\nLooking at the timeline, we are scheduled to break ground next month. If all goes according to plan, the main structural framework will be completed by late next year, with the grand opening slated for March 2028. It's a tight schedule, and frankly, our biggest hurdle isn't the complex engineering or the supply chain; it's managing the severe winter weather that typically halts construction in this region for weeks at a time.\n\nLet's move on to the layout of Terminal 3. If you look at the maps provided on your seats, you'll see the main entrance at the bottom. As you walk through the main entrance doors, the first vast area you encounter, directly in front of you, is the Check-in Zone. We are utilizing fully automated kiosks here to reduce queuing times. \n\nOnce you have your boarding pass, you need to proceed to Security. From the Check-in Zone, take the corridor to your right. At the end of that corridor, the large rectangular space on your left is the Security Clearance Area. \n\nAfter clearing security, you enter the central hub of the terminal. If you are looking for the VIP Lounge, proceed straight ahead from security, past the central seating area. The lounge is located in the circular structure right at the top left corner of the map, offering fantastic views of the runway.\n\nFor those wanting to do some shopping, the Duty-Free Emporium is located quite centrally. From the security exit, walk straight ahead, but instead of going all the way to the lounge, take the first right turn. The large L-shaped building there houses all the duty-free shops. \n\nFinally, for those flying out of Gate 15\u2014which will handle our largest domestic aircraft\u2014you need to navigate to the far east wing. From the central seating area, walk all the way down the long eastern corridor. Gate 15 is the very last boarding area at the extreme right end of that corridor. \n\nWe believe this intuitive layout will drastically improve the passenger experience. Are there any questions before we move on?",
+      "audio": "/api/ielts/audio?part=2",
+      "map": true
+    },
+    {
+      "id": "listening-3",
+      "title": "Marine Biology Fieldwork Assignment",
+      "content": "Tutor: Come in, grab a seat. So, Sarah, Tom... I've reviewed the preliminary data you submitted for your marine biology assignment on coral reef bleaching. How did you find the fieldwork overall?\nSarah: It was incredible, Professor Higgins, but far more challenging than we anticipated. I assumed that identifying the specific coral species underwater would be the toughest part.\nTom: Exactly. We spent weeks memorizing the taxonomies. But out on the reef, what actually cost us the most time and effort was maintaining the calibration of our underwater temperature probes. The currents kept knocking them out of alignment.\nTutor: Ah, yes. Environmental variables in open water can play havoc with delicate sensors. But looking at your initial charts, you managed to gather some very robust data. Were there any findings that caught you off guard?\nSarah: Well, we fully expected to see the highest rates of coral bleaching in the shallowest waters, given the direct exposure to solar radiation and higher surface temperatures.\nTom: But the data contradicted that entirely. The most severe bleaching actually occurred at mid-depth levels. We later realised this was due to a phenomenon called internal waves, which unexpectedly push colder, nutrient-depleted water into that specific depth zone, stressing the corals more than the heat did.\nTutor: An excellent observation, and a perfect example of why physical oceanography is inseparable from marine biology. Now, let's talk about your methodology. When you took your quadrat samples to measure coral density, I noticed a potential flaw in your approach.\nSarah: Really? We used the standard 1-meter square PVC frames, and we placed them exactly 10 meters apart along the transect line, just like the textbook suggests.\nTutor: The spacing was fine. The issue is that you conducted all your sampling exclusively during low tide. Because certain coral polyps retract during low tide to conserve moisture, your visual estimates of living tissue density are likely underestimating the true health of the reef. You need to sample across multiple tidal phases.\nTom: That makes complete sense. We'll adjust our final methodology chapter to acknowledge that limitation. Speaking of the chapters, how should we structure the final report? Should we lead with the statistical analysis?\nTutor: No, start broader. I want you to open with a comprehensive literature review. It's crucial you demonstrate how your findings on internal waves fit into the existing historical consensus before you start throwing raw data at the reader.\nSarah: Understood. A literature review first, then the data. And for our conclusion, we were thinking of proposing some local conservation policies, like restricting tourist boats in the area.\nTutor: While admirable, policy recommendations are outside the scope of a purely scientific ecological paper. Your conclusion must focus strictly on predicting the future trajectory of the reef's ecosystem based on the data trends you've recorded.\nTom: Focus on ecological predictions. Got it. \nTutor: Excellent. Let's look closely at your zoning map. You divided the reef into five distinct areas based on the resilience of the coral. Walk me through what specific adaptation or phenomenon you observed in each zone.\nSarah: Sure. Let's start with Zone A, the northernmost tip of the reef. We expected total devastation there due to the warming, but surprisingly, we found that the corals there have adapted by forming a symbiotic relationship with a heat-resistant strain of microalgae, allowing them to survive higher temperatures.\nTom: Moving down to Zone B, the eastern flank. This area was heavily damaged by a storm last year. What's unique here is the rapid recolonisation. We observed a massive influx of entirely new, non-native coral species that seem to be taking over the dead limestone skeletons.\nSarah: Then there's Zone C, the central lagoon. The water here is incredibly murky, which usually kills coral by blocking sunlight. However, the corals in this zone have adapted by altering their feeding mechanisms\u2014they now rely primarily on capturing floating plankton rather than photosynthesis.\nTutor: Fascinating. And what about the deeper areas?\nTom: Down in Zone D, the southern drop-off... This was grim. We recorded a phenomenon known as structural collapse. The corals haven't just bleached; the calcium carbonate structures themselves are becoming brittle and crumbling under the ocean pressure due to increased water acidity.\nSarah: Finally, Zone E, the western shallows. This was the most hopeful area. The corals here naturally secrete a dense, fluorescent protein pigment that essentially acts as a chemical sunscreen, protecting their tissues from the intense UV radiation at that shallow depth.\nTutor: Those are brilliant, distinct observations. Make sure you clearly define those mechanisms in the final draft.",
+      "audio": "/api/ielts/audio?part=3",
+      "map": false
+    },
+    {
+      "id": "listening-4",
+      "title": "Lecture: The Evolution of Global Supply Chains",
+      "content": "Professor: Welcome, everyone, to this week's lecture on Global Supply Chain Logistics. Today, we are charting the evolutionary trajectory of how goods move across the planet\u2014a process that has transformed dramatically over the last century. To understand the modern complexities, we must look at the foundational shifts in logistical thinking.\n\nHistorically, prior to the mid-20th century, logistics was largely disjointed. The breakthrough that truly globalized trade was the invention of containerisation in 1956. By standardizing the physical dimensions of shipping boxes, companies could move goods seamlessly from trucks to trains to ships without manually unpacking the cargo. This innovation drastically reduced the time ships spent in port, which directly caused a massive drop in global shipping costs, making international manufacturing economically viable for the first time.\n\nAs shipping became cheaper, corporate strategies shifted. In the 1980s, the Japanese automotive industry pioneered a philosophy known as 'Just-in-Time' manufacturing. Instead of stockpiling vast amounts of inventory in expensive warehouses, companies synchronized their supply lines so that raw materials arrived exactly when they were needed on the assembly line. This minimized storage overheads and maximized efficiency. However, as we have seen in recent years, this hyper-lean model creates severe vulnerability; a single disruption, like a blocked canal or a factory closure, can paralyze an entire production network.\n\nTo counter this fragility, modern logistics has heavily embraced digitalization. The cornerstone of this new era is the use of blockchain technology. While commonly associated with cryptocurrency, in supply chains, a blockchain acts as an immutable digital ledger. It provides complete transparency, allowing companies to track the origin of a product from the raw material extraction right through to the consumer, drastically reducing instances of fraud and counterfeiting.\n\nFurthermore, the physical movement of goods inside distribution centers has been revolutionized by automation. We are now seeing the deployment of autonomous mobile robots\u2014or AMRs. Unlike traditional conveyor belts, these robots use complex algorithms to dynamically navigate warehouse floors, bringing shelves of products directly to human workers, which exponentially increases the speed of order fulfillment.\n\nLooking to the future, the integration of Artificial Intelligence is shifting logistics from a reactive industry to a proactive one. AI systems can analyze vast historical datasets, weather patterns, and consumer trends to achieve highly accurate demand forecasting. By predicting exactly what consumers will buy and when, companies can position inventory globally before an order is even placed.\n\nHowever, this rapid modernization is not without its ethical dilemmas. The most pressing issue facing global supply networks today is sustainability. The maritime shipping industry alone contributes roughly 3% of global greenhouse gas emissions. Consequently, there is massive regulatory pressure to develop alternative fuels. The leading candidate currently being tested by major shipping conglomerates is green ammonia, a fuel source that, when combusted, yields zero carbon emissions.\n\nLastly, the 'last-mile' delivery\u2014the final step of bringing a product to a customer's doorstep\u2014remains the most inefficient and costly segment of the supply chain. While drones have dominated the headlines, the more practical, near-term solution being rolled out in urban centers is the use of micro-fulfillment hubs. These are small, highly automated storage facilities tucked into dense city neighbourhoods, allowing for delivery times to be slashed from days to mere hours.\n\nIn conclusion, the supply chain is no longer just a backend operational function; it is a critical competitive advantage driven by continuous technological integration.",
+      "audio": "/api/ielts/audio?part=4",
+      "map": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "l1",
+      "partId": "listening-1",
+      "number": 1,
+      "type": "sentence-completion",
+      "prompt": "Company Name: ________",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "Ironwood Artisans",
+        "ironwood artisans",
+        "Ironwood artisans"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l2",
+      "partId": "listening-1",
+      "number": 2,
+      "type": "sentence-completion",
+      "prompt": "Destination Country: ________",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "New Zealand",
+        "new zealand"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l3",
+      "partId": "listening-1",
+      "number": 3,
+      "type": "sentence-completion",
+      "prompt": "Total shipment weight: ________ kg",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "520",
+        "520 kg",
+        "520 kilograms"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l4",
+      "partId": "listening-1",
+      "number": 4,
+      "type": "sentence-completion",
+      "prompt": "Cargo height: ________ meters",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "1.8",
+        "1.8 m",
+        "1.8 meters"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l5",
+      "partId": "listening-1",
+      "number": 5,
+      "type": "sentence-completion",
+      "prompt": "Selected Insurance policy: ________",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "comprehensive",
+        "Comprehensive",
+        "comprehensive policy"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l6",
+      "partId": "listening-1",
+      "number": 6,
+      "type": "sentence-completion",
+      "prompt": "Must not contain any ________ in the packing.",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "seeds",
+        "plant matter",
+        "Seeds"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l7",
+      "partId": "listening-1",
+      "number": 7,
+      "type": "sentence-completion",
+      "prompt": "Collection date: ________",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "14th November",
+        "14 November",
+        "November 14th"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l8",
+      "partId": "listening-1",
+      "number": 8,
+      "type": "sentence-completion",
+      "prompt": "Collection time: ________",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "morning",
+        "a morning",
+        "Morning"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l9",
+      "partId": "listening-1",
+      "number": 9,
+      "type": "sentence-completion",
+      "prompt": "Preferred payment method: ________",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "bank transfer",
+        "Bank transfer",
+        "a bank transfer"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l10",
+      "partId": "listening-1",
+      "number": 10,
+      "type": "sentence-completion",
+      "prompt": "Booking Reference Number: ________",
+      "instruction": "Complete the booking form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "groupId": "b60450bf-fb2b-4bdb-b7a1-e5d1ffb08c06",
+      "options": [],
+      "answers": [
+        "FRE992",
+        "F-R-E-9-9-2",
+        "fre992"
+      ],
+      "wordLimit": 2,
+      "allowNumber": true,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l11",
+      "partId": "listening-2",
+      "number": 11,
+      "type": "multiple-choice",
+      "prompt": "What is the primary reason for building Terminal 3?",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "9fa27394-6fa2-46b1-baf5-99b4a90796f9",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. To accommodate more international long-haul flights."
+        },
+        {
+          "value": "B",
+          "label": "B. To handle the increase in domestic budget airline traffic."
+        },
+        {
+          "value": "C",
+          "label": "C. To replace the aging facilities of Terminal 1."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l12",
+      "partId": "listening-2",
+      "number": 12,
+      "type": "multiple-choice",
+      "prompt": "How is the \u00a3400 million expansion being funded?",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "9fa27394-6fa2-46b1-baf5-99b4a90796f9",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Through an increase in local municipal taxes."
+        },
+        {
+          "value": "B",
+          "label": "B. Exclusively by government infrastructure grants."
+        },
+        {
+          "value": "C",
+          "label": "C. By private investors and retail partners."
+        }
+      ],
+      "answers": [
+        "C"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l13",
+      "partId": "listening-2",
+      "number": 13,
+      "type": "multiple-choice",
+      "prompt": "To mitigate environmental impact, the new terminal will feature:",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "9fa27394-6fa2-46b1-baf5-99b4a90796f9",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. A massive array of solar panels on the roof."
+        },
+        {
+          "value": "B",
+          "label": "B. A rainwater harvesting system for sanitation."
+        },
+        {
+          "value": "C",
+          "label": "C. Highly efficient, low-glare glass windows."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l14",
+      "partId": "listening-2",
+      "number": 14,
+      "type": "multiple-choice",
+      "prompt": "When is the grand opening of Terminal 3 scheduled?",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "9fa27394-6fa2-46b1-baf5-99b4a90796f9",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Next month."
+        },
+        {
+          "value": "B",
+          "label": "B. Late next year."
+        },
+        {
+          "value": "C",
+          "label": "C. March 2028."
+        }
+      ],
+      "answers": [
+        "C"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l15",
+      "partId": "listening-2",
+      "number": 15,
+      "type": "multiple-choice",
+      "prompt": "What does the Project Manager consider the biggest challenge to the construction schedule?",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "9fa27394-6fa2-46b1-baf5-99b4a90796f9",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Complex engineering requirements."
+        },
+        {
+          "value": "B",
+          "label": "B. Severe winter weather conditions."
+        },
+        {
+          "value": "C",
+          "label": "C. Delays in the global supply chain."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l16",
+      "partId": "listening-2",
+      "number": 16,
+      "type": "map-labelling",
+      "prompt": "Check-in Zone",
+      "instruction": "Look at the map of Terminal 3. Match the facilities (16-20) to the correct location (A-G).",
+      "groupId": "032051e6-157c-4763-9fe1-3a5e69ef15c5",
+      "options": [
+        {
+          "value": "A",
+          "label": "A"
+        },
+        {
+          "value": "B",
+          "label": "B"
+        },
+        {
+          "value": "C",
+          "label": "C"
+        },
+        {
+          "value": "D",
+          "label": "D"
+        },
+        {
+          "value": "E",
+          "label": "E"
+        },
+        {
+          "value": "F",
+          "label": "F"
+        },
+        {
+          "value": "G",
+          "label": "G"
+        }
+      ],
+      "answers": [
+        "C"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l17",
+      "partId": "listening-2",
+      "number": 17,
+      "type": "map-labelling",
+      "prompt": "Security Clearance Area",
+      "instruction": "Look at the map of Terminal 3. Match the facilities (16-20) to the correct location (A-G).",
+      "groupId": "032051e6-157c-4763-9fe1-3a5e69ef15c5",
+      "options": [
+        {
+          "value": "A",
+          "label": "A"
+        },
+        {
+          "value": "B",
+          "label": "B"
+        },
+        {
+          "value": "C",
+          "label": "C"
+        },
+        {
+          "value": "D",
+          "label": "D"
+        },
+        {
+          "value": "E",
+          "label": "E"
+        },
+        {
+          "value": "F",
+          "label": "F"
+        },
+        {
+          "value": "G",
+          "label": "G"
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l18",
+      "partId": "listening-2",
+      "number": 18,
+      "type": "map-labelling",
+      "prompt": "VIP Lounge",
+      "instruction": "Look at the map of Terminal 3. Match the facilities (16-20) to the correct location (A-G).",
+      "groupId": "032051e6-157c-4763-9fe1-3a5e69ef15c5",
+      "options": [
+        {
+          "value": "A",
+          "label": "A"
+        },
+        {
+          "value": "B",
+          "label": "B"
+        },
+        {
+          "value": "C",
+          "label": "C"
+        },
+        {
+          "value": "D",
+          "label": "D"
+        },
+        {
+          "value": "E",
+          "label": "E"
+        },
+        {
+          "value": "F",
+          "label": "F"
+        },
+        {
+          "value": "G",
+          "label": "G"
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l19",
+      "partId": "listening-2",
+      "number": 19,
+      "type": "map-labelling",
+      "prompt": "Duty-Free Emporium",
+      "instruction": "Look at the map of Terminal 3. Match the facilities (16-20) to the correct location (A-G).",
+      "groupId": "032051e6-157c-4763-9fe1-3a5e69ef15c5",
+      "options": [
+        {
+          "value": "A",
+          "label": "A"
+        },
+        {
+          "value": "B",
+          "label": "B"
+        },
+        {
+          "value": "C",
+          "label": "C"
+        },
+        {
+          "value": "D",
+          "label": "D"
+        },
+        {
+          "value": "E",
+          "label": "E"
+        },
+        {
+          "value": "F",
+          "label": "F"
+        },
+        {
+          "value": "G",
+          "label": "G"
+        }
+      ],
+      "answers": [
+        "F"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l20",
+      "partId": "listening-2",
+      "number": 20,
+      "type": "map-labelling",
+      "prompt": "Gate 15",
+      "instruction": "Look at the map of Terminal 3. Match the facilities (16-20) to the correct location (A-G).",
+      "groupId": "032051e6-157c-4763-9fe1-3a5e69ef15c5",
+      "options": [
+        {
+          "value": "A",
+          "label": "A"
+        },
+        {
+          "value": "B",
+          "label": "B"
+        },
+        {
+          "value": "C",
+          "label": "C"
+        },
+        {
+          "value": "D",
+          "label": "D"
+        },
+        {
+          "value": "E",
+          "label": "E"
+        },
+        {
+          "value": "F",
+          "label": "F"
+        },
+        {
+          "value": "G",
+          "label": "G"
+        }
+      ],
+      "answers": [
+        "G"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l21",
+      "partId": "listening-3",
+      "number": 21,
+      "type": "multiple-choice",
+      "prompt": "What did the students find to be the most difficult part of their fieldwork?",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "6c26b7bb-562f-4116-a9f0-06a1859d9efe",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Identifying the different species of coral."
+        },
+        {
+          "value": "B",
+          "label": "B. Keeping their temperature sensors calibrated."
+        },
+        {
+          "value": "C",
+          "label": "C. Dealing with the strong underwater currents."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l22",
+      "partId": "listening-3",
+      "number": 22,
+      "type": "multiple-choice",
+      "prompt": "The students were surprised to discover that the most severe coral bleaching happened",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "6c26b7bb-562f-4116-a9f0-06a1859d9efe",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. in the shallowest waters."
+        },
+        {
+          "value": "B",
+          "label": "B. at mid-depth levels."
+        },
+        {
+          "value": "C",
+          "label": "C. in areas with the highest solar radiation."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l23",
+      "partId": "listening-3",
+      "number": 23,
+      "type": "multiple-choice",
+      "prompt": "What flaw did the tutor identify in the students' sampling methodology?",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "6c26b7bb-562f-4116-a9f0-06a1859d9efe",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. They placed the PVC frames incorrectly."
+        },
+        {
+          "value": "B",
+          "label": "B. Their quadrat frames were the wrong size."
+        },
+        {
+          "value": "C",
+          "label": "C. They only collected data during low tide."
+        }
+      ],
+      "answers": [
+        "C"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l24",
+      "partId": "listening-3",
+      "number": 24,
+      "type": "multiple-choice",
+      "prompt": "How does the tutor suggest they begin their final report?",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "6c26b7bb-562f-4116-a9f0-06a1859d9efe",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. With a statistical analysis of the raw data."
+        },
+        {
+          "value": "B",
+          "label": "B. With a comprehensive review of existing literature."
+        },
+        {
+          "value": "C",
+          "label": "C. With an explanation of internal waves."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l25",
+      "partId": "listening-3",
+      "number": 25,
+      "type": "multiple-choice",
+      "prompt": "What must the conclusion of the report focus on?",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "groupId": "6c26b7bb-562f-4116-a9f0-06a1859d9efe",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Proposing new local conservation policies."
+        },
+        {
+          "value": "B",
+          "label": "B. Restricting tourist boat activity."
+        },
+        {
+          "value": "C",
+          "label": "C. Predicting future ecological trends."
+        }
+      ],
+      "answers": [
+        "C"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l26",
+      "partId": "listening-3",
+      "number": 26,
+      "type": "matching-features",
+      "prompt": "Zone A",
+      "instruction": "What biological phenomenon or adaptation was observed in each of the following reef zones? Choose the correct letter, A-F.",
+      "groupId": "a6b9dac0-6ab2-46fd-bbdd-ab71aa1b73bf",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Reliance on capturing plankton for food."
+        },
+        {
+          "value": "B",
+          "label": "B. Production of a chemical sunscreen."
+        },
+        {
+          "value": "C",
+          "label": "C. Invasion by new, non-native species."
+        },
+        {
+          "value": "D",
+          "label": "D. Symbiosis with heat-resistant microalgae."
+        },
+        {
+          "value": "E",
+          "label": "E. Brittle and crumbling calcium structures."
+        },
+        {
+          "value": "F",
+          "label": "F. Complete death of all living tissue."
+        }
+      ],
+      "answers": [
+        "D"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l27",
+      "partId": "listening-3",
+      "number": 27,
+      "type": "matching-features",
+      "prompt": "Zone B",
+      "instruction": "What biological phenomenon or adaptation was observed in each of the following reef zones? Choose the correct letter, A-F.",
+      "groupId": "a6b9dac0-6ab2-46fd-bbdd-ab71aa1b73bf",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Reliance on capturing plankton for food."
+        },
+        {
+          "value": "B",
+          "label": "B. Production of a chemical sunscreen."
+        },
+        {
+          "value": "C",
+          "label": "C. Invasion by new, non-native species."
+        },
+        {
+          "value": "D",
+          "label": "D. Symbiosis with heat-resistant microalgae."
+        },
+        {
+          "value": "E",
+          "label": "E. Brittle and crumbling calcium structures."
+        },
+        {
+          "value": "F",
+          "label": "F. Complete death of all living tissue."
+        }
+      ],
+      "answers": [
+        "C"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l28",
+      "partId": "listening-3",
+      "number": 28,
+      "type": "matching-features",
+      "prompt": "Zone C",
+      "instruction": "What biological phenomenon or adaptation was observed in each of the following reef zones? Choose the correct letter, A-F.",
+      "groupId": "a6b9dac0-6ab2-46fd-bbdd-ab71aa1b73bf",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Reliance on capturing plankton for food."
+        },
+        {
+          "value": "B",
+          "label": "B. Production of a chemical sunscreen."
+        },
+        {
+          "value": "C",
+          "label": "C. Invasion by new, non-native species."
+        },
+        {
+          "value": "D",
+          "label": "D. Symbiosis with heat-resistant microalgae."
+        },
+        {
+          "value": "E",
+          "label": "E. Brittle and crumbling calcium structures."
+        },
+        {
+          "value": "F",
+          "label": "F. Complete death of all living tissue."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l29",
+      "partId": "listening-3",
+      "number": 29,
+      "type": "matching-features",
+      "prompt": "Zone D",
+      "instruction": "What biological phenomenon or adaptation was observed in each of the following reef zones? Choose the correct letter, A-F.",
+      "groupId": "a6b9dac0-6ab2-46fd-bbdd-ab71aa1b73bf",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Reliance on capturing plankton for food."
+        },
+        {
+          "value": "B",
+          "label": "B. Production of a chemical sunscreen."
+        },
+        {
+          "value": "C",
+          "label": "C. Invasion by new, non-native species."
+        },
+        {
+          "value": "D",
+          "label": "D. Symbiosis with heat-resistant microalgae."
+        },
+        {
+          "value": "E",
+          "label": "E. Brittle and crumbling calcium structures."
+        },
+        {
+          "value": "F",
+          "label": "F. Complete death of all living tissue."
+        }
+      ],
+      "answers": [
+        "E"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l30",
+      "partId": "listening-3",
+      "number": 30,
+      "type": "matching-features",
+      "prompt": "Zone E",
+      "instruction": "What biological phenomenon or adaptation was observed in each of the following reef zones? Choose the correct letter, A-F.",
+      "groupId": "a6b9dac0-6ab2-46fd-bbdd-ab71aa1b73bf",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Reliance on capturing plankton for food."
+        },
+        {
+          "value": "B",
+          "label": "B. Production of a chemical sunscreen."
+        },
+        {
+          "value": "C",
+          "label": "C. Invasion by new, non-native species."
+        },
+        {
+          "value": "D",
+          "label": "D. Symbiosis with heat-resistant microalgae."
+        },
+        {
+          "value": "E",
+          "label": "E. Brittle and crumbling calcium structures."
+        },
+        {
+          "value": "F",
+          "label": "F. Complete death of all living tissue."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "wordLimit": null,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l31",
+      "partId": "listening-4",
+      "number": 31,
+      "type": "sentence-completion",
+      "prompt": "The invention of ________ in 1956 drastically reduced port times and shipping costs.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "containerisation",
+        "Containerisation",
+        "containerization"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l32",
+      "partId": "listening-4",
+      "number": 32,
+      "type": "sentence-completion",
+      "prompt": "The 'Just-in-Time' model minimized storage costs but introduced significant ________ into the supply chain.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "vulnerability",
+        "Vulnerability"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l33",
+      "partId": "listening-4",
+      "number": 33,
+      "type": "sentence-completion",
+      "prompt": "Companies use ________ technology as an immutable digital ledger to ensure product transparency.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "blockchain",
+        "Blockchain",
+        "block chain"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l34",
+      "partId": "listening-4",
+      "number": 34,
+      "type": "sentence-completion",
+      "prompt": "This transparency helps to significantly reduce occurrences of ________ and counterfeiting.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "fraud",
+        "Fraud"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l35",
+      "partId": "listening-4",
+      "number": 35,
+      "type": "sentence-completion",
+      "prompt": "Inside modern warehouses, the physical movement of goods is managed by autonomous mobile ________.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "robots",
+        "Robots"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l36",
+      "partId": "listening-4",
+      "number": 36,
+      "type": "sentence-completion",
+      "prompt": "Artificial Intelligence is now utilized for accurate demand ________ to position inventory proactively.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "forecasting",
+        "Forecasting"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l37",
+      "partId": "listening-4",
+      "number": 37,
+      "type": "sentence-completion",
+      "prompt": "The most pressing ethical dilemma facing modern logistics is environmental ________.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "sustainability",
+        "Sustainability"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l38",
+      "partId": "listening-4",
+      "number": 38,
+      "type": "sentence-completion",
+      "prompt": "To eliminate carbon emissions, shipping conglomerates are testing green ________ as an alternative fuel.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "ammonia",
+        "Ammonia"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l39",
+      "partId": "listening-4",
+      "number": 39,
+      "type": "sentence-completion",
+      "prompt": "The most costly segment of bringing goods to the consumer is known as the ________ delivery.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "last-mile",
+        "last mile",
+        "Last-mile"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    },
+    {
+      "id": "l40",
+      "partId": "listening-4",
+      "number": 40,
+      "type": "sentence-completion",
+      "prompt": "Urban areas are utilizing micro-fulfillment ________ to slash delivery times to mere hours.",
+      "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "groupId": "26122726-c869-48ff-bbd9-37345464e176",
+      "options": [],
+      "answers": [
+        "hubs",
+        "Hubs"
+      ],
+      "wordLimit": 2,
+      "allowNumber": false,
+      "explanation": "Compare your answer with the recording transcript for this part."
+    }
+  ]
+}

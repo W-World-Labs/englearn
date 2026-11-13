@@ -1,0 +1,707 @@
+{
+  "format": "audio/mpeg",
+  "generator": "edge-tts 7.2.8",
+  "source": "Original LingoLearn scripts, synthesized through Microsoft Edge online speech. No learner data.",
+  "clips": [
+    {
+      "paperId": "hsk-check-v1",
+      "questionId": "sample",
+      "file": "hsk-check-v1-sample.mp3",
+      "duration": 5.76,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "ce244c910d1b2f5673ffdaa8593e5d450780713030f242d9dadfa4fe68ff7a04",
+      "sha256": "1a140f5d2c834ab8a67e029cf0d0242796eee24d21598d41c85170fcbf3b66d0"
+    },
+    {
+      "paperId": "hsk-1-01-v1",
+      "questionId": "l1",
+      "file": "hsk-1-01-v1-l1.mp3",
+      "duration": 2.52,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-15%",
+      "scriptSha256": "dd843962d2393cda7bd31af54b33f55a825dac82fd502d9841b9c7b91407221b",
+      "sha256": "a7cb8f77a08105ba2d5aab383b514b9b53e2efe409cd6462960af4d625c65a76"
+    },
+    {
+      "paperId": "hsk-1-01-v1",
+      "questionId": "l2",
+      "file": "hsk-1-01-v1-l2.mp3",
+      "duration": 4.512,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-15%",
+      "scriptSha256": "e01dbabb39c838182899792ff8fdc11a28c080e308eb9091bfe260de06fe0ba5",
+      "sha256": "4eb80e44e74eadcef2635d704abf825873ff79603cb511692b8c4b0fadda8e9c"
+    },
+    {
+      "paperId": "hsk-1-01-v1",
+      "questionId": "l3",
+      "file": "hsk-1-01-v1-l3.mp3",
+      "duration": 2.616,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-15%",
+      "scriptSha256": "bbc502a25a294963a49bc3ce496c938f3d487f7f56fd7ecec0d50eb40ce5473f",
+      "sha256": "73bd4b21faeab50ec77e5dc035650e41252b16a3581d538c24e7e3417da7c252"
+    },
+    {
+      "paperId": "hsk-1-01-v1",
+      "questionId": "l4",
+      "file": "hsk-1-01-v1-l4.mp3",
+      "duration": 3.312,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-15%",
+      "scriptSha256": "68ad41cb7ce2c9c3061f795be9929a28cdc65751335c82524d3ae5743744b28d",
+      "sha256": "ddf19e61e0ac53cca8d41279c20d3bfe32131e4b91d9a029428441e921e5b507"
+    },
+    {
+      "paperId": "hsk-1-01-v1",
+      "questionId": "l5",
+      "file": "hsk-1-01-v1-l5.mp3",
+      "duration": 3.576,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-15%",
+      "scriptSha256": "1b07821f6caa68ddd422307ad2959864f16b2f29534064573849c263cb9edd1c",
+      "sha256": "9ac7dccb8a273de69e6a7f3d029892d7e20bfebf4fcd60492bafb9a40a91a0ce"
+    },
+    {
+      "paperId": "hsk-2-01-v1",
+      "questionId": "l1",
+      "file": "hsk-2-01-v1-l1.mp3",
+      "duration": 4.152,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-15%",
+      "scriptSha256": "a5ea18428209ab935db27ed95c5e23a4f4ceca400f7024a38e6354957f198888",
+      "sha256": "8454b3e895e7964896cd0ddd0ebf545a78e1f14883089c4feeb61cecbe390597"
+    },
+    {
+      "paperId": "hsk-2-01-v1",
+      "questionId": "l2",
+      "file": "hsk-2-01-v1-l2.mp3",
+      "duration": 4.776,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-15%",
+      "scriptSha256": "4d7bf3eaa5fe9bbf3fe45a62c139695dd42a017242af64905710b51384b3ba72",
+      "sha256": "7eb08282b8a723b21da4e3e305e6e14368fd8ace6de4676e989146a5b7753fc8"
+    },
+    {
+      "paperId": "hsk-2-01-v1",
+      "questionId": "l3",
+      "file": "hsk-2-01-v1-l3.mp3",
+      "duration": 5.568,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-15%",
+      "scriptSha256": "e841a3fa20ce650c23ffb08c6724907418b55edfbcfacabe20ee215b13577d42",
+      "sha256": "52dccdde1d1a2a43ed376169d773de5f4a63799223733a9c0082696e04deba07"
+    },
+    {
+      "paperId": "hsk-2-01-v1",
+      "questionId": "l4",
+      "file": "hsk-2-01-v1-l4.mp3",
+      "duration": 6.024,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-15%",
+      "scriptSha256": "0b8f7e6eab33e814932e1e8046a156b9e0e7783c12567b0e73f8830f69bc7caa",
+      "sha256": "3f559e0a4448e65c4ca5c2cc7fb56497ed83ff6b828c6d548493ebb642a8e88a"
+    },
+    {
+      "paperId": "hsk-2-01-v1",
+      "questionId": "l5",
+      "file": "hsk-2-01-v1-l5.mp3",
+      "duration": 4.44,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-15%",
+      "scriptSha256": "d4b093f35e6199f69d93d7fc1f5bb9ce361a56fba1214d99c34642e833a14753",
+      "sha256": "99fb0429d575f6871e2dc79ae6e13fb3f6170bf875ce73185c1554c9b0dd1459"
+    },
+    {
+      "paperId": "hsk-3-01-v1",
+      "questionId": "l1",
+      "file": "hsk-3-01-v1-l1.mp3",
+      "duration": 7.416,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "8c854eac73f47f0929d761ac7afee0ea759f46904980af319ca214659e3f6e05",
+      "sha256": "c72877eb98a578418dbd983c1d3c65e585e189cc26fa1353caf5c2ad84a2c4ca"
+    },
+    {
+      "paperId": "hsk-3-01-v1",
+      "questionId": "l2",
+      "file": "hsk-3-01-v1-l2.mp3",
+      "duration": 7.224,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-5%",
+      "scriptSha256": "b3588e4b08bb0118b1d4777a1df30fd181f2a61c4a6bd94d76647d47e61b757c",
+      "sha256": "9117808140815eb73b977f759c77abbdc2f21f6bffd4c2d0a229142786f4cbb6"
+    },
+    {
+      "paperId": "hsk-3-01-v1",
+      "questionId": "l3",
+      "file": "hsk-3-01-v1-l3.mp3",
+      "duration": 6.984,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "344475cfcb26604f0ae6a8806a100458c29c4fab4affc6272f8eb70e671aed1a",
+      "sha256": "2a73df8e98f4a608bf67b00b787bc44a4a68f57a2e1554dfb3af1f668a94e3f4"
+    },
+    {
+      "paperId": "hsk-3-01-v1",
+      "questionId": "l4",
+      "file": "hsk-3-01-v1-l4.mp3",
+      "duration": 5.424,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-5%",
+      "scriptSha256": "a04a4dcec34526ba11acce85a17a5ffe466dd6e2464b68f7fccf18e4f18661fb",
+      "sha256": "f885dbf40a2d00385daeedc1f6420d030e018bfea3dcbc09eba30a0178e2bdf2"
+    },
+    {
+      "paperId": "hsk-3-01-v1",
+      "questionId": "l5",
+      "file": "hsk-3-01-v1-l5.mp3",
+      "duration": 7.32,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "41ad7c81b99570efc1ee96ef60ef60352a48586a15c3c449f23c7efff9f34dd9",
+      "sha256": "dca48dccbbf28f95205a88c4821887285fde3a75daf5b9eafc728fce870a73c2"
+    },
+    {
+      "paperId": "hsk-4-01-v1",
+      "questionId": "l1",
+      "file": "hsk-4-01-v1-l1.mp3",
+      "duration": 8.64,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "15bca1b7bb9dc27e235b5b5d64ac73b6c9856a87785e5f9baf4209d835fa48b3",
+      "sha256": "dd00e3fc7dcb9c55803858a0d55308b8169c3bfad732eddf850de0acafa2376e"
+    },
+    {
+      "paperId": "hsk-4-01-v1",
+      "questionId": "l2",
+      "file": "hsk-4-01-v1-l2.mp3",
+      "duration": 7.248,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-5%",
+      "scriptSha256": "33f3c53075402f0de4989ec5f5e5126db88534423f3969ae84c438cddff81672",
+      "sha256": "54494085cc0bfc674bdc8a9d7e6972ef424863e95b5336bce69e1cfd93c3d051"
+    },
+    {
+      "paperId": "hsk-4-01-v1",
+      "questionId": "l3",
+      "file": "hsk-4-01-v1-l3.mp3",
+      "duration": 9.096,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "e4419fb7915995a3e541f244424337a2d5fb3b02cd003293c61bcd57469ff794",
+      "sha256": "d5f404ca463def8c5a11de14067ce1de138f3d16159afc059cb209d76eca0944"
+    },
+    {
+      "paperId": "hsk-4-01-v1",
+      "questionId": "l4",
+      "file": "hsk-4-01-v1-l4.mp3",
+      "duration": 6.456,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-5%",
+      "scriptSha256": "330978a9b47416f738838254dd456e3866c13461df0ed430aa933f1a2a4bf590",
+      "sha256": "182661b07e1d87e6028cd68b139199b9733c874f37c7014d0c30071e17dac478"
+    },
+    {
+      "paperId": "hsk-4-01-v1",
+      "questionId": "l5",
+      "file": "hsk-4-01-v1-l5.mp3",
+      "duration": 9.24,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "50be08d9a78eb8a902e2c0ef089443457d2414f4b216a5e1788a9257ce42a499",
+      "sha256": "3e244517e8b026809cc78456076d65c131ff0e4c865e235ce4f6fbb1b4d128d4"
+    },
+    {
+      "paperId": "hsk-5-01-v1",
+      "questionId": "l1",
+      "file": "hsk-5-01-v1-l1.mp3",
+      "duration": 22.8,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "2d65204da2997ecdc8bd4f390ab1859d1ee428981eaa42ab30c3c9f5f7ae6a2b",
+      "sha256": "3bec88754f20d971858723c167d7d284f4e784215f288474f996f1eaad2d8759"
+    },
+    {
+      "paperId": "hsk-5-01-v1",
+      "questionId": "l2",
+      "file": "hsk-5-01-v1-l2.mp3",
+      "duration": 18.288,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-5%",
+      "scriptSha256": "45c88f3f4da4ed75bb97597c471817ab6582f5aece27f2b51f7d42919264335b",
+      "sha256": "fcd08541503d95b83617fc049073093949ca2b2e79427ea5fa1efca10f0457d6"
+    },
+    {
+      "paperId": "hsk-5-01-v1",
+      "questionId": "l3",
+      "file": "hsk-5-01-v1-l3.mp3",
+      "duration": 19.32,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "138a4b0b5c14a67cc11f6c930a91e2f080e232ef3267910d1036886957a448b1",
+      "sha256": "61005b847d897d580d57d1adb29f4ad03bf988d51b21c612b435bc228b4e1a0d"
+    },
+    {
+      "paperId": "hsk-5-01-v1",
+      "questionId": "l4",
+      "file": "hsk-5-01-v1-l4.mp3",
+      "duration": 16.944,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-5%",
+      "scriptSha256": "b9348fd348dc3d31ae1b534a79c335ac1cc22814f8800260804288a865d75a89",
+      "sha256": "83a381835cc54a96d253927df0c03987e9c979cfd40bee37789083d16c36f560"
+    },
+    {
+      "paperId": "hsk-5-01-v1",
+      "questionId": "l5",
+      "file": "hsk-5-01-v1-l5.mp3",
+      "duration": 14.832,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "4bdeade2cb78d6798c054bd87edbd99688c2ff3b8ad178ab24597743219c1ba5",
+      "sha256": "c32fc770698185fdff7545f2fe1fa563bb13e7e72719893ad573e0a08470bb76"
+    },
+    {
+      "paperId": "hsk-6-01-v1",
+      "questionId": "l1",
+      "file": "hsk-6-01-v1-l1.mp3",
+      "duration": 26.448,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "2350afa2238851dea3d4e1b915503642ffd62ead26b3c6e93efa60b6b323717e",
+      "sha256": "350a7c540ea8b92c0df8e85239e6e0e950b8e033110ea79410edbc4e3d7758de"
+    },
+    {
+      "paperId": "hsk-6-01-v1",
+      "questionId": "l2",
+      "file": "hsk-6-01-v1-l2.mp3",
+      "duration": 19.848,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-5%",
+      "scriptSha256": "e8fa632fa0e4364bb74e2d3e478fd752077da30766fcd4bf6d92d43ae3c76676",
+      "sha256": "3c65abf52af675d2e670ac02da596a8480933cb3f871c43790c628f647670907"
+    },
+    {
+      "paperId": "hsk-6-01-v1",
+      "questionId": "l3",
+      "file": "hsk-6-01-v1-l3.mp3",
+      "duration": 19.2,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "97bd2a9eccee73f8a539c08b839e91dc1ab38192d89bc923e46ba045c66e4ea8",
+      "sha256": "a6e6f3f1629096d384697ddd22d7e92df315a778760e34c9ed6585a99ed12f66"
+    },
+    {
+      "paperId": "hsk-6-01-v1",
+      "questionId": "l4",
+      "file": "hsk-6-01-v1-l4.mp3",
+      "duration": 19.032,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-5%",
+      "scriptSha256": "2773d8867b945aaf7af07b7b51c40eda2c0f444d70819281fa69eec926d096d2",
+      "sha256": "9e0471e65e0c76f4c3c715cce13d46c628ad83d58ae3ba680b761b4aaebd679c"
+    },
+    {
+      "paperId": "hsk-6-01-v1",
+      "questionId": "l5",
+      "file": "hsk-6-01-v1-l5.mp3",
+      "duration": 19.872,
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-5%",
+      "scriptSha256": "1ba2e686c7eb8f8df5d9a7e56ff41048a319c2de4b649ef55007d318e9a45538",
+      "sha256": "c03b68322c55efd17f9642f5172eefdbc48f52c649b8e65262dd997e1a065c21"
+    },
+    {
+      "paperId": "topik-check-v1",
+      "questionId": "sample",
+      "file": "topik-check-v1-sample.mp3",
+      "duration": 6.768,
+      "voice": "ko-KR-SunHiNeural",
+      "rate": "-5%",
+      "scriptSha256": "c56ce78e1d5bde19e4d00fb3a051579f75134dc20c23fa49f8d3a8d0de453d05",
+      "sha256": "5e72c3a6a8ff7a99a1a36f73e0ccc89e83b667f17f0795a4453883831e490ef1"
+    },
+    {
+      "paperId": "topik-i-01-v1",
+      "questionId": "l1",
+      "file": "topik-i-01-v1-l1.mp3",
+      "duration": 6.0,
+      "voice": "ko-KR-SunHiNeural",
+      "rate": "-10%",
+      "scriptSha256": "1608b77f439dd0766645cc8b42c074a36e3886b516268fc580acc402286dbdef",
+      "sha256": "368cc1834fdd52ae2d82e9bc4c8c5d7ecb16ae26457cce3329b78161df304e3e"
+    },
+    {
+      "paperId": "topik-i-01-v1",
+      "questionId": "l2",
+      "file": "topik-i-01-v1-l2.mp3",
+      "duration": 6.432,
+      "voice": "ko-KR-InJoonNeural",
+      "rate": "-10%",
+      "scriptSha256": "78541972580725087cd9e22fd85e1f82564468582ba63ed0ed901871814019ea",
+      "sha256": "8eff4c1bce118df45e204e7fd2d6cd4ccdb471a70a923957717ef83e088d044b"
+    },
+    {
+      "paperId": "topik-i-01-v1",
+      "questionId": "l3",
+      "file": "topik-i-01-v1-l3.mp3",
+      "duration": 6.408,
+      "voice": "ko-KR-SunHiNeural",
+      "rate": "-10%",
+      "scriptSha256": "47904e23102a34e06a0c14dc94807fdd1ed150d4a7fb8ca7ece7c3ea61c9d738",
+      "sha256": "901e4b0f975367f154ae02f2171b07575ae907ab81743800a12149e2323d5ba0"
+    },
+    {
+      "paperId": "topik-i-01-v1",
+      "questionId": "l4",
+      "file": "topik-i-01-v1-l4.mp3",
+      "duration": 7.704,
+      "voice": "ko-KR-InJoonNeural",
+      "rate": "-10%",
+      "scriptSha256": "ec659d56b1047058ddcb9a3cf02c797ea23bb59cadd5ee6478e51e8f49af5590",
+      "sha256": "0ad7e4d91e0cb24be454418e1b7cd6c54959a0c8d2889b2ca33f55dc112e7ce2"
+    },
+    {
+      "paperId": "topik-i-01-v1",
+      "questionId": "l5",
+      "file": "topik-i-01-v1-l5.mp3",
+      "duration": 7.944,
+      "voice": "ko-KR-SunHiNeural",
+      "rate": "-10%",
+      "scriptSha256": "6b0ad92d66380852e088d1608c7ffdcdd5e53fe30d25ee22cb0c3a0fde9050ee",
+      "sha256": "7e4398998ac3e5e8f48595f6879f4271f05f96edd94cc153aed40a1c6b94ac77"
+    },
+    {
+      "paperId": "topik-i-01-v1",
+      "questionId": "l6",
+      "file": "topik-i-01-v1-l6.mp3",
+      "duration": 7.92,
+      "voice": "ko-KR-InJoonNeural",
+      "rate": "-10%",
+      "scriptSha256": "83790df42fe14eb3fd3393678771e413df807a0c1a1468efc12e0a7cecfe4121",
+      "sha256": "a5d6ff23afc80587e15c24c53e957de523f5a4231ad87307e15b219bee204560"
+    },
+    {
+      "paperId": "topik-ii-01-v1",
+      "questionId": "l1",
+      "file": "topik-ii-01-v1-l1.mp3",
+      "duration": 17.304,
+      "voice": "ko-KR-SunHiNeural",
+      "rate": "-5%",
+      "scriptSha256": "6ad38cef86031c8493e5d1f61020c14c25e1339e0d180e97917d26419583ec50",
+      "sha256": "a143fd8be078eaf1612efe08e93caa7b0a6409f6e7766e80de62449a57c4e45b"
+    },
+    {
+      "paperId": "topik-ii-01-v1",
+      "questionId": "l2",
+      "file": "topik-ii-01-v1-l2.mp3",
+      "duration": 16.68,
+      "voice": "ko-KR-InJoonNeural",
+      "rate": "-5%",
+      "scriptSha256": "6a5cb61ef365fa2e111ad0fc95455f39d10147429ff88c1540df9ac673f26623",
+      "sha256": "7b8dfb688fcfb1fbe92a4d63f8624aabfe61aa86d15b4966ac8cf1d3444fa26e"
+    },
+    {
+      "paperId": "topik-ii-01-v1",
+      "questionId": "l3",
+      "file": "topik-ii-01-v1-l3.mp3",
+      "duration": 18.264,
+      "voice": "ko-KR-SunHiNeural",
+      "rate": "-5%",
+      "scriptSha256": "d349617b90a939dfa4675f51e36892752a124c0c703ffd878b92d7205b7b4d9d",
+      "sha256": "9701f4f0fb96baf091f86cb35fbb6a73dd9e3451763a75d2b9c60adb235f94a4"
+    },
+    {
+      "paperId": "topik-ii-01-v1",
+      "questionId": "l4",
+      "file": "topik-ii-01-v1-l4.mp3",
+      "duration": 16.704,
+      "voice": "ko-KR-InJoonNeural",
+      "rate": "-5%",
+      "scriptSha256": "5f26b3d9549ff7043a28897f710931cf065adab1322f4d9d4c65306ebb8e1450",
+      "sha256": "9644fc162a466335e7695db7d15598626d8b0885ccd4d24b875d5a83308e719f"
+    },
+    {
+      "paperId": "topik-ii-01-v1",
+      "questionId": "l5",
+      "file": "topik-ii-01-v1-l5.mp3",
+      "duration": 18.12,
+      "voice": "ko-KR-SunHiNeural",
+      "rate": "-5%",
+      "scriptSha256": "5d87a33d8d35a53f28ce6fc22cb2d2e6154a3728de99cfbb427991b562a7aa3e",
+      "sha256": "45c9d79cf81e114bea8986cc48ce48fbb94989524ea3bb2a3cf44b8f8e359e5d"
+    },
+    {
+      "paperId": "topik-ii-01-v1",
+      "questionId": "l6",
+      "file": "topik-ii-01-v1-l6.mp3",
+      "duration": 16.104,
+      "voice": "ko-KR-InJoonNeural",
+      "rate": "-5%",
+      "scriptSha256": "b571e99ef102b274b6e9857dec72d3f3a5b13756c942d3cd00bed9a0509b9f77",
+      "sha256": "58f1419beffe7938e6e8e1f8c42ed83e4f6c9ea9e0fc0d96d0adbe95059da168"
+    },
+    {
+      "paperId": "jlpt-check-v1",
+      "questionId": "sample",
+      "file": "jlpt-check-v1-sample.mp3",
+      "duration": 8.544,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-5%",
+      "scriptSha256": "8c450397f34bf31b7470b5c52c1710d0242ed77dbe455131bf951ce76030352f",
+      "sha256": "045a13052d3a0ed578efb5eca259f435c1ab0e567dc1bb1a4bfd6b873f9621ac"
+    },
+    {
+      "paperId": "jlpt-n5-01-v1",
+      "questionId": "l1",
+      "file": "jlpt-n5-01-v1-l1.mp3",
+      "duration": 12.624,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-10%",
+      "scriptSha256": "cef880ceb8bff454839f7745cd1bc5696b5b561e1a6bd43032078657fedcae81",
+      "sha256": "3be95af249702fb8be265d3ba022fc172b04af52e18c877da2f53a78ff5c7775"
+    },
+    {
+      "paperId": "jlpt-n5-01-v1",
+      "questionId": "l2",
+      "file": "jlpt-n5-01-v1-l2.mp3",
+      "duration": 11.712,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-10%",
+      "scriptSha256": "58f94df77994a8ebbb5ba244f7d32aa6962f4c468f246eb63b3dc78a3ab56e9b",
+      "sha256": "05b92d466101995c17274ba384f2b330424beab40c184fb6a46fc8858e091082"
+    },
+    {
+      "paperId": "jlpt-n5-01-v1",
+      "questionId": "l3",
+      "file": "jlpt-n5-01-v1-l3.mp3",
+      "duration": 10.872,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-10%",
+      "scriptSha256": "9d997664dbcc2ae927279be2fc5ec7b834f0e2c5b51fa45ebfc816625f9814da",
+      "sha256": "fa16e1c22c5d2c7f47238f13cc5a99c4bac841c97c472f4a9aad14691df0e251"
+    },
+    {
+      "paperId": "jlpt-n5-01-v1",
+      "questionId": "l4",
+      "file": "jlpt-n5-01-v1-l4.mp3",
+      "duration": 14.4,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-10%",
+      "scriptSha256": "0ec2e6977cd835f6be46213a5c7999300dbb6ff19a8dac112071d5d18476dfd3",
+      "sha256": "4ed3bd8b8edbfa317152005bc7ea2c0d4115d3777816d87015bd865dfce12041"
+    },
+    {
+      "paperId": "jlpt-n5-01-v1",
+      "questionId": "l5",
+      "file": "jlpt-n5-01-v1-l5.mp3",
+      "duration": 4.584,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-10%",
+      "scriptSha256": "2dd1c5ec071f3b0c3f54417554571d16486cba68bd7fb9d86fcd71ea76ac50f3",
+      "sha256": "86984bfc5b7068958a975da943f1d886399e6d1e52b2946dc87b03a48494d0fe"
+    },
+    {
+      "paperId": "jlpt-n4-01-v1",
+      "questionId": "l1",
+      "file": "jlpt-n4-01-v1-l1.mp3",
+      "duration": 14.832,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-8%",
+      "scriptSha256": "c2d82c3d8cde64f2d118cb20d76a5e43671cd422cc357e4184b5cef92100c327",
+      "sha256": "68224b47b712e03a7ed22a08027afec0313a7dee8b3bc92f8aaf5e1a382c2a43"
+    },
+    {
+      "paperId": "jlpt-n4-01-v1",
+      "questionId": "l2",
+      "file": "jlpt-n4-01-v1-l2.mp3",
+      "duration": 15.936,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-8%",
+      "scriptSha256": "2e10478860b9834dff441465202f8c4e5fe9820ebf91ca9ed51b3147ff843890",
+      "sha256": "38c5f173f8b81308d460eff0043b98ca0f6125359dc5ed3e69dbf691a332a19e"
+    },
+    {
+      "paperId": "jlpt-n4-01-v1",
+      "questionId": "l3",
+      "file": "jlpt-n4-01-v1-l3.mp3",
+      "duration": 14.304,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-8%",
+      "scriptSha256": "98b116989841dd3aa825bcbf087ce1beaadaee7f5dc973316e89c5f50a70bea9",
+      "sha256": "8d26604913e813895cf930481828636c2aa24f01630d2a9e678b18bcb55fdc69"
+    },
+    {
+      "paperId": "jlpt-n4-01-v1",
+      "questionId": "l4",
+      "file": "jlpt-n4-01-v1-l4.mp3",
+      "duration": 15.84,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-8%",
+      "scriptSha256": "ff8dc94746dcead7e5ab762ea827a88be942cba8b7888cca0bf639dc2fc5ebd9",
+      "sha256": "eaa885afc8d27d1a5c9f2f0ca1f722b55287da4583d87a31484b7f0f7e1eba61"
+    },
+    {
+      "paperId": "jlpt-n4-01-v1",
+      "questionId": "l5",
+      "file": "jlpt-n4-01-v1-l5.mp3",
+      "duration": 5.016,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-8%",
+      "scriptSha256": "5589ccdb7dc2456cbcfee27b1df482cd9b5b37d7e0caab0fcb55ce04167fc4db",
+      "sha256": "7932a5450852d84f8ba97fb9d015643980e33d49a4bd93c53ceae142fec206b9"
+    },
+    {
+      "paperId": "jlpt-n3-01-v1",
+      "questionId": "l1",
+      "file": "jlpt-n3-01-v1-l1.mp3",
+      "duration": 22.008,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-5%",
+      "scriptSha256": "139a7c06ea5c2cc43b01629dcdb68a35048871c1116c04b2e5758006a09f99ca",
+      "sha256": "4429361e24eda558456baae00bc29c976afa6bcdf899291d14d88e1bcd88a928"
+    },
+    {
+      "paperId": "jlpt-n3-01-v1",
+      "questionId": "l2",
+      "file": "jlpt-n3-01-v1-l2.mp3",
+      "duration": 21.624,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-5%",
+      "scriptSha256": "a3695ea5605e738a9b6e1975be76000bad863f0a1a23ec44907b111819cf52b1",
+      "sha256": "367185ab1f26a884380174cb9d8e9d9a914d2a66390beaf787d756f297780937"
+    },
+    {
+      "paperId": "jlpt-n3-01-v1",
+      "questionId": "l3",
+      "file": "jlpt-n3-01-v1-l3.mp3",
+      "duration": 20.112,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-5%",
+      "scriptSha256": "5662c520d854dc8ce67b1cf59bff72ac046df3bbae7c6e26ec72d9b47b0aa213",
+      "sha256": "fb369b2b632190d866747ec10223ea5d4db17c5220fb208453adff4982e2e34f"
+    },
+    {
+      "paperId": "jlpt-n3-01-v1",
+      "questionId": "l4",
+      "file": "jlpt-n3-01-v1-l4.mp3",
+      "duration": 21.984,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "-5%",
+      "scriptSha256": "b317d3697d21d5311781416dc2a326fc5d4a8b4e9c9432e0e165cf78f380903d",
+      "sha256": "a2d334ff05681a4ad9255e279893a04f6ff444353821ecdb89bb06a23eeb3ee9"
+    },
+    {
+      "paperId": "jlpt-n3-01-v1",
+      "questionId": "l5",
+      "file": "jlpt-n3-01-v1-l5.mp3",
+      "duration": 7.224,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "-5%",
+      "scriptSha256": "53d02128a81a3539cfd317f387f71ee5ed0a07ae261dc163927eb8aacac6bcee",
+      "sha256": "3c277197ee57bce5130d9d1d5205f42e8e5bbbe977bda5770ccf389bbccfefa0"
+    },
+    {
+      "paperId": "jlpt-n2-01-v1",
+      "questionId": "l1",
+      "file": "jlpt-n2-01-v1-l1.mp3",
+      "duration": 25.728,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "+0%",
+      "scriptSha256": "9164a8d6d517ba1c55d62a99b39bc764840c68be8aa589ecbd9535623ad7d53d",
+      "sha256": "ab18f34ff4aca72decc275376c67b765c196ed59fe8dbfc0c256297d5640ecad"
+    },
+    {
+      "paperId": "jlpt-n2-01-v1",
+      "questionId": "l2",
+      "file": "jlpt-n2-01-v1-l2.mp3",
+      "duration": 25.104,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "+0%",
+      "scriptSha256": "70b7a8f28de74b014a6ba89ec70bb2259b08190b43f2f8fb58b0dd51fea9616d",
+      "sha256": "240b8cb6c174feba5a403fa116b255515f222a01df16b8cda562f22290f99bf0"
+    },
+    {
+      "paperId": "jlpt-n2-01-v1",
+      "questionId": "l3",
+      "file": "jlpt-n2-01-v1-l3.mp3",
+      "duration": 19.68,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "+0%",
+      "scriptSha256": "4559d140a4bd6114aee4ea6175e3aafbff3a58d6b4b02365045ac4f2a576a6a9",
+      "sha256": "915d41c9e697640372248a5b0c2c50e448ace6e55849ae027d308212d287193f"
+    },
+    {
+      "paperId": "jlpt-n2-01-v1",
+      "questionId": "l4",
+      "file": "jlpt-n2-01-v1-l4.mp3",
+      "duration": 27.936,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "+0%",
+      "scriptSha256": "51963b831a7c31916dd395a434af5f55671fb20a61e90785e184a95c8b81974b",
+      "sha256": "892a04c98505be06b5b8d1a35f2953844f873c44dc4e7b3bec9b671bf9df0318"
+    },
+    {
+      "paperId": "jlpt-n2-01-v1",
+      "questionId": "l5",
+      "file": "jlpt-n2-01-v1-l5.mp3",
+      "duration": 6.744,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "+0%",
+      "scriptSha256": "5f6a4e0096ec87c7b014fcbcdbeff7fd351b0733f7e69ca764fdb1b2428e2a11",
+      "sha256": "57398233cc670c234555511e89f5734afb300973633e138c02556f3a8c7bbc71"
+    },
+    {
+      "paperId": "jlpt-n1-01-v1",
+      "questionId": "l1",
+      "file": "jlpt-n1-01-v1-l1.mp3",
+      "duration": 28.56,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "+0%",
+      "scriptSha256": "816527bd25b048d176e95ef1a627a2289054076b8ddff4e1db76ef1c88463ec5",
+      "sha256": "c4fcb79f6582d73c0e113ae8695dbb272c75bbe84ccbbc942d541c292aefb0f2"
+    },
+    {
+      "paperId": "jlpt-n1-01-v1",
+      "questionId": "l2",
+      "file": "jlpt-n1-01-v1-l2.mp3",
+      "duration": 29.16,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "+0%",
+      "scriptSha256": "8cc2bec5d6934aa9c616131c3286efe870c1b525b61df547ca82e921c0d021e7",
+      "sha256": "5644b6f1c6a44b53674bbce5de852f0e9f17357ea8f3fade014f6aea1d35d74e"
+    },
+    {
+      "paperId": "jlpt-n1-01-v1",
+      "questionId": "l3",
+      "file": "jlpt-n1-01-v1-l3.mp3",
+      "duration": 24.744,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "+0%",
+      "scriptSha256": "feec91e36633db97f8a11e52c3f8f27507e815f9e1a3c12a1ac58aa65ead5ede",
+      "sha256": "dd98b9ec5edb41fc42eca9b2ae5009e318f5cf5191ccf0d8163e76f1633b7ac8"
+    },
+    {
+      "paperId": "jlpt-n1-01-v1",
+      "questionId": "l4",
+      "file": "jlpt-n1-01-v1-l4.mp3",
+      "duration": 34.272,
+      "voice": "ja-JP-NanamiNeural",
+      "rate": "+0%",
+      "scriptSha256": "ed3f14ed62cabd2640121750a618f635da5a6e5cf108f1df81655bfaacbdeadf",
+      "sha256": "3e32661c8b9844865c67ac004f653200ca853c02b185dc1338cda88e121a17a9"
+    },
+    {
+      "paperId": "jlpt-n1-01-v1",
+      "questionId": "l5",
+      "file": "jlpt-n1-01-v1-l5.mp3",
+      "duration": 8.808,
+      "voice": "ja-JP-KeitaNeural",
+      "rate": "+0%",
+      "scriptSha256": "c74f3567df979ded703dc8dbeb12080fe87c61b03bb1fdbb1ca2fdcdb470a2b8",
+      "sha256": "8bc1ec89481660fd752e66bcfbf2788113444380f7ed0b6e00ef6fcca4b1a0db"
+    }
+  ]
+}

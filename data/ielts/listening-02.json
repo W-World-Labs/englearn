@@ -1,0 +1,1093 @@
+{
+  "_provenance": {
+    "source": "Original EngLearn material (IELTS Practice 02)",
+    "licence": "CC BY-SA 4.0",
+    "scripts": "Original dialogue/lecture scripts; single narrator voice (transcript labels speakers).",
+    "audio": {
+      "practice-02-part-1.mp3": {
+        "duration": 317.976,
+        "sha256": "50606c3a5c1ebc612bde0e3bb2c5448ad0a8ee1ebaa5feaf89428110032bf326",
+        "scriptSha256": "7ab9e313df09c11e8257d257f6e90dfc93c507c39f77629db215408ea3fea080",
+        "chunks": 42
+      },
+      "practice-02-part-2.mp3": {
+        "duration": 247.512,
+        "sha256": "63cbc01dea9f41246fde0038e3e0dc79d95f4934e476d0476322b8bc59b76982",
+        "scriptSha256": "4902e371e0329c6ae51f55ea055cc4dc66937ebcab752bc457cba8cb15d4b162",
+        "chunks": 17
+      },
+      "practice-02-part-3.mp3": {
+        "duration": 255.504,
+        "sha256": "aea49a8c5747ac9e6f1e2c35e4ab68d2a25e08d0fc536c50bb91fa8c341d9cf1",
+        "scriptSha256": "9387b2163c3aeb95b725302a353a0a5370acb2cd0e1f690330803dee69ed6055",
+        "chunks": 29
+      },
+      "practice-02-part-4.mp3": {
+        "duration": 301.344,
+        "sha256": "1cbae6ab2b9b2a6f98a169868ede3135b040835b2ffb3df1c4e66fb933cbf5a0",
+        "scriptSha256": "ff08d0863ececd13d29a8cb7cd96aa3877262e46434c9cd768fcbfdc73dd8513",
+        "chunks": 22
+      }
+    },
+    "generator": {
+      "engine": "MeloTTS EN (local)",
+      "codeRevision": "209145371cff8fc3bd60d7be902ea69cbdb7965a",
+      "checkpoint": "myshell-ai/MeloTTS-English@bb4fb7346d566d277ba8c8c7dbfdf6786139b8ef",
+      "bert": "bert-base-uncased@86b5e0934494bd15c9632b12f734a8a67f723594",
+      "note": "Private EN-only source copy; unused JP/KR modules excluded at authoring time."
+    },
+    "notice": "public/ielts-assets/NOTICE.md"
+  },
+  "parts": [
+    {
+      "id": "listening-5",
+      "title": "Renting a Flat in Elmfield",
+      "content": "Agent: Good morning, Elmfield Lets. Helen speaking. How can I help you?\n\nDaniel: Hello. My name is Daniel Kessell, and I'm looking for a flat to rent in Elmfield. I'm starting a teaching course in autumn, and this is my first time renting.\n\nAgent: Congratulations, Daniel — about half of our tenants are first-time renters. I'll fill in our enquiry form as we talk. Could we start with your surname?\n\nDaniel: It's Kessell — K-E-S-S-E-L-L.\n\nAgent: K-E-S-S-E-L-L. Let me read that back to you: Kessell. Have I got that right?\n\nDaniel: That's exactly right. Double s in the middle — people often get it wrong.\n\nAgent: Thank you. And what's the best phone number to reach you on?\n\nDaniel: My mobile is 07700-934211. Oh, hold on — sorry, I always muddle the ending. The final digits are the other way round. It's 07700-934221.\n\nAgent: So the number is 07700-934221. I'll use that for everything.\n\nDaniel: Yes, that's the one.\n\nAgent: Next, your email address for the flat details?\n\nDaniel: It's dan88@mailbox.com — that's d-a-n-8-8 at mailbox dot com.\n\nAgent: Let me confirm: \"dan88@mailbox.com\". Is that right?\n\nDaniel: Spot on.\n\nAgent: Lovely. Now, what is the maximum rent you could pay each month? Just to guide you, most studios near the college go for around £800, bills not included.\n\nDaniel: I first thought £800 would be my ceiling, but my parents have offered to contribute a little. So I could stretch to £850 — that is my absolute maximum.\n\nAgent: Understood — a maximum monthly budget of £850. That opens up some comfortable house-shares as well as smaller flats.\n\nDaniel: A house-share would be fine. If possible, I'd love somewhere on Willow Lane. A friend of mine lived there last year and said the buses to the college are excellent. I noticed you advertise several flats on Station Road too, but a friend warned me the night trains are very noisy, so I'd rather avoid that street.\n\nAgent: I'll note a preference for Willow Lane and avoid Station Road. How many bedrooms do you need — would a studio be enough?\n\nDaniel: I need two, please. My brother comes to stay most weekends, so two bedrooms would make life much easier.\n\nAgent: Two bedrooms, noted. Next, timing. When would you like to move in? September is by far our busiest month, so the more notice I have, the more choice you'll get.\n\nDaniel: My course begins on the 29th, so I first wanted the 12th of September. But my summer job has been extended, so could we change that to the 19th of September instead?\n\nAgent: Of course. I'll put down 19 September — that still gives you ten days before your course.\n\nDaniel: That sounds good.\n\nAgent: And how long do you plan to stay? Most landlords in Elmfield ask for at least six months, and the standard agreement here is twelve.\n\nDaniel: The course lasts a whole year, but I don't want to commit that far ahead in case my placement school is across town. Would 9 months be acceptable to landlords?\n\nAgent: For students, yes — several landlords offer 9 months as standard.\n\nDaniel: Excellent.\n\nAgent: One last question: is there anything you must have — a garden, a balcony or a parking space?\n\nDaniel: A parking space, without question. I have a small car, and street parking near the college is impossible. An allocated parking space is essential.\n\nAgent: A parking space it is. Now let's arrange a viewing. I have a house-share on Willow Lane that matches everything: £840 a month, with a parking space behind the building. I could show you round this Thursday at half past three, or on Friday morning at ten.\n\nDaniel: Thursday afternoon suits me. Half past three — is that 3.30?\n\nAgent: Yes, Thursday at 3.30 pm, at the property itself. Your viewing reference is EF204 — E-F-2-0-4. Just quote \"EF204\" when you arrive.\n\nDaniel: EF204 — I've got it. Anything I should bring?\n\nAgent: Just bring photo ID and your college offer letter. If you decide to take the flat, the full deposit is one month's rent, protected in a government scheme, and there are no tenant fees.\n\nDaniel: Would I need a guarantor?\n\nAgent: Most student tenants have one — usually a parent who signs to cover the rent if you can't. We just need a short letter from their employer. Once that's checked, you can sign and collect the keys.\n\nDaniel: Are energy bills included in the £840?\n\nAgent: Not usually. Tenants share gas, electricity and internet — roughly £60 per person each month. The landlord includes water charges, though.\n\nDaniel: I'll see you Thursday at 3.30, reference EF204. Thanks, Helen.\n\nAgent: You're very welcome, Daniel. If anything changes before Thursday, just call us back and quote EF204. Goodbye for now.\n\nDaniel: Goodbye.\n",
+      "audio": "/api/ielts/audio?part=1&set=02",
+      "map": false
+    },
+    {
+      "id": "listening-6",
+      "title": "Maplewood Community Garden Open Day",
+      "content": "Good morning, everyone, and welcome to Maplewood Community Garden. My name's Ruth, and I'm the volunteer coordinator here. I'll divide this short talk into two parts: first, I'll tell you how the garden began and how it runs today, and second, I'll walk you through the map so you can explore on your own afterwards.\n\nSo, how did all this start? A lot of visitors assume the council created the garden to attract tourists to Maplewood, and it's true that school groups visit us now. But the real story is much simpler. Ten years ago this was a derelict car park. The families in the nearby tower blocks had nowhere to grow anything — no gardens, not even balconies — so over two hundred residents petitioned the council for land. The garden was created to provide growing space for people living in flats, and that remains our mission today: most plot-holders have no garden of their own.\n\nSecondly, money — people always ask who pays for all of this. You might expect an annual grant from the council, but our application three years ago was refused, and membership subscriptions only just cover the water bill. The truth is that we survive thanks to support from local business sponsors: the bakery pays for our seeds, the hardware shop repairs our tools for free, and the summer plant sale raises the rest. Without support from local business sponsors, there would be no garden.\n\nNext, our plans for the autumn. The old wooden tool shed against the north wall is falling apart. We discussed turning it into a small café, but the council refused a food licence, and we already have an office. Instead, members voted to turn the old shed into a seed library, where anyone can borrow seeds in spring and return fresh seeds after harvest. Building starts in October, and the seed library should open next March.\n\nMoving on to the practical details: when can you actually come and garden? The organised volunteer sessions run on Saturday mornings from nine until twelve — just turn up and we'll find you a job. We tried Sunday afternoons last year, but hardly anyone came, so we stopped them. Outside those hours, plot-holders can let themselves in with their own key.\n\nFinally, I should mention our biggest headache, because you may be able to help. You might guess slugs or vandalism cause the most trouble, but our real problem is success: the long waiting list for plots holds over eighty names, with an average wait of eighteen months. The long waiting list for plots is why we are fundraising this year to rent the field next door.\n\nNow for the second part of my talk: the map. Please look at the garden map from the gate. The site is one large rectangle, with the main path running south to north. The seven lettered areas run from A to G.\n\nWe'll begin at the main entrance gate, marked C on your map. That's the wide green gate in the south wall you came through this morning. Please keep it closed — rabbits love our carrots.\n\nFrom the gate, walk north up the main path for about twenty metres and look to your left. You'll see three long wooden bays with lids. Those are the compost bays, marked A on your map. Weeds and peelings go in the first bay, and volunteers turn them through until they become rich soil.\n\nContinue north to the far end of the garden, right up to the north wall. On your right stands the old wooden shed that will become our seed library, marked E on your map. Mind your step around it until the builders finish.\n\nNow turn east and follow the narrow bark path into the far corner. Here you'll find the pond and wildlife corner, marked G on your map. The pond is home to frogs, newts and dragonflies. Please stay on the platform and leave the wildflowers for the bees.\n\nOur last stop is back towards the centre of the site. The four timber-framed rectangles of soil beside the greenhouse are the raised beds for beginners, marked D on your map. New members garden one of these beds for their first season, and mentors visit every Saturday morning to advise. If you join today, this is where you start.\n\nThat completes the tour. The plant sale is beside the greenhouse, walks leave the gate hourly, and I'll take questions over tea. Enjoy the garden.\n",
+      "audio": "/api/ielts/audio?part=2&set=02",
+      "map": true
+    },
+    {
+      "id": "listening-7",
+      "title": "Education Studies Project Tutorial",
+      "content": "Tutor: Come in, both of you, and grab a chair. So — your presentation on after-school homework clubs is next Tuesday. How is the preparation going?\n\nMia: Pretty well, I think. The survey results from both schools are finally typed up, and the slides are taking shape.\n\nJosh: The typing wasn't the hard part. I assumed persuading the two headteachers to let us in would take longest — both said yes within a week. What ate up our time was getting parents to return questionnaires: we sent out two hundred forms, and even after reminders only ninety came back.\n\nTutor: Getting parents to return questionnaires is the nightmare of every education researcher. Ninety out of two hundred is perfectly usable for a coursework project.\n\nMia: One result really surprised us. We'd expected pupils to prefer one long weekend task, leaving weekdays free. Instead, pupils preferred short daily tasks of fifteen minutes, even when the weekly total was the same.\n\nJosh: Pupils preferred short daily tasks by a clear margin in both schools — none of us predicted that.\n\nTutor: That fits the motivation literature well. Now — is there a weakness in your method that the audience might spot? Examiners always probe the sample.\n\nMia: We interviewed thirty pupils, which felt like plenty for a project this size.\n\nJosh: But they all already attend the homework club — someone could call our sample biased.\n\nTutor: Exactly. The problem is that you only spoke to pupils at the homework club — the keen ones. You never heard from pupils who go straight home. Acknowledge that limitation openly, ideally on its own slide, or the examiners will raise it in questions.\n\nMia: We'll add a slide on that. How should we open the presentation? With our results straight away?\n\nTutor: I'd advise against that. Exam boards reward students who show they've read around the subject, so begin with a summary of earlier research — two or three key studies — and then show how your findings fit. Keep your own results for the middle section.\n\nJosh: And the ending? We thought we'd finish by recommending that every primary school should open a homework club.\n\nTutor: That's too sweeping for a study of two schools. Offer practical ideas for teachers instead — things any teacher could try on Monday morning, like shorter tasks or a quiet-corner policy. End with practical ideas for teachers, and you'll impress the examiners far more.\n\nMia: Practical ideas, not grand claims. Shall we divide the remaining five jobs?\n\nTutor: Good idea. Talk me through them.\n\nMia: First, the charts. They're accurate but far too crowded — nobody past the front row could read them. I'll redesign the charts, since I'm quickest with the software, and I'll have them done by Friday.\n\nJosh: Second, Brookfield's office still owes us their attendance numbers for March. I'll email Brookfield for the final figures tonight, and I'll copy in the deputy head so it doesn't get forgotten.\n\nMia: Third, the rehearsal. We ran ten minutes over yesterday, and the limit is strictly fifteen minutes.\n\nTutor: Then rehearse under exam conditions. You should time the rehearsal together on Monday, in the actual room if you can book it, with no stopping. I'll sit in if I'm free.\n\nMia: Fourth, the handout — the one-page summary the audience takes away. Mine's only half written.\n\nTutor: Mia, your writing is the clearer of the two — no offence, Josh — so could you draft the one-page handout by the weekend? Keep it to one side, with the findings and the limitations box.\n\nJosh: And fifth, the reference list. You always spot a missing comma at fifty paces, Dr Ellis.\n\nTutor: I certainly do, so take it seriously.\n\nJosh: I will. I'll check every reference against the library catalogue this weekend — author names, years, page numbers, all of it.\n\nTutor: That's a fair division. One last tip: someone will ask why the schools differed — Brookfield's club runs daily, St Anne's twice weekly — so agree your answer in advance. And book Room 3B for Monday today, before someone else takes it.\n\nMia: We'll do all of that. Thanks, Dr Ellis — we feel much clearer now.\n\nJosh: We'll send you the new charts on Friday.\n\nTutor: I'll look forward to them. Good luck for Tuesday.\n",
+      "audio": "/api/ielts/audio?part=3&set=02",
+      "map": false
+    },
+    {
+      "id": "listening-8",
+      "title": "Lecture: How Sleep Shapes Memory",
+      "content": "Good afternoon, everyone. In this week's lecture on learning and the brain, we're asking a deceptively simple question: why does a good night's sleep make such a difference to your memory? I'll organise the answer into three parts — first, how memories are formed at night; second, what disrupts that process; and third, some practical advice you can use during the exam season.\n\nLet's start with where new memories live. When you learn a new word or a new formula today, it is first held in a small curved structure deep in the brain called the hippocampus. Think of the hippocampus as the brain's inbox: everything new lands there first, but the space is limited, so memories must be moved elsewhere overnight if they are to last.\n\nThat move happens during the first half of the night, when you enter the deepest stage of sleep, known as slow-wave sleep. The name describes the slow, powerful waves of electrical activity that sweep across the brain. During slow-wave sleep, the hippocampus replays the day's learning, over and over, passing it to the outer layers of the brain for long-term storage. Students who are deprived of this deep stage can study for hours yet remember strikingly little the next day.\n\nSo much for the night. Second, let's talk about naps, because the advice here is widely misunderstood. A common mistake is to sleep for a whole hour in the afternoon and then wake up groggy and unable to sleep at night. The research is clear: not sixty minutes — just 20 minutes is enough. A short nap of 20 minutes, taken before three o'clock with an alarm set, restores alertness without stealing your night-time sleep. Anything longer pushes you into deep sleep at the wrong hour, and you pay for it at midnight.\n\nThird, caffeine. Most of you use it, so you should understand it. Caffeine keeps you awake by blocking a chemical called adenosine — adenosine, that's A-D-E-N-O-S-I-N-E — which builds up in the brain with every hour you spend awake and creates what scientists call sleep pressure. By blocking it, an afternoon coffee borrows alertness from tonight: the tiredness is still there, merely hidden, and it returns the moment the caffeine wears off. Because one coffee takes around six hours to halve in strength, I'd advise no coffee after two in the afternoon.\n\nThat raises the obvious question: how much sleep do teenagers and young adults actually need? The honest answer surprises most students. While many of you survive on six or seven hours, the evidence says most teenagers need 9 hours — a full 9 hours of sleep a night — for concentration, mood and memory to work properly. Early school start times make that painfully difficult, which is why several researchers argue that first lessons should start later in the day.\n\nLet me give you one striking experiment that shows what is at stake. Researchers taught two groups of students forty word pairs in the evening. One group then slept normally; the other stayed awake all night under supervision. By the following morning, the sleep group recalled 15 per cent more pairs — 15 per cent — despite having spent less time awake with the material. That single night of sleep made more difference than an extra three hours of cramming.\n\nSo what does all of this mean for your own revision? Let me offer four concrete takeaways.\n\nFirst, the creative side of sleep. Not all sleep does the same job. It is dream sleep — dream sleep, also called REM sleep — that helps you find creative links between ideas, the kind of insight you need for essays and problem-solving. If you cut the second half of the night short with an early alarm, it is chiefly REM sleep that you lose.\n\nSecond, my annual warning about revision timetables. Every June I meet students who study through the entire night before an exam. In twenty years of teaching, I can tell you plainly: it is the worst strategy of all. I call all-night revision the worst strategy because the exhausted brain can neither store new material nor retrieve old material under pressure.\n\nThird, protect the bedroom itself. Your bedroom should be dark, cool and quiet — and above all, leave mobile phones outside the bedroom. Charge them in the kitchen overnight. Students who keep mobile phones beside the pillow check them on average three times a night, and each check shatters the sleep cycle I've just described.\n\nFinally, the morning. Within an hour of waking, get outside and give your eyes some morning light — even a cloudy sky is far brighter than any indoor lamp. That morning light resets your body clock, which makes it easier to feel sleepy at a sensible hour the following evening. Open the curtains wide, walk to campus if you can, and let the daylight do its work.\n\nTo summarise: trust your hippocampus to file the day's learning, guard your slow-wave sleep, nap briefly or not at all, treat caffeine with respect, and give yourself the nine hours your brain is asking for. Do that through the exam season, and your memory will repay you. Thank you — I'll take questions now.\n",
+      "audio": "/api/ielts/audio?part=4&set=02",
+      "map": false
+    }
+  ],
+  "questions": [
+    {
+      "allowNumber": true,
+      "answers": [
+        "Kessell",
+        "kessell"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m1",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 1,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Surname: ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "07700-934221",
+        "07700934221"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m2",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 2,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Phone number: ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "dan88@mailbox.com",
+        "Dan88@mailbox.com"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m3",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 3,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Email address: ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "850",
+        "£850",
+        "850 pounds"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m4",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 4,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Maximum monthly budget: £________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "Willow Lane",
+        "willow lane"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m5",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 5,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Preferred street: ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "two",
+        "Two",
+        "2"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m6",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 6,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Bedrooms needed: ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "19 September",
+        "19th September"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m7",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 7,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Preferred move-in date: ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "9 months",
+        "nine months",
+        "9"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m8",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 8,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Tenancy length: ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "parking space",
+        "Parking space"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m9",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 9,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Essential requirement: a ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "EF204",
+        "ef204",
+        "E-F-2-0-4"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g1",
+      "id": "m10",
+      "instruction": "Complete the enquiry form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "number": 10,
+      "options": [],
+      "partId": "listening-5",
+      "prompt": "Viewing reference: ________",
+      "type": "sentence-completion",
+      "wordLimit": 2
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "B"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g2",
+      "id": "m11",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 11,
+      "options": [
+        {
+          "label": "A. To attract tourists to the Maplewood area.",
+          "value": "A"
+        },
+        {
+          "label": "B. To provide growing space for people living in flats.",
+          "value": "B"
+        },
+        {
+          "label": "C. To supply vegetables for local schools.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "What was the main reason for creating the community garden?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "C"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g2",
+      "id": "m12",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 12,
+      "options": [
+        {
+          "label": "A. Through an annual grant from the council.",
+          "value": "A"
+        },
+        {
+          "label": "B. Through membership subscriptions alone.",
+          "value": "B"
+        },
+        {
+          "label": "C. Through support from local business sponsors.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "How is the garden mainly funded today?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "B"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g2",
+      "id": "m13",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 13,
+      "options": [
+        {
+          "label": "A. A small café for visitors.",
+          "value": "A"
+        },
+        {
+          "label": "B. A seed library.",
+          "value": "B"
+        },
+        {
+          "label": "C. A new garden office.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "What will the old tool shed become?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "A"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g2",
+      "id": "m14",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 14,
+      "options": [
+        {
+          "label": "A. On Saturday mornings.",
+          "value": "A"
+        },
+        {
+          "label": "B. On Sunday afternoons.",
+          "value": "B"
+        },
+        {
+          "label": "C. On weekday evenings.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "When do the organised volunteer sessions run?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "C"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g2",
+      "id": "m15",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 15,
+      "options": [
+        {
+          "label": "A. Damage caused by slugs.",
+          "value": "A"
+        },
+        {
+          "label": "B. Vandalism by visitors.",
+          "value": "B"
+        },
+        {
+          "label": "C. The long waiting list for plots.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "What does the speaker describe as the garden's biggest problem?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "C"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupContent": "Garden map (not to scale). The site is a rectangle with the main gravel path running south-north. South wall: C - main entrance gate. West side, south of centre: A - compost bays. North wall: E - old tool shed. North-east corner: G - pond and wildlife corner. Centre, beside the greenhouse: D - raised beds for beginners. Other areas: B - greenhouse; F - picnic lawn.",
+      "groupId": "ielts02-g3",
+      "id": "m16",
+      "instruction": "Look at the garden map. Match each place (16-20) to the correct area on the map, A-G.",
+      "number": 16,
+      "options": [
+        {
+          "label": "A",
+          "value": "A"
+        },
+        {
+          "label": "B",
+          "value": "B"
+        },
+        {
+          "label": "C",
+          "value": "C"
+        },
+        {
+          "label": "D",
+          "value": "D"
+        },
+        {
+          "label": "E",
+          "value": "E"
+        },
+        {
+          "label": "F",
+          "value": "F"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "Main entrance gate",
+      "type": "map-labelling",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "A"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupContent": "Garden map (not to scale). The site is a rectangle with the main gravel path running south-north. South wall: C - main entrance gate. West side, south of centre: A - compost bays. North wall: E - old tool shed. North-east corner: G - pond and wildlife corner. Centre, beside the greenhouse: D - raised beds for beginners. Other areas: B - greenhouse; F - picnic lawn.",
+      "groupId": "ielts02-g3",
+      "id": "m17",
+      "instruction": "Look at the garden map. Match each place (16-20) to the correct area on the map, A-G.",
+      "number": 17,
+      "options": [
+        {
+          "label": "A",
+          "value": "A"
+        },
+        {
+          "label": "B",
+          "value": "B"
+        },
+        {
+          "label": "C",
+          "value": "C"
+        },
+        {
+          "label": "D",
+          "value": "D"
+        },
+        {
+          "label": "E",
+          "value": "E"
+        },
+        {
+          "label": "F",
+          "value": "F"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "Compost bays",
+      "type": "map-labelling",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "E"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupContent": "Garden map (not to scale). The site is a rectangle with the main gravel path running south-north. South wall: C - main entrance gate. West side, south of centre: A - compost bays. North wall: E - old tool shed. North-east corner: G - pond and wildlife corner. Centre, beside the greenhouse: D - raised beds for beginners. Other areas: B - greenhouse; F - picnic lawn.",
+      "groupId": "ielts02-g3",
+      "id": "m18",
+      "instruction": "Look at the garden map. Match each place (16-20) to the correct area on the map, A-G.",
+      "number": 18,
+      "options": [
+        {
+          "label": "A",
+          "value": "A"
+        },
+        {
+          "label": "B",
+          "value": "B"
+        },
+        {
+          "label": "C",
+          "value": "C"
+        },
+        {
+          "label": "D",
+          "value": "D"
+        },
+        {
+          "label": "E",
+          "value": "E"
+        },
+        {
+          "label": "F",
+          "value": "F"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "Old tool shed (future seed library)",
+      "type": "map-labelling",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "G"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupContent": "Garden map (not to scale). The site is a rectangle with the main gravel path running south-north. South wall: C - main entrance gate. West side, south of centre: A - compost bays. North wall: E - old tool shed. North-east corner: G - pond and wildlife corner. Centre, beside the greenhouse: D - raised beds for beginners. Other areas: B - greenhouse; F - picnic lawn.",
+      "groupId": "ielts02-g3",
+      "id": "m19",
+      "instruction": "Look at the garden map. Match each place (16-20) to the correct area on the map, A-G.",
+      "number": 19,
+      "options": [
+        {
+          "label": "A",
+          "value": "A"
+        },
+        {
+          "label": "B",
+          "value": "B"
+        },
+        {
+          "label": "C",
+          "value": "C"
+        },
+        {
+          "label": "D",
+          "value": "D"
+        },
+        {
+          "label": "E",
+          "value": "E"
+        },
+        {
+          "label": "F",
+          "value": "F"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "Pond and wildlife corner",
+      "type": "map-labelling",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "D"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupContent": "Garden map (not to scale). The site is a rectangle with the main gravel path running south-north. South wall: C - main entrance gate. West side, south of centre: A - compost bays. North wall: E - old tool shed. North-east corner: G - pond and wildlife corner. Centre, beside the greenhouse: D - raised beds for beginners. Other areas: B - greenhouse; F - picnic lawn.",
+      "groupId": "ielts02-g3",
+      "id": "m20",
+      "instruction": "Look at the garden map. Match each place (16-20) to the correct area on the map, A-G.",
+      "number": 20,
+      "options": [
+        {
+          "label": "A",
+          "value": "A"
+        },
+        {
+          "label": "B",
+          "value": "B"
+        },
+        {
+          "label": "C",
+          "value": "C"
+        },
+        {
+          "label": "D",
+          "value": "D"
+        },
+        {
+          "label": "E",
+          "value": "E"
+        },
+        {
+          "label": "F",
+          "value": "F"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        }
+      ],
+      "partId": "listening-6",
+      "prompt": "Raised beds for beginners",
+      "type": "map-labelling",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "B"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g4",
+      "id": "m21",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 21,
+      "options": [
+        {
+          "label": "A. Persuading the headteachers to allow the survey.",
+          "value": "A"
+        },
+        {
+          "label": "B. Getting parents to return questionnaires.",
+          "value": "B"
+        },
+        {
+          "label": "C. Typing up the survey results.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "What did the students find the most difficult part of their data collection?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "A"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g4",
+      "id": "m22",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 22,
+      "options": [
+        {
+          "label": "A. Pupils preferred short daily tasks.",
+          "value": "A"
+        },
+        {
+          "label": "B. Pupils preferred one long weekend task.",
+          "value": "B"
+        },
+        {
+          "label": "C. Pupils wanted no homework at all.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "What survey result surprised the students?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "C"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g4",
+      "id": "m23",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 23,
+      "options": [
+        {
+          "label": "A. They interviewed too few pupils.",
+          "value": "A"
+        },
+        {
+          "label": "B. They lost some of the questionnaires.",
+          "value": "B"
+        },
+        {
+          "label": "C. They only spoke to pupils at the homework club.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "What weakness does the tutor identify in their method?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "B"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g4",
+      "id": "m24",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 24,
+      "options": [
+        {
+          "label": "A. With their own survey results.",
+          "value": "A"
+        },
+        {
+          "label": "B. With a summary of earlier research.",
+          "value": "B"
+        },
+        {
+          "label": "C. With a description of the two schools.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "How does the tutor suggest they open the presentation?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "A"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g4",
+      "id": "m25",
+      "instruction": "Choose the correct letter, A, B or C.",
+      "number": 25,
+      "options": [
+        {
+          "label": "A. Practical ideas for teachers.",
+          "value": "A"
+        },
+        {
+          "label": "B. A demand that every school opens a homework club.",
+          "value": "B"
+        },
+        {
+          "label": "C. A plan for a larger national study.",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "What should the conclusion of the presentation focus on?",
+      "type": "multiple-choice",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "A"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g5",
+      "id": "m26",
+      "instruction": "Who will do each task? Choose the correct letter, A, B or C.",
+      "number": 26,
+      "options": [
+        {
+          "label": "A. Mia",
+          "value": "A"
+        },
+        {
+          "label": "B. Josh",
+          "value": "B"
+        },
+        {
+          "label": "C. Both Mia and Josh",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "Redesign the crowded charts",
+      "type": "matching-features",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "B"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g5",
+      "id": "m27",
+      "instruction": "Who will do each task? Choose the correct letter, A, B or C.",
+      "number": 27,
+      "options": [
+        {
+          "label": "A. Mia",
+          "value": "A"
+        },
+        {
+          "label": "B. Josh",
+          "value": "B"
+        },
+        {
+          "label": "C. Both Mia and Josh",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "Email Brookfield for the missing figures",
+      "type": "matching-features",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "C"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g5",
+      "id": "m28",
+      "instruction": "Who will do each task? Choose the correct letter, A, B or C.",
+      "number": 28,
+      "options": [
+        {
+          "label": "A. Mia",
+          "value": "A"
+        },
+        {
+          "label": "B. Josh",
+          "value": "B"
+        },
+        {
+          "label": "C. Both Mia and Josh",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "Time the Monday rehearsal",
+      "type": "matching-features",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "A"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g5",
+      "id": "m29",
+      "instruction": "Who will do each task? Choose the correct letter, A, B or C.",
+      "number": 29,
+      "options": [
+        {
+          "label": "A. Mia",
+          "value": "A"
+        },
+        {
+          "label": "B. Josh",
+          "value": "B"
+        },
+        {
+          "label": "C. Both Mia and Josh",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "Draft the one-page handout",
+      "type": "matching-features",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": false,
+      "answers": [
+        "B"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g5",
+      "id": "m30",
+      "instruction": "Who will do each task? Choose the correct letter, A, B or C.",
+      "number": 30,
+      "options": [
+        {
+          "label": "A. Mia",
+          "value": "A"
+        },
+        {
+          "label": "B. Josh",
+          "value": "B"
+        },
+        {
+          "label": "C. Both Mia and Josh",
+          "value": "C"
+        }
+      ],
+      "partId": "listening-7",
+      "prompt": "Check every reference",
+      "type": "matching-features",
+      "wordLimit": null
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "hippocampus",
+        "Hippocampus"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g6",
+      "id": "m31",
+      "instruction": "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 31,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "New memories are first held in the ________.",
+      "type": "sentence-completion",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "slow-wave sleep",
+        "Slow-wave sleep",
+        "slow wave sleep"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g6",
+      "id": "m32",
+      "instruction": "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 32,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "The deepest stage of sleep is called ________.",
+      "type": "sentence-completion",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "20 minutes",
+        "twenty minutes",
+        "20"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g6",
+      "id": "m33",
+      "instruction": "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 33,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "The ideal afternoon nap lasts ________.",
+      "type": "sentence-completion",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "adenosine",
+        "Adenosine"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g6",
+      "id": "m34",
+      "instruction": "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 34,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "Caffeine keeps people awake by blocking the chemical ________.",
+      "type": "sentence-completion",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "9 hours",
+        "nine hours",
+        "9"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g6",
+      "id": "m35",
+      "instruction": "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 35,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "Most teenagers need ________ of sleep a night.",
+      "type": "sentence-completion",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "15 per cent",
+        "fifteen per cent",
+        "15 percent",
+        "fifteen percent",
+        "15%"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g6",
+      "id": "m36",
+      "instruction": "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 36,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "The sleeping group recalled ________ more word pairs.",
+      "type": "sentence-completion",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "REM sleep",
+        "dream sleep",
+        "REM",
+        "rem sleep"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g7",
+      "id": "m37",
+      "instruction": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 37,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "Which sleep stage helps creative problem-solving?",
+      "type": "short-answer",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "worst strategy",
+        "the worst strategy"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g7",
+      "id": "m38",
+      "instruction": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 38,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "What does the lecturer call studying all night before an exam?",
+      "type": "short-answer",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "mobile phones",
+        "mobile phone",
+        "phones",
+        "phone"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g7",
+      "id": "m39",
+      "instruction": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 39,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "What should students keep out of the bedroom?",
+      "type": "short-answer",
+      "wordLimit": 3
+    },
+    {
+      "allowNumber": true,
+      "answers": [
+        "morning light",
+        "daylight",
+        "morning daylight"
+      ],
+      "explanation": "Compare your answer with the recording transcript for this part.",
+      "groupId": "ielts02-g7",
+      "id": "m40",
+      "instruction": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "number": 40,
+      "options": [],
+      "partId": "listening-8",
+      "prompt": "What should students get within an hour of waking?",
+      "type": "short-answer",
+      "wordLimit": 3
+    }
+  ]
+}

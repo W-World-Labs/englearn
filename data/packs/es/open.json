@@ -1,0 +1,142 @@
+[
+  {
+    "id": "es-spk-001",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.2,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "es-ES",
+    "prompt": "Preséntate en español (nombre, origen, hobby). ~1 min.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-wri-002",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.35,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "Escribe ~150 palabras sobre tu ciudad favorita y por qué.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-spk-003",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.5,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "Explica por qué estudias español y un ejemplo de uso.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-wri-004",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.6499999999999999,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Escribe ~200 palabras sobre ventajas y desventajas del aprendizaje online.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-spk-005",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.8,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "Habla en español ~1 min sobre una visita a un mercado o fiesta local: qué compraste, qué precios había y cómo te sentiste.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-spk-006",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 0.95,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Elige la norma de transporte público que te parezca más importante y explícala con razones y una experiencia propia.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-wri-007",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.0999999999999999,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "es-ES",
+    "prompt": "Escribe ~150 palabras con la reseña de una fiesta o mercado de tu barrio: cuándo, con quién y qué hiciste.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-wri-008",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.25,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Escribe ~200 palabras con soluciones para el tráfico en hora punta y sus ventajas e inconvenientes.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-spk-009",
+    "module": "speaking",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.4,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Tu barrio dispone de un pequeño presupuesto para organizar una actividad: un taller de reparación de bicicletas o un club de lectura. Compara a quién beneficiaría cada opción, qué recursos harían falta y cómo repartirías las tareas entre voluntarios. Defiende tu propuesta durante unos dos minutos.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  },
+  {
+    "id": "es-wri-010",
+    "module": "writing",
+    "format": "open",
+    "irt": {
+      "a": 1.4,
+      "b": 1.5499999999999998,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "es-ES",
+    "prompt": "Has recibido una mesa comprada por internet con una pieza rota. Ya has enviado fotos, pero la tienda solo ofrece un descuento para otra compra. Escribe una reclamación formal de 180 a 220 palabras: explica lo ocurrido, justifica por qué la oferta no resuelve el problema y solicita una solución con un plazo concreto.",
+    "rubric": "Puntúa 0.0–1.0 (tarea, coherencia, rango, precisión). Breve feedback en español."
+  }
+]

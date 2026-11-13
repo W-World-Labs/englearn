@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "zh-voc-001",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "水",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-002",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "房子",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-003",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "学校",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-004",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "朋友",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-005",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "工作",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-006",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "时间",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-007",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "问题",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-008",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "方法",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-009",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "文化",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-010",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "A1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "经济",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-011",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "环境",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-012",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "发展",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-013",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "影响",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-014",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "研究",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-015",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "社会",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-016",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "历史",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-017",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "科学",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-018",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "技术",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-019",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "教育",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-020",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "A2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "健康",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-021",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "快乐",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-022",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "美丽",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-023",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "重要",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-024",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "可能",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-025",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "应该",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-026",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "因为",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-027",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "虽然",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-028",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "通过",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-029",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "根据",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-030",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "B1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "关于",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-031",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "水思",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-032",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "房孑",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-033",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "学较",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-034",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "朋有",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-035",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "工昨",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-036",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "时问",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-037",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "问題",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-038",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "方发",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-039",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "文花",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-040",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "B2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "经挤",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-041",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "开车",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-042",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "歧视",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-043",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "元素",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-044",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "扮演",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-045",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "透明",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-046",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "心脏",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-047",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "老实",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-048",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "台风",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-049",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "图案",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-050",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C1",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "实习",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-051",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "兑换",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-052",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "欺负",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-053",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "采集",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-054",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "康复",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-055",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "无视",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-056",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "掩饰",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-057",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "探测",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-058",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "水源",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-059",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "轻微",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-060",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "预见",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-061",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "库存",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-062",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "祝贺",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-063",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "概率",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-064",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "注意力",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-065",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "消防",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-066",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "豪华",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-067",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "镜子",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-068",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "迟到",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-069",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "早餐",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-070",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "生病",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-071",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "歧试",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-072",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "元愫",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-073",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "心赃",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-074",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "合风",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-075",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "图安",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-076",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "实刁",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-077",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "投拆",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-078",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "段炼",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-079",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "钱抱",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-080",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "透朋",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-081",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "权衡",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-082",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "妥协",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-083",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "酝酿",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-084",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "悬殊",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-085",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "勘察",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-086",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "敷衍",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-087",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "忌讳",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-088",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "颠簸",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-089",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "斡旋",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-090",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "诙谐",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-091",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "斟酌",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-092",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "枢纽",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-093",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "跋涉",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-094",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "摊贩",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-095",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "赡养",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-096",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "肇事",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-097",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "拘泥",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-098",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "诬陷",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-099",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "佐证",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-100",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "悖论",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-101",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "甄别",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-102",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "履历",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-103",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "蓦然",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-104",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "跻身",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-105",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "豁免",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-106",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "坎坷",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-107",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "缄默",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-108",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "缜密",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-109",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "亵渎",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-110",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "譬如",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-111",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "权横",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-112",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "妥胁",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-113",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "酝踉",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-114",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "悬珠",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-115",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "勘擦",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-116",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "敷延",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-117",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "忌违",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-118",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "颠跛",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-119",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "斡旅",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-120",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "恢谐",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-121",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "磋商",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-122",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "篡改",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-123",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "威慑",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-124",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "更迭",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-125",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "掣肘",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-126",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "揶揄",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-127",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "觊觎",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-128",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "囹圄",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-129",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "趔趄",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-130",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "龃龉",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-131",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "侥幸",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-132",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "迂回",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-133",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "搁浅",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-134",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "舆论",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-135",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "舞弊",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-136",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "督导",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-137",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "磨砺",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-138",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "契合",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-139",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "颁布",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-140",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "仲裁",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-141",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "瑕疵",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-142",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "青睐",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-143",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "雏形",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-144",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "陷阱",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-145",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "搁置",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-146",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "流逝",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-147",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "匮乏",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-148",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "演绎",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-149",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "推诿",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-150",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "勾当",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-151",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "磋伤",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-152",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "纂改",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-153",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "威摄",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-154",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "更跌",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-155",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "掣时",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-156",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "揶榆",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-157",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "凯觎",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-158",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "囹悟",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-159",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "趔趋",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-160",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "龃龆",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-161",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "弹劾",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-162",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "赦免",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-163",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "驱逐",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-164",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "通缉",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-165",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "审判",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-166",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "辩护",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-167",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "证词",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-168",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "阴谋",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-169",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "叛乱",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-170",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "起义",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-171",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "同盟",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-172",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "领土",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-173",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "主权",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-174",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "外交",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-175",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "谈判",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-176",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "签署",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-177",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "审议",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-178",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "表决",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-179",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "公投",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-180",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "否决",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-181",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "制裁",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-182",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "干预",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-183",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "掠夺",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-184",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "垄断",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-185",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "倾销",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-186",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "蔓延",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-187",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "检疫",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-188",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "潜伏",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-189",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "迸发",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-190",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "晦涩",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-191",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "弹刻",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-192",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "郝免",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-193",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "驱遂",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-194",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "通辑",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-195",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "审半",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-196",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "辩扩",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-197",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "证祠",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-198",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "阴某",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-199",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "叛乩",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-200",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "签暑",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-201",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "拘留",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-202",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "引渡",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-203",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "缓刑",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-204",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "假释",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-205",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "腐败",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-206",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "渎职",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-207",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "贪污",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-208",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "贿赂",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-209",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -0.6000000000000001,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "检举",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-210",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.25,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "立案",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-211",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 0.09999999999999964,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "侦查",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-212",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": 0.44999999999999973,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "起诉",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-213",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": 0.7999999999999998,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "庭审",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-214",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": 1.15,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "量刑",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-215",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": 1.5,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "上诉",
+    "isPseudoword": false
+  },
+  {
+    "id": "zh-voc-216",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1,
+      "b": 1.8499999999999996,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "拘遛",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-217",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.1800000000000002,
+      "b": -2,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "引度",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-218",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.26,
+      "b": -1.65,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "缓形",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-219",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.34,
+      "b": -1.3,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "假择",
+    "isPseudoword": true
+  },
+  {
+    "id": "zh-voc-220",
+    "module": "vocabulary",
+    "format": "yesno",
+    "irt": {
+      "a": 1.4200000000000002,
+      "b": -0.9500000000000002,
+      "c": 0
+    },
+    "cefr": "C2",
+    "contentLang": "zh-CN",
+    "prompt": "你认识这个词吗？",
+    "word": "渎积",
+    "isPseudoword": true
+  }
+]
