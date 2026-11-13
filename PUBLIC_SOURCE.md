@@ -27,8 +27,13 @@ not included. Their source manifest and existing integrity/playback assertions
 remain untouched. Missing audio is not replaced with silence or unrelated clips,
 and assertions are not removed or skipped to claim a passing complete product.
 The original implementation already reports unavailable recordings as unavailable.
-A public full-suite/build acceptance cannot be claimed until the required inputs
-have an explicit redistributable license or an authorized equivalent contract.
+The existing input configuration is data/exams/audio.json plus its listed files
+under public/exam-assets/audio in the application's working directory. Authorized
+holders may supply matching private copies there; the directory is gitignored.
+No download, provider access or redistribution right is supplied by this source.
+The exact 70 paths and expected hashes are retained in public-files.json under
+withheld_assets. The two original recording goldens and browser playback checks
+remain independently HOLD until authorized inputs are available.
 
 The complete server W-ID SDK 1.3.86 resolves from its reviewed public release,
 with source commit d2e3d3e05383a55167af584a838b4649010810ef; the lock retains the
@@ -38,9 +43,13 @@ identified in NOTICE.md. Real SSO and telemetry remain implemented; a browser
 PKCE SDK is not a replacement for the server SDK. No private registry token is
 a public build input.
 
-This local candidate has not been published. Complete independent source review,
-public dependency closure and licensed-input acceptance before creating the PUBLIC
-repository and first push. Only standard public GitHub Actions may install/build,
-run existing checks and package the exact source. No local product build, generated
-audio, downloaded model, production operation or actual browser acceptance is
-represented by the source edits.
+PUBLIC CI validates source and the existing asset-independent checks: typecheck,
+67 original Vitest files selected with the explicit
+--exclude lib/api/exams-audio.test.ts flag, then the two original unavailable/empty
+cases in that file selected by name, the existing bootstrap check and source
+build. The full npm test entrypoint, recording file and all assertions remain
+unchanged. Its two asset-dependent byte/hash/Range cases are visibly unselected
+and HOLD. The workflow name, job summary and packaged SOURCE.json preserve the
+full recording/product acceptance as HOLD; source success is not a full-suite
+result. No local product build, generated audio, downloaded model, production
+operation or actual browser acceptance is represented by these source edits.

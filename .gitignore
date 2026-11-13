@@ -47,3 +47,6 @@ yarn-error.log*
 # Local agent loop state (not for publication)
 /loop/
 /.swarm/
+
+# External private recordings; the unchanged manifest and goldens remain.
+/public/exam-assets/audio/

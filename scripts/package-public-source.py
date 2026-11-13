@@ -19,6 +19,12 @@ assert {entry["path"] for entry in manifest["files"]} == tracked - {"public-file
 for entry in manifest["files"]:
     data = (root / entry["path"]).read_bytes()
     assert len(data) == entry["bytes"] and hashlib.sha256(data).hexdigest() == entry["sha256"], entry["path"]
+clips = json.loads((root / "data/exams/audio.json").read_text())["clips"]
+withheld = {entry["path"]: entry["sha256"] for entry in manifest["withheld_assets"]["files"]}
+assert len(manifest["withheld_assets"]["files"]) == len(withheld) == len(clips) == 70
+assert withheld == {"public/exam-assets/audio/" + clip["file"]: clip["sha256"] for clip in clips}
+assert not (set(withheld) & tracked) and not any((root / name).exists() for name in withheld)
+assert manifest["validation"]["full_product_status"] == "HOLD"
 archive = output / "englearn-source.tar.gz"
 subprocess.run(["git", "archive", "--format=tar.gz", "--prefix=englearn/", "-o", str(archive), commit], cwd=root, check=True)
 seen = set()
@@ -30,7 +36,12 @@ with tarfile.open(archive) as bundle:
             assert name in tracked and bundle.extractfile(member).read() == (root / name).read_bytes(), name
             seen.add(name)
 assert seen == tracked and {"LICENSE", "NOTICE.md", "PUBLIC_SOURCE.md"} <= seen
-(output / "SOURCE.json").write_text(json.dumps({"schema": 1, "commit": commit, "files": len(tracked), "scope": "application source and separately attributed assets; no installed dependency or production acceptance"}, sort_keys=True) + "\n")
+(output / "SOURCE.json").write_text(json.dumps({
+    "schema": 1, "commit": commit, "files": len(tracked),
+    "scope": "complete application source and separately attributed assets; source acceptance only",
+    "validation": manifest["validation"], "withheld_asset_count": len(withheld),
+    "withheld_inventory": "public-files.json:withheld_assets",
+}, sort_keys=True) + "\n")
 subprocess.run(["npm", "ls", "--all", "--json"], cwd=root, stdout=(output / "DEPENDENCIES.json").open("w"), check=True)
 (output / "SHA256SUMS").write_text("".join(hashlib.sha256(path.read_bytes()).hexdigest() + "  " + path.name + "\n" for path in sorted(output.iterdir())))
 print("Verified exact committed source package and license/notice files")

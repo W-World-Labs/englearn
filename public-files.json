@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "Complete reviewed application source and separately attributed licensed assets; seventy Edge-service recordings withheld with original assertions retained",
+  "scope": "Complete reviewed application software and separately attributed assets; explicit source-only CI, seventy external private recordings and full recording goldens HOLD",
   "files": [
     {
       "path": ".env.example",
@@ -9,13 +9,13 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 2198,
-      "sha256": "260aca0289f7e58a6aeef83d711034a26dc44c21182e01f17f35af696bf45171"
+      "bytes": 3512,
+      "sha256": "50c2d9cf16dc61b61ff0d679419b385688022b50e77aceab31c93ad75afc841b"
     },
     {
       "path": ".gitignore",
-      "bytes": 598,
-      "sha256": "cdf6b1b2d949f394e03a0c2f3f250077b77177ba68bec9168fc972b007c188fb"
+      "bytes": 700,
+      "sha256": "3234daa5218639f59e02d1b0d4e214c772211a63a5cdd195b416f51e9fbc3539"
     },
     {
       "path": ".nvmrc",
@@ -39,13 +39,13 @@
     },
     {
       "path": "PUBLIC_SOURCE.md",
-      "bytes": 2928,
-      "sha256": "9c74209577f2e7337007387d4854b29847d61861782cc0d317d21fb49584a275"
+      "bytes": 3637,
+      "sha256": "2b5368bce30a314271c0a8d0235b05d4f1cbab4ff53a19d3f515c7458f8407f1"
     },
     {
       "path": "README.md",
-      "bytes": 41798,
-      "sha256": "926c358d9de1c1dc1ef523facaa4d0c1475f18ef76c93b4b93109e9095624cce"
+      "bytes": 43733,
+      "sha256": "3761a5815af312692f43ea9237d8bb4cef91b9c898fef3547552ab53d38ae63d"
     },
     {
       "path": "components/exams/ExamEntryCards.tsx",
@@ -1108,6 +1108,16 @@
       "sha256": "fd82f86e927b0c4d4179fae7287a585d7aa74c906d80484f87ecd586005990a3"
     },
     {
+      "path": "lib/i18n/messages-retry.test.ts",
+      "bytes": 1159,
+      "sha256": "853e331c8d64d0395b20df378d1a11fb52da025e5112986298dbb3abb724ed92"
+    },
+    {
+      "path": "lib/i18n/messages.test.ts",
+      "bytes": 6634,
+      "sha256": "9693eb14efeb203abfdab0af65050e781b6d51ee87b86cc2591f73ea077fd43b"
+    },
+    {
       "path": "lib/i18n/messages/en.ts",
       "bytes": 71218,
       "sha256": "d52e84d3cb6f043e9de814fe59db5926c320d8503b8d350425428493410bb198"
@@ -1141,16 +1151,6 @@
       "path": "lib/i18n/messages/zh-TW.ts",
       "bytes": 3209,
       "sha256": "f5a71ede8e6f2679557af50c882690a8726bbada0ddf99f1e291108cdcf67d18"
-    },
-    {
-      "path": "lib/i18n/messages-retry.test.ts",
-      "bytes": 1159,
-      "sha256": "853e331c8d64d0395b20df378d1a11fb52da025e5112986298dbb3abb724ed92"
-    },
-    {
-      "path": "lib/i18n/messages.test.ts",
-      "bytes": 6634,
-      "sha256": "9693eb14efeb203abfdab0af65050e781b6d51ee87b86cc2591f73ea077fd43b"
     },
     {
       "path": "lib/i18n/storage.test.ts",
@@ -1218,6 +1218,11 @@
       "sha256": "badf852333d86c06aa1dfae24491a49d745c849d80923134250e9c5a33d2443b"
     },
     {
+      "path": "lib/items.ts",
+      "bytes": 922,
+      "sha256": "30828c56dc1b06bcb4580bed1194f30fea846ab3975b0bfc5bc651654ae444f3"
+    },
+    {
       "path": "lib/items/packs.test.ts",
       "bytes": 14607,
       "sha256": "dd60f6060da9eaa6fb8769023b39f2d4f44864a8b32de0f04b36d305ecb52e89"
@@ -1226,11 +1231,6 @@
       "path": "lib/items/packs.ts",
       "bytes": 4581,
       "sha256": "0566014004e2d8873c45839a1abf531cf2f6da2595eb6bcaedeacac77704199c"
-    },
-    {
-      "path": "lib/items.ts",
-      "bytes": 922,
-      "sha256": "30828c56dc1b06bcb4580bed1194f30fea846ab3975b0bfc5bc651654ae444f3"
     },
     {
       "path": "lib/learning/cards.ts",
@@ -1734,8 +1734,8 @@
     },
     {
       "path": "scripts/package-public-source.py",
-      "bytes": 2295,
-      "sha256": "54124838496f89fa4a2bdb4e6550336430e769a3ab7a93ebac590712a0d47663"
+      "bytes": 2942,
+      "sha256": "cc04236957707c41c2de520fe19a7a1e675646ef2d2ba76fce9ec59f9507e431"
     },
     {
       "path": "scripts/simulate-vocabulary.test.ts",
@@ -1948,14 +1948,14 @@
       "sha256": "a20256dc3c62f6759595dc0728cabbfa215ff4c63caeb75507c9ccdaa56f4933"
     },
     {
-      "path": "src/app/api/session/claim.ts",
-      "bytes": 292,
-      "sha256": "7c959ea04b7fa7ac4a34909e3e4f050c6305005f5b45b4161f8055fc7b4affa2"
-    },
-    {
       "path": "src/app/api/session.ts",
       "bytes": 431,
       "sha256": "c5528d812670a17dc4da5040416ed3bd6b48be3d27917a20fcd91860e261971d"
+    },
+    {
+      "path": "src/app/api/session/claim.ts",
+      "bytes": 292,
+      "sha256": "7c959ea04b7fa7ac4a34909e3e4f050c6305005f5b45b4161f8055fc7b4affa2"
     },
     {
       "path": "src/app/api/vocabulary/attempts.ts",
@@ -2087,5 +2087,321 @@
       "bytes": 376,
       "sha256": "fc2bf0549f2b03b4b7d6c8f7ca62927c2e56b9db19e8b55038cdaa53778d7045"
     }
-  ]
+  ],
+  "withheld_assets": {
+    "status": "EXTERNAL_PRIVATE_INPUTS",
+    "reason": "Explicit redistribution evidence for Microsoft Edge online generated recordings is not established; no recordings, downloader, credentials or substitute audio are supplied.",
+    "existing_configuration": "data/exams/audio.json maps caller-supplied authorized files under public/exam-assets/audio in the application working directory; no new environment switch.",
+    "input_manifest": "data/exams/audio.json",
+    "files": [
+      {
+        "path": "public/exam-assets/audio/hsk-check-v1-sample.mp3",
+        "sha256": "1a140f5d2c834ab8a67e029cf0d0242796eee24d21598d41c85170fcbf3b66d0"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-1-01-v1-l1.mp3",
+        "sha256": "a7cb8f77a08105ba2d5aab383b514b9b53e2efe409cd6462960af4d625c65a76"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-1-01-v1-l2.mp3",
+        "sha256": "4eb80e44e74eadcef2635d704abf825873ff79603cb511692b8c4b0fadda8e9c"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-1-01-v1-l3.mp3",
+        "sha256": "73bd4b21faeab50ec77e5dc035650e41252b16a3581d538c24e7e3417da7c252"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-1-01-v1-l4.mp3",
+        "sha256": "ddf19e61e0ac53cca8d41279c20d3bfe32131e4b91d9a029428441e921e5b507"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-1-01-v1-l5.mp3",
+        "sha256": "9ac7dccb8a273de69e6a7f3d029892d7e20bfebf4fcd60492bafb9a40a91a0ce"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-2-01-v1-l1.mp3",
+        "sha256": "8454b3e895e7964896cd0ddd0ebf545a78e1f14883089c4feeb61cecbe390597"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-2-01-v1-l2.mp3",
+        "sha256": "7eb08282b8a723b21da4e3e305e6e14368fd8ace6de4676e989146a5b7753fc8"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-2-01-v1-l3.mp3",
+        "sha256": "52dccdde1d1a2a43ed376169d773de5f4a63799223733a9c0082696e04deba07"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-2-01-v1-l4.mp3",
+        "sha256": "3f559e0a4448e65c4ca5c2cc7fb56497ed83ff6b828c6d548493ebb642a8e88a"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-2-01-v1-l5.mp3",
+        "sha256": "99fb0429d575f6871e2dc79ae6e13fb3f6170bf875ce73185c1554c9b0dd1459"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-3-01-v1-l1.mp3",
+        "sha256": "c72877eb98a578418dbd983c1d3c65e585e189cc26fa1353caf5c2ad84a2c4ca"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-3-01-v1-l2.mp3",
+        "sha256": "9117808140815eb73b977f759c77abbdc2f21f6bffd4c2d0a229142786f4cbb6"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-3-01-v1-l3.mp3",
+        "sha256": "2a73df8e98f4a608bf67b00b787bc44a4a68f57a2e1554dfb3af1f668a94e3f4"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-3-01-v1-l4.mp3",
+        "sha256": "f885dbf40a2d00385daeedc1f6420d030e018bfea3dcbc09eba30a0178e2bdf2"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-3-01-v1-l5.mp3",
+        "sha256": "dca48dccbbf28f95205a88c4821887285fde3a75daf5b9eafc728fce870a73c2"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-4-01-v1-l1.mp3",
+        "sha256": "dd00e3fc7dcb9c55803858a0d55308b8169c3bfad732eddf850de0acafa2376e"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-4-01-v1-l2.mp3",
+        "sha256": "54494085cc0bfc674bdc8a9d7e6972ef424863e95b5336bce69e1cfd93c3d051"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-4-01-v1-l3.mp3",
+        "sha256": "d5f404ca463def8c5a11de14067ce1de138f3d16159afc059cb209d76eca0944"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-4-01-v1-l4.mp3",
+        "sha256": "182661b07e1d87e6028cd68b139199b9733c874f37c7014d0c30071e17dac478"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-4-01-v1-l5.mp3",
+        "sha256": "3e244517e8b026809cc78456076d65c131ff0e4c865e235ce4f6fbb1b4d128d4"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-5-01-v1-l1.mp3",
+        "sha256": "3bec88754f20d971858723c167d7d284f4e784215f288474f996f1eaad2d8759"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-5-01-v1-l2.mp3",
+        "sha256": "fcd08541503d95b83617fc049073093949ca2b2e79427ea5fa1efca10f0457d6"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-5-01-v1-l3.mp3",
+        "sha256": "61005b847d897d580d57d1adb29f4ad03bf988d51b21c612b435bc228b4e1a0d"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-5-01-v1-l4.mp3",
+        "sha256": "83a381835cc54a96d253927df0c03987e9c979cfd40bee37789083d16c36f560"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-5-01-v1-l5.mp3",
+        "sha256": "c32fc770698185fdff7545f2fe1fa563bb13e7e72719893ad573e0a08470bb76"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-6-01-v1-l1.mp3",
+        "sha256": "350a7c540ea8b92c0df8e85239e6e0e950b8e033110ea79410edbc4e3d7758de"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-6-01-v1-l2.mp3",
+        "sha256": "3c65abf52af675d2e670ac02da596a8480933cb3f871c43790c628f647670907"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-6-01-v1-l3.mp3",
+        "sha256": "a6e6f3f1629096d384697ddd22d7e92df315a778760e34c9ed6585a99ed12f66"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-6-01-v1-l4.mp3",
+        "sha256": "9e0471e65e0c76f4c3c715cce13d46c628ad83d58ae3ba680b761b4aaebd679c"
+      },
+      {
+        "path": "public/exam-assets/audio/hsk-6-01-v1-l5.mp3",
+        "sha256": "c03b68322c55efd17f9642f5172eefdbc48f52c649b8e65262dd997e1a065c21"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-check-v1-sample.mp3",
+        "sha256": "5e72c3a6a8ff7a99a1a36f73e0ccc89e83b667f17f0795a4453883831e490ef1"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-i-01-v1-l1.mp3",
+        "sha256": "368cc1834fdd52ae2d82e9bc4c8c5d7ecb16ae26457cce3329b78161df304e3e"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-i-01-v1-l2.mp3",
+        "sha256": "8eff4c1bce118df45e204e7fd2d6cd4ccdb471a70a923957717ef83e088d044b"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-i-01-v1-l3.mp3",
+        "sha256": "901e4b0f975367f154ae02f2171b07575ae907ab81743800a12149e2323d5ba0"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-i-01-v1-l4.mp3",
+        "sha256": "0ad7e4d91e0cb24be454418e1b7cd6c54959a0c8d2889b2ca33f55dc112e7ce2"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-i-01-v1-l5.mp3",
+        "sha256": "7e4398998ac3e5e8f48595f6879f4271f05f96edd94cc153aed40a1c6b94ac77"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-i-01-v1-l6.mp3",
+        "sha256": "a5d6ff23afc80587e15c24c53e957de523f5a4231ad87307e15b219bee204560"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-ii-01-v1-l1.mp3",
+        "sha256": "a143fd8be078eaf1612efe08e93caa7b0a6409f6e7766e80de62449a57c4e45b"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-ii-01-v1-l2.mp3",
+        "sha256": "7b8dfb688fcfb1fbe92a4d63f8624aabfe61aa86d15b4966ac8cf1d3444fa26e"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-ii-01-v1-l3.mp3",
+        "sha256": "9701f4f0fb96baf091f86cb35fbb6a73dd9e3451763a75d2b9c60adb235f94a4"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-ii-01-v1-l4.mp3",
+        "sha256": "9644fc162a466335e7695db7d15598626d8b0885ccd4d24b875d5a83308e719f"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-ii-01-v1-l5.mp3",
+        "sha256": "45c9d79cf81e114bea8986cc48ce48fbb94989524ea3bb2a3cf44b8f8e359e5d"
+      },
+      {
+        "path": "public/exam-assets/audio/topik-ii-01-v1-l6.mp3",
+        "sha256": "58f1419beffe7938e6e8e1f8c42ed83e4f6c9ea9e0fc0d96d0adbe95059da168"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-check-v1-sample.mp3",
+        "sha256": "045a13052d3a0ed578efb5eca259f435c1ab0e567dc1bb1a4bfd6b873f9621ac"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n5-01-v1-l1.mp3",
+        "sha256": "3be95af249702fb8be265d3ba022fc172b04af52e18c877da2f53a78ff5c7775"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n5-01-v1-l2.mp3",
+        "sha256": "05b92d466101995c17274ba384f2b330424beab40c184fb6a46fc8858e091082"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n5-01-v1-l3.mp3",
+        "sha256": "fa16e1c22c5d2c7f47238f13cc5a99c4bac841c97c472f4a9aad14691df0e251"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n5-01-v1-l4.mp3",
+        "sha256": "4ed3bd8b8edbfa317152005bc7ea2c0d4115d3777816d87015bd865dfce12041"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n5-01-v1-l5.mp3",
+        "sha256": "86984bfc5b7068958a975da943f1d886399e6d1e52b2946dc87b03a48494d0fe"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n4-01-v1-l1.mp3",
+        "sha256": "68224b47b712e03a7ed22a08027afec0313a7dee8b3bc92f8aaf5e1a382c2a43"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n4-01-v1-l2.mp3",
+        "sha256": "38c5f173f8b81308d460eff0043b98ca0f6125359dc5ed3e69dbf691a332a19e"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n4-01-v1-l3.mp3",
+        "sha256": "8d26604913e813895cf930481828636c2aa24f01630d2a9e678b18bcb55fdc69"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n4-01-v1-l4.mp3",
+        "sha256": "eaa885afc8d27d1a5c9f2f0ca1f722b55287da4583d87a31484b7f0f7e1eba61"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n4-01-v1-l5.mp3",
+        "sha256": "7932a5450852d84f8ba97fb9d015643980e33d49a4bd93c53ceae142fec206b9"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n3-01-v1-l1.mp3",
+        "sha256": "4429361e24eda558456baae00bc29c976afa6bcdf899291d14d88e1bcd88a928"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n3-01-v1-l2.mp3",
+        "sha256": "367185ab1f26a884380174cb9d8e9d9a914d2a66390beaf787d756f297780937"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n3-01-v1-l3.mp3",
+        "sha256": "fb369b2b632190d866747ec10223ea5d4db17c5220fb208453adff4982e2e34f"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n3-01-v1-l4.mp3",
+        "sha256": "a2d334ff05681a4ad9255e279893a04f6ff444353821ecdb89bb06a23eeb3ee9"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n3-01-v1-l5.mp3",
+        "sha256": "3c277197ee57bce5130d9d1d5205f42e8e5bbbe977bda5770ccf389bbccfefa0"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n2-01-v1-l1.mp3",
+        "sha256": "ab18f34ff4aca72decc275376c67b765c196ed59fe8dbfc0c256297d5640ecad"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n2-01-v1-l2.mp3",
+        "sha256": "240b8cb6c174feba5a403fa116b255515f222a01df16b8cda562f22290f99bf0"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n2-01-v1-l3.mp3",
+        "sha256": "915d41c9e697640372248a5b0c2c50e448ace6e55849ae027d308212d287193f"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n2-01-v1-l4.mp3",
+        "sha256": "892a04c98505be06b5b8d1a35f2953844f873c44dc4e7b3bec9b671bf9df0318"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n2-01-v1-l5.mp3",
+        "sha256": "57398233cc670c234555511e89f5734afb300973633e138c02556f3a8c7bbc71"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n1-01-v1-l1.mp3",
+        "sha256": "c4fcb79f6582d73c0e113ae8695dbb272c75bbe84ccbbc942d541c292aefb0f2"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n1-01-v1-l2.mp3",
+        "sha256": "5644b6f1c6a44b53674bbce5de852f0e9f17357ea8f3fade014f6aea1d35d74e"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n1-01-v1-l3.mp3",
+        "sha256": "dd98b9ec5edb41fc42eca9b2ae5009e318f5cf5191ccf0d8163e76f1633b7ac8"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n1-01-v1-l4.mp3",
+        "sha256": "3e32661c8b9844865c67ac004f653200ca853c02b185dc1338cda88e121a17a9"
+      },
+      {
+        "path": "public/exam-assets/audio/jlpt-n1-01-v1-l5.mp3",
+        "sha256": "8bc1ec89481660fd752e66bcfbf2788113444380f7ed0b6e00ef6fcca4b1a0db"
+      }
+    ]
+  },
+  "validation": {
+    "profile": "source-and-existing-checks-independent-of-withheld-recordings",
+    "public_workflow_commands": [
+      "npm run typecheck",
+      "npm test -- --exclude lib/api/exams-audio.test.ts",
+      "npm test -- lib/api/exams-audio.test.ts -t 'reports an unavailable recording|serves an empty response for a zero-byte asset'",
+      "node scripts/test-radar-bootstrap.mjs",
+      "npm run build"
+    ],
+    "source_test_selection": "67 other original Vitest files plus the two original unavailable/empty cases; no original test or assertion is modified by this profile.",
+    "held_asset_goldens": {
+      "status": "HOLD",
+      "entrypoint": "lib/api/exams-audio.test.ts",
+      "test_names": [
+        "ships complete, hashed recordings matching every original listening script and all three sound checks",
+        "serves exact seek ranges and keeps paths restricted to the bundled manifest"
+      ],
+      "full_entrypoint_command": "npm test",
+      "reason": "These two original cases require the exact seventy private external recording inputs; they are visibly not selected by source CI."
+    },
+    "browser_playback": {
+      "status": "HOLD_NOT_RUN",
+      "entrypoint": "scripts/test-exam-upgrade.mjs",
+      "reason": "Requires authorized recordings, an explicitly configured running test server and browser environment."
+    },
+    "full_product_status": "HOLD",
+    "limits": "Source-check/build success does not pass the full suite, recording playback, real SSO or production acceptance."
+  }
 }

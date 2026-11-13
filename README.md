@@ -4,11 +4,13 @@ Original application code is MIT licensed; learning content and third-party
 materials retain their separate licenses. See [LICENSE](LICENSE),
 [NOTICE.md](NOTICE.md) and [public source scope](PUBLIC_SOURCE.md).
 
-This unpublished source candidate preserves the original application checks.
+This source distribution preserves the complete original application checks.
 Historical validation notes below describe the original releases, not acceptance
 of this export. Seventy Edge-service examination MP3s are withheld pending
 redistribution rights; their existing integrity/playback checks remain. Public
-server-SDK source is pinned below; a complete public-CI/build acceptance is pending.
+CI validates source and the existing checks independent of those inputs. Full
+recording goldens, the complete test suite and product/browser acceptance remain
+**HOLD**, separately from source-check/build results.
 
 Adaptive language learning with an exam centre at `/exams`: IELTS Academic
 computer-test practice, TOPIK Korean, HSK Chinese and JLPT Japanese practice. Includes CEFR
@@ -111,7 +113,8 @@ cd englearn
 npm ci
 npm run dev -- --host 127.0.0.1
 npm run typecheck
-npm test
+npm test -- --exclude lib/api/exams-audio.test.ts
+npm test -- lib/api/exams-audio.test.ts -t 'reports an unavailable recording|serves an empty response for a zero-byte asset'
 npm run build
 ```
 
@@ -125,6 +128,37 @@ platform bootstrap, export `W_RADAR_BOOTSTRAP_URL` (HTTPS, no URL credentials),
 `W_RADAR_SDK_CODE`, `W_RADAR_WORKSPACE_ID` and `W_RADAR_PROJECT_ID` before building.
 Only those public bootstrap settings enter the browser bundle; identity secrets
 remain server-side. Network/error auto-capture and URL-query collection are off.
+
+### External examination recordings and full checks
+
+`data/exams/audio.json` remains the original 70-clip mapping. Every withheld
+`public/exam-assets/audio/<file>` path and expected SHA256 is listed separately
+in `public-files.json` under `withheld_assets`. Those recordings are external
+private inputs: this repository provides no download, credentials or right to
+redistribute them, and does not replace them with generated or silent audio.
+
+The existing input configuration is the manifest plus that directory under the
+application's working directory; there is no new audio environment switch. If
+you already hold authorized matching copies, place them at the listed paths.
+Keep them private and out of Git. The unchanged audio handler allows only the
+manifest entries and returns HTTP 503 while a recording is unavailable.
+
+The PUBLIC source workflow explicitly runs the other 67 original Vitest files,
+then name-selects the two original unavailable/empty-recording cases in
+`lib/api/exams-audio.test.ts`. The file and all four cases remain unchanged. Its
+two byte/hash/Range goldens need the withheld MP3s and remain **HOLD**, visibly
+unselected in that second run. No `it.skip`, `continue-on-error` or lowered
+assertion is introduced. After authorized inputs are available, the original
+full entrypoint is still:
+
+```bash
+npm test
+```
+
+The existing `node scripts/test-exam-upgrade.mjs` browser/playback check also
+remains **HOLD**, requires those inputs and its documented running test server
+and browser configuration. A passing source workflow does not pass these full
+goldens, browser playback, real SSO or production acceptance.
 
 ## Reinforcement and portable materials (v0.12)
 

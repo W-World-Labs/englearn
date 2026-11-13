@@ -1,4 +1,4 @@
-name: Public application source
+name: Public source (full audio goldens HOLD)
 on:
   push:
     branches: [main]
@@ -11,6 +11,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   validate:
+    name: Source and checks without withheld recordings
     if: github.event.repository.private == false
     runs-on: ubuntu-24.04
     timeout-minutes: 25
@@ -40,10 +41,23 @@ jobs:
           npm install --global npm@11.19.1 --ignore-scripts --no-audit
           npm ci
           git diff --exit-code -- package-lock.json
-      - name: Retain complete existing application checks
+      - name: Declare the source scope and held original goldens
+        run: |
+          echo '::notice title=Full recording goldens HOLD::Two original byte/hash/Range cases require seventy caller-supplied private MP3 inputs. Source success is not full-product acceptance.'
+          cat >> "$GITHUB_STEP_SUMMARY" <<'SCOPE'
+          ## Source acceptance only
+
+          This run validates typecheck, the other 67 original Vitest files, the two original unavailable/empty-recording cases, the existing Radar bootstrap check and the source build.
+
+          **HOLD:** the two byte/hash/Range cases in `lib/api/exams-audio.test.ts` are not selected by this source profile. Vitest reports them as unselected in the separate name-filtered run. The unchanged full `npm test` entrypoint and browser playback acceptance are not passed by this run.
+
+          All 70 withheld paths/hashes, their existing input directory and the full-check commands are recorded in `public-files.json` and README. No replacement audio or lowered assertion is used.
+          SCOPE
+      - name: Run existing checks independent of withheld recordings
         run: |
           npm run typecheck
-          npm test
+          npm test -- --exclude lib/api/exams-audio.test.ts
+          npm test -- lib/api/exams-audio.test.ts -t 'reports an unavailable recording|serves an empty response for a zero-byte asset'
           node scripts/test-radar-bootstrap.mjs
           npm run build
       - name: Package exact reviewed source
