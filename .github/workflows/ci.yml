@@ -1,9 +1,7 @@
 name: Public source (full audio goldens HOLD)
 on:
-  push:
-    branches: [main]
-  pull_request:
-  workflow_dispatch:
+  release:
+    types: [released]
 permissions:
   contents: read
 concurrency:
